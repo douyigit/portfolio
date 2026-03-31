@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // State
     const state = {
         currentTab: 'sunu',
+        expertMode: false,
+        userAnswers: {},
         questions: {
             sunu: [...appData.sunu],
             walkthrough: [...appData.walkthrough]
@@ -14,6 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const navBtns = document.querySelectorAll('.nav-btn');
     const shuffleBtn = document.getElementById('shuffle-btn');
     const restartBtn = document.getElementById('restart-btn');
+    
+    // Expert Mode Elements
+    const expertToggleCb = document.getElementById('expert-toggle-cb');
+    const submitWrapper = document.getElementById('submit-wrapper');
+    const submitBtn = document.getElementById('submit-exam-btn');
+    const expertSummary = document.getElementById('expert-summary');
 
     // Utility: Shuffle
     function shuffleArray(array) {
@@ -29,6 +37,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Main Render Function
     function renderQuestions() {
         wrapper.innerHTML = '';
+        expertSummary.style.display = 'none';
+        
+        // Reset expert mode evaluation view if active
+        if (state.expertMode) {
+            submitWrapper.style.display = 'flex';
+        } else {
+            submitWrapper.style.display = 'none';
+        }
+
         const currentQuestions = state.questions[state.currentTab];
 
         currentQuestions.forEach((q, index) => {
@@ -67,34 +84,103 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle Option Click
     function handleOptionClick(clickedBtn, question, optionsList, card) {
-        // Prevent clicking again
         const allBtns = optionsList.querySelectorAll('.option-btn');
-        allBtns.forEach(b => b.disabled = true);
         
-        const isCorrect = clickedBtn.dataset.key === question.answer;
-        const feedback = card.querySelector('.feedback');
-
-        if (isCorrect) {
-            clickedBtn.classList.add('correct');
-            feedback.textContent = '✅ Doğru cevap!';
-            feedback.className = 'feedback show correct-feedback';
+        if (state.expertMode) {
+            // EXPERT MODE: Just select the answer, don't show result
+            allBtns.forEach(b => b.classList.remove('selected'));
+            clickedBtn.classList.add('selected');
+            state.userAnswers[question.id] = clickedBtn.dataset.key;
         } else {
-            clickedBtn.classList.add('wrong');
-            feedback.textContent = `❌ Yanlış! Doğru cevap: ${question.answer}`;
-            feedback.className = 'feedback show wrong-feedback';
+            // NORMAL MODE: Immediate feedback
+            allBtns.forEach(b => b.disabled = true);
             
-            // Highlight correct one
-            allBtns.forEach(b => {
-                if (b.dataset.key === question.answer) {
-                    b.classList.add('correct');
-                }
-            });
+            const isCorrect = clickedBtn.dataset.key === question.answer;
+            const feedback = card.querySelector('.feedback');
+
+            if (isCorrect) {
+                clickedBtn.classList.add('correct');
+                feedback.textContent = '✅ Doğru cevap!';
+                feedback.className = 'feedback show correct-feedback';
+            } else {
+                clickedBtn.classList.add('wrong');
+                feedback.textContent = `❌ Yanlış! Doğru cevap: ${question.answer}`;
+                feedback.className = 'feedback show wrong-feedback';
+                
+                // Highlight correct one
+                allBtns.forEach(b => {
+                    if (b.dataset.key === question.answer) {
+                        b.classList.add('correct');
+                    }
+                });
+            }
         }
+    }
+
+    // Evaluate Exam
+    function handleEvaluateExam() {
+        const currentQuestions = state.questions[state.currentTab];
+        let correctC = 0;
+        let wrongC = 0;
+        let unansweredC = 0;
+        
+        let incorrectHtml = '';
+
+        currentQuestions.forEach((q, index) => {
+            const uAns = state.userAnswers[q.id];
+            if (!uAns) {
+                unansweredC++;
+            } else if (uAns === q.answer) {
+                correctC++;
+            } else {
+                wrongC++;
+                // Find correct option text
+                const correctOpt = q.options.find(o => o.key === q.answer);
+                incorrectHtml += `
+                    <div class="incorrect-item">
+                        <h4>Soru ${index + 1}: ${q.text.replace(/^\d+\.\s*/, '')}</h4>
+                        <p>Senin Cevabın: <strong>${uAns}</strong></p>
+                        <p class="correct-ans">Doğru Cevap: ${q.answer} - ${correctOpt ? correctOpt.text : ''}</p>
+                    </div>
+                `;
+            }
+        });
+
+        // Compute scoreboard
+        expertSummary.innerHTML = `
+            <div class="summary-title">Değerlendirme Sonucu</div>
+            <div class="summary-stats">
+                <div class="stat-box st-correct">
+                    <span class="count">${correctC}</span>
+                    <span class="label">Doğru</span>
+                </div>
+                <div class="stat-box st-wrong">
+                    <span class="count">${wrongC}</span>
+                    <span class="label">Yanlış</span>
+                </div>
+                <div class="stat-box st-unanswered">
+                    <span class="count">${unansweredC}</span>
+                    <span class="label">Boş</span>
+                </div>
+            </div>
+            ${wrongC > 0 ? `<div class="incorrect-list"><h3>Hatalı Sorular</h3>${incorrectHtml}</div>` : `<div style="text-align:center; color:var(--success); font-weight:bold; font-size:1.2rem; margin-top:20px;">Harika, hiç yanlışın yok! 🎉</div>`}
+        `;
+        
+        expertSummary.style.display = 'block';
+        submitWrapper.style.display = 'none'; // hide submit button
+        
+        // Disable all buttons to prevent changing answers after exam
+        const allBtns = wrapper.querySelectorAll('.option-btn');
+        allBtns.forEach(b => b.disabled = true);
+
+        // Scroll to top to see summary
+        document.querySelector('.quiz-container').scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     // Handlers
     function switchTab(tabId) {
         state.currentTab = tabId;
+        state.userAnswers = {}; // Reset answers
         
         // Update Nav Active State
         navBtns.forEach(btn => {
@@ -109,12 +195,11 @@ document.addEventListener('DOMContentLoaded', () => {
         title.textContent = tabId === 'sunu' ? 'Sunu Testi' : 'Walkthrough Testi';
         
         renderQuestions();
-        
-        // Scroll to top
         document.querySelector('.quiz-container').scrollTo(0, 0);
     }
 
     function handleRestart() {
+        state.userAnswers = {}; // reset user answers
         renderQuestions();
         document.querySelector('.quiz-container').scrollTo(0, 0);
     }
@@ -132,8 +217,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         state.questions[state.currentTab] = shuffledQuestions;
-        renderQuestions();
-        document.querySelector('.quiz-container').scrollTo(0, 0);
+        handleRestart(); // This also clears state and scrolls
+    }
+
+    function toggleExpertMode(e) {
+        state.expertMode = e.target.checked;
+        handleRestart(); // Reset test when toggled
     }
 
     // Event Listeners
@@ -143,6 +232,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     restartBtn.addEventListener('click', handleRestart);
     shuffleBtn.addEventListener('click', handleShuffle);
+    expertToggleCb.addEventListener('change', toggleExpertMode);
+    submitBtn.addEventListener('click', handleEvaluateExam);
 
     // Initial Render
     renderQuestions();

@@ -34,6 +34,13 @@
             <header class="top-bar">
                 <h1 id="section-title">Sunu Testi</h1>
                 <div class="controls">
+                    <label class="expert-toggle" title="Expert Modu açtığınızda cevaplar anında gösterilmez, testin sonunda değerlendirilir.">
+                        <span class="toggle-label">Expert Mod:</span>
+                        <div class="switch">
+                            <input type="checkbox" id="expert-toggle-cb">
+                            <span class="slider round"></span>
+                        </div>
+                    </label>
                     <button id="shuffle-btn" class="action-btn secondary">
                          🔀 Soruları Karıştır
                     </button>
@@ -44,8 +51,18 @@
             </header>
 
             <div class="quiz-container">
+                <div id="expert-summary" class="expert-summary" style="display: none;">
+                    <!-- Results will be injected here -->
+                </div>
+
                 <div id="quiz-wrapper" class="quiz-wrapper">
                     <!-- Questions will be injected here -->
+                </div>
+
+                <div id="submit-wrapper" class="submit-wrapper" style="display: none;">
+                    <button id="submit-exam-btn" class="action-btn primary submit-btn">
+                        ✅ Testi Değerlendir (Bitir)
+                    </button>
                 </div>
             </div>
         </main>
