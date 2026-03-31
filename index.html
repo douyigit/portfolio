@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sızma Testi Hazırlık</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar glass-panel">
+            <div class="logo">
+                <div class="logo-icon">Q</div>
+                <h2>QuizApp</h2>
+            </div>
+            <nav class="nav-menu">
+                <button class="nav-btn active" data-target="sunu">
+                    <span class="nav-icon">📊</span>
+                    Sunu Testi
+                </button>
+                <button class="nav-btn" data-target="walkthrough">
+                    <span class="nav-icon">💡</span>
+                    Walkthrough Testi
+                </button>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <h1 id="section-title">Sunu Testi</h1>
+                <div class="controls">
+                    <button id="shuffle-btn" class="action-btn secondary">
+                         🔀 Soruları Karıştır
+                    </button>
+                    <button id="restart-btn" class="action-btn primary">
+                         🔄 Yeniden Başlat
+                    </button>
+                </div>
+            </header>
+
+            <div class="quiz-container">
+                <div id="quiz-wrapper" class="quiz-wrapper">
+                    <!-- Questions will be injected here -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Data & Script -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

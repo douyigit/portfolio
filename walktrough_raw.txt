@@ -1,0 +1,212 @@
+
+
+1. Infiltration makinesinde ilk aşamada yapılan Nmap taramasında kaç adet açık servis tespit 
+edilmiştir? 
+A) 1 
+B) 2 
+C) 3 
+D) 4 
+2. Nmap taramasında açık bulunan servislerden biri hangisidir? 
+A) FTP 
+B) SSH 
+C) Telnet 
+D) SMB 
+3. Web servisi üzerinde dizin keşfi için walkthrough’da tercih edilen araç hangisidir? 
+A) dirb 
+B) ffuf 
+C) gobuster 
+D) nikto 
+4. Fuzzing sonucunda keşfedilen kritik dizin ve yazılım versiyonu hangisidir? 
+A) /admin – Apache 2.4 
+B) /websvn – WebSVN 2.6.0 
+C) /phpmyadmin – 5.2 
+D) /dav – WebDAV 
+5. WebSVN 2.6.0 için searchsploit ile bulunan exploit’in türü nedir? 
+A) SQL Injection 
+B) Remote Code Execution (Unauthenticated) 
+C) XSS 
+D) Directory Traversal 
+6. WebSVN exploit kodunda payload’un düzeltilmesi gereken kritik kısım nedir? 
+A) Kullanıcı adı 
+B) Hedef IP adresi 
+C) Port numarası 
+D) User-Agent 
+
+7. İlk erişim sağlandıktan sonra elde edilen shell kullanıcısı hangisidir? 
+A) root 
+B) svn 
+C) www-data 
+D) john 
+8. Makinede yatay yetki yükseltme için home dizini altında tespit edilen kullanıcı hangisidir? 
+A) alice 
+B) svn 
+C) plone 
+D) admin 
+9. SUID biti olan binary’yi bulmak için kullanılan komut aşağıdakilerden hangisidir? 
+A) find / -perm -u=s 
+B) ls -la /usr/bin 
+C) ps aux | grep root 
+D) cat /etc/passwd 
+10. Walkthrough’da SUID biti ile yetki yükseltmede kullanılan binary hangisidir? 
+A) /usr/bin/passwd 
+B) /usr/bin/time 
+C) /bin/su 
+D) /usr/bin/find 
+11.  /usr/bin/time binary’sinin yetkileri incelendiğinde owner ve group olarak ne görülür? 
+A) root:root 
+B) svn:www-data 
+C) www-data:svn 
+D) root:svn 
+12. GTFOBins kullanılarak /usr/bin/time ile yetki yükseltme komutu çalıştırıldığında hangi kullanıcıya 
+geçilir? 
+A) root 
+B) www-data 
+C) svn 
+D) john 
+
+13. SVN kullanıcısı olduktan sonra SSH anahtarını almak için bakılan dosya yolu hangisidir? 
+A) ~/.ssh/id_rsa 
+B) /etc/ssh/ssh_host_rsa_key 
+C) /home/svn/.ssh/authorized_keys 
+D) /root/.ssh/id_rsa 
+14. İndirilen id_rsa dosyasının durumu nedir? 
+A) Şifresiz 
+B) Encrypted (passphrase korumalı) 
+C) Public key 
+D) Corrupt 
+15. SSH anahtarının passphrase’ini kırmak için kullanılan araç zinciri hangisidir? 
+A) ssh2john → john 
+B) john → hashcat 
+C) hydra → ssh2john 
+D) crunch → john 
+16. SSH anahtarının passphrase’i nedir? 
+A) 50cent 
+B) iamtheking 
+C) password123 
+D) root 
+17. SSH ile svn kullanıcısı olarak bağlandıktan sonra lokal servisleri görmek için kullanılan komut 
+hangisidir? 
+A) netstat -tuln 
+B) ss -tupln 
+C) lsof -i 
+D) ps aux 
+18. Lokal olarak çalışan ve dışarıdan erişilemeyen web servisinin portu nedir? 
+A) 80 
+B) 8080 
+C) 1234 
+D) 443 
+
+19. SSH tunneling komutunda lokal port forward için kullanılan örnek port nedir? 
+A) 8080 
+B) 1234 
+C) 2222 
+D) 4444 
+20. Tünelleme sonrası Kali browser’dan hangi adrese erişilir? 
+A) http://192.168.1.124:8080 
+B) http://127.0.0.1:1234 
+C) http://localhost:8080 
+D) http://svn:8080 
+21. Plone web uygulamasında brute-force saldırısı için kullanılan araç hangisidir? 
+A) Hydra 
+B) Burp Suite Intruder 
+C) ffuf 
+D) Medusa 
+22. Brute-force sırasında payload position olarak işaretlenen alanlar hangileridir? 
+A) __ac_username ve __ac_password 
+B) username ve password 
+C) login ve pass 
+D) user ve pass 
+23. Kullanılan wordlist dosyası hangisidir? 
+A) /usr/share/wordlists/rockyou.txt 
+B) /usr/share/wordlists/dirb/common.txt 
+C) /usr/share/wordlists/fasttrack.txt 
+D) /usr/share/seclists/Passwords/Common-Credentials 
+24. Burp Intruder’da “Redirections” ayarı ne olarak seçilmiştir? 
+A) Never 
+B) On-site only 
+C) Always 
+D) In-scope only 
+25. Başarılı brute-force sonucu john kullanıcısının şifresi nedir? 
+
+A) iamtheking 
+B) 50cent 
+C) password 
+D) root 
+26. Plone uygulamasında authenticated RCE exploit’i aramak için kullanılan yöntem nedir? 
+A) searchsploit Plone 
+B) Google “Plone authenticated RCE” 
+C) Metasploit 
+D) Burp 
+27. Kullanılan Plone exploit’in CVE numarası nedir? 
+A) CVE-2021-38633 
+B) CVE-2023-22633 
+C) CVE-2021-32633 
+D) CVE-2022-1254 
+28. Exploit kodunda kullanılan parametreler arasında -H neyi ifade eder? 
+A) Hedef IP 
+B) Kali IP adresi 
+C) Kullanıcı adı 
+D) Port 
+29. Exploit çalıştırıldıktan sonra elde edilen yetki seviyesi nedir? 
+A) www-data 
+B) svn 
+C) root 
+D) john 
+30. Root shell alındıktan sonra flag dosyasını okumak için kullanılan komut hangisidir? 
+A) cat /root/flag.txt 
+B) cat root.txt 
+C) cat /root/root.txt 
+D) ls /root 
+31. Walkthrough’da “living off the land” yaklaşımına örnek olan teknik hangisidir? 
+A) Hazır exploit kullanmak 
+
+B) SUID binary’sini (time) istismar etmek 
+C) Metasploit kullanmak 
+D) Kernel exploit 
+32. SSH tunneling tekniği hangi amaçla kullanılmıştır? 
+A) Dışarıdan lokal servise erişim 
+B) Root shell almak 
+C) Parola kırmak 
+D) Dosya indirmek 
+33. False positive önlemek için manuel doğrulama yapılması gereken aşama hangisidir? 
+A) Reconnaissance 
+B) Exploitation 
+C) Post-exploitation 
+D) Reporting 
+34.  /etc/shadow dosyasının okunabilmesi neye işaret eder? 
+A) Yetki yükseltme vektörü 
+B) Normal kullanıcı yetkisi 
+C) Servis hatası 
+D) Ağ erişimi 
+35. Nmap -sS taramasının avantajı nedir? 
+A) Tam TCP 3-way handshake yapmaz 
+B) UDP tarar 
+C) Daha yavaş çalışır 
+D) Firewall’u geçemez 
+36. SUID + misconfigured PATH kombinasyonu hangi saldırıya yol açar? 
+A) Local privilege escalation 
+B) Remote code execution 
+C) DoS 
+D) Bilgi sızıntısı 
+37. LD_PRELOAD tekniği neyi istismar eder? 
+A) Dinamik kütüphane yükleme sırasını 
+B) Kernel modüllerini 
+
+C) Dosya izinlerini 
+D) Ağ yığınını 
+38. Plone’da login formunda brute-force yapılmasının nedeni nedir? 
+A) rockyou wordlist’inde parola olması 
+B) Default credential 
+C) CAPTCHA yok 
+D) Rate-limit yok 
+39. Pentest raporunda en kritik bölüm hangisidir? 
+A) Risk ve etki analizi 
+B) Komut çıktıları 
+C) Payload listesi 
+D) Loglar 
+40. Infiltration makinesinde root yetkisine ulaşıldıktan sonra en son yapılan işlem nedir? 
+A) Flag okumak 
+B) Backdoor bırakmak 
+C) Log temizlemek 
+D) Sistem kapatma 
+ 

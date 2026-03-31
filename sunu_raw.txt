@@ -1,0 +1,228 @@
+
+
+Sızma Testi, Nmap ve Linux 
+ 
+1. Sızma testinde 'reconnaissance' aşamasının temel amacı nedir? 
+   A) Zafiyet sömürmek 
+   B) Bilgi toplamak 
+   C) Rapor yazmak 
+   D) Yetki yükseltmek 
+2. Linux'ta bir dosyanın sahibi ve grubunu değiştirmek için hangi komut 
+kullanılır? 
+   A) chmod 
+   B) chown 
+   C) passwd 
+   D) usermod 
+3.  Nmap’te  açık  TCP  portları  hızlıca  taramak  için  en  yaygın  kullanılan 
+tarama türü hangisidir? 
+   A) TCP Connect Scan 
+   B) SYN Scan 
+   C) UDP Scan 
+   D) ACK Scan 
+4. Port 22 varsayılan olarak hangi servise aittir? 
+   A) FTP 
+   B) Telnet 
+   C) SSH 
+   D) SMTP 
+5.  Linux’ta  root  yetkisi  gerektiren  işlemleri  geçici  olarak  yapmak  için 
+kullanılan komut hangisidir? 
+   A) su 
+   B) sudo 
+   C) login 
+   D) whoami 
+ 
+
+6.  Bir sistemde çalışan servislerin versiyon bilgilerini tespit etmek hangi 
+aşamada yapılır? 
+   A) Keşif 
+   B) Enumeration 
+   C) Exploitation 
+   D) Post-exploitation 
+7. Nmap çıktısında 'closed' port ne anlama gelir? 
+   A) Firewall engelliyor 
+   B) Servis çalışıyor 
+   C) Port erişilebilir ama servis yok 
+   D) Port kapalı ve erişilemez 
+8.  Linux’ta  arka  planda  çalışan  işlemleri  listelemek  için  hangi  komut 
+kullanılır? 
+   A) jobs 
+   B) ps 
+   C) bg 
+   D) fg 
+9. Zafiyet (vulnerability) ile exploit arasındaki ilişki hangisidir? 
+   A) Aynı kavramlardır 
+   B) Exploit zafiyeti kullanır 
+   C) Zafiyet exploit üretir 
+   D) Bağımsızdırlar 
+10. Ping komutunun temel amacı nedir? 
+   A) Port taramak 
+   B) Servis tespit etmek 
+   C) Ağ erişimini test etmek 
+   D) DNS çözümlemek 
+11. Nmap -sS taramasının TCP Connect Scan’e göre temel avantajı nedir? 
+   A) Daha yavaş olması 
+   B) Tam bağlantı kurmaması 
+   C) UDP kullanması 
+   D) Firewall geçmesi 
+
+12. Linux’ta SUID biti ayarlanmış bir binary aşağıdakilerden hangisine yol 
+açabilir? 
+   A) Yetki düşürme 
+   B) Yetki yükseltme 
+   C) Dosya silinmesi 
+   D) Kernel panic 
+13. False negative kavramı aşağıdakilerden hangisini ifade eder? 
+   A) Yanlış açık tespiti 
+   B) Var olan açığın tespit edilememesi 
+   C) Exploit başarısı 
+   D) Sistem çökmesi 
+14. Nmap -A parametresi aşağıdakilerden hangilerini birlikte yapar? 
+   A) Port tarama 
+   B) OS ve servis tespiti 
+   C) Exploit denemesi 
+   D) Brute force 
+15.  Linux’ta  ağ  bağlantılarını  ve  dinlenen  portları  görmek  için  modern 
+sistemlerde hangi komut tercih edilir? 
+   A) netstat 
+   B) ss 
+   C) ifconfig 
+   D) route 
+16. Enumeration aşamasında aşağıdakilerden hangisi hedeflenmez? 
+   A) Kullanıcı hesapları 
+   B) Paylaşımlar 
+   C) Servis konfigürasyonları 
+   D) Exploit payload 
+17. Nmap NSE scriptlerinin temel amacı nedir? 
+   A) Firewall kapatmak 
+   B) Otomatik zafiyet ve servis analizi yapmak 
+   C) Exploit çalıştırmak 
+   D) Kernel taramak 
+
+18. Linux’ta /etc/shadow dosyasının okunabilmesi ne anlama gelir? 
+   A) Normal kullanıcı yetkisi 
+   B) Yetki yükseltme ihtimali 
+   C) Ağ erişimi 
+   D) Servis hatası 
+19. TCP ACK scan (-sA) en çok hangi amaçla kullanılır? 
+   A) Açık port tespiti 
+   B) Servis versiyonu 
+   C) Firewall kural analizi 
+   D) UDP keşfi 
+20. Privilege escalation genellikle hangi aşamada gerçekleştirilir? 
+   A) Reconnaissance 
+   B) Enumeration 
+   C) Exploitation sonrası 
+   D) Raporlama 
+21. Linux’ta cron job’lar saldırgan açısından neden önemlidir? 
+   A) Log tutar 
+   B) Periyodik root çalışabilir 
+   C) Ağ trafiği üretir 
+   D) Firewall yönetir 
+22. Nmap’te -Pn parametresi ne işe yarar? 
+   A) Ping atar 
+   B) Host discovery kapatır 
+   C) UDP tarar 
+   D) DNS çözer 
+23. Banner grabbing aşağıdakilerden hangisi için kullanılır? 
+   A) Şifre kırma 
+   B) Servis ve versiyon bilgisi alma 
+   C) DoS 
+   D) Packet sniffing 
+ 
+
+24. Linux’ta capabilities mekanizmasının temel amacı nedir? 
+   A) Root yetkisini tamamen kaldırmak 
+   B) Yetkileri parçalı hale getirmek 
+   C) Dosya şifrelemek 
+   D) Log yönetmek 
+25. Bir servisin default credential kullanması hangi risk sınıfına girer? 
+   A) Bilgi sızıntısı 
+   B) Zayıf kimlik doğrulama 
+   C) DoS 
+   D) Misconfiguration 
+26. Nmap çıktısında 'filtered' port görülmesi genellikle neyi gösterir? 
+   A) Port kapalı 
+   B) Servis çalışıyor 
+   C) Firewall/ACL müdahalesi 
+   D) Kernel hatası 
+27. Linux’ta PATH hijacking saldırısı hangi varsayıma dayanır? 
+   A) Kernel exploit 
+   B) Yanlış environment değişkeni 
+   C) Zayıf parola 
+   D) Açık port 
+28.  Web  servislerinde  enumeration  sırasında  ilk  bakılması  gereken 
+dosyalardan biri hangisidir? 
+   A) robots.txt 
+   B) passwd 
+   C) shadow 
+   D) fstab 
+29.   Bir   pentest   raporunda teknik  detaylardan  sonra  en  kritik  bölüm 
+hangisidir? 
+   A) Komut çıktıları 
+   B) Risk ve etki analizi 
+   C) Payload listesi 
+   D) Loglar 
+
+30. Nmap’te tüm TCP portlarını taramak için hangi ifade doğrudur? 
+   A) -p 1-1024 
+   B) -p- 
+   C) -F 
+   D) --top-ports 
+31.  Linux’ta  SUID  +  misconfigured  PATH  kombinasyonu  aşağıdakilerden 
+hangisine yol açabilir? 
+   A) Dosya silme 
+   B) Local privilege escalation 
+   C) Remote code execution 
+   D) DoS 
+32.  Nmap -sA taramasında tüm portlar 'unfiltered' görünüyorsa en doğru 
+yorum hangisidir? 
+   A) Tüm portlar açık 
+   B) Firewall yok veya stateful değil 
+   C) Servisler kapalı 
+   D) UDP engelli 
+33.  LD_PRELOAD  tekniği  aşağıdakilerden  hangisini  istismar  etmeye 
+yöneliktir? 
+   A) Kernel modülleri 
+   B) Dinamik kütüphane yükleme sırası 
+   C) Ağ yığını 
+   D) Dosya izinleri 
+34.  Bir  sistemde  cron  job  üzerinden  root  shell  elde  edilmesi  hangi 
+kategoriye girer? 
+   A) Remote exploit 
+   B) Misconfiguration kaynaklı privilege escalation 
+   C) Kernel exploit 
+   D) Brute force 
+35. Blind SQL Injection’ın tespiti neden zordur? 
+   A) Firewall engeller 
+   B) Doğrudan çıktı vermez 
+   C) Payload yoktur 
+
+   D) GET çalışmaz 
+36. Nmap timing template T5 kullanımı hangi riski doğurur? 
+   A) Yanlış port sonucu 
+   B) IDS/IPS tetiklenmesi 
+   C) UDP atlanması 
+   D) DNS çözümleme 
+37.  Linux’ta  /proc/self/environ  dosyasının  okunabilmesi  neye  işaret 
+edebilir? 
+   A) Bilgi sızıntısı 
+   B) Yetki yükseltme vektörü 
+   C) Ağ hatası 
+   D) Disk doluluğu 
+38. Bir pentestte 'living off the land' yaklaşımı neyi ifade eder? 
+   A) Exploit kullanmamak 
+   B) Mevcut sistem araçlarını kullanmak 
+   C) Kernel exploit 
+   D) Brute force 
+39.  Nmap  ile  yapılan  taramaların  SIEM tarafında  tespiti  genellikle  hangi 
+metrikle yapılır? 
+   A) CPU kullanımı 
+   B) Anormal bağlantı sayısı ve port sekansı 
+   C) Disk I/O 
+   D) DNS kayıtları 
+40. Gerçek dünya pentestlerinde neden exploit çalıştırmadan önce manuel 
+doğrulama yapılır? 
+   A) Zaman kazanmak 
+   B) Yanlış pozitif ve sistem çökmesini önlemek 
+   C) Exploit çalışmaz 
+   D) Firewall kapatmak 
