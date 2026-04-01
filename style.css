@@ -491,8 +491,14 @@ input:checked + .slider:before {
    Responsive Design / Mobil Uyumluluk
    ========================================================================== */
 @media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
     .app-container {
         flex-direction: column;
+        height: auto;
+        min-height: 100vh;
     }
 
     /* Sidebar becomes a top header */
@@ -504,6 +510,10 @@ input:checked + .slider:before {
         border-bottom: 1px solid var(--card-border);
         gap: 1rem;
         z-index: 20;
+    }
+
+    .main-content {
+        overflow: visible;
     }
 
     .logo {
@@ -559,6 +569,7 @@ input:checked + .slider:before {
     /* Quiz Container adjustments */
     .quiz-container {
         padding: 1rem;
+        overflow-y: visible;
     }
 
     .quiz-wrapper {

@@ -175,7 +175,11 @@ document.addEventListener('DOMContentLoaded', () => {
         allBtns.forEach(b => b.disabled = true);
 
         // Scroll to top to see summary
-        document.querySelector('.quiz-container').scrollTo({ top: 0, behavior: 'smooth' });
+        if (window.innerWidth <= 768) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            document.querySelector('.quiz-container').scrollTo({ top: 0, behavior: 'smooth' });
+        }
     }
 
     // Handlers
@@ -198,13 +202,21 @@ document.addEventListener('DOMContentLoaded', () => {
         else if (tabId === 'bilgiguvenligi') title.textContent = 'Bilgi Güvenliği Testi';
         
         renderQuestions();
-        document.querySelector('.quiz-container').scrollTo(0, 0);
+        if (window.innerWidth <= 768) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            document.querySelector('.quiz-container').scrollTo(0, 0);
+        }
     }
 
     function handleRestart() {
         state.userAnswers = {}; // reset user answers
         renderQuestions();
-        document.querySelector('.quiz-container').scrollTo(0, 0);
+        if (window.innerWidth <= 768) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            document.querySelector('.quiz-container').scrollTo(0, 0);
+        }
     }
 
     function handleShuffle() {
