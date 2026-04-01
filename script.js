@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
         userAnswers: {},
         questions: {
             sunu: [...appData.sunu],
-            walkthrough: [...appData.walkthrough]
+            walkthrough: [...appData.walkthrough],
+            bilgiguvenligi: [...appData.bilgiguvenligi]
         }
     };
 
@@ -192,7 +193,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Update Title
-        title.textContent = tabId === 'sunu' ? 'Sunu Testi' : 'Walkthrough Testi';
+        if (tabId === 'sunu') title.textContent = 'Sunu Testi';
+        else if (tabId === 'walkthrough') title.textContent = 'Walkthrough Testi';
+        else if (tabId === 'bilgiguvenligi') title.textContent = 'Bilgi Güvenliği Testi';
         
         renderQuestions();
         document.querySelector('.quiz-container').scrollTo(0, 0);

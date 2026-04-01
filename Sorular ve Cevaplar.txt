@@ -1,0 +1,306 @@
+BÖLÜM 1: GRC VE YÖNETİŞİM (GOVERNANCE)
+1. GRC açılımındaki kavramların el notlarınızdaki karşılığı nedir? A) Devlet - Risk Kontrol B) Yönetişim (İdare) - Risk - Uyum C) Genel - Kaynak - Denetim D) Hükümet Rapor - Kurallar
+2. Yönetişim (Governance) katmanının temel görevi aşağıdakilerden hangisidir? A)
+Antivirüs yazılımlarını güncellemek B) Hedefleri, stratejileri ve politikaları belirlemek C)
+Sadece siber saldırılara yanıt vermek D) Veri tabanı yedeği almak
+3. Yönetişim döngüsündeki "EDM" kısaltmasının açılımı nedir? A) Evaluate
+(Değerlendir) - Direct (Yönlendir) - Monitor (İzle) B) Edit (Düzenle) - Delete (Sil) - Move
+(Taşı) C) Entry (Giriş) - Data (Veri) - Management (Yönetim) D) End (Son) - Detail (Detay) Method (Yöntem)
+4. Yönetim Organı (Governing Body) ile Yöneticiler (Managers) arasındaki ilişki
+nasıldır? A) Yöneticiler strateji belirler, yönetim organı uygular. B) Yönetim organı
+strateji ve politika iletir; yöneticiler teklif ve plan sunar. C) Aralarında herhangi bir bilgi
+akışı yoktur. D) Sadece dış denetçiler aracılığıyla haberleşirler.
+5. Yönetişim için kullanılan temel ISO standardı hangisidir? A) ISO 9001 B) ISO
+14001 C) ISO 38500 (ITG) D) ISO 45001
+
+BÖLÜM 2: RİSK YÖNETİMİ VE PUKÖ DÖNGÜSÜ
+6. Risk hesaplamasında kullanılan temel formül nedir? A) Risk = Tehdit + Zafiyet B)
+Risk = Varlık / Olasılık C) Risk = Olasılık (Probability) * Etki (Impact) D) Risk = Maliyet Fayda
+7. "Risk" kavramının ISO standartlarındaki tanımı nedir? A) Bir sistemin
+bozulmasıdır. B) Kurumun hedefleri üzerindeki belirsizliktir. C) Sadece maddi
+kayıplardır. D) Bilgisayarlara virüs bulaşmasıdır.
+8. PUKÖ döngüsünde "Check" (Kontrol Et) aşamasında ne yapılır? A) Planlanan iş
+hayata geçirilir. B) Hedefler belirlenir. C) Uygulama sonuçları ölçülür, hatalar ve eksikler
+test edilir. D) Süreç tamamen durdurulur.
+9. PUKÖ döngüsünde "Act" (Önlem Al) aşamasının sonucu nedir? A) Aksaklıklar
+düzeltilir ve süreç standartize edilir. B) Planlama aşaması iptal edilir. C) Sadece bütçe
+raporu hazırlanır. D) Yeni personel alınır.
+
+10. Risk yönetiminin ilk adımı aşağıdakilerden hangisidir? A) Şifreleri değiştirmek. B)
+Varlıkları (Assets) belirlemek ve envanter oluşturmak. C) Saldırganı yakalamak. D)
+Sigorta yaptırmak.
+
+BÖLÜM 3: NIST CSF 2.0 (SİBER GÜVENLİK ÇERÇEVESİ)
+11. NIST CSF 2.0 versiyonu ile merkeze eklenen yeni fonksiyon hangisidir? A)
+Identify (Tanımla) B) Protect (Koru) C) Govern (Yönetişim) D) Respond (Yanıtla)
+12. "Siber güvenlik stratejisini kurumsal risk yönetimi (ERM) ile birleştirmek" hangi
+fonksiyonun görevidir? A) Govern (GV) B) Detect (DE) C) Recover (RC) D) Identify (ID)
+13. "Varlıkları güvence altına almak ve erişim kontrolü sağlamak" hangi fonksiyon
+altındadır? A) Identify B) Protect (PR) C) Respond D) Recover
+14. Detect (Tespit Et) fonksiyonunun temel amacı nedir? A) Yedeklerden geri
+dönmek. B) Anomali ve saldırı göstergelerini analiz edip tespit etmek. C) Çalışanlara
+eğitim vermek. D) Şirket politikasını yazmak.
+15. Respond (Yanıtla) fonksiyonu kapsamında "Mitigation" ne anlama gelir? A)
+Saldırıyı görmezden gelmek. B) Zarar azaltma önlemlerini uygulamak. C) Verileri
+tamamen silmek. D) Yeni bir sunucu satın almak.
+
+BÖLÜM 4: ISO 27001 BİLGİ GÜVENLİĞİ YÖNETİM SİSTEMİ
+16. Bilgi güvenliğinin "CIA" (Üç Temel İlke) açılımı nedir? A) Control - Impact - Area B)
+Confidentiality (Gizlilik) - Integrity (Bütünlük) - Availability (Erişilebilirlik) C) Computer Internet - Access D) Check - Inspect - Act
+17. "A.7 Varlık Yönetimi" kontrol alanı neyi kapsar? A) Sadece paraları. B) Varlık
+envanteri, sahipliği ve kabul edilebilir kullanım kurallarını. C) Personel maaşlarını. D)
+Şirket arabalarını.
+18. "A.13 Bilgi Güvenliği İhlal Olayı Yönetimi" temel sorusu nedir? A) "Bu bilgisayar
+ne kadar?" B) "Başıma bir şey gelirse ne yapacağım ve kime raporlayacağım?" C)
+"İnternet neden yavaş?" D) "Hangi yazılımı almalıyım?"
+19. Fiziksel ve Çevresel Güvenlik (A.9) kontrolleri neleri içerir? A) Sadece güçlü
+şifreleri. B) Giriş kontrolleri, kilitli alanlar ve ekipman güvenliğini. C) Sosyal medya
+kullanımını. D) Yazılım güncellemelerini.
+
+20. Bilgi güvenliği tehditlerinin çekilmesi gereken hedef nokta neresidir? A) Sıfır risk
+noktası. B) Kabul edilebilir seviye. C) En yüksek güvenlik seviyesi. D) Sadece yasal sınır.
+
+BÖLÜM 5: KVKK (KİŞİSEL VERİLERİN KORUNMASI KANUNU)
+21. Aşağıdakilerden hangisi "Özel Niteliği Veri" (Hassas Veri) kategorisindedir? A)
+Mail adresi. B) Hobiler. C) Biometrik veriler (Parmak izi, yüz vb.). D) IP adresi.
+22. KVKK'ya göre "Kişisel Veri İşlemek" neyi kapsar? A) Sadece veriyi bir yere
+kaydetmeyi. B) Verinin elde edilmesi, kaydedilmesi, depolanması, değiştirilmesi veya
+silinmesi gibi her türlü işlemi. C) Sadece veriyi başkasına satmayı. D) Sadece dijital
+verileri kullanmayı.
+23. KVKK'nın "Ölçülülük" ilkesi ne anlama gelir? A) Verilerin boyutunun ölçülmesi. B)
+Veri işlemenin amaçla bağlantılı, sınırlı ve gerekli olduğu kadar yapılması. C) Verilerin en
+az 10 yıl saklanması. D) Verilerin her zaman yedeklenmesi.
+24. Dijital ortamdaki "Özel Niteliği Veriler" için el notlarınızda belirtilen zorunluluk
+nedir? A) Veriyi herkese açık yapmak. B) Kriptolama (şifreleme) yapmak. C) Veriyi
+sadece kağıda yazmak. D) Veriyi hiç kullanmamak.
+25. KVKK kapsamında "Aydınlatma Yükümlülüğü" kime aittir? A) Veri sahibine. B)
+Veri sorumlusuna (Kurum). C) Sadece IT çalışanına. D) Polise.
+
+BÖLÜM 6: YUKÜMLÜLÜKLER VE YAPTIRIMLAR
+26. Kişisel verilerin hukuka aykırı olarak kaydedilmesinin hapis cezası nedir? A) 1 3 yıl B) 5 - 10 yıl C) Sadece para cezası D) 6 ay
+27. Veri güvenliği yükümlülüğünün ihlali durumunda uygulanabilecek para cezası
+üst sınırı nedir? A) 100.000 TL B) 1.000.000 TL C) 5.900.000 TL D) 10.000.000 TL
+28. Saklama süresi sona eren kişisel verilere ne yapılmalıdır? A) Arşive
+kaldırılmalıdır. B) İmha edilmelidir (silinmeli, yok edilmeli veya anonim hale getirilmeli).
+C) Başkasına devredilmelidir. D) Şifrelenip süresiz saklanmalıdır.
+29. Aşağıdakilerden hangisi kişisel veri güvenliği için alınması gereken "İdari
+Tedbirler"den biridir? A) Güvenlik duvarı (Firewall) kurmak. B) Çalışanları eğitmek ve
+farkındalık çalışmaları yapmak. C) Verileri yedeklemek. ) Antivirüs kullanmak.
+
+30. Notlarınıza göre "Kritik Altyapılarda" bilgi güvenliği ihlali neye zarar verebilir? A)
+Sadece şirketin karına. B) Ulusal itibara ve ülke çıkarlarına. C) Sadece personelin
+moraline. D) Sadece elektrik faturasına.
+
+BÖLÜM 7: TEKNİK DETAYLAR VE KARMA SORULAR
+31. "Kripto Anahtarı" (Key) nerede tutulmalıdır? A) Şifrelenen veriyle aynı dosyada. B)
+Veriden ayrı ve güvenli bir yerde. C) Masaüstünde bir metin dosyasında. D) Tutulmasına
+gerek yoktur.
+32. "A.14 İş Sürekliliği Yönetimi" neyi hesaplamayı gerektirir? A) Personel sayısını. B)
+Olası kesinti sürelerini ve sistemlerin geri dönme hızını. C) Şirketin yıllık büyümesini. D)
+Ofisin kira bedelini.
+33. NIST CSF "Recover" (Kurtar) fonksiyonu neyi hedefler? A) Suçluyu bulmayı. B)
+Normal operasyonları zamanında eski haline getirmeyi. C) Sadece saldırıyı izlemeyi. D)
+Yeni yazılım geliştirmeyi.
+34. "VERBİS" kayıt yükümlülüğüne aykırılık hangi yaptırımı doğurur? A) Hapis cezası.
+B) İdari para cezası (55.000 TL - 5.900.000 TL). C) Şirketin kapatılması. D) Hiçbir
+yaptırımı yoktur.
+35. Bilgi güvenliği sürecinde "Müşteri Mağduriyeti" hangi sonuç kategorisindedir? A)
+Olumlu sonuçlar. B) Maddi/itibari olumsuz sonuçlar. C) Sadece teknik hatalar. D) Yasal
+zorunluluklar.
+BÖLÜM 8: PUKÖ (PDCA) DÖNGÜSÜ DERİNLEMESİ
+36. PUKÖ döngüsünde "Planla" aşamasında notlarına göre ilk yapılması gereken nedir?
+A) Hataları düzeltmek. B) Hedef belirlemek ve güvenliğin nasıl sağlanacağını planlamak.
+C) Sistemi hemen kurmak. D) Personel kovmak.
+37. "İşe yaradı mı? Hata var mı?" sorusu döngünün hangi aşamasında sorulur? A) Plan
+(Planla) B) Do (Uygula) C) Check (Kontrol Et) D) Act (Önlem Al)
+38. "Önlem Al" (Act) aşamasında başarı sağlanırsa notlarına göre ne yapılmalıdır? A)
+Süreç bitirilir. B) Başarı standartize edilir ve "checkpoint" olarak kullanılır. C) Plan
+tamamen çöpe atılır. D) Sadece kutlama yapılır.
+39. PUKÖ döngüsü şemasında "Kalite İyileştirmesi" (Quality Improvement) neye
+bağlıdır? A) Zaman ve sürekli döngüye. B) Sadece paraya. C) Şirketin büyüklüğüne. D)
+Bilgisayar hızına.
+
+40. "Aksaklıkları düzelt ve yeni turda daha iyisini yap" talimatı hangi aşamaya aittir? A)
+Uygula B) Kontrol Et C) Önlem Al D) Planla
+
+BÖLÜM 9: GOVERNING BODY (YÖNETİM ORGANI) ÖZEL
+41. Yönetim Organı (Governing Body), "Evaluate" (Değerlendir) yaparken hangisini
+dikkate alır? A) Paydaş beklentileri (Stakeholder Expectations). B) Ofisin temizlik
+düzenini. C) Sadece kendi maaşını. D) personelin tatil planlarını.
+42. Yönetim Organı'ndan "Yöneticilere" (Managers) akan dökümanlar nelerdir? A)
+Faturalar. B) Strateji ve Politikalar (Strategy & Policies). C) Günlük loglar. D) Teknik hata
+raporları.
+43. Yöneticilerin, Yönetim Organı'na sunduğu "Proposal & Plans" neyi içerir? A) Maaş
+zammı talebi. B) Teklifler ve planlar. C) Şikayet dilekçeleri. D) Yemek mönüsü.
+44. "Performance & Conformance" (Performans ve Uyumluluk) akışı kime doğrudur? A)
+Stajyerlere. B) Dış dünyaya. C) Yönetim Organı'na (Governing Body). D) Sadece BT
+departmanına.
+45. "Source of Authority" (Otorite Kaynağı) şemada neyi temsil eder? A) İnternet
+sağlayıcısını. B) Yönetim organına güç ve yetki veren ana kaynağı. C) Elektrik şirketini. D)
+Yazılım lisansını.
+
+BÖLÜM 10: KVKK TEKNİK VE İDARİ DETAYLAR
+46. El notlarına göre bir verinin "Kişisel Veri" sayılması için ne yeterlidir? A) Sadece isim
+olması. B) Gerçek bir kişi ile ilişkisinin kurulabilmesi. C) Sadece T.C. Kimlik numarası
+olması. D) Verinin dijital olması.
+47. "Sendika üyeliği" veya "Mezhep bilgisi" hangi veri türüdür? A) Genel nitelikli veri. B)
+Önemsiz veri. C) Özel nitelikli veri. D) Ticari veri.
+48. Dijital ortamdaki özel nitelikli verileri korumak için hangisi "Zorunluluk" olarak not
+edilmiştir? A) Veriyi silmek. B) Kriptolamak (şifrelemek). C) Herkese açık yapmak. D)
+Sadece kağıda basmak.
+49. Fiziksel ortamdaki (kağıt) kişisel veriler notlarına göre nasıl saklanmalıdır? A)
+Masanın üzerinde. B) Kilitli dolapta. C) Çöp kutusunda. D) Giriş kapısında.
+
+50. "11. Madde başvurularına vaktinde cevap vermek" kimin yükümlülüğüdür? A) Veri
+sahibinin. B) Veri sorumlusunun (Kurum). C) Devletin. D) Mahkemenin.
+BÖLÜM 11: GOVERNING BODY (YÖNETİM ORGANI) VE HİYERARŞİ
+51. Sunumdaki şemaya göre "Governing Body" piramidin neresindedir? A) En alt
+(Operasyonel) seviye B) Orta (Yönetsel) seviye C) En üst (Stratejik Otorite) seviye D)
+Piramidin dışındaki bağımsız birim
+52. Yönetim Organı'nın (Governing Body) temel döngüsü aşağıdakilerden hangisidir? A)
+Planla - Uygula - Kontrol Et B) Evaluate (Değerlendir) - Direct (Yönlendir) - Monitor (İzle)
+C) Tanımla - Koru - Tespit Et D) Giriş - İşlem - Çıktı
+53. Yönetim Organı "Evaluate" (Değerlendir) yaparken hangi dış unsuru dikkate alır? A)
+Regulatory Obligations (Düzenleyici Yükümlülükler) B) Personel maaş bordroları C) Ofis
+mobilyalarının durumu D) Günlük teknik log çıktıları
+54. Yönetim Organı'ndan "Yöneticilere" (Managers) doğru akan bilgi nedir? A)
+Performans raporları B) Strateji ve Politikalar (Strategy & Policies) C) Donanım bütçe
+talepleri D) Sadece bayram kutlamaları
+55. "Source of Authority" (Otorite Kaynağı) şemada neyi etkiler? A) Sadece BT
+departmanını B) Doğrudan Yönetim Organı'nı (Governing Body) C) Dış tedarikçileri D) Alt
+kademe memurları
+56. Yöneticilerin Yönetim Organı'na sunduğu "Proposal & Plans" neyi ifade eder? A)
+Uygulanmış olan geçmiş politikaları B) Geleceğe yönelik teklif ve planları C) Personelin
+yıllık izin listesini D) Sadece hata raporlarını
+57. Şemada "Management Systems for the Use of IT" (BT kullanımı için yönetim
+sistemleri) kime bağlıdır? A) Doğrudan Yönetim Organı'na B) Yöneticilere (Managers) C)
+Dış paydaşlara D) Müşterilere
+58. "Performance & Conformance" (Performans ve Uyumluluk) akışı kime raporlanır? A)
+Yöneticilere B) Yönetim Organı'na (Governing Body) C) Dış denetçilere D) Hiç kimseye
+59. El notlarına göre "Yönetişim" (Governance) kavramı için hangi terim kullanılmıştır?
+A) Teknik Bakım B) İdare C) Kodlama D) Satış
+60. "Stakeholder Expectations" (Paydaş Beklentileri) şemada kimi besler? A) Sadece
+müşterileri B) Yönetim Organı'nı C) Alt kademe çalışanları D) Yazılım geliştiricileri
+
+BÖLÜM 12: PUKÖ (PDCA) DÖNGÜSÜ AYRINTILARI
+61. PUKÖ döngüsünde "Planla" (Plan) aşamasının temel amacı nedir? A) Planlanan işi
+hemen yapmak B) Hedef belirlemek ve güvenliğin nasıl sağlanacağını planlamak C)
+Hataları raporlamak D) Sistemi kapatmak
+62. "Plonladığını hayata geçir" talimatı döngünün hangi aşamasıdır? A) Plan (Planla) B)
+Do (Uygula) C) Check (Kontrol Et) D) Act (Önlem Al)
+63. "İşe yorodı mı? Hata vor mı?" soruları hangi aşamada sorulur? A) Do B) Check
+(Kontrol Et) C) Act D) Plan
+64. "Aksaklıkları duzelt ve yeni turda daha iyisini ya" talimatı hangi aşamaya aittir? A) Do
+B) Check C) Act (Önlem Al) D) Plan
+65. PUKÖ döngüsünde başarı sağlanırsa notlara göre ne yapılmalıdır? A) Döngü
+durdurulmalıdır B) Standartize edilmeli ve "checkpoint" olarak kullanılmalıdır C) Her şey
+silinmelidir D) Sadece üst yönetime mail atılmalıdır
+66. PUKÖ şemasındaki "Quality Improvement" (Kalite İyileştirmesi) neyi temsil eder? A)
+Şirketin yıllık karını B) Zaman içinde sürekli ve standartlaşmış iyileşmeyi C) Sadece
+bilgisayar hızını D) Çalışan sayısının artmasını
+67. PUKÖ döngüsünde "Check" aşamasında hata bulunursa ne yapılır? A) Act
+aşamasına geçilir B) Plan aşamasına geri dönülür veya iyileştirme planlanır C) Sistem
+tamamen silinir D) Hiçbir şey yapılmaz
+68. PUKÖ şemasında "Standard" (Standart) takozu neyi sağlar? A) Geriye doğru kaymayı
+(kalite kaybını) önler B) Bütçeyi kısıtlar C) Personel girişini engeller D) İnternet hızını
+sınırlar
+69. "Sürekli İyileştirme" kavramı hangi şema ile özdeşleşmiştir? A) NIST Fonksiyonları B)
+PUKÖ (PDCA) Döngüsü C) KVKK Piramidi D) ISO 38500 Şeması
+70. PUKÖ döngüsü ne kadar sürede bir yapılmalıdır? A) Sadece yılda bir kez B) Sürekli ve
+döngüsel olarak (Continuous Improvement) C) Sadece denetim zamanı D) Şirket
+kurulurken bir kez
+BÖLÜM 13: KVKK VE KİŞİSEL VERİ DETAYLARI
+71. KVKK'ya göre "Kişisel Veri İşlemek" neyi kapsar? A) Sadece veriyi birine satmayı B)
+Verinin kuruma girmesi, kullanılması veya silinmesi gibi her türlü işlemi C) Sadece veriyi
+kağıda yazmayı D) Sadece yabancı verileri almayı
+
+72. Aşağıdakilerden hangisi bir "Genel Nitelikli Kişisel Veri" örneğidir? A) Kimlik ve mali
+bilgiler B) Siyasi düşünce C) Sendika üyeliği D) Sağlık verileri
+73. Notlarda "IP adresi, Mail adresi, Hobiler" hangi kategoriye alınmıştır? A) Kişisel
+olmayan veri B) Her veri kişisel veri olabilir (Genel Nitelikli) C) Sadece teknik veri D) Çok
+gizli veri
+74. KVKK "Özel Niteliği Veriler" neden ayrıştırılmıştır? A) Daha fazla yer kapladıkları için
+B) Ayrımcılığa ya da başka sıkıntılara yol açabileceği için C) Şifrelenmesi imkansız
+olduğu için D) Sadece devlet büyüklerine ait oldukları için
+75. Dijital ortamdaki özel nitelikli veriler için el notunda belirtilen zorunluluk nedir? A)
+Veriyi silmek B) Kriptolamak (şifrelemek) C) İnterneti kapatmak D) Sadece kağıda
+basmak
+76. Kripto işleminde kullanılan "Key" (Anahtar) nerede tutulmalıdır? A) Şifrelenen verinin
+yanında B) Ayrı bir yerde tutulmalı C) Masaüstünde bir not defterinde D) Tutulmasına
+gerek yoktur
+77. Fiziksel ortamdaki (kağıt) kişisel veriler nasıl korunmalıdır? A) Masanın üzerinde
+bırakılarak B) Kilitli dolapta tutularak C) Çöp kutusuna atılarak D) Herkese dağıtılarak
+78. "Cinsel hayot" verisi notlara göre nasıl işlenebilir? A) Her durumda işlenebilir B)
+Sadece rizayla (açık rıza) işlenebilir C) Rıza olsa bile işlenemez D) Sadece telefonla
+işlenebilir
+79. KVKK'ya göre "Aydınlatma Yükümlülüğü" kime aittir? A) Veri sahibine B) Veri
+sorumlusuna (Kurum) C) Sadece bilişim çalışanına D) Polise
+80. KVKK "İdari Tedbirler" kapsamında aşağıdakilerden hangisi yer alır? A) Güvenlik
+duvarı kurmak B) Çalışanları eğitmek ve farkındalık çalışmaları yapmak C) Antivirüs
+yüklemek D) Verileri yedeklemek
+BÖLÜM 14: SİBER GÜVENLİK VE RİSK ANALİZİ DETAYLARI
+81. Sunuma göre "Bilgi Güvenliği" tanımı nedir? A) Hiç saldırı olmamasıdır B) Tehditlerin
+kabul edilebilir seviyeye çekilmesidir C) En pahalı yazılımı almaktır D) Sadece BT
+departmanının sorumluluğudur
+82. Notlara göre "Varlık Envanteri" (Asset Inventory) neden önemlidir? A) Sadece bütçe
+çıkarmak için B) Neyin, kime teslim edildiğini ve risklerini bilmek için C) Personel
+sayısını azaltmak için D) Ofis mobilyalarını saymak için
+
+83. "Identify Threats and Vulnerabilities" (Tehdit ve Zayıflıkları Belirle) adımı hangi
+aşamadan sonradır? A) Riskleri iyileştirdikten sonra B) Varlıkları belirledikten sonra C)
+Sistem çöktükten sonra D) Personel işten ayrıldıktan sonra
+84. "Riskleri hesopla, sırola, ona göre önlem al" ifadesi hangi süreci anlatır? A) Risk
+Management (Risk Yönetimi) B) Yazılım kodlama C) Personel eğitimi D) Sadece KVKK
+başvurusu
+85. El notlarında "Kritik Altyapı" örneği olarak hangisi geçmektedir? A) Sadece internet
+kafeler B) Belediye, Hastane, Enerji, ISP C) Sadece bakkallar D) Spor salonları
+86. NIST CSF 2.0 "Govern" (GV) fonksiyonu kapsamında "Siber Strateji" nasıl olmalıdır?
+A) Şirket hedeflerinden bağımsız olmalı B) Şirket hedefleri ile ayrı düşmemeli C) Sadece
+BT departmanında gizli kalmalı D) Sadece dış denetçiler tarafından belirlenmeli
+87. NIST "Protect" (PR) fonksiyonunda "Kimlik yönetimi ve erişim kontol" neyi amaçlar?
+A) Sadece kapı kilitlerini B) Varlıkları güvence altına almayı C) Herkese sınırsız yetki
+vermeyi D) Sistemleri kapatmayı
+88. NIST "Detect" (DE) fonksiyonunda "Anomalileri belirle" ne demektir? A) Bilgisayarı
+tamir etmek B) Olağan dışı siber saldırı göstergelerini fark etmek C) Yeni personel almak
+D) Sadece yedek almak
+89. NIST "Response" (RS) fonksiyonunda "mitigation" kelimesinin notlardaki anlamı
+nedir? A) Saldırıyı izlemek B) Zarar azaltma önlemleri C) Veriyi tamamen silmek D) Yeni
+donanım almak
+90. NIST "Recovery" (RC) fonksiyonu neleri kapsar? A) Suçluyu yakalamayı B)
+Etkilenenleri geri yükleme ve normal operasyonları eski hale getirme C) Sadece
+yedeklemeyi D) Yeni politika yazmayı
+BÖLÜM 15: ISO 27001 VE KVKK YAPTIRIMLARI SONUÇ
+91. ISO 27001 - A.5 "Güvenlik Politikası" notlarda nasıl tanımlanmıştır? A) Sadece bir
+kağıt parçası B) Neye tahammül var neye yok; kural ve uygulayıcılar C) Sadece maaş
+listesi D) Bilgisayar kullanım kılavuzu
+92. ISO 27001 - A.11 "Erişim Kontrolü" neyi amaçlar? A) Herkesin her veriye ulaşmasını
+B) Varlıkları koruma altına almayı ve yetkisiz erişimi engellemeyi C) Sadece internete
+girmeyi D) Bina temizliğini sağlamayı
+93. Bilgi güvenliği ihlali durumunda "Ulusal İtibar" hangi kurumlar için kritik not
+edilmiştir? A) Tüm marketler için B) Kritik Altyapılar (K.A.Y) için C) Sadece bakkallar için
+D) Sosyal medya kullanıcıları için
+
+94. KVKK kapsamında verilerin hukuka aykırı kaydedilmesi cezası nedir? A) Sadece uyarı
+B) 1 - 3 yıl hapis C) Müebbet hapis D) Sadece para cezası
+95. KVKK'da verileri belirli süre geçmesine rağmen yok etmemenin cezası nedir? A) Ceza
+yoktur B) 1 - 2 yıl hapis C) 10 yıl hapis D) Sadece kınama
+96. Aydınlatma yükümlülüğü ihlali para cezası üst sınırı yaklaşık ne kadardır? A) 10.000
+TL B) 590.000 TL C) 1.000.000 TL D) Ceza verilmez
+97. Veri güvenliği yükümlülüğü ihlali para cezası üst sınırı yaklaşık ne kadardır? A)
+100.000 TL B) 5.900.000 TL C) 1.000.000 TL D) 50.000 TL
+98. "Bilgi Sistemleri Edinim, Geliştirme ve Bakımı" (A.12) el notunda nasıl açıklanmıştır?
+A) Sadece yeni bilgisayar almak B) Digital verinin üstündeki her şeyi yenilemek ve
+kontrol etmek C) Sadece antivirüs taraması D) Bilgisayarları tamir etmek
+99. El notlarındaki "Sinor Notu" (Sınav Notu) kısmına göre kaç test sorusu
+beklenmektedir? A) 100 B) 20 C) 50 D) 10
+100. Bilgi güvenliği sürecinin nihai hedefi el notlarına göre nedir? A) Hiç risk almamak B)
+Tehtidlerin kabul edilebilir seviyeye çekilmesi C) En hızlı sisteme sahip olmak D) Sadece
+KVKK cezası yememek
+1-B, 2-B, 3-A, 4-B, 5-C, 6-C, 7-B, 8-C, 9-A, 10-B, 11-C, 12-A, 13-B, 14-B, 15-B, 16-B, 17B, 18-B, 19-B, 20-B, 21-C, 22-B, 23-B, 24-B, 25-B, 26-A, 27-C, 28-B, 29-B, 30-B, 31-B,
+32-B, 33-B, 34-B, 35-B. 36-B, 37-C, 38-B, 39-A, 40-C, 41-A, 42-B, 43-B, 44-C, 45-B, 46-B,
+47-C, 48-B, 49-B, 50-B. 51-C, 52-B, 53-A, 54-B, 55-B, 56-B, 57-B, 58-B, 59-B, 60-B, 61-B,
+62-B, 63-B, 64-C, 65-B, 66-B, 67-B, 68-A, 69-B, 70-B, 71-B, 72-A, 73-B, 74-B, 75-B, 76-B,
+77-B, 78-B, 79-B, 80-B, 81-B, 82-B, 83-B, 84-A, 85-B, 86-B, 87-B, 88-B, 89-B, 90-B, 91-B,
+92-B, 93-B, 94-B, 95-B, 96-B, 97-B, 98-B, 99-B, 100-B.
+
+
