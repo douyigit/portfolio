@@ -1848,11 +1848,11 @@ const appData = {
 appData.bilgiguvenligi = [
   {
     "id": "1",
-    "text": "GRC açılımındaki kavramların el notlarınızdaki karşılığı nedir?",
+    "text": "GRC açılımındaki kavramların karşılığı nedir?",
     "options": [
       {
         "key": "A",
-        "text": "Devlet - Risk Kontrol"
+        "text": "Kamu - Risk Kontrol"
       },
       {
         "key": "B",
@@ -1864,7 +1864,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "D",
-        "text": "Hükümet Rapor - Kurallar"
+        "text": "Güvenlik Standartları - Kurallar"
       }
     ],
     "answer": "B"
@@ -1883,7 +1883,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Sadece siber saldırılara yanıt vermek"
+        "text": "Yalnızca olay müdahalesini yönetmek"
       },
       {
         "key": "D",
@@ -2002,7 +2002,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "D",
-        "text": "Bilgisayarlara virüs bulaşmasıdır."
+        "text": "Zararlı yazılımların yayılmasıdır."
       }
     ],
     "answer": "B"
@@ -2220,7 +2220,7 @@ appData.bilgiguvenligi = [
     "options": [
       {
         "key": "A",
-        "text": "Sadece paraları."
+        "text": "Yalnızca finans tablosunu."
       },
       {
         "key": "B",
@@ -2228,11 +2228,11 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Personel maaşlarını."
+        "text": "Ağ donanımlarını."
       },
       {
         "key": "D",
-        "text": "Şirket arabalarını."
+        "text": "Zafiyet değerlendirmelerini."
       }
     ],
     "answer": "Bilinmiyor"
@@ -2416,7 +2416,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "D",
-        "text": "Polise."
+        "text": "Kamu otoritelerine."
       }
     ],
     "answer": "B"
@@ -2527,7 +2527,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "D",
-        "text": "Sadece elektrik faturasına."
+        "text": "Temel hizmetlere."
       }
     ],
     "answer": "B"
@@ -2649,7 +2649,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "36",
-    "text": "PUKÖ döngüsünde \"Planla\" aşamasında notlarına göre ilk yapılması gereken nedir?",
+    "text": "PUKÖ döngüsünde \"Planla\" aşamasında ilk yapılması gereken nedir?",
     "options": [
       {
         "key": "A",
@@ -2695,7 +2695,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "38",
-    "text": "\"Önlem Al\" (Act) aşamasında başarı sağlanırsa notlarına göre ne yapılmalıdır?",
+    "text": "\"Önlem Al\" (Act) aşamasında başarı sağlanırsa ne yapılmalıdır?",
     "options": [
       {
         "key": "A",
@@ -2772,15 +2772,15 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "B",
-        "text": "Ofisin temizlik düzenini."
+        "text": "Operasyonel ağ performansını."
       },
       {
         "key": "C",
-        "text": "Sadece kendi maaşını."
+        "text": "IT bütçe metriklerini."
       },
       {
         "key": "D",
-        "text": "personelin tatil planlarını."
+        "text": "Risk tolerans seviyesini."
       }
     ],
     "answer": "A"
@@ -2791,7 +2791,7 @@ appData.bilgiguvenligi = [
     "options": [
       {
         "key": "A",
-        "text": "Faturalar."
+        "text": "Günlük zafiyet bültenleri."
       },
       {
         "key": "B",
@@ -2814,7 +2814,7 @@ appData.bilgiguvenligi = [
     "options": [
       {
         "key": "A",
-        "text": "Maaş zammı talebi."
+        "text": "Ağ haritaları."
       },
       {
         "key": "B",
@@ -2822,11 +2822,11 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Şikayet dilekçeleri."
+        "text": "Varlık tanımlamaları."
       },
       {
         "key": "D",
-        "text": "Yemek mönüsü."
+        "text": "İş sürekliliği metrikleri."
       }
     ],
     "answer": "B"
@@ -2841,7 +2841,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "B",
-        "text": "Dış dünyaya."
+        "text": "Bağımsız denetim ajanslarına."
       },
       {
         "key": "C",
@@ -2856,7 +2856,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "45",
-    "text": "\"Source of Authority\" (Otorite Kaynağı) şemada neyi temsil eder?",
+    "text": "\"Source of Authority\" (Otorite Kaynağı) neyi temsil eder?",
     "options": [
       {
         "key": "A",
@@ -2879,7 +2879,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "46",
-    "text": "El notlarına göre bir verinin \"Kişisel Veri\" sayılması için ne yeterlidir?",
+    "text": "bir verinin \"Kişisel Veri\" sayılması için ne yeterlidir?",
     "options": [
       {
         "key": "A",
@@ -2948,11 +2948,11 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "49",
-    "text": "Fiziksel ortamdaki (kağıt) kişisel veriler notlarına göre nasıl saklanmalıdır?",
+    "text": "Fiziksel ortamdaki (kağıt) kişisel veriler nasıl saklanmalıdır?",
     "options": [
       {
         "key": "A",
-        "text": "Masanın üzerinde."
+        "text": "Sıradan klasörlerde."
       },
       {
         "key": "B",
@@ -2983,7 +2983,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Devletin."
+        "text": "Kamuin."
       },
       {
         "key": "D",
@@ -2994,7 +2994,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "51",
-    "text": "Sunumdaki şemaya göre \"Governing Body\" piramidin neresindedir?",
+    "text": "\"Governing Body\" piramidin neresindedir?",
     "options": [
       {
         "key": "A",
@@ -3052,11 +3052,11 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Ofis mobilyalarının durumu"
+        "text": "Yasal regülasyonlar"
       },
       {
         "key": "D",
-        "text": "Günlük teknik log çıktıları"
+        "text": "Haftalık yedekleme logları"
       }
     ],
     "answer": "A"
@@ -3079,18 +3079,18 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "D",
-        "text": "Sadece bayram kutlamaları"
+        "text": "Personele yönelik uyarılar"
       }
     ],
     "answer": "B"
   },
   {
     "id": "55",
-    "text": "\"Source of Authority\" (Otorite Kaynağı) şemada neyi etkiler?",
+    "text": "\"Source of Authority\" (Otorite Kaynağı) neyi etkiler?",
     "options": [
       {
         "key": "A",
-        "text": "Sadece BT departmanını"
+        "text": "Erişim denetim mekanizmalarını"
       },
       {
         "key": "B",
@@ -3132,7 +3132,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "57",
-    "text": "Şemada \"Management Systems for the Use of IT\" (BT kullanımı için yönetim sistemleri) kime bağlıdır?",
+    "text": "\"Management Systems for the Use of IT\" (BT kullanımı için yönetim sistemleri) kime bağlıdır?",
     "options": [
       {
         "key": "A",
@@ -3178,7 +3178,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "59",
-    "text": "El notlarına göre \"Yönetişim\" (Governance) kavramı için hangi terim kullanılmıştır?",
+    "text": "\"Yönetişim\" (Governance) kavramı için hangi terim kullanılmıştır?",
     "options": [
       {
         "key": "A",
@@ -3201,7 +3201,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "60",
-    "text": "\"Stakeholder Expectations\" (Paydaş Beklentileri) şemada kimi besler?",
+    "text": "\"Stakeholder Expectations\" (Paydaş Beklentileri) kimi besler?",
     "options": [
       {
         "key": "A",
@@ -3270,7 +3270,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "63",
-    "text": "\"İşe yorodı mı? Hata vor mı?\" soruları hangi aşamada sorulur?",
+    "text": "\"İşe yaradı mı? Hata var mı?\" soruları hangi aşamada sorulur?",
     "options": [
       {
         "key": "A",
@@ -3293,7 +3293,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "64",
-    "text": "\"Aksaklıkları duzelt ve yeni turda daha iyisini ya\" talimatı hangi aşamaya aittir?",
+    "text": "\"Aksaklıkları duzelt ve yeni turda daha iyisini yap\" talimatı hangi aşamaya aittir?",
     "options": [
       {
         "key": "A",
@@ -3316,7 +3316,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "65",
-    "text": "PUKÖ döngüsünde başarı sağlanırsa notlara göre ne yapılmalıdır?",
+    "text": "PUKÖ döngüsünde başarı sağlanırsa ne yapılmalıdır?",
     "options": [
       {
         "key": "A",
@@ -3500,7 +3500,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "73",
-    "text": "Notlarda \"IP adresi, Mail adresi, Hobiler\" hangi kategoriye alınmıştır?",
+    "text": "\"IP adresi, Mail adresi, Hobiler\" hangi kategoriye alınmıştır?",
     "options": [
       {
         "key": "A",
@@ -3539,14 +3539,14 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "D",
-        "text": "Sadece devlet büyüklerine ait oldukları için"
+        "text": "Sadece Kamu büyüklerine ait oldukları için"
       }
     ],
     "answer": "B"
   },
   {
     "id": "75",
-    "text": "Dijital ortamdaki özel nitelikli veriler için el notunda belirtilen zorunluluk nedir?",
+    "text": "Dijital ortamdaki özel nitelikli veriler için belirtilen zorunluluk nedir?",
     "options": [
       {
         "key": "A",
@@ -3558,7 +3558,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "İnterneti kapatmak"
+        "text": "Sistemi çevrimdışına almak"
       },
       {
         "key": "D",
@@ -3596,7 +3596,7 @@ appData.bilgiguvenligi = [
     "options": [
       {
         "key": "A",
-        "text": "Masanın üzerinde bırakılarak"
+        "text": "Sıradan klasörlerde bırakılarak"
       },
       {
         "key": "B",
@@ -3604,18 +3604,18 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Çöp kutusuna atılarak"
+        "text": "Parçalanarak veya yakılarak atılarak"
       },
       {
         "key": "D",
-        "text": "Herkese dağıtılarak"
+        "text": "Açık ağlarda (Plaintext)"
       }
     ],
     "answer": "B"
   },
   {
     "id": "78",
-    "text": "\"Cinsel hayot\" verisi notlara göre nasıl işlenebilir?",
+    "text": "\"Cinsel hayat\" verisi nasıl işlenebilir?",
     "options": [
       {
         "key": "A",
@@ -3654,7 +3654,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "D",
-        "text": "Polise"
+        "text": "Kamu otoritelerine"
       }
     ],
     "answer": "B"
@@ -3700,14 +3700,14 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "D",
-        "text": "Sadece BT departmanının sorumluluğudur"
+        "text": "Erişim denetim mekanizmalarının sorumluluğudur"
       }
     ],
     "answer": "B"
   },
   {
     "id": "82",
-    "text": "Notlara göre \"Varlık Envanteri\" (Asset Inventory) neden önemlidir?",
+    "text": "\"Varlık Envanteri\" (Asset Inventory) neden önemlidir?",
     "options": [
       {
         "key": "A",
@@ -3780,7 +3780,7 @@ appData.bilgiguvenligi = [
     "options": [
       {
         "key": "A",
-        "text": "Sadece internet kafeler"
+        "text": "Standart e-ticaret siteleri"
       },
       {
         "key": "B",
@@ -3788,11 +3788,11 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Sadece bakkallar"
+        "text": "Küçük çaplı tedarikçiler"
       },
       {
         "key": "D",
-        "text": "Spor salonları"
+        "text": "Start-up şirketleri"
       }
     ],
     "answer": "B"
@@ -3891,34 +3891,7 @@ appData.bilgiguvenligi = [
   },
   {
     "id": "90",
-    "text": "NIST \"Recovery\" (R",
-    "options": [
-      {
-        "key": "C",
-        "text": "fonksiyonu neleri kapsar?"
-      },
-      {
-        "key": "A",
-        "text": "Suçluyu yakalamayı"
-      },
-      {
-        "key": "B",
-        "text": "Etkilenenleri geri yükleme ve normal operasyonları eski hale getirme"
-      },
-      {
-        "key": "C",
-        "text": "Sadece yedeklemeyi"
-      },
-      {
-        "key": "D",
-        "text": "Yeni politika yazmayı  27001 VE KVKK YAPTIRIMLARI SONUÇ"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "91",
-    "text": "ISO 27001 - A.5 \"Güvenlik Politikası\" notlarda nasıl tanımlanmıştır?",
+    "text": "ISO 27001 - A.5 \"Güvenlik Politikası\" nasıl tanımlanmıştır?",
     "options": [
       {
         "key": "A",
@@ -3940,7 +3913,7 @@ appData.bilgiguvenligi = [
     "answer": "B"
   },
   {
-    "id": "92",
+    "id": "91",
     "text": "ISO 27001 - A.11 \"Erişim Kontrolü\" neyi amaçlar?",
     "options": [
       {
@@ -3953,22 +3926,22 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Sadece internete girmeyi"
+        "text": "Yetki yükseltmeyi (Privilege Escalation)"
       },
       {
         "key": "D",
-        "text": "Bina temizliğini sağlamayı"
+        "text": "Ağ katmanlarındaki erişimleri"
       }
     ],
     "answer": "B"
   },
   {
-    "id": "93",
+    "id": "92",
     "text": "Bilgi güvenliği ihlali durumunda \"Ulusal İtibar\" hangi kurumlar için kritik not edilmiştir?",
     "options": [
       {
         "key": "A",
-        "text": "Tüm marketler için"
+        "text": "Uluslararası holdingler için"
       },
       {
         "key": "B",
@@ -3976,7 +3949,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "C",
-        "text": "Sadece bakkallar için"
+        "text": "KOBİ işletmeleri için"
       },
       {
         "key": "D",
@@ -3986,7 +3959,7 @@ appData.bilgiguvenligi = [
     "answer": "B"
   },
   {
-    "id": "94",
+    "id": "93",
     "text": "KVKK kapsamında verilerin hukuka aykırı kaydedilmesi cezası nedir?",
     "options": [
       {
@@ -4009,7 +3982,7 @@ appData.bilgiguvenligi = [
     "answer": "B"
   },
   {
-    "id": "95",
+    "id": "94",
     "text": "KVKK'da verileri belirli süre geçmesine rağmen yok etmemenin cezası nedir?",
     "options": [
       {
@@ -4032,7 +4005,7 @@ appData.bilgiguvenligi = [
     "answer": "B"
   },
   {
-    "id": "96",
+    "id": "95",
     "text": "Aydınlatma yükümlülüğü ihlali para cezası üst sınırı yaklaşık ne kadardır?",
     "options": [
       {
@@ -4055,7 +4028,7 @@ appData.bilgiguvenligi = [
     "answer": "B"
   },
   {
-    "id": "97",
+    "id": "96",
     "text": "Veri güvenliği yükümlülüğü ihlali para cezası üst sınırı yaklaşık ne kadardır?",
     "options": [
       {
@@ -4078,8 +4051,8 @@ appData.bilgiguvenligi = [
     "answer": "B"
   },
   {
-    "id": "98",
-    "text": "\"Bilgi Sistemleri Edinim, Geliştirme ve Bakımı\" (A.12) el notunda nasıl açıklanmıştır?",
+    "id": "97",
+    "text": "\"Bilgi Sistemleri Edinim, Geliştirme ve Bakımı\" (A.12) nasıl açıklanmıştır?",
     "options": [
       {
         "key": "A",
@@ -4101,31 +4074,8 @@ appData.bilgiguvenligi = [
     "answer": "B"
   },
   {
-    "id": "99",
-    "text": "El notlarındaki \"Sinor Notu\" (Sınav Notu) kısmına göre kaç test sorusu beklenmektedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "100"
-      },
-      {
-        "key": "B",
-        "text": "20"
-      },
-      {
-        "key": "C",
-        "text": "50"
-      },
-      {
-        "key": "D",
-        "text": "10"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "100",
-    "text": "Bilgi güvenliği sürecinin nihai hedefi el notlarına göre nedir?",
+    "id": "98",
+    "text": "Bilgi güvenliği sürecinin nihai hedefi nedir?",
     "options": [
       {
         "key": "A",
@@ -4133,7 +4083,7 @@ appData.bilgiguvenligi = [
       },
       {
         "key": "B",
-        "text": "Tehtidlerin kabul edilebilir seviyeye çekilmesi"
+        "text": "Tehditlerin kabul edilebilir seviyeye çekilmesi"
       },
       {
         "key": "C",
