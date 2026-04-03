@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
         questions: {
             sunu: [...appData.sunu],
             walkthrough: [...appData.walkthrough],
-            bilgiguvenligi: [...appData.bilgiguvenligi]
+            bilgiguvenligi: [...appData.bilgiguvenligi],
+            sibergiris1: [...appData.sibergiris1]
         }
     };
 
@@ -200,6 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (tabId === 'sunu') title.textContent = 'Sunu Testi';
         else if (tabId === 'walkthrough') title.textContent = 'Walkthrough Testi';
         else if (tabId === 'bilgiguvenligi') title.textContent = 'Bilgi Güvenliği Testi';
+        else if (tabId === 'sibergiris1') title.textContent = 'Siber Güvenliğe Giriş 1. Slayt Soruları';
         
         renderQuestions();
         if (window.innerWidth <= 768) {
