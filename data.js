@@ -4235,7 +4235,7 @@ const appData = {
       "answer": "C"
     },
     {
-      "id": "3107",
+      "id": "7",
       "text": "\"Beyaz Şapka Misyonu\" kavramı uzmanın temel hedefini nasıl tanımlar?",
       "options": [
         {
@@ -4281,7 +4281,7 @@ const appData = {
       "answer": "B"
     },
     {
-      "id": "39",
+      "id": "9",
       "text": "İnternetin hayatımıza etkileri kapsamında \"maliyet etkin hizmet\" örneği olarak ne verilmiştir?",
       "options": [
         {
@@ -4511,7 +4511,7 @@ const appData = {
       "answer": "C"
     },
     {
-      "id": "199119",
+      "id": "19",
       "text": "\"Güvenliksiz Tasarım Paradoksu\"na göre güvenlik sisteme nasıl dahil edilmiştir?",
       "options": [
         {
@@ -4557,7 +4557,7 @@ const appData = {
       "answer": "B"
     },
     {
-      "id": "200021",
+      "id": "21",
       "text": "Dünyanın ilk grafik tabanlı web tarayıcısının adı nedir?",
       "options": [
         {
@@ -4577,7 +4577,7 @@ const appData = {
           "text": "Chrome"
         }
       ],
-      "answer": "B"
+      "answer": "C"
     },
     {
       "id": "22",
@@ -4879,7 +4879,7 @@ const appData = {
       "answer": "D"
     },
     {
-      "id": "1435",
+      "id": "35",
       "text": "Türkiye'nin Ulusal Siber Güvenlik Stratejisi'ne göre siber güvenliğin 5 aşaması nedir?",
       "options": [
         {
@@ -4994,7 +4994,7 @@ const appData = {
       "answer": "B"
     },
     {
-      "id": "4500140",
+      "id": "40",
       "text": "Bilgi güvenliği hangi formattaki bilgileri korumayı hedefler?",
       "options": [
         {
@@ -5014,7 +5014,7 @@ const appData = {
           "text": "Sadece veritabanı kayıtlarını"
         }
       ],
-      "answer": "B"
+      "answer": "C"
     },
     {
       "id": "41",
@@ -5155,7 +5155,7 @@ const appData = {
       "answer": "C"
     },
     {
-      "id": "201047",
+      "id": "47",
       "text": "Siber uzay günümüzde kaçıncı savaş alanı ilan edilmiştir?",
       "options": [
         {
@@ -5175,7 +5175,7 @@ const appData = {
           "text": "5."
         }
       ],
-      "answer": "B"
+      "answer": "D"
     },
     {
       "id": "48",
