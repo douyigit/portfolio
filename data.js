@@ -4098,1893 +4098,1042 @@ const appData = {
   "sibergiris1": [
     {
       "id": "1",
-      "text": "Siber güvenlik eğitiminde \"Kırmızı Çizgiler\" olarak tanımlanan etik kurallar çerçevesinde, öğretilen tekniklerin kullanımıyla ilgili yasal sınır aşağıdakilerden hangisidir?",
+      "text": "\"Siber Güvenliğe Giriş\" dersinin sorumlu öğretim üyesi kimdir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece kamuya açık ve güvenliği zayıf ağlarda test amaçlı kullanılabilir."
+          "text": "Dr. Barış Çeliktaş"
         },
         {
           "key": "B",
-          "text": "Sadece laboratuvar ortamında ve izinli/sahibi olunan sistemlerde kullanılabilir."
+          "text": "Dr. Hüseyin Yüce"
         },
         {
           "key": "C",
-          "text": "Eğitim amaçlı olduğu sürece her türlü sistemde deneme yapılabilir."
+          "text": "Dr. Mehmet Özcan"
         },
         {
           "key": "D",
-          "text": "Sadece yurt dışı kaynaklı ve anonim sistemlerde kullanılabilir."
-        },
-        {
-          "key": "E",
-          "text": "Kişisel verilere dokunulmadığı sürece her sistemde araçlar çalıştırılabilir."
+          "text": "Dr. Şeref Sağıroğlu"
         }
       ],
       "answer": "B"
     },
     {
       "id": "2",
-      "text": "5237 sayılı Türk Ceza Kanunu'nun 243 ve 244. maddeleri doğrudan hangi eylemleri suç kapsamına almaktadır?",
+      "text": "Bu ders hangi lisansüstü program kapsamında verilmektedir?",
       "options": [
         {
           "key": "A",
-          "text": "Sosyal medya üzerinden hakaret ve taciz içerikli paylaşımlar."
+          "text": "Bilgisayar Mühendisliği Doktora Programı"
         },
         {
           "key": "B",
-          "text": "Kişisel verilerin korunması kanununa aykırı veri işleme süreçleri."
+          "text": "Siber Güvenlik Tezsiz Yüksek Lisans Programı"
         },
         {
           "key": "C",
-          "text": "Başkalarına ait sistemlere izinsiz erişim, veri çalma veya zarar verme girişimi."
+          "text": "Veri Bilimi Yüksek Lisans Programı"
         },
         {
           "key": "D",
-          "text": "Lisanssız yazılım kullanımı ve telif hakları ihlali."
-        },
-        {
-          "key": "E",
-          "text": "İnternet üzerinden izinsiz bahis ve kumar oynatılması."
+          "text": "Yazılım Geliştirme Uzmanlık Programı"
         }
       ],
       "answer": "B"
     },
     {
       "id": "3",
-      "text": "\"Beyaz Şapka Misyonu\" akademik olarak nasıl tanımlanmıştır?",
+      "text": "Dersin 1. hafta içeriğinin temel akademik amacı nedir?",
       "options": [
         {
           "key": "A",
-          "text": "Sistemlerin zafiyetlerini bulup şahsi kazanç sağlamak."
+          "text": "Gelişmiş şifreleme algoritmaları yazmak"
         },
         {
           "key": "B",
-          "text": "Sistemleri yıkmak değil, korumak ve güvenli hale getirmek."
+          "text": "Siber uzayın yapısını ve temel güvenlik prensiplerini anlamak"
         },
         {
           "key": "C",
-          "text": "Sadece devlet kurumlarının siber savunmasını yapmak."
+          "text": "Kurumsal ağlarda donanım kurulumu yapmak"
         },
         {
           "key": "D",
-          "text": "Saldırı tekniklerini kullanarak rakipleri saf dışı bırakmak."
-        },
-        {
-          "key": "E",
-          "text": "İnternet üzerindeki tüm verileri şifreleyerek anonimliği sağlamak."
+          "text": "Mobil uygulama güvenliğini test etmek"
         }
       ],
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "4",
-      "text": "İnternetin teknik tanımı yapılırken hangi iletişim protokolü ailesi \"küresel bilgisayar ağı\"nın temel taşı olarak belirtilmiştir?",
+      "text": "\"AAA Modeli\" olarak adlandırılan ek güvenlik kavramları hangi seçenekte doğru verilmiştir?",
       "options": [
         {
           "key": "A",
-          "text": "OSI Referans Modeli"
+          "text": "Gizlilik, Bütünlük, Erişilebilirlik"
         },
         {
           "key": "B",
-          "text": "HTTP/HTTPS Protokolleri"
+          "text": "Kimlik Doğrulama, Yetkilendirme, İnkar Edilemezlik"
         },
         {
           "key": "C",
-          "text": "TCP/IP Protokol Ailesi"
+          "text": "Tespit, Müdahale, Geri Döndürme"
         },
         {
           "key": "D",
-          "text": "SMTP/POP3 E-posta Protokolleri"
-        },
-        {
-          "key": "E",
-          "text": "DNS ve DHCP Servisleri"
+          "text": "Koruma, Güvence, İzleme"
         }
       ],
       "answer": "B"
     },
     {
       "id": "5",
-      "text": "İnternetin çekiciliği ve sosyal etkileri bağlamında aşağıdakilerden hangisi yanlıştır?",
+      "text": "Derste öğretilen tekniklerin kullanımıyla ilgili belirlenen \"Kırmızı Çizgi\" (Etik Kural) nedir?",
       "options": [
         {
           "key": "A",
-          "text": "7/24 bağlantı imkanı sağlaması hayatın merkezine yerleşmesine neden olmuştur."
+          "text": "Sadece mesai saatleri içinde test yapmak"
         },
         {
           "key": "B",
-          "text": "Konum bağımsızlık sayesinde bireyler arası ulaşım hızı maksimize edilmiştir."
+          "text": "Teknikleri sadece laboratuvar ortamında ve izinli sistemlerde kullanmak"
         },
         {
           "key": "C",
-          "text": "Sosyal gelişime katkıda bulunan işlevleri nedeniyle cazibesine karşı konulması zordur."
+          "text": "Bulunan açıkları sosyal medyada paylaşmak"
         },
         {
           "key": "D",
-          "text": "İnternet kullanımı sadece bilgisayar donanımlarıyla sınırlı kalmış, mobiliteyi etkilememiştir."
-        },
-        {
-          "key": "E",
-          "text": "Özel, sosyal, kültürel, ekonomik ve politik hayat üzerinde dönüştürücü bir etkisi vardır."
+          "text": "Sadece yerli yazılımlar üzerinde çalışmak"
         }
       ],
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "6",
-      "text": "ARPANET'in 1960'lardaki tasarımında yer alan \"deneysel ağ\" yapısının temel amacı nedir?",
+      "text": "Türk Ceza Kanunu'nun (TCK) hangi maddeleri bilişim sistemlerine izinsiz erişimi suç sayar?",
       "options": [
         {
           "key": "A",
-          "text": "Ticari verileri en yüksek hızda bir noktadan diğerine iletmek."
+          "text": "Madde 150-155"
         },
         {
           "key": "B",
-          "text": "Düğümlerden biri saldırı nedeniyle yanıt vermese bile iletişimin sürmesini sağlamak."
+          "text": "Madde 200-210"
         },
         {
           "key": "C",
-          "text": "Sadece akademik makalelerin paylaşılacağı bir veritabanı oluşturmak."
+          "text": "Madde 243-244"
         },
         {
           "key": "D",
-          "text": "Dünyadaki tüm telefon şebekelerini tek bir merkezden kontrol etmek."
-        },
-        {
-          "key": "E",
-          "text": "Gizli askeri mesajları sadece uydular üzerinden iletmek."
+          "text": "Madde 300-"
         }
       ],
       "answer": "C"
     },
     {
-      "id": "7",
-      "text": "1969 yılında UCLA'dan SRI'ya gönderilen ilk mesajda sistemin çökmesine neden olan durum nedir?",
+      "id": "3107",
+      "text": "\"Beyaz Şapka Misyonu\" kavramı uzmanın temel hedefini nasıl tanımlar?",
       "options": [
         {
           "key": "A",
-          "text": "Mesajın çok uzun olması nedeniyle paket kaybı yaşanması."
+          "text": "Sistemleri yıkmak ve verileri ele geçirmek"
         },
         {
           "key": "B",
-          "text": "Şifreleme anahtarının karşı tarafta bulunmaması."
+          "text": "Sistemleri korumak ve güvenli hale getirmek"
         },
         {
           "key": "C",
-          "text": "\"LOGIN\" mesajının sadece \"LO\" kısmının ulaşması ve ağın çökmesi."
+          "text": "Ticari kazanç için sistem açıklarını satmak"
         },
         {
           "key": "D",
-          "text": "Protokol uyuşmazlığı nedeniyle bağlantının hiç kurulamaması."
-        },
-        {
-          "key": "E",
-          "text": "Yanlış IP adresi kullanımı sonucu döngü (loop) oluşması."
+          "text": "Sadece akademik teoriler üretmek"
         }
       ],
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "8",
-      "text": "İnternetin \"Genetiği\" olarak tanımlanan TCP/IP protokolü ile ilgili hangi tarihsel bilgi doğrudur?",
+      "text": "İnternetin teknik tanımında küresel ağın iletişimini sağlayan temel protokol ailesi hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "1969'da ARPANET ile birlikte aynı gün kullanılmaya başlanmıştır."
+          "text": "HTTP/HTTPS"
         },
         {
           "key": "B",
-          "text": "1978'de hazır hale gelmiş, 1983'te ARPANET tarafından kabul edilmiştir."
+          "text": "TCP/IP"
         },
         {
           "key": "C",
-          "text": "1991'de World Wide Web'in yayınlanmasıyla geliştirilmiştir."
+          "text": "FTP/SFTP"
         },
         {
           "key": "D",
-          "text": "1996'da internetin halka açılmasıyla zorunlu standart haline gelmiştir."
-        },
-        {
-          "key": "E",
-          "text": "1980'de sadece akademik ağlarda kullanılmak üzere tasarlanmıştır."
+          "text": "SMTP/POP"
         }
       ],
-      "answer": "C"
+      "answer": "B"
     },
     {
-      "id": "9",
-      "text": "\"Güvenliksiz Tasarım Paradoksu\" (RFC 791 ve 793) günümüz siber saldırılarını nasıl açıklar?",
+      "id": "39",
+      "text": "İnternetin hayatımıza etkileri kapsamında \"maliyet etkin hizmet\" örneği olarak ne verilmiştir?",
       "options": [
         {
           "key": "A",
-          "text": "Modern sistemlerin yazılım hatalarının donanımsal yetersizlikten kaynaklandığını."
+          "text": "Fiziksel banka şubelerine gitmek"
         },
         {
           "key": "B",
-          "text": "TCP/IP tasarlanırken \"güvenlik\" kriterinin, ağın sadece güvenilen kişiler arasında olması nedeniyle önemsenmediğini."
+          "text": "Faturaları internet üzerinden ödeyerek kuyruklardan kurtulmak"
         },
         {
           "key": "C",
-          "text": "Şifreleme algoritmalarının matematiksel olarak yetersiz olduğunu."
+          "text": "Bilgisayar donanımı satın almak"
         },
         {
           "key": "D",
-          "text": "Kullanıcıların sosyal mühendislik saldırılarına karşı eğitimsiz olduğunu."
-        },
-        {
-          "key": "E",
-          "text": "İnternetin sadece ticari amaçlarla tasarlandığı için güvenlik açıklarının bilerek bırakıldığını."
+          "text": "Yüz yüze eğitimlere katılmak"
         }
       ],
       "answer": "B"
     },
     {
       "id": "10",
-      "text": "RFC 791 ve 793 akademik referansları hangi protokollerin orijinal mimarisinde güvenliğin yer almadığını kanıtlar?",
+      "text": "İnternetin sağladığı bağlantı imkanı hangi zaman esasına dayanmaktadır?",
       "options": [
         {
           "key": "A",
-          "text": "HTTP ve FTP"
+          "text": "Sadece hafta içi mesai saatleri"
         },
         {
           "key": "B",
-          "text": "DNS ve BGP"
+          "text": "7/24 bağlantı imkanı"
         },
         {
           "key": "C",
-          "text": "IPv4 ve TCP"
+          "text": "Sadece gece saatleri"
         },
         {
           "key": "D",
-          "text": "UDP ve ICMP"
-        },
-        {
-          "key": "E",
-          "text": "SSL ve TLS"
-        }
-      ],
-      "answer": "D"
-    },
-    {
-      "id": "11",
-      "text": "1992 yılında ilk grafik tabanlı web tarayıcısını geliştiren kurum/kişiler hangisidir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "CERN - Tim Berners-Lee"
-        },
-        {
-          "key": "B",
-          "text": "Illinois Üniversitesi Araştırmacıları - Mosaic (Mozaik)"
-        },
-        {
-          "key": "C",
-          "text": "Microsoft - Internet Explorer Ekibi"
-        },
-        {
-          "key": "D",
-          "text": "Netscape Communications"
-        },
-        {
-          "key": "E",
-          "text": "Stanford Üniversitesi - Google Ekibi"
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "12",
-      "text": "Siber uzay (Cyberspace) tanımında yer alan bileşenlerden hangisi \"herhangi bir coğrafi sınırlamaya bağlı olmayan küresel bilgi ortamı\" ifadesini destekler?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece yerel kablolu ağlar."
-        },
-        {
-          "key": "B",
-          "text": "Birbirine bağımlı ağların oluşturduğu dijital ekosistem."
-        },
-        {
-          "key": "C",
-          "text": "Sadece devletlerin kontrolündeki intranet yapıları."
-        },
-        {
-          "key": "D",
-          "text": "Kapalı devre kamera sistemleri."
-        },
-        {
-          "key": "E",
-          "text": "Basılı yayın organlarının dijital arşivleri."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "13",
-      "text": "Aşağıdakilerden hangisi siber uzayın temel bileşenleri arasında slaytta açıkça belirtilmiştir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Enerji nakil ağları ve uydu sistemleri."
-        },
-        {
-          "key": "B",
-          "text": "Robot sistemler ve İHA'lar."
-        },
-        {
-          "key": "C",
-          "text": "Elektromanyetik sistemler."
-        },
-        {
-          "key": "D",
-          "text": "İnternet (temel omurga)."
-        },
-        {
-          "key": "E",
-          "text": "Yukarıdakilerin hepsi."
+          "text": "Belirli gün ve saatlerde kısıtlı erişim"
         }
       ],
       "answer": "B"
     },
     {
-      "id": "14",
-      "text": "Siber Ekosistem nedir?",
+      "id": "11",
+      "text": "Televizyonların dönüşümüyle birlikte hangi yeni özellik materyalde vurgulanmıştır?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece yazılımların birbirleriyle etkileşim kurduğu kapalı bir sistemdir."
+          "text": "Sadece radyo yayını dinleme"
         },
         {
           "key": "B",
-          "text": "Doğal ekosistemler gibi; şirketler, hükümetler ve bireylerin siber cihazlar üzerinden etkileşimde bulunduğu yapıdır."
+          "text": "Görüntülü görüşme yapabilme"
         },
         {
           "key": "C",
-          "text": "Sadece siber saldırganların bulunduğu yasa dışı ağlardır."
+          "text": "Kaset çalma özelliği"
         },
         {
           "key": "D",
-          "text": "Donanım üreticilerinin oluşturduğu pazar birliğidir."
+          "text": "Sadece siyah beyaz yayın"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "12",
+      "text": "Ebeveynlerin ofisten evdeki çocuklarını izleyebilmesi internetin hangi özelliği ile açıklanır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Veri yedekleme"
         },
         {
-          "key": "E",
-          "text": "İnternet servis sağlayıcılarının küresel haritasıdır."
+          "key": "B",
+          "text": "Uzaktan etkileşim"
+        },
+        {
+          "key": "C",
+          "text": "Dosya transferi"
+        },
+        {
+          "key": "D",
+          "text": "Donanım paylaşımı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "13",
+      "text": "İnternet insanların hayatında hangi alanları kökten değiştirmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece ekonomik hayatı"
+        },
+        {
+          "key": "B",
+          "text": "Sadece akademik hayatı"
+        },
+        {
+          "key": "C",
+          "text": "Özel, sosyal, kültürel, ekonomik ve politik hayatı"
+        },
+        {
+          "key": "D",
+          "text": "Sadece askeri stratejileri"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "14",
+      "text": "İnternetin atası kabul edilen ARPANET projesini başlatan kurum hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "NASA"
+        },
+        {
+          "key": "B",
+          "text": "ABD Savunma Bakanlığı Araştırma Ajansı (ARPA)"
+        },
+        {
+          "key": "C",
+          "text": "CERN"
+        },
+        {
+          "key": "D",
+          "text": "Microsoft"
         }
       ],
       "answer": "B"
     },
     {
       "id": "15",
-      "text": "Siber Arazi (Cyber Terrain) kavramı geleneksel arazi haritalarından hangi yönüyle ayrılır?",
+      "text": "ARPANET projesinin temel tasarım amacı nedir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece fiziksel özellikleri (dağ, nehir vb.) göstermesiyle."
+          "text": "E-ticaret platformu oluşturmak"
         },
         {
           "key": "B",
-          "text": "ABD Savunma Bakanlığı tarafından güncellenmiş \"derinlemesine savunma modeli\" olarak geliştirilmesiyle."
+          "text": "Bir saldırı anında düğümlerden biri yanıt vermese de iletişimin sürmesi"
         },
         {
           "key": "C",
-          "text": "Sadece kablo güzergahlarını belirtmesiyle."
+          "text": "Sadece e-posta göndermek"
         },
         {
           "key": "D",
-          "text": "Kullanıcıların internet hızını ölçmesine yardımcı olmasıyla."
-        },
-        {
-          "key": "E",
-          "text": "Coğrafi konumun siber güvenlikte hiçbir önemi olmadığını vurgulamasıyla."
+          "text": "Grafik tabanlı içerik paylaşmak"
         }
       ],
       "answer": "B"
     },
     {
       "id": "16",
-      "text": "Siber Arazi'nin üç sütunu (sürdürülebilirlik üçgeni) aşağıdakilerden hangisidir?",
+      "text": "1969 yılında ARPANET üzerinden gönderilmeye çalışılan ilk mesajın sonucu ne olmuştur?",
       "options": [
         {
           "key": "A",
-          "text": "Gizlilik - Bütünlük - Erişilebilirlik"
+          "text": "\"HELLO\" mesajı başarıyla ulaştı"
         },
         {
           "key": "B",
-          "text": "İnsanlar - Organizasyonlar ve Süreçler - Teknoloji"
+          "text": "\"LOGIN\" yazılmaya çalışıldı, sadece \"LO\" ulaştı ve ağ çöktü"
         },
         {
           "key": "C",
-          "text": "Tespit - Analiz - Müdahale"
+          "text": "\"START\" mesajı şifreli olarak ulaştı"
         },
         {
           "key": "D",
-          "text": "Yazılım - Donanım - Veri"
-        },
-        {
-          "key": "E",
-          "text": "Devlet - Ordu - İstihbarat"
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "17",
-      "text": "Siber Arazi modelinde \"Katman 10\" (Level 10) ve \"Katman 9\" (Level 9) sırasıyla hangi alanları temsil eder?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Operating System Layer - Machine Language Layer"
-        },
-        {
-          "key": "B",
-          "text": "Software Application Layer - Operating System Layer"
-        },
-        {
-          "key": "C",
-          "text": "Organization Layer - Persona Layer"
-        },
-        {
-          "key": "D",
-          "text": "Physical Layer - Geographic Layer"
-        },
-        {
-          "key": "E",
-          "text": "Logical Layer - Network Layer"
-        }
-      ],
-      "answer": "UNKNOWN"
-    },
-    {
-      "id": "18",
-      "text": "\"Crown Jewels Analysis\" (Kritik Varlık Analizi) Siber Arazi şemasına göre hangi ana bölümün altında yer alır?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Logical Layer"
-        },
-        {
-          "key": "B",
-          "text": "Persona Layer"
-        },
-        {
-          "key": "C",
-          "text": "Cyberspace (Siber Uzay)"
-        },
-        {
-          "key": "D",
-          "text": "Geographic Layer"
-        },
-        {
-          "key": "E",
-          "text": "Government Layer"
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "19",
-      "text": "Siber Arazi şemasında \"Identify & Auth.\" (Kimlik Belirleme ve Doğrulama) işlemleri hangi katmanla ilişkilendirilmiştir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Operating System Layer"
-        },
-        {
-          "key": "B",
-          "text": "Persona Layer"
-        },
-        {
-          "key": "C",
-          "text": "Software Application Layer"
-        },
-        {
-          "key": "D",
-          "text": "Physical Layer"
-        },
-        {
-          "key": "E",
-          "text": "Organization Layer"
-        }
-      ],
-      "answer": "D"
-    },
-    {
-      "id": "20",
-      "text": "Türkiye'nin Ulusal Siber Güvenlik Stratejisi tanımına göre aşağıdakilerden hangisi siber güvenliğin amaçlarından biri değildir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Bilişim sistemlerinin saldırılardan korunması."
-        },
-        {
-          "key": "B",
-          "text": "Bilginin gizlilik, bütünlük ve erişilebilirliğinin güvence altına alınması."
-        },
-        {
-          "key": "C",
-          "text": "Saldırganların fiziksel kimliklerinin 24 saat içinde ifşa edilmesi."
-        },
-        {
-          "key": "D",
-          "text": "Siber güvenlik olaylarının tespit edilmesi ve tepki verilmesi."
-        },
-        {
-          "key": "E",
-          "text": "Sistemlerin olay öncesi durumlarına geri döndürülmesi."
+          "text": "Hiçbir veri iletilemedi"
         }
       ],
       "answer": "B"
     },
     {
-      "id": "21",
-      "text": "Bilgi Güvenliği ile Siber Güvenlik arasındaki farkı akademik olarak nasıl açıklarsınız?",
+      "id": "17",
+      "text": "\"İnternetin Genetiği\" olarak tanımlanan ve 1978'de hazır hale gelen protokol hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "Siber güvenlik sadece donanımları, bilgi güvenliği sadece yazılımları korur."
+          "text": "HTTP"
         },
         {
           "key": "B",
-          "text": "Bilgi güvenliği kağıt belgeler ve sözlü iletişim dahil bilginin bulunduğu her ortamı kapsarken; siber güvenlik dijital uzayı odağına alır."
+          "text": "TCP/IP"
         },
         {
           "key": "C",
-          "text": "Siber güvenlik sadece saldırı, bilgi güvenliği sadece savunma odaklıdır."
+          "text": "DNS"
         },
         {
           "key": "D",
-          "text": "Bilgi güvenliği modern bir kavramdır, siber güvenlik ise 1960'larda kalmıştır."
-        },
-        {
-          "key": "E",
-          "text": "Aralarında hiçbir fark yoktur, her iki terim de birbirinin tam karşılığıdır."
+          "text": "BGP"
         }
       ],
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "id": "22",
-      "text": "1988 Morris Worm olayının tarihsel önemi nedir?",
+      "id": "18",
+      "text": "TCP/IP protokolü ARPANET tarafından hangi yılda standart olarak kabul edilmiştir?",
       "options": [
         {
           "key": "A",
-          "text": "İlk ticari banka soygunu olarak kayıtlara geçmesi."
+          "text": "1969"
         },
         {
           "key": "B",
-          "text": "İlk Computer Emergency Response Team (CERT)'in kurulmasına vesile olması."
+          "text": "1978"
         },
         {
           "key": "C",
-          "text": "TCP/IP protokolünün tamamen değiştirilmesine yol açması."
+          "text": "1983"
         },
         {
           "key": "D",
-          "text": "İnternetin halka açılmasını 10 yıl geciktirmesi."
-        },
-        {
-          "key": "E",
-          "text": "İlk antivirüs yazılımının bu solucan sayesinde milyar dolarlık şirket olması."
+          "text": ""
         }
       ],
       "answer": "C"
     },
     {
-      "id": "23",
-      "text": "Morris Worm bulaştığı sistemlere neden büyük zarar vermiştir?",
+      "id": "199119",
+      "text": "\"Güvenliksiz Tasarım Paradoksu\"na göre güvenlik sisteme nasıl dahil edilmiştir?",
       "options": [
         {
           "key": "A",
-          "text": "Dosyaları kalıcı olarak silmek üzere tasarlandığı için."
+          "text": "Orijinal mimarinin bir parçasıdır"
         },
         {
           "key": "B",
-          "text": "Kodlama hatası nedeniyle kendini defalarca kopyalayıp sistem kaynaklarını tüketmesi sonucu."
+          "text": "Sonradan \"yama\" (add-on) olarak eklenmiştir"
         },
         {
           "key": "C",
-          "text": "Şifreleri ele geçirip banka hesaplarını boşalttığı için."
+          "text": "Donanımsal bir zorunluluktur"
         },
         {
           "key": "D",
-          "text": "İşletim sistemi çekirdeğini (kernel) fiziksel olarak yaktığı için."
+          "text": "Tamamen yazılım geliştiricilere bırakılmıştır"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "20",
+      "text": "NREN (Ulusal Araştırma ve Eğitim Ağı) hangi yılda kurulmuştur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1983"
         },
         {
-          "key": "E",
-          "text": "Askeri ağlara sızıp füzeleri aktive etmeye çalıştığı için."
+          "key": "B",
+          "text": "1991"
+        },
+        {
+          "key": "C",
+          "text": "1996"
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "200021",
+      "text": "Dünyanın ilk grafik tabanlı web tarayıcısının adı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Internet Explorer"
+        },
+        {
+          "key": "B",
+          "text": "Netscape"
+        },
+        {
+          "key": "C",
+          "text": "Mozaik (Mosaic)"
+        },
+        {
+          "key": "D",
+          "text": "Chrome"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "22",
+      "text": "1996 yılı internet tarihi açısından neden bir \"milat\" olarak kabul edilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "TCP/IP'nin icat edildiği yıldır"
+        },
+        {
+          "key": "B",
+          "text": "İnternetin kitleler arasında popülerleştiği ve siber suçların başladığı yıldır"
+        },
+        {
+          "key": "C",
+          "text": "ARPANET'in kapandığı yıldır"
+        },
+        {
+          "key": "D",
+          "text": "İlk akıllı telefonun çıktığı yıldır"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "23",
+      "text": "Coğrafi sınırlamaya bağlı olmayan küresel bilgi ortamına ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yerel Ağ (LAN)"
+        },
+        {
+          "key": "B",
+          "text": "Siber Uzay"
+        },
+        {
+          "key": "C",
+          "text": "İntranet"
+        },
+        {
+          "key": "D",
+          "text": "Geniş Alan Ağı (WAN)"
         }
       ],
       "answer": "B"
     },
     {
       "id": "24",
-      "text": "Siber alanın \"5. Savaş Alanı\" ilan edilmesinin arkasındaki temel gerekçe nedir?",
+      "text": "Siber uzayın temel bileşenleri arasında yer alan kritik altyapı hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "İnternet üzerinden oyun oynayanların sayısının artması."
+          "text": "Basılı kütüphane rafları"
         },
         {
           "key": "B",
-          "text": "Binlerce kilometre öteden hastaneler, nükleer santraller ve borsalar gibi kritik altyapılara müdahale edilebilmesi."
+          "text": "Enerji nakil ağları"
         },
         {
           "key": "C",
-          "text": "Televizyon yayınlarının siber uzaya taşınması."
+          "text": "Fiziksel posta servisleri"
         },
         {
           "key": "D",
-          "text": "Sadece yazılım şirketlerinin kar marjlarını korumak istenmesi."
-        },
-        {
-          "key": "E",
-          "text": "Geleneksel savaşların artık hiç yapılmayacak olması."
+          "text": "Sabit telefon rehberleri"
         }
       ],
       "answer": "B"
     },
     {
       "id": "25",
-      "text": "CIA Üçlüsü'nde \"Gizlilik\" (Confidentiality) ilkesini korumak için kullanılan teknik kontroller nelerdir?",
+      "text": "İHA'lar ve robot sistemler siber uzayın hangi bileşeni altında sayılmaktadır?",
       "options": [
         {
           "key": "A",
-          "text": "Veri yedekleme ve sunucu yedekleri."
+          "text": "Sadece yazılım bileşenleri"
         },
         {
           "key": "B",
-          "text": "Veri hashleme ve dijital imzalar."
+          "text": "Siber uzayın temel bileşenleri"
         },
         {
           "key": "C",
-          "text": "Veri şifreleme, güçlü kimlik doğrulama (2FA) ve erişim kontrolleri."
+          "text": "Sadece mekanik sistemler"
         },
         {
           "key": "D",
-          "text": "DDoS koruması ve güvenlik duvarları."
-        },
-        {
-          "key": "E",
-          "text": "Antivirüs yazılımları ve log yönetimi."
+          "text": "Sosyal ağ bileşenleri"
         }
       ],
-      "answer": "A"
+      "answer": "B"
     },
     {
       "id": "26",
-      "text": "Bir banka transferi sırasında transfer edilen paranın miktarının yolda değiştirilememesi hangi güvenlik prensibiyle doğrudan ilişkilidir?",
+      "text": "Siber ekosistemi oluşturan \"özel katılımcılar\" arasında hangisi yer alır?",
       "options": [
         {
           "key": "A",
-          "text": "Gizlilik (Confidentiality)"
+          "text": "Sadece devletler"
         },
         {
           "key": "B",
-          "text": "Bütünlük (Integrity)"
+          "text": "Şirketler, kâr amacı gütmeyen kuruluşlar, hükümetler ve bireyler"
         },
         {
           "key": "C",
-          "text": "Erişilebilirlik (Availability)"
+          "text": "Sadece hackerlar"
         },
         {
           "key": "D",
-          "text": "Kimlik Doğrulama (Authentication)"
-        },
-        {
-          "key": "E",
-          "text": "İnkar Edilemezlik (Non-repudiation)"
+          "text": "Sadece yazılım mühendisleri"
         }
       ],
-      "answer": "D"
+      "answer": "B"
     },
     {
       "id": "27",
-      "text": "CIA Üçlüsü'nde \"Erişilebilirlik\" (Availability) kapsamındaki temel hedef nedir?",
+      "text": "Siber ekosistem hangi unsurların etkileşiminden meydana gelir?",
       "options": [
         {
           "key": "A",
-          "text": "Verinin sadece şifreli olarak saklanması."
+          "text": "Sadece donanımlardan"
         },
         {
           "key": "B",
-          "text": "Yetkili kullanıcıların veriye ihtiyaç duyduklarında ulaşabilmelerini garanti etmek."
+          "text": "Katılımcılar, süreçler, cihazlar ve teknolojiler"
         },
         {
           "key": "C",
-          "text": "Verinin içeriğinin asla değiştirilememesi."
+          "text": "Sadece internet protokollerinden"
         },
         {
           "key": "D",
-          "text": "Verinin sadece admin tarafından görülmesi."
-        },
-        {
-          "key": "E",
-          "text": "Verinin yedeğinin alınmamasını sağlamak."
+          "text": "Sadece yasal düzenlemelerden"
         }
       ],
       "answer": "B"
     },
     {
       "id": "28",
-      "text": "\"Güvenlik Modeli\" nedir?",
+      "text": "Günümüz siber saldırganlarının yarattığı olayların yayılma hızı nasıl tanımlanmıştır?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece en pahalı güvenlik donanımlarının listesidir."
+          "text": "İnsan hızında"
         },
         {
           "key": "B",
-          "text": "Güvenlik politikalarını matematiksel ve mantıksal temellere oturtarak insan inisiyatifini aradan çıkaran mimarilerdir."
+          "text": "Makine hızında"
         },
         {
           "key": "C",
-          "text": "Şirketlerin yıllık güvenlik bütçe planıdır."
+          "text": "Işık hızında"
         },
         {
           "key": "D",
-          "text": "Sadece şifre belirleme kurallarıdır."
-        },
-        {
-          "key": "E",
-          "text": "Bilgisayar kasalarının fiziksel koruma tasarımlarıdır."
+          "text": "Posta hızında"
         }
       ],
       "answer": "B"
     },
     {
       "id": "29",
-      "text": "Gizlilik odaklı Bell-LaPadula (BLP) modelinde \"Aşağı Yazma Yok\" (No Write Down) kuralı neyi amaçlar?",
+      "text": "Siber saldırıların artan hacmi potansiyel olarak neyi tehdit eder?",
       "options": [
         {
           "key": "A",
-          "text": "Düşük yetkili birinin yukarıyı okumasını engellemek."
+          "text": "Sadece kişisel bilgisayarları"
         },
         {
           "key": "B",
-          "text": "Yüksek güvenlik seviyesindeki bir kullanıcının (Örn: General), bildiği sırları düşük seviyeli bir alana yazarak sızdırmasını engellemek."
+          "text": "Ekonomik kapasiteyi ve modern yaşamı destekleyen temel hizmetleri"
         },
         {
           "key": "C",
-          "text": "Verinin yanlışlıkla silinmesini durdurmak."
+          "text": "Sadece sosyal medya hesaplarını"
         },
         {
           "key": "D",
-          "text": "Sistemin çökmesini önlemek."
-        },
-        {
-          "key": "E",
-          "text": "Sadece okuma yetkisi olanların yazmasını sağlamak."
+          "text": "Sadece internet servis sağlayıcılarını"
         }
       ],
-      "answer": "D"
+      "answer": "B"
     },
     {
       "id": "30",
-      "text": "Bütünlük odaklı Biba modelindeki \"Basit Bütünlük Özelliği\" (No Read Down) kuralı neden vardır?",
+      "text": "Siber Arazi (Cyber Terrain) kavramı hangi kurum tarafından geliştirilmiştir?",
       "options": [
         {
           "key": "A",
-          "text": "Gizli bilgilerin sızmasını önlemek için."
+          "text": "Birleşmiş Milletler"
         },
         {
           "key": "B",
-          "text": "Yüksek bütünlük seviyesindeki bir kullanıcının, güvenilmez (düşük seviye) veriyi okuyarak kendi verisini zehirlemesini engellemek için."
+          "text": "ABD Savunma Bakanlığı (DoD)"
         },
         {
           "key": "C",
-          "text": "Verinin yedeğini almayı kolaylaştırmak için."
+          "text": "Dünya Sağlık Örgütü"
         },
         {
           "key": "D",
-          "text": "Herkesin her şeyi okumasını sağlamak için."
-        },
-        {
-          "key": "E",
-          "text": "İnternet hızını artırmak için."
+          "text": "Avrupa Birliği"
         }
       ],
       "answer": "B"
     },
     {
       "id": "31",
-      "text": "Ticari hayat odaklı Clark-Wilson modelinin iki temel prensibi hangisidir?",
+      "text": "Siber arazi modelinin temsil ettiği üç temel sütun hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "No Read Up - No Write Down"
+          "text": "Yazılım, Donanım, Ağ"
         },
         {
           "key": "B",
-          "text": "İyi Formlu İşlemler (Well-formed Transactions) ve Görevler Ayrılığı (Separation of Duties)."
+          "text": "İnsanlar, Organizasyonlar/Süreçler, Teknoloji"
         },
         {
           "key": "C",
-          "text": "Şifreleme - Hashleme"
+          "text": "Gizlilik, Bütünlük, Erişilebilirlik"
         },
         {
           "key": "D",
-          "text": "Yedekleme - Kurtarma"
-        },
-        {
-          "key": "E",
-          "text": "İzleme - Raporlama"
+          "text": "Tespit, Analiz, Raporlama"
         }
       ],
       "answer": "B"
     },
     {
       "id": "32",
-      "text": "Brewer-Nash (Chinese Wall) modelinin asıl kullanım amacı nedir?",
+      "text": "Siber Arazi modelinde \"Persona Layer\" (11. Katman) neyi kapsar?",
       "options": [
         {
           "key": "A",
-          "text": "Çin'den gelen siber saldırıları bloklamak."
+          "text": "İşletim sistemlerini"
         },
         {
           "key": "B",
-          "text": "Danışmanlık ve finans gibi sektörlerde \"Çıkar Çatışması\"nı önlemek."
+          "text": "Kullanıcı ID'leri, e-postalar ve telefon numaralarını"
         },
         {
           "key": "C",
-          "text": "Tüm verileri tek bir havuzda toplamak."
+          "text": "Fiziksel kabloları"
         },
         {
           "key": "D",
-          "text": "Sadece ücretsiz yazılımları kullanmak."
-        },
-        {
-          "key": "E",
-          "text": "İnternet trafiğini sansürlemek."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "33",
-      "text": "Lattice (Kafes) güvenlik modelinde erişim kararı neye göre verilir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Kullanıcının o anki ruh haline göre."
-        },
-        {
-          "key": "B",
-          "text": "Matematiksel küme kapsama problemine göre; kullanıcının yetki kümesi veri etiketini kapsamalıdır."
-        },
-        {
-          "key": "C",
-          "text": "En düşük maliyetli güvenlik seçeneğine göre."
-        },
-        {
-          "key": "D",
-          "text": "Sadece şifrenin doğru girilmesine göre."
-        },
-        {
-          "key": "E",
-          "text": "Sisteme ilk giriş saatine göre."
+          "text": "Hükümet yasalarını"
         }
       ],
       "answer": "B"
     },
     {
-      "id": "34",
-      "text": "\"Mandatory Access Control\" (MAC) işletim sistemi çekirdeği seviyesinde hangi modelleri uygular?",
-      "options": [
-        {
-          "key": "B",
-          "text": "Biba ve Bell-LaPadula kurallarını."
-        },
-        {
-          "key": "C",
-          "text": "Sadece Chinese Wall kurallarını."
-        },
-        {
-          "key": "D",
-          "text": "Sadece Clark-Wilson modelini."
-        },
-        {
-          "key": "E",
-          "text": "Hiçbir teorik modeli uygulamaz."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "35",
-      "text": "Modern siber uzaydaki \"Sıfır Güven\" (Zero Trust) mimarisinin temel sloganı nedir?",
+      "id": "33",
+      "text": "Coğrafi konum ve bağımlılıklar siber arazi modelinin hangi katmanında yer alır?",
       "options": [
         {
           "key": "A",
-          "text": "\"Girişte güven, içeride serbest bırak.\""
+          "text": "Layer 0 (Geographic Layer)"
         },
         {
           "key": "B",
-          "text": "\"Hiçbir şeye güvenme, daima doğrula.\""
+          "text": "Layer 7 (Application Layer)"
         },
         {
           "key": "C",
-          "text": "\"Sadece büyük şirketlere güven.\""
+          "text": "Layer 10 (Software Layer)"
         },
         {
           "key": "D",
-          "text": "\"Eski sistemlere her zaman güven.\""
+          "text": "Layer 14 (Government Layer)"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "34",
+      "text": "Hükümet siber yasaları ve politikaları modelin hangi katmanında bulunur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 1"
         },
         {
-          "key": "E",
-          "text": "\"Sadece firewall varsa güvendesin.\""
+          "key": "B",
+          "text": "Layer 5"
+        },
+        {
+          "key": "C",
+          "text": "Layer 11"
+        },
+        {
+          "key": "D",
+          "text": "Layer"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "1435",
+      "text": "Türkiye'nin Ulusal Siber Güvenlik Stratejisi'ne göre siber güvenliğin 5 aşaması nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Planla, Uygula, Kontrol Et, Önlem Al, Raporla"
+        },
+        {
+          "key": "B",
+          "text": "Koruma, Güvence Altına Alma, Tespit, Tepki, Geri Döndürme"
+        },
+        {
+          "key": "C",
+          "text": "Şifrele, Sil, Yedekle, Geri Yükle, Koru"
+        },
+        {
+          "key": "D",
+          "text": "İzle, Analiz Et, Saldır, Savun, Kapat"
         }
       ],
       "answer": "B"
     },
     {
       "id": "36",
-      "text": "Risk, Tehdit ve Zafiyet arasındaki ilişkiyi \"Güvenlik Mantık Zinciri\"ne göre doğru eşleştiriniz:",
+      "text": "Bilgi/verinin hangi üç temel özelliği strateji kapsamında güvence altına alınır?",
       "options": [
         {
           "key": "A",
-          "text": "Zafiyet: Hırsız / Tehdit: Açık Kapı / Risk: Soyulma İhtimali"
+          "text": "Hız, Kapasite, Güven"
         },
         {
           "key": "B",
-          "text": "Zafiyet: Açık Kapı / Tehdit: Hırsız / Risk: Soyulma İhtimali"
+          "text": "Gizlilik, Bütünlük, Erişilebilirlik"
         },
         {
           "key": "C",
-          "text": "Zafiyet: Soyulma / Tehdit: Hırsız / Risk: Açık Kapı"
+          "text": "Doğruluk, Güncellik, Paylaşılabilirlik"
         },
         {
           "key": "D",
-          "text": "Zafiyet: Kilitli Kapı / Tehdit: Polis / Risk: Güvenlik"
-        },
-        {
-          "key": "E",
-          "text": "Zafiyet: Alarm / Tehdit: Işık / Risk: Farkındalık"
+          "text": "Gizlilik, Şifreleme, Kimlik Doğrulama"
         }
       ],
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "37",
-      "text": "Siber Tehdit kategorileri arasında hangisi slaytta yer almaz?",
+      "text": "Siber güvenliğin akademik tanımında hangi üç faktör bir arada ele alınır?",
       "options": [
         {
           "key": "A",
-          "text": "Siber Suç ve Siber Terörizm."
+          "text": "Donanım, Yazılım, Veri"
         },
         {
           "key": "B",
-          "text": "Siber Şantaj ve Siber Savaş."
+          "text": "Teknoloji, Süreç, İnsan"
         },
         {
           "key": "C",
-          "text": "Siber İstihbarat ve Siber Casusluk."
+          "text": "Saldırı, Savunma, Analiz"
         },
         {
           "key": "D",
-          "text": "Siber Reklamcılık ve Dijital Pazarlama."
-        },
-        {
-          "key": "E",
-          "text": "Hepsi siber tehdit kategorisidir."
+          "text": "Yasa, Etik, Teknoloji"
         }
       ],
       "answer": "B"
     },
     {
       "id": "38",
-      "text": "Siyah Şapka ve Beyaz Şapka hackerlar arasındaki temel fark nedir?",
+      "text": "Siber güvenlik, hangi geniş disiplinin bir alt kümesidir?",
       "options": [
         {
           "key": "A",
-          "text": "Siyah şapkalar çok teknik bilir, beyazlar az bilir."
+          "text": "Bilgisayar Mühendisliği"
         },
         {
           "key": "B",
-          "text": "Siyah şapkalar kötü niyetli ve izinsiz hareket ederken; beyazlar etik, izinli ve yasal çerçevede sistemleri korumak için çalışır."
+          "text": "Bilgi Güvenliği"
         },
         {
           "key": "C",
-          "text": "Beyaz şapkalar sadece maaşlı çalışır, siyahlar sadece fidye alır."
+          "text": "Veri Madenciliği"
         },
         {
           "key": "D",
-          "text": "Siyah şapkalar Windows kullanır, beyazlar Linux kullanır."
-        },
-        {
-          "key": "E",
-          "text": "Aralarında motivasyon dışında hiçbir teknik fark yoktur."
+          "text": "Sistem Yönetimi"
         }
       ],
-      "answer": "E"
+      "answer": "B"
     },
     {
       "id": "39",
-      "text": "Script Kiddie kime denir?",
+      "text": "Bilgi güvenliğinin yönetilmesini kapsayan uluslararası standart hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "Kendi işletim sistemini yazabilen uzmanlara."
+          "text": "ISO 9001"
         },
         {
           "key": "B",
-          "text": "Teknik bilgisi az olan, başkalarının yazdığı araçları ne yaptığını anlamadan kullanan kişilere."
+          "text": "ISO/IEC 27001"
         },
         {
           "key": "C",
-          "text": "Sadece JavaScript programlama diliyle uğraşanlara."
+          "text": "ISO 14001"
         },
         {
           "key": "D",
-          "text": "Şirketlerin siber güvenlik yöneticilerine."
-        },
-        {
-          "key": "E",
-          "text": "Emekli olmuş eski hackerlara."
+          "text": "ISO"
         }
       ],
-      "answer": "C"
+      "answer": "B"
     },
     {
-      "id": "40",
-      "text": "\"Sistem veya yazılım arızaları\" hangi tehdit sınıfına girer?",
+      "id": "4500140",
+      "text": "Bilgi güvenliği hangi formattaki bilgileri korumayı hedefler?",
       "options": [
         {
           "key": "A",
-          "text": "Kasıtlı Tehditler"
+          "text": "Sadece dijital verileri"
         },
         {
           "key": "B",
-          "text": "Kazara Tehditler"
+          "text": "Sadece kağıt üzerindeki belgeleri"
         },
         {
           "key": "C",
-          "text": "Aktif Tehditler"
+          "text": "Fiziksel, dijital veya sözlü her formattaki bilgiyi"
         },
         {
           "key": "D",
-          "text": "Siber Casusluk"
-        },
-        {
-          "key": "E",
-          "text": "Siber Terör"
+          "text": "Sadece veritabanı kayıtlarını"
         }
       ],
       "answer": "B"
     },
     {
       "id": "41",
-      "text": "Aktif ve Pasif tehditler arasındaki fark nedir?",
+      "text": "Bilginin yaşam döngüsü hangi aşamalar arasındadır?",
       "options": [
         {
           "key": "A",
-          "text": "Aktif tehditler sistemden sadece bilgi toplar."
+          "text": "Satın almadan çöpe atmaya"
         },
         {
           "key": "B",
-          "text": "Pasif tehditler ekipman için durum değişikliği içermez, sadece bilgi toplamayı amaçlar; aktif tehditler ise veriyi değiştirir veya sistemi bozar."
+          "text": "Üretiminden imhasına kadar"
         },
         {
           "key": "C",
-          "text": "Aktif tehditler sadece gündüz, pasifler gece gerçekleşir."
+          "text": "Şifrelemeden paylaşmaya"
         },
         {
           "key": "D",
-          "text": "Pasif tehditler çok daha zararlıdır."
-        },
-        {
-          "key": "E",
-          "text": "Her ikisi de aynı yöntemleri kullanır."
+          "text": "Yazılımdan donanıma"
         }
       ],
       "answer": "B"
     },
     {
       "id": "42",
-      "text": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+      "text": "1988'deki ünlü \"Morris Worm\"un yazarı kimdir?",
       "options": [
         {
           "key": "A",
-          "text": "Ransomware: Dosyaları şifreleyip fidye istemek."
+          "text": "Kevin Mitnick"
         },
         {
           "key": "B",
-          "text": "Spyware: Kullanıcı verilerini gizlice toplamak."
+          "text": "Robert Tappan Morris"
         },
         {
           "key": "C",
-          "text": "Spear Phishing: Belirli kişi veya kuruma odaklı oltalama."
+          "text": "Edward Snowden"
         },
         {
           "key": "D",
-          "text": "SQL Injection: Donanım ekipmanını fiziksel olarak yakmak."
-        },
-        {
-          "key": "E",
-          "text": "Botnet: Zombi bilgisayarlardan oluşan ağ."
+          "text": "Julian Assange"
         }
       ],
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "43",
-      "text": "SQL Enjeksiyonu (SQLi) saldırısının temel amacı nedir?",
+      "text": "Morris Worm bulaştığı sistemlerde ne tür bir zarara yol açmıştır?",
       "options": [
         {
           "key": "A",
-          "text": "İnternet hızını düşürmek."
+          "text": "Tüm dosyaları kalıcı olarak silmiştir"
         },
         {
           "key": "B",
-          "text": "Kötü niyetli kodlarla veri tabanına erişmek ve verileri manipüle etmek."
+          "text": "Kendini defalarca kopyalayarak sistem kaynaklarını tüketmiş ve sistemleri çökertmiştir"
         },
         {
           "key": "C",
-          "text": "Kullanıcının kamerasını izinsiz açmak."
+          "text": "Kredi kartı bilgilerini çalmıştır"
         },
         {
           "key": "D",
-          "text": "Klavye vuruşlarını (keystrokes) kaydetmek."
-        },
-        {
-          "key": "E",
-          "text": "Bilgisayarı tamamen formatlamak."
+          "text": "Web sitelerinin ana sayfasını değiştirmiştir"
         }
       ],
       "answer": "B"
     },
     {
       "id": "44",
-      "text": "2014 Sony Pictures saldırısında Lazarus Grubu'nun kullandığı zararlı yazılım türü hangisidir?",
+      "text": "Morris Worm olayından sonra kurulan ilk siber acil müdahale ekibi hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "Ransomware"
+          "text": "US-CERT"
         },
         {
           "key": "B",
-          "text": "Spyware"
+          "text": "TR-CERT (USOM)"
         },
         {
           "key": "C",
-          "text": "Wiper (Veri silici)"
+          "text": "CERT (Carnegie Mellon Üniversitesi)"
         },
         {
           "key": "D",
-          "text": "Adware"
-        },
-        {
-          "key": "E",
-          "text": "Keylogger"
+          "text": "NATO CCDCOE"
         }
       ],
       "answer": "C"
     },
     {
       "id": "45",
-      "text": "2023 MGM Resorts saldırısında 100 milyon doların üzerinde zarara yol açan asıl saldırı vektörü nedir?",
+      "text": "TCP/IP'nin doğasında güvenlik olmaması durumu hangi benzetme ile açıklanmıştır?",
       "options": [
         {
           "key": "A",
-          "text": "Çok karmaşık bir sıfırıncı gün (zero-day) açığı."
+          "text": "Temeli olmayan bina"
         },
         {
           "key": "B",
-          "text": "Sosyal mühendislik (Help desk'i arayıp şifre sıfırlatma - Vishing)."
+          "text": "Kapısı kilitlenmek için tasarlanmamış eve çelik kapı takmak"
         },
         {
           "key": "C",
-          "text": "Veri merkezindeki fiziksel bir hırsızlık."
+          "text": "Direksiyonu olmayan araba"
         },
         {
           "key": "D",
-          "text": "Şifrelenmemiş Wi-Fi ağları."
-        },
-        {
-          "key": "E",
-          "text": "Eski bir Windows güncellemesi."
+          "text": "Pencereleri olmayan ev"
         }
       ],
       "answer": "B"
     },
     {
       "id": "46",
-      "text": "\"Double Extortion\" (Çift Şantaj) nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Hem bilgisayarı hem telefonu aynı anda şifrelemek."
-        },
-        {
-          "key": "B",
-          "text": "Hem veriyi şifrelemek hem de \"fidye ödenmezse verileri halka açıklarız\" diyerek tehdit etmek."
-        },
-        {
-          "key": "C",
-          "text": "İki farklı hacker grubunun aynı anda saldırması."
-        },
-        {
-          "key": "D",
-          "text": "Hem para hem de mülk talep etmek."
-        },
-        {
-          "key": "E",
-          "text": "Veriyi iki kere şifreleyerek açılmasını imkansız hale getirmek."
-        }
-      ],
-      "answer": "UNKNOWN"
-    },
-    {
-      "id": "47",
-      "text": "\"Tedarik Zinciri\" (Supply Chain) saldırıları neden tehlikelidir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece tek bir nakliye kamyonunu hedef aldığı için."
-        },
-        {
-          "key": "B",
-          "text": "Şirketin kendisine değil, kullandığı yaygın bir yazılıma saldırarak binlerce müşteriye aynı anda ulaşılabildiği için."
-        },
-        {
-          "key": "C",
-          "text": "Çok ucuz yöntemler olduğu için."
-        },
-        {
-          "key": "D",
-          "text": "Sadece fiziksel ürünlere zarar verdiği için."
-        },
-        {
-          "key": "E",
-          "text": "Devletler tarafından asla tespit edilemediği için."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "48",
-      "text": "İstatistiklere göre bir veri ihlalinin tespit edilmesi ortalama kaç gün sürmektedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "7 gün"
-        },
-        {
-          "key": "B",
-          "text": "30 gün"
-        },
-        {
-          "key": "C",
-          "text": "200+ gün"
-        },
-        {
-          "key": "D",
-          "text": "1 yıl"
-        },
-        {
-          "key": "E",
-          "text": "1000 gün"
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "49",
-      "text": "\"Phone Phreaking\" nedir ve bu alandaki en ünlü isim kimdir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Telefon çalma eylemidir; Robert Morris."
-        },
-        {
-          "key": "B",
-          "text": "2600 Hz'lik düdükle telefon şebekelerini manipüle etmektir; John Draper (Captain Crunch)."
-        },
-        {
-          "key": "C",
-          "text": "İlk cep telefonunu icat etmektir; Graham Bell."
-        },
-        {
-          "key": "D",
-          "text": "Telefon şifrelerini kırmaktır; Clifford Stoll."
-        },
-        {
-          "key": "E",
-          "text": "Uluslararası aramaları yasaklamaktır; John Doe."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "50",
-      "text": "1986 \"Brain Virus\" olayının özelliği nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "İlk cep telefonu virüsüdür."
-        },
-        {
-          "key": "B",
-          "text": "Pakistanlı iki kardeş tarafından telif hakkını korumak için yazılan ilk PC virüsüdür."
-        },
-        {
-          "key": "C",
-          "text": "Amerika'daki tüm bankaları çökertmiştir."
-        },
-        {
-          "key": "D",
-          "text": "Gizli askeri belgeleri ifşa etmiştir."
-        },
-        {
-          "key": "E",
-          "text": "İlk Linux virüsüdür."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "51",
-      "text": "\"Cuckoo's Egg\" (1986) olayı siber güvenlikte neyi temsil eder?",
-      "options": [
-        {
-          "key": "A",
-          "text": "İlk büyük siber casusluk vakası."
-        },
-        {
-          "key": "B",
-          "text": "İlk oltalama saldırısı."
-        },
-        {
-          "key": "C",
-          "text": "İlk DDoS vakası."
-        },
-        {
-          "key": "D",
-          "text": "İlk büyük veri sızıntısı."
-        },
-        {
-          "key": "E",
-          "text": "İlk yapay zeka saldırısı."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "52",
-      "text": "Siber Terörizm'in Colarik tanımına göre temel amacı nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece para çalmak."
-        },
-        {
-          "key": "B",
-          "text": "Belirli bir toplumda belirsizlik ve karışıklık yaratarak hükümetleri belirli bir ideolojiye zorlamak."
-        },
-        {
-          "key": "C",
-          "text": "Oyun sunucularını kapatmak."
-        },
-        {
-          "key": "D",
-          "text": "Yazılım lisanslarını bedava yapmak."
-        },
-        {
-          "key": "E",
-          "text": "Sadece askeri personeli takip etmek."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "53",
-      "text": "Siber Şantaj ile Siber Gasp (Cyber Extortion) arasındaki ilişki slaytta nasıl belirtilmiştir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Birbirinden tamamen bağımsız iki suçtur."
-        },
-        {
-          "key": "B",
-          "text": "Siber gasp, siber şantajın bir alt kolu olarak yorumlanabilir."
-        },
-        {
-          "key": "C",
-          "text": "Siber şantaj sadece fiziksel zarar içerir."
-        },
-        {
-          "key": "D",
-          "text": "Siber gasp için mutlaka fiziksel temas gerekir."
-        },
-        {
-          "key": "E",
-          "text": "Hiçbir ilişkileri yoktur."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "54",
-      "text": "Siber İstihbaratın \"Eyleme Dönüştürülebilir Bilgi\" fonksiyonu neyle ilgilidir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece veri depolamakla."
-        },
-        {
-          "key": "B",
-          "text": "Analiz edilmiş verilerden türetilebilir ve karar vermeyi sağlayan bilgilerle."
-        },
-        {
-          "key": "C",
-          "text": "Verileri silmekle."
-        },
-        {
-          "key": "D",
-          "text": "Tüm bilgileri internette yayınlamakla."
-        },
-        {
-          "key": "E",
-          "text": "Bilgisayar parçalarını satmakla."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "55",
-      "text": "Sun Tzu'ya göre \"en iyi savaş biçimi\" nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Düşmanın ordusunu tamamen yok etmek."
-        },
-        {
-          "key": "B",
-          "text": "Düşmanın savaşmadan ele geçirildiği savaş."
-        },
-        {
-          "key": "C",
-          "text": "En hızlı yapılan savaş."
-        },
-        {
-          "key": "D",
-          "text": "En pahalı silahlarla yapılan savaş."
-        },
-        {
-          "key": "E",
-          "text": "Sadece gece yapılan savaş."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "56",
-      "text": "Konvansiyonel Savaş ile Siber Savaş karşılaştırmasında \"Saldırının Kaynağının Tespiti\" nasıldır?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Konvansiyonel: Kolay / Siber: Zordur, bazen imkansızdır."
-        },
-        {
-          "key": "B",
-          "text": "Konvansiyonel: Zor / Siber: Kolaydır."
-        },
-        {
-          "key": "C",
-          "text": "Her ikisinde de çok kolaydır."
-        },
-        {
-          "key": "D",
-          "text": "Her ikisinde de imkansızdır."
-        },
-        {
-          "key": "E",
-          "text": "Sadece siber savaşta kolaydır."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "57",
-      "text": "Siber Silah tanımında vurgulanan \"Hasmın sistemlerini etkisiz hale getirme\" ifadesi hangi unsurları hedef alır?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece fiziksel donanımı."
-        },
-        {
-          "key": "B",
-          "text": "Bilginin gizliliğini, bütünlüğünü ve erişilebilirliğini (CIA)."
-        },
-        {
-          "key": "C",
-          "text": "Sadece internet faturasını."
-        },
-        {
-          "key": "D",
-          "text": "Şirketin logosunu."
-        },
-        {
-          "key": "E",
-          "text": "Sadece personelin moralini."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "58",
-      "text": "Siber Savunmanın \"Süreklilik\" (Devamlılık) prensibi neyi ifade eder?",
-      "options": [
-        {
-          "key": "A",
-          "text": "İnternetin asla kesilmemesini."
-        },
-        {
-          "key": "B",
-          "text": "Sistemin işleyişinin ve servislerin kesintisiz sağlanmasını."
-        },
-        {
-          "key": "C",
-          "text": "Saldırganların sürekli takip edilmesini."
-        },
-        {
-          "key": "D",
-          "text": "Yazılımların her gün güncellenmesini."
-        },
-        {
-          "key": "E",
-          "text": "Verilerin her saniye yedeklenmesini."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "59",
-      "text": "Risk Yönetimi sürecinde sorulan \"Kabul edilebilir risk seviyesi nedir?\" sorusu neden önemlidir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Her türlü riski tamamen yok etmek imkansız olduğu için yönetilebilir bir seviye belirlenmelidir."
-        },
-        {
-          "key": "B",
-          "text": "Sadece para biriktirmek için sorulur."
-        },
-        {
-          "key": "C",
-          "text": "Güvenlik duvarının markasını seçmek için sorulur."
-        },
-        {
-          "key": "D",
-          "text": "Hiçbir önemi yoktur."
-        },
-        {
-          "key": "E",
-          "text": "Sadece devlet kurumlarında sorulur."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "60",
-      "text": "Slaytlarda geçen \"Risk = Tehdit x Zafiyet x Etki\" formülünde \"Etki\" (Impact) neyi temsil eder?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Tehdidin hızı."
-        },
-        {
-          "key": "B",
-          "text": "Zafiyetin sayısı."
-        },
-        {
-          "key": "C",
-          "text": "Tehdit gerçekleşirse oluşacak zararın büyüklüğü."
-        },
-        {
-          "key": "D",
-          "text": "Saldırganın yaşı."
-        },
-        {
-          "key": "E",
-          "text": "Yazılımın lisans bedeli."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "61",
-      "text": "1. Hafta ders içeriği şemasında \"Sertifikasyonlar\" hangi başlık altında ele alınmıştır?",
-      "options": [
-        {
-          "key": "A",
-          "text": "CIA Üçlüsü"
-        },
-        {
-          "key": "B",
-          "text": "Siber Ekosistem"
-        },
-        {
-          "key": "C",
-          "text": "Kariyer Yolları"
-        },
-        {
-          "key": "D",
-          "text": "Akademik Beklentiler"
-        },
-        {
-          "key": "E",
-          "text": "AAA Modeli"
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "62",
-      "text": "Derse katılım kültürüyle ilgili \"Akademik Beklentiler\" sayfasında vurgulanan temel yaklaşım nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece verilen ödevleri zamanında yapmak."
-        },
-        {
-          "key": "B",
-          "text": "Araştırma odaklı yaklaşım ve güncel tehditleri takip etme."
-        },
-        {
-          "key": "C",
-          "text": "Sadece laboratuvar araçlarını ezberlemek."
-        },
-        {
-          "key": "D",
-          "text": "Sınavda çıkacak sayfaları belirlemek."
-        },
-        {
-          "key": "E",
-          "text": "Teorik modellerin matematiksel ispatlarını yapmak."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "63",
-      "text": "İnternetin hayatımıza etkileri sayfasında, akıllı telefonların yaygınlaşmasıyla ilgili hangi tespitte bulunulmuştur?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Masaüstü bilgisayar satışlarını durdurmuştur."
-        },
-        {
-          "key": "B",
-          "text": "Artık bilgisayara bile ihtiyaç duyulmadığını göstermiştir."
-        },
-        {
-          "key": "C",
-          "text": "Sadece oyun oynamak için tasarlanmışlardır."
-        },
-        {
-          "key": "D",
-          "text": "Güvenlik açıklarının tek kaynağıdırlar."
-        },
-        {
-          "key": "E",
-          "text": "Maliyetleri artırıcı bir unsur olmuşlardır."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "64",
-      "text": "\"İnternet ve Yaşam\" sayfasında televizyonların dönüşümüyle ilgili verilen spesifik örnek nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece dizi izlemek için kullanılması."
-        },
-        {
-          "key": "B",
-          "text": "Akıllı kumanda sistemlerinin gelişmesi."
-        },
-        {
-          "key": "C",
-          "text": "Sadece TV şovları değil, görüntülü görüşme de yapılabilmesi."
-        },
-        {
-          "key": "D",
-          "text": "Elektrik tüketiminin azalması."
-        },
-        {
-          "key": "E",
-          "text": "4K görüntü kalitesine geçilmesi."
-        }
-      ],
-      "answer": "C"
-    },
-    {
-      "id": "65",
-      "text": "İnternetin çekiciliği maddeleri arasında yer alan ve toplumun her kesimini etkilediğini belirten unsur hangisidir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece gençlerin ilgisini çekmesi."
-        },
-        {
-          "key": "B",
-          "text": "Özel, sosyal, kültürel, ekonomik ve politik hayatı değiştirmesi."
-        },
-        {
-          "key": "C",
-          "text": "Bedava olması."
-        },
-        {
-          "key": "D",
-          "text": "Fiziksel egzersize teşvik etmesi."
-        },
-        {
-          "key": "E",
-          "text": "Sadece iş dünyasında kullanılması."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "66",
-      "text": "ARPANET'in ilk duyurulduğu on yıl aşağıdakilerden hangisidir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "1950'ler"
-        },
-        {
-          "key": "B",
-          "text": "1960'lar"
-        },
-        {
-          "key": "C",
-          "text": "1970'ler"
-        },
-        {
-          "key": "D",
-          "text": "1980'ler"
-        },
-        {
-          "key": "E",
-          "text": "1990'lar"
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "67",
-      "text": "ARPANET'in en önemli görevi protokollerin gelişimi sayfasında nasıl tanımlanmıştır?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece askeri şifreler üretmek."
-        },
-        {
-          "key": "B",
-          "text": "İletişim için yeni kurallar tanımlamak ve ayrı ağların bir ağ ağına (internet) katılabilmesini sağlamak."
-        },
-        {
-          "key": "C",
-          "text": "En pahalı donanımları test etmek."
-        },
-        {
-          "key": "D",
-          "text": "Bilgisayarların CPU hızlarını artırmak."
-        },
-        {
-          "key": "E",
-          "text": "Sadece üniversiteleri birbirine bağlamak."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "68",
-      "text": "\"İnternetin Genetiği\" (TCP/IP) sayfasında, bilim adamlarının ağları birbirine bağlamak için aradığı şey nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Daha hızlı işlemciler."
-        },
-        {
-          "key": "B",
-          "text": "Ortak standartlar."
-        },
-        {
-          "key": "C",
-          "text": "Daha ucuz kablolar."
-        },
-        {
-          "key": "D",
-          "text": "Yeni programlama dilleri."
-        },
-        {
-          "key": "E",
-          "text": "Sınırsız depolama alanı."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "69",
-      "text": "\"Güvenliksiz Tasarım Paradoksu\" (RFC 791/793) sayfasında, güvenliğin sonradan eklenmesi hangi benzetmeyle açıklanmıştır?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Bozuk bir arabaya yeni lastik takmak."
-        },
-        {
-          "key": "B",
-          "text": "Kapısı kilitlemek için tasarlanmamış bir eve çelik kapı takmaya çalışmak."
-        },
-        {
-          "key": "C",
-          "text": "Temeli olmayan bir binaya kat çıkmak."
-        },
-        {
-          "key": "D",
-          "text": "Suyu sızdıran bir kovayı yamamak."
-        },
-        {
-          "key": "E",
-          "text": "Ehliyeti olmayan birine araba vermek."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "70",
-      "text": "1991 yılında yayınlanan World Wide Web (WWW) öncesinde, hangi ağın (NREN) kurulduğu belirtilmiştir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Ulusal Güvenlik Ağı"
-        },
-        {
-          "key": "B",
-          "text": "Ulusal Araştırma ve Eğitim Ağı"
-        },
-        {
-          "key": "C",
-          "text": "Küresel Bilgi Ağı"
-        },
-        {
-          "key": "D",
-          "text": "Akademik Veri Ağı"
-        },
-        {
-          "key": "E",
-          "text": "Askeri İletişim Ağı"
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "71",
-      "text": "İnternetin tarihçesi $(3/3)$ sayfasında siber suçların başlangıcı hangi yıla dayandırılmıştır?",
+      "text": "Siber alan ne zaman organize suç örgütleri için büyük bir kazanç kapısına dönüşmüştür?",
       "options": [
         {
           "key": "A",
@@ -5996,462 +5145,72 @@ const appData = {
         },
         {
           "key": "C",
-          "text": "1991"
+          "text": "1996 sonrası (internet halka açılınca)"
         },
         {
           "key": "D",
-          "text": "1996"
-        },
-        {
-          "key": "E",
-          "text": "1992"
-        }
-      ],
-      "answer": "D"
-    },
-    {
-      "id": "72",
-      "text": "Siber uzay bileşenleri listesinde yer alan ve \"temel omurga\" olarak tanımlanan unsur nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Uydu sistemleri"
-        },
-        {
-          "key": "B",
-          "text": "İnternet"
-        },
-        {
-          "key": "C",
-          "text": "Robotlar"
-        },
-        {
-          "key": "D",
-          "text": "Cep telefonları"
-        },
-        {
-          "key": "E",
-          "text": "Fiber kablolar"
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "73",
-      "text": "Siber Ekosistem tanımında \"özel katılımcılar\" listesinde hangisi yoktur?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Özel şirketler"
-        },
-        {
-          "key": "B",
-          "text": "Kar amacı gütmeyen kuruluşlar"
-        },
-        {
-          "key": "C",
-          "text": "Hükümetler ve Bireyler"
-        },
-        {
-          "key": "D",
-          "text": "Uzaylı varlıklar"
-        },
-        {
-          "key": "E",
-          "text": "Süreçler ve cihazlar"
-        }
-      ],
-      "answer": "D"
-    },
-    {
-      "id": "74",
-      "text": "Günümüzde siber alandaki tehditlerin \"ekonomik kapasitemizi düşürme potansiyeli\" sayfa 10'da neye bağlanmıştır?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Yazılım fiyatlarının artmasına."
-        },
-        {
-          "key": "B",
-          "text": "Saldırıların artan hacmi ve virülansına."
-        },
-        {
-          "key": "C",
-          "text": "Donanım yetersizliğine."
-        },
-        {
-          "key": "D",
-          "text": "Kullanıcıların azlığına."
-        },
-        {
-          "key": "E",
-          "text": "İnternet hızının yavaşlığına."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "75",
-      "text": "Siber Arazi (Cyber Terrain) sayfasında vurgulanan \"geleneksel arazi\" haritalarının amacı nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Şifreleri saklamak."
-        },
-        {
-          "key": "B",
-          "text": "Kullanıcıların araziyi ve orada en iyi nasıl gezinebileceklerini anlamalarını sağlamak."
-        },
-        {
-          "key": "C",
-          "text": "Sadece düşman yerini göstermek."
-        },
-        {
-          "key": "D",
-          "text": "Hava durumunu tahmin etmek."
-        },
-        {
-          "key": "E",
-          "text": "Toprak verimliliğini ölçmek."
-        }
-      ],
-      "answer": "UNKNOWN"
-    },
-    {
-      "id": "76",
-      "text": "Siber Arazi modelinde \"Personnel Security\" (Personel Güvenliği) hangi seviyedeki katmanın sağında bir dikey sütun olarak yer alır?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Geographic Layer (Level 0)"
-        },
-        {
-          "key": "B",
-          "text": "People - Supervisory Layer (Level 12)"
-        },
-        {
-          "key": "C",
-          "text": "Organization Layer (Level 13)"
-        },
-        {
-          "key": "D",
-          "text": "Persona Layer (Level 11)"
-        },
-        {
-          "key": "E",
-          "text": "Machine Language Layer (Level 8)"
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "77",
-      "text": "Siber Arazi şemasında \"Operating System Layer\" (Level 9) için verilen örnek işletim sistemleri arasında hangisi yoktur?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Windows"
-        },
-        {
-          "key": "B",
-          "text": "*nix"
-        },
-        {
-          "key": "C",
-          "text": "Android/iOS"
-        },
-        {
-          "key": "D",
-          "text": "HarmonyOS"
-        },
-        {
-          "key": "E",
-          "text": "Hepsi vardır."
-        }
-      ],
-      "answer": "D"
-    },
-    {
-      "id": "78",
-      "text": "Siber Arazi şemasında \"Logical Layer\" (Level 2-7) için yapılan parantez içi açıklama nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece fiziksel donanım."
-        },
-        {
-          "key": "B",
-          "text": "Communications Ports and Protocols (İletişim Portları ve Protokoller)."
-        },
-        {
-          "key": "C",
-          "text": "Kullanıcı alışkanlıkları."
-        },
-        {
-          "key": "D",
-          "text": "Devlet yasaları."
-        },
-        {
-          "key": "E",
-          "text": "Şirket politikaları."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "79",
-      "text": "Siber Arazi şemasında \"Application\" (Level 7) katmanında listelenen protokollerden biri hangisidir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "TCP"
-        },
-        {
-          "key": "B",
-          "text": "UDP"
-        },
-        {
-          "key": "C",
-          "text": "HTTP / SMTP / FTP"
-        },
-        {
-          "key": "D",
-          "text": "ICMP"
-        },
-        {
-          "key": "E",
-          "text": "IP"
+          "text": ""
         }
       ],
       "answer": "C"
     },
     {
-      "id": "80",
-      "text": "Türkiye'nin Ulusal Siber Güvenlik Stratejisi tanımında, bilginin güvence altına alınması gereken üç temel özelliği (sayfa 13) nedir?",
+      "id": "201047",
+      "text": "Siber uzay günümüzde kaçıncı savaş alanı ilan edilmiştir?",
       "options": [
         {
           "key": "A",
-          "text": "Hız - Kapasite - Maliyet"
+          "text": "2."
         },
         {
           "key": "B",
-          "text": "Gizlilik - Bütünlük - Erişilebilirlik"
+          "text": "3."
         },
         {
           "key": "C",
-          "text": "Tespit - Müdahale - Kurtarma"
+          "text": "4."
         },
         {
           "key": "D",
-          "text": "İnsan - Süreç - Teknoloji"
-        },
-        {
-          "key": "E",
-          "text": "Yazılım - Donanım - Ağ"
+          "text": "5."
         }
       ],
       "answer": "B"
     },
     {
-      "id": "81",
-      "text": "Akademik siber güvenlik tanımında (sayfa 14) \"bilgi güvenliği\" ile \"siber güvenlik\" arasındaki ilişki nasıl belirtilmiştir?",
+      "id": "48",
+      "text": "Bilgiye izinsiz veya yetkisiz erişimin engellenmesi hangi CIA prensibidir?",
       "options": [
         {
           "key": "A",
-          "text": "Siber güvenlik, bilgi güvenliğinin dijital uzaydaki uygulamalı ve teknik bir alt kümesidir."
+          "text": "Bütünlük"
         },
         {
           "key": "B",
-          "text": "Bilgi güvenliği, siber güvenliğin bir alt dalıdır."
+          "text": "Erişilebilirlik"
         },
         {
           "key": "C",
-          "text": "İkisi tamamen farklı ve alakasız disiplinlerdir."
+          "text": "Gizlilik (Confidentiality)"
         },
         {
           "key": "D",
-          "text": "Bilgi güvenliği sadece kağıtlarla, siber güvenlik sadece kablolarla ilgilenir."
-        },
-        {
-          "key": "E",
-          "text": "Siber güvenlik sadece saldırı, bilgi güvenliği sadece savunmadır."
+          "text": "İnkar Edilemezlik"
         }
       ],
-      "answer": "A"
+      "answer": "C"
     },
     {
-      "id": "82",
-      "text": "Bilgi Güvenliği akademik tanımında (sayfa 15) bilginin hangi yaşam döngüsü boyunca korunması gerektiği vurgulanmıştır?",
+      "id": "49",
+      "text": "Verinin doğruluğunu garanti etmek için kullanılan yönteme ne denir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece depolandığı sürece."
+          "text": "Veri Şifreleme"
         },
         {
           "key": "B",
-          "text": "Üretiminden imhasına kadar."
-        },
-        {
-          "key": "C",
-          "text": "Sadece transfer edildiği sürece."
-        },
-        {
-          "key": "D",
-          "text": "Sadece şifrelendiği sürece."
-        },
-        {
-          "key": "E",
-          "text": "Sadece yasal süreçlerde."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "83",
-      "text": "Morris Worm (1988) olayının \"Tarihsel Önemi\" sayfasında vurgulanan temel ders nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "İnternetin çok yavaş olduğu."
-        },
-        {
-          "key": "B",
-          "text": "\"Akademik bir merakın\" tüm dünyayı nasıl krize sokabileceği."
-        },
-        {
-          "key": "C",
-          "text": "Robert Morris'in çok zengin olduğu."
-        },
-        {
-          "key": "D",
-          "text": "Üniversite ağlarının çok güvenli olduğu."
-        },
-        {
-          "key": "E",
-          "text": "Antivirüslerin işe yaramadığı."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "84",
-      "text": "Siber güvenliğin önem kazanma nedenleri (sayfa 17) arasında \"Hiper Bağlantılılık\" ile verilen örnekler hangileridir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Sadece kişisel bilgisayarlar."
-        },
-        {
-          "key": "B",
-          "text": "IoT ve Bulut Sistemleri (evdeki kameralardan uçak radarlarına kadar)."
-        },
-        {
-          "key": "C",
-          "text": "Sadece basılı gazeteler."
-        },
-        {
-          "key": "D",
-          "text": "Sadece radyo frekansları."
-        },
-        {
-          "key": "E",
-          "text": "Sadece banka şubeleri."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "85",
-      "text": "CIA Üçlüsü şemasında \"Gizlilik\" başlığı altında \"2FA ve Biyometri\" hangi örnek uygulama olarak verilmiştir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Veri şifreleme"
-        },
-        {
-          "key": "B",
-          "text": "Güçlü kimlik doğrulama"
-        },
-        {
-          "key": "C",
-          "text": "Erişim kontrolleri"
-        },
-        {
-          "key": "D",
-          "text": "Veri yedekleme"
-        },
-        {
-          "key": "E",
-          "text": "DDoS koruması"
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "86",
-      "text": "CIA Üçlüsü şemasında \"Bütünlük\" başlığı altında \"Dijital parmak izi\" olarak nitelenen yöntem nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Dijital imzalar"
-        },
-        {
-          "key": "B",
-          "text": "Veri hashleme"
-        },
-        {
-          "key": "C",
-          "text": "Versiyon kontrolü"
-        },
-        {
-          "key": "D",
-          "text": "Veri şifreleme"
-        },
-        {
-          "key": "E",
-          "text": "Sistem yedekleme"
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "87",
-      "text": "\"Erişilebilirlik\" (Availability) için şemada verilen e-ticaret sitesi örneği nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Kredi kartı bilgilerinin çalınmaması."
-        },
-        {
-          "key": "B",
-          "text": "E-ticaret sitesinin her zaman çalışır olması."
-        },
-        {
-          "key": "C",
-          "text": "Ürün fiyatlarının değişmemesi."
-        },
-        {
-          "key": "D",
-          "text": "Sadece üye olanların girmesi."
-        },
-        {
-          "key": "E",
-          "text": "Görsellerin yüksek kalitede olması."
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "88",
-      "text": "Güvenlik modellerinin (sayfa 19) temel hedefleri arasında yer alan ve \"politikanın yazılımsal olarak çevresinden dolaşılmasını engellemek\" anlamına gelen madde nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "Erişim Kontrolü"
-        },
-        {
-          "key": "B",
-          "text": "Güvenlik İhlallerini Önlemek (bypass engelleme)"
+          "text": "Veri Hashleme (Dijital parmak izi)"
         },
         {
           "key": "C",
@@ -6459,238 +5218,639 @@ const appData = {
         },
         {
           "key": "D",
-          "text": "Hız Optimizasyonu"
-        },
-        {
-          "key": "E",
-          "text": "Kullanıcı Eğitimi"
+          "text": "Veri Silme"
         }
       ],
       "answer": "B"
     },
     {
-      "id": "89",
-      "text": "Bell-LaPadula (BLP) modelinin \"Askeri kökenli\" olduğu sayfa 20'de nasıl belirtilmiştir?",
+      "id": "50",
+      "text": "\"E-ticaret sitesinin her zaman çalışır durumda olması\" hangi prensibe örnektir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece tankların güvenliği için tasarlanmıştır."
+          "text": "Gizlilik"
         },
         {
           "key": "B",
-          "text": "Gizliliğin en üst düzeyde olduğu yapılar için (askeri ve devlet sistemleri) tasarlanmıştır."
+          "text": "Bütünlük"
         },
         {
           "key": "C",
-          "text": "Sivil bankacılıkta asla kullanılmaz."
+          "text": "Erişilebilirlik (Availability)"
         },
         {
           "key": "D",
-          "text": "Sadece 2024 yılından sonra kullanılmaya başlanmıştır."
-        },
-        {
-          "key": "E",
-          "text": "Sadece fiziksel kışla güvenliğiyle ilgilidir."
+          "text": "Kimlik Doğrulama"
         }
       ],
-      "answer": "B"
+      "answer": "C"
     },
     {
-      "id": "90",
-      "text": "Biba modelindeki \"Aşağı Okuma Yok\" (Simple Integrity) kuralının günlük hayattaki yazılım geliştirme örneği nedir?",
+      "id": "51",
+      "text": "2FA (Çift Aşamalı Doğrulama) hangi prensibi doğrudan destekler?",
       "options": [
         {
           "key": "A",
-          "text": "Bir stajyerin şifre değiştirememesi."
+          "text": "Erişilebilirlik"
         },
         {
           "key": "B",
-          "text": "Bir yazılım geliştiricinin, doğrulanmamış/test edilmemiş bir kodu ana projeye dahil etmemesi."
+          "text": "Bütünlük"
         },
         {
           "key": "C",
-          "text": "Herkesin kod yazabilmesi."
+          "text": "Gizlilik"
         },
         {
           "key": "D",
-          "text": "Kodların şifreli saklanması."
+          "text": "Süreklilik"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "52",
+      "text": "Güvenlik politikalarını sistemlere matematiksel/mantıksal uygulayan mimarilere ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Güvenlik Yazılımı"
         },
         {
-          "key": "E",
-          "text": "Kodların sadece gündüz yazılması."
+          "key": "B",
+          "text": "Güvenlik Modeli"
+        },
+        {
+          "key": "C",
+          "text": "Güvenlik Duvarı"
+        },
+        {
+          "key": "D",
+          "text": "Güvenlik Protokolü"
         }
       ],
       "answer": "B"
     },
     {
-      "id": "91",
-      "text": "Clark-Wilson modelinde \"Bir işlemi başlatan kişi ile onaylayan kişi farklı olmalıdır\" ilkesi hangisidir?",
+      "id": "53",
+      "text": "Güvenlik modellerinde \"Hangi özne, hangi nesneye erişebilir?\" sorusu neyi ifade eder?",
       "options": [
         {
           "key": "A",
-          "text": "İyi Formlu İşlemler"
+          "text": "Şifreleme Politikasını"
         },
         {
           "key": "B",
-          "text": "Görevler Ayrılığı (Separation of Duties)"
+          "text": "Erişim Kontrolünü (Access Control)"
         },
         {
           "key": "C",
+          "text": "Veri Yedeklemeyi"
+        },
+        {
+          "key": "D",
+          "text": "Ağ İzlemeyi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "54",
+      "text": "Bell-LaPadula (BLP) modeli hangi prensibe odaklanır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bütünlük"
+        },
+        {
+          "key": "B",
+          "text": "Erişilebilirlik"
+        },
+        {
+          "key": "C",
+          "text": "Gizlilik (Confidentiality)"
+        },
+        {
+          "key": "D",
+          "text": "Süreklilik"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "55",
+      "text": "BLP modelini geliştiren araştırmacılar kimlerdir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clark ve Wilson"
+        },
+        {
+          "key": "B",
+          "text": "David Bell ve Leonard LaPadula"
+        },
+        {
+          "key": "C",
+          "text": "Brewer ve Nash"
+        },
+        {
+          "key": "D",
+          "text": "Robert Morris ve ekibi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "56",
+      "text": "BLP modelindeki \"No Read Up\" (Basit Güvenlik Özelliği) neyi yasaklar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Üst düzey yetkilinin alt düzey veriyi okumasını"
+        },
+        {
+          "key": "B",
+          "text": "Düşük yetkili kullanıcının yüksek yetkili veriyi okumasını"
+        },
+        {
+          "key": "C",
+          "text": "Herkesin her şeyi okumasını"
+        },
+        {
+          "key": "D",
+          "text": "Sadece yazma işlemlerini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "57",
+      "text": "BLP modelinde \"No Write Down\" (Yıldız Güvenlik Özelliği) kuralının amacı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Verinin silinmesini önlemek"
+        },
+        {
+          "key": "B",
+          "text": "Yetkisiz veri sızıntısını önlemek"
+        },
+        {
+          "key": "C",
+          "text": "Verinin değiştirilmesini önlemek"
+        },
+        {
+          "key": "D",
+          "text": "Sistemi hızlandırmak"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "58",
+      "text": "\"Aşağı Yazma Yok\" kuralının diğer adı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Basit Bütünlük Özelliği"
+        },
+        {
+          "key": "B",
+          "text": "Yıldız Güvenlik Özelliği"
+        },
+        {
+          "key": "C",
+          "text": "Çıkar Çatışması Kuralı"
+        },
+        {
+          "key": "D",
+          "text": "Görevler Ayrılığı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "59",
+      "text": "Biba modelinin Bell-LaPadula modelinden temel farkı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece askeri sistemlerde kullanılması"
+        },
+        {
+          "key": "B",
+          "text": "Bütünlüğü korumayı hedeflemesi"
+        },
+        {
+          "key": "C",
+          "text": "Erişilebilirliğe odaklanması"
+        },
+        {
+          "key": "D",
+          "text": "Daha eski olması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "60",
+      "text": "Biba modelinde \"No Read Down\" kuralının mantığı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gizliliği korumak"
+        },
+        {
+          "key": "B",
+          "text": "Sistemin \"kirli/güvenilmez\" veri ile zehirlenmesini önlemek"
+        },
+        {
+          "key": "C",
+          "text": "İnternet trafiğini azaltmak"
+        },
+        {
+          "key": "D",
+          "text": "Şifreleri gizlemek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "61",
+      "text": "Düşük bütünlükteki birinin yüksek seviyeyi değiştirememesi Biba'da hangi kuraldır?",
+      "options": [
+        {
+          "key": "A",
           "text": "No Read Up"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "No Write Down"
         },
         {
-          "key": "E",
-          "text": "Matematiksel Zorunluluk"
-        }
-      ],
-      "answer": "B"
-    },
-    {
-      "id": "92",
-      "text": "Chinese Wall modelinde (sayfa 24) A firmasının verisini okuyan bir danışmanın B firmasına erişememe şartı nedir?",
-      "options": [
-        {
-          "key": "A",
-          "text": "B firması daha zenginse."
-        },
-        {
-          "key": "B",
-          "text": "A ve B rakip firmalarsa."
-        },
-        {
           "key": "C",
-          "text": "Danışman istifa ederse."
+          "text": "Yıldız Bütünlük Özelliği (No Write Up)"
         },
         {
           "key": "D",
-          "text": "Veriler çok eskiyse."
-        },
-        {
-          "key": "E",
-          "text": "Devlet izin vermezse."
+          "text": "Basit Güvenlik Özelliği"
         }
       ],
-      "answer": "B"
+      "answer": "C"
     },
     {
-      "id": "93",
-      "text": "Lattice (Kafes) Güvenlik Modeli şemasında \"Erişim Reddi\" (Başarısız) durumunun nedeni nedir?",
+      "id": "62",
+      "text": "Verinin sadece onaylanmış programlar aracılığıyla değiştirilebildiği model hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "Şifrenin yanlış girilmesi."
+          "text": "Bell-LaPadula"
         },
         {
           "key": "B",
-          "text": "Veri etiketinin tam olarak kapsanmaması (Eksik Yetki)."
+          "text": "Biba"
         },
         {
           "key": "C",
-          "text": "İnternetin kesilmesi."
+          "text": "Clark-Wilson"
         },
         {
           "key": "D",
-          "text": "Kullanıcının sistemde tanımlı olmaması."
-        },
-        {
-          "key": "E",
-          "text": "Verinin silinmiş olması."
+          "text": "Chinese Wall"
         }
       ],
-      "answer": "B"
+      "answer": "C"
     },
     {
-      "id": "94",
-      "text": "Güvenlik modellerinin pratik karşılığı sayfasında \"Ağ Güvenliği (VLAN ve Firewall)\" hangi ilkeleri dijital boyuta taşır?",
+      "id": "63",
+      "text": "\"İyi Formlu İşlemler\" ve \"Görevler Ayrılığı\" hangi modelin temelidir?",
       "options": [
         {
           "key": "A",
-          "text": "No Read Up - No Write Down"
+          "text": "Lattice"
         },
         {
           "key": "B",
-          "text": "\"Görevler ayrılığı\" ve \"izolasyon/duvar\" ilkelerini."
+          "text": "Biba"
         },
         {
           "key": "C",
-          "text": "Sadece şifreleme ilkelerini."
+          "text": "Clark-Wilson"
         },
         {
           "key": "D",
-          "text": "Sadece yedekleme ilkelerini."
-        },
-        {
-          "key": "E",
-          "text": "Sadece hız ilkelerini."
+          "text": "BLP"
         }
       ],
-      "answer": "B"
+      "answer": "C"
     },
     {
-      "id": "95",
-      "text": "Tehdit (Threat) tanımında (sayfa 28) kullanılan \"Çekincedir\" ifadesi neyi vurgular?",
+      "id": "64",
+      "text": "Çıkar çatışmasını önlemek için kullanılan modelin adı nedir?",
       "options": [
         {
           "key": "A",
-          "text": "Saldırının kesinlikle gerçekleştiğini."
+          "text": "Chinese Wall (Brewer-Nash)"
         },
         {
           "key": "B",
-          "text": "Potansiyel bir zararlı durum ve gerçekleşme olasılığını."
+          "text": "Biba"
         },
         {
           "key": "C",
-          "text": "Saldırganın korkak olduğunu."
+          "text": "Bell-LaPadula"
         },
         {
           "key": "D",
-          "text": "Sistemin çok güçlü olduğunu."
-        },
-        {
-          "key": "E",
-          "text": "Verilerin önemsizliğini."
+          "text": "Clark-Wilson"
         }
       ],
-      "answer": "B"
+      "answer": "A"
     },
     {
-      "id": "96",
-      "text": "\"Siber Tehdit\" tanımı (sayfa 29) kapsamında hangisi doğrudur?",
+      "id": "65",
+      "text": "Chinese Wall modelinde erişim izni neye dayanarak otomatik belirlenir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece yeni suçları kapsar."
+          "text": "Kullanıcının kıdemine"
         },
         {
           "key": "B",
-          "text": "Hem klasik suçların siber ekosisteme uyarlanmış hallerini hem de tamamen yeni suç tanımlarını kapsar."
+          "text": "Kullanıcının daha önce eriştiği verilere"
         },
         {
           "key": "C",
-          "text": "Sadece askeri saldırıları kapsar."
+          "text": "Kullanıcının yaşına"
         },
         {
           "key": "D",
-          "text": "Sadece para çalmayı kapsar."
-        },
-        {
-          "key": "E",
-          "text": "Sadece fiziksel cihazlara zarar vermeyi kapsar."
+          "text": "Şirketin büyüklüğüne"
         }
       ],
       "answer": "B"
     },
     {
-      "id": "97",
-      "text": "Siber Tehdit Aktörleri şemasında (sayfa 30) listelenen ve \"Nation States\" olarak geçen grup hangisidir?",
+      "id": "66",
+      "text": "Lattice (Kafes) modelinde erişim kararı ne tür bir problemdir?",
       "options": [
         {
           "key": "A",
-          "text": "Organize suç grupları"
+          "text": "Geometrik bir problem"
+        },
+        {
+          "key": "B",
+          "text": "Matematiksel bir küme kapsama problemi"
+        },
+        {
+          "key": "C",
+          "text": "Bir şifre kırma problemi"
+        },
+        {
+          "key": "D",
+          "text": "Olasılık problemi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "67",
+      "text": "Lattice modelindeki $Kullanıcı Yetkisi supseteq Veri Etiketi$ formülü neyi ifade eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kullanıcının yetkisinin verinin etiketini kapsaması gerektiğini"
+        },
+        {
+          "key": "B",
+          "text": "Verinin kullanıcıdan büyük olması gerektiğini"
+        },
+        {
+          "key": "C",
+          "text": "Herkesin her veriye erişebileceğini"
+        },
+        {
+          "key": "D",
+          "text": "Şifrelerin eşleşmesi gerektiğini"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "68",
+      "text": "SELinux gibi işletim sistemi özellikleri hangi erişim kontrolünü uygular?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DAC (Keyfi Erişim Kontrolü)"
+        },
+        {
+          "key": "B",
+          "text": "MAC (Zorunlu Erişim Kontrolü)"
+        },
+        {
+          "key": "C",
+          "text": "RBAC (Rol Tabanlı Erişim Kontrolü)"
+        },
+        {
+          "key": "D",
+          "text": "Açık Erişim"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "69",
+      "text": "Modern \"Sıfır Güven\" (Zero Trust) mimarisinin sloganı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"İçerideysen güvendesin\""
+        },
+        {
+          "key": "B",
+          "text": "\"Hiçbir şeye güvenme, daima doğrula\""
+        },
+        {
+          "key": "C",
+          "text": "\"Güçlü şifre her şeyi çözer\""
+        },
+        {
+          "key": "D",
+          "text": "\"Sadece dışarıdan gelenlere güvenme\""
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "70",
+      "text": "Siber güvenlikte \"varlıklardaki koruma eksikliği\" hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tehdit"
+        },
+        {
+          "key": "B",
+          "text": "Risk"
+        },
+        {
+          "key": "C",
+          "text": "Zafiyet (Vulnerability)"
+        },
+        {
+          "key": "D",
+          "text": "Varlık"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "71",
+      "text": "\"Soyulma İhtimali\" bu kavramlardan hangisine örnektir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tehdit"
+        },
+        {
+          "key": "B",
+          "text": "Zafiyet"
+        },
+        {
+          "key": "C",
+          "text": "Risk"
+        },
+        {
+          "key": "D",
+          "text": "Etki"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "72",
+      "text": "Risk formülü hangi seçenekte doğru verilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "$Risk = Tehdit + Zafiyet$"
+        },
+        {
+          "key": "B",
+          "text": "$Risk = Tehdit \times Zafiyet \times Etki$"
+        },
+        {
+          "key": "C",
+          "text": "$Risk = Varlık - Tehdit$"
+        },
+        {
+          "key": "D",
+          "text": "$Risk = Etki / Zafiyet$"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "73",
+      "text": "Sisteme zarar verme potansiyeli taşıyan çekinceye ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zafiyet"
+        },
+        {
+          "key": "B",
+          "text": "Tehdit (Threat)"
+        },
+        {
+          "key": "C",
+          "text": "Önlem"
+        },
+        {
+          "key": "D",
+          "text": "Olay"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "74",
+      "text": "Tehdidin genel özellikleri arasında hangisi yer alır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece fiziksel olması"
+        },
+        {
+          "key": "B",
+          "text": "Hasar verme kapasitesi taşıması"
+        },
+        {
+          "key": "C",
+          "text": "Her zaman gerçekleşmiş olması"
+        },
+        {
+          "key": "D",
+          "text": "Sadece yazılımsal olması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "75",
+      "text": "Siber tehdit alanında her türlü yıkıcı eylemin kullanılmasına ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Siber Savunma"
+        },
+        {
+          "key": "B",
+          "text": "Siber Tehdit"
+        },
+        {
+          "key": "C",
+          "text": "Siber Etik"
+        },
+        {
+          "key": "D",
+          "text": "Siber Politika"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "76",
+      "text": "Materyalde sayılan 5 ana siber tehdit kategorisi arasında hangisi yoktur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Siber Suç"
+        },
+        {
+          "key": "B",
+          "text": "Siber Şantaj"
+        },
+        {
+          "key": "C",
+          "text": "Siber Yazılım Eğitimi"
+        },
+        {
+          "key": "D",
+          "text": "Siber Savaş"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "77",
+      "text": "Kötü niyetli olarak açıklardan yararlanan devlet odaklı gruplara ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Script Kiddies"
         },
         {
           "key": "B",
@@ -6702,689 +5862,1574 @@ const appData = {
         },
         {
           "key": "D",
-          "text": "Script kiddies"
+          "text": "Etik Hackerlar"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "78",
+      "text": "\"İçeriden tehditler\" (Insiders) kimleri kapsar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece rakip şirketleri"
         },
         {
-          "key": "E",
-          "text": "İçeriden tehditler"
+          "key": "B",
+          "text": "Kurum içerisindeki mevcut veya eski çalışanları/bireyleri"
+        },
+        {
+          "key": "C",
+          "text": "Sadece yabancı ajanları"
+        },
+        {
+          "key": "D",
+          "text": "Sadece botnet ağlarını"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "79",
+      "text": "Motivasyonu finansal kazanç olan kötü niyetli hackerlara ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Beyaz Şapka"
+        },
+        {
+          "key": "B",
+          "text": "Siyah Şapka (Black Hat)"
+        },
+        {
+          "key": "C",
+          "text": "Gri Şapka"
+        },
+        {
+          "key": "D",
+          "text": "Kırmızı Şapka"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "80",
+      "text": "Sistemlerin güvenliğini test etmek için yasal çerçevede çalışanlar hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Siyah Şapka"
+        },
+        {
+          "key": "B",
+          "text": "Beyaz Şapka (White Hat)"
+        },
+        {
+          "key": "C",
+          "text": "Script Kiddie"
+        },
+        {
+          "key": "D",
+          "text": "Hacktivist"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "81",
+      "text": "İzinsiz sistem tarayıp açıkları ücret karşılığı bildirebilen hacker türü nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Beyaz Şapka"
+        },
+        {
+          "key": "B",
+          "text": "Gri Şapka (Grey Hat)"
+        },
+        {
+          "key": "C",
+          "text": "Siyah Şapka"
+        },
+        {
+          "key": "D",
+          "text": "Terörist Grup"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "82",
+      "text": "\"Script Kiddie\" profilindeki birinin temel özelliği nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "İleri düzey kod yazması"
+        },
+        {
+          "key": "B",
+          "text": "Teknik bilgisi az olup hazır araçları kullanması"
+        },
+        {
+          "key": "C",
+          "text": "Sadece nükleer santrallere saldırması"
+        },
+        {
+          "key": "D",
+          "text": "Şirket kurması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "83",
+      "text": "Kazara tehditler arasında hangisi yer alır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kasıtlı veri çalma"
+        },
+        {
+          "key": "B",
+          "text": "İnsan hataları veya yazılım arızaları"
+        },
+        {
+          "key": "C",
+          "text": "Planlı DDoS saldırısı"
+        },
+        {
+          "key": "D",
+          "text": "Sosyal mühendislik"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "84",
+      "text": "Kasıtlı tehditler eyleme döküldüğünde hangi adı alır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kaza"
+        },
+        {
+          "key": "B",
+          "text": "Saldırı"
+        },
+        {
+          "key": "C",
+          "text": "Güncelleme"
+        },
+        {
+          "key": "D",
+          "text": "Yedekleme"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "85",
+      "text": "Verilerin değiştirilmesi hangi tehdit türüne girer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pasif Tehdit"
+        },
+        {
+          "key": "B",
+          "text": "Aktif Tehdit"
+        },
+        {
+          "key": "C",
+          "text": "Kazara Tehdit"
+        },
+        {
+          "key": "D",
+          "text": "Fiziksel Tehdit"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "86",
+      "text": "Sistemden sadece bilgi toplamayı amaçlayan tehdit türü hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ransomware"
+        },
+        {
+          "key": "B",
+          "text": "DDoS"
+        },
+        {
+          "key": "C",
+          "text": "Pasif Tehdit"
+        },
+        {
+          "key": "D",
+          "text": "Web Defacement"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "87",
+      "text": "Kullanıcı verilerini gizlice toplayan zararlı yazılım hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Virüs"
+        },
+        {
+          "key": "B",
+          "text": "Casus Yazılım (Spyware)"
+        },
+        {
+          "key": "C",
+          "text": "Solucan"
+        },
+        {
+          "key": "D",
+          "text": "Truva Atı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "88",
+      "text": "\"Spear Phishing\"in normal oltalama saldırısından farkı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Daha geniş kitlelere yapılması"
+        },
+        {
+          "key": "B",
+          "text": "Kişiselleştirilmiş ve belirli bir hedefe odaklı olması"
+        },
+        {
+          "key": "C",
+          "text": "Sadece SMS ile yapılması"
+        },
+        {
+          "key": "D",
+          "text": "Zararsız olması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "89",
+      "text": "Binlerce virüslü (zombi) cihazın kullanıldığı saldırıya ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SQL Enjeksiyonu"
+        },
+        {
+          "key": "B",
+          "text": "DDoS (Dağıtık Hizmet Engelleme)"
+        },
+        {
+          "key": "C",
+          "text": "Ransomware"
+        },
+        {
+          "key": "D",
+          "text": "Brute Force"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "90",
+      "text": "SQL Enjeksiyonu (SQLi) saldırısı doğrudan nereye yöneliktir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "İşlemciye"
+        },
+        {
+          "key": "B",
+          "text": "Veritabanına"
+        },
+        {
+          "key": "C",
+          "text": "Ekran kartına"
+        },
+        {
+          "key": "D",
+          "text": "Yazıcıya"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "91",
+      "text": "Siber saldırılarda \"sabotaj\" eylemi neyi amaçlar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Para çalmayı"
+        },
+        {
+          "key": "B",
+          "text": "Kritik altyapıları devre dışı bırakmayı"
+        },
+        {
+          "key": "C",
+          "text": "Şifreleri gizlemeyi"
+        },
+        {
+          "key": "D",
+          "text": "Reklam yapmayı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "92",
+      "text": "Politik mesaj verme amacıyla yapılan saldırı türü nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Casusluk"
+        },
+        {
+          "key": "B",
+          "text": "Hacktivizm"
+        },
+        {
+          "key": "C",
+          "text": "Şantaj"
+        },
+        {
+          "key": "D",
+          "text": "Hırsızlık"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "93",
+      "text": "2014 Sony Pictures saldırısında kullanılan yıkıcı zararlı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adware"
+        },
+        {
+          "key": "B",
+          "text": "Wiper (Veri sici)"
+        },
+        {
+          "key": "C",
+          "text": "Keylogger"
+        },
+        {
+          "key": "D",
+          "text": "Rootkit"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "94",
+      "text": "2023 MGM Resorts saldırısında kullanılan sesli kandırma yöntemi nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phishing"
+        },
+        {
+          "key": "B",
+          "text": "Vishing (Sesli sosyal mühendislik)"
+        },
+        {
+          "key": "C",
+          "text": "Smishing"
+        },
+        {
+          "key": "D",
+          "text": "Farming"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "95",
+      "text": "MGM vakası güvenliğin hangi faktörle aşılabileceğini göstermiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece teknik açıklar"
+        },
+        {
+          "key": "B",
+          "text": "İnsan faktörü"
+        },
+        {
+          "key": "C",
+          "text": "Donanım hatası"
+        },
+        {
+          "key": "D",
+          "text": "Elektrik kesintisi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "96",
+      "text": "Saldırganların deepfake içerik üretmek için kullandığı teknoloji nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Blockchain"
+        },
+        {
+          "key": "B",
+          "text": "Yapay Zeka (AI)"
+        },
+        {
+          "key": "C",
+          "text": "Bulut Bilişim"
+        },
+        {
+          "key": "D",
+          "text": "5G"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "97",
+      "text": "\"Fidye Yazılımı 2.0\" modelinde ek tehdit nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bilgisayarı çöpe atma"
+        },
+        {
+          "key": "B",
+          "text": "Verileri halka açıklama veya ifşa etme"
+        },
+        {
+          "key": "C",
+          "text": "İnterneti yavaşlatma"
+        },
+        {
+          "key": "D",
+          "text": "Yeni yazılım yükleme"
         }
       ],
       "answer": "B"
     },
     {
       "id": "98",
-      "text": "Gri Şapka (Grey Hat) hacker profili (sayfa 32) için hangisi söylenebilir?",
+      "text": "Teknik bilgisi olmayanlara fidye yazılımı kiralama modeline ne denir?",
       "options": [
         {
           "key": "A",
-          "text": "Tamamen kötü niyetlidir."
+          "text": "SaaS"
         },
         {
           "key": "B",
-          "text": "Ne tam iyi ne tam kötü niyetlidir; bazen izinsiz tarama yapıp açıkları (bazen ücretle) bildirirler."
+          "text": "RaaS (Ransomware as a Service)"
         },
         {
           "key": "C",
-          "text": "Sadece devlet adına çalışırlar."
+          "text": "PaaS"
         },
         {
           "key": "D",
-          "text": "Hiç teknik bilgileri yoktur."
-        },
-        {
-          "key": "E",
-          "text": "Sadece laboratuvar ortamında çalışırlar."
+          "text": "IaaS"
         }
       ],
       "answer": "B"
     },
     {
       "id": "99",
-      "text": "\"Kazara Tehditler\" (sayfa 33) arasında yer alan ve niyet içermeyen durum hangisidir?",
+      "text": "Bir şirketin kullandığı yazılım üzerinden binlerce müşteriye saldırılmasına ne denir?",
       "options": [
         {
           "key": "A",
-          "text": "Ransomware saldırısı"
+          "text": "Sosyal Mühendislik"
         },
         {
           "key": "B",
-          "text": "İnsan hataları"
+          "text": "Tedarik Zinciri (Supply Chain) Saldırısı"
         },
         {
           "key": "C",
-          "text": "SQL Injection"
+          "text": "Brute Force"
         },
         {
           "key": "D",
-          "text": "DDoS"
-        },
-        {
-          "key": "E",
-          "text": "Casus yazılım"
+          "text": "Oltalama"
         }
       ],
       "answer": "B"
     },
     {
       "id": "100",
-      "text": "Pasif Tehditlerin (sayfa 34) \"Sistemin kaynaklarını etkilemediği\" ifadesi ne anlama gelir?",
+      "text": "Saldırıların %90'ından fazlası ne ile başlar?",
       "options": [
         {
           "key": "A",
-          "text": "Sistemin yavaşlamasına neden olur."
+          "text": "Yazılım hatası"
         },
         {
           "key": "B",
-          "text": "Sistemin çalışmasında veya durumunda bir değişiklik yaratmaz, sadece bilgi sızdırır."
+          "text": "İnsan hatası"
         },
         {
           "key": "C",
-          "text": "Sistemi tamamen çökertir."
+          "text": "Donanım arızası"
         },
         {
           "key": "D",
-          "text": "Donanımı fiziksel olarak bozar."
-        },
-        {
-          "key": "E",
-          "text": "Disk alanını doldurur."
+          "text": "Doğal afet"
         }
       ],
       "answer": "B"
     },
     {
       "id": "101",
-      "text": "Siber Tehdit Yöntemleri şemasında \"Hata 503\" görseli hangi saldırı sonucunu temsil eder?",
+      "text": "Bir veri ihlalinin tespit edilmesi ortalama kaç gün sürmektedir?",
       "options": [
         {
           "key": "A",
-          "text": "Veri sızıntısı"
+          "text": "1 gün"
         },
         {
           "key": "B",
-          "text": "Sunucu erişilemezliği (yüksek trafik yükü nedeniyle)"
+          "text": "30 gün"
         },
         {
           "key": "C",
-          "text": "Şifre çalınması"
+          "text": "100 gün"
         },
         {
           "key": "D",
-          "text": "Veri silinmesi"
-        },
-        {
-          "key": "E",
-          "text": "Yazılım güncellemesi"
+          "text": "200+ gün"
         }
       ],
-      "answer": "B"
+      "answer": "D"
     },
     {
       "id": "102",
-      "text": "Siber Saldırı motivasyonları listesinde yer alan \"Sabotaj\"ın (sayfa 36) hedefi nedir?",
+      "text": "Hukuki tanımda \"toplumsal düzenin ihlali\" nedir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece para çalmak."
+          "text": "Hata"
         },
         {
           "key": "B",
-          "text": "Kritik altyapıları (enerji, ulaşım) devre dışı bırakmak."
+          "text": "Suç"
         },
         {
           "key": "C",
-          "text": "Politik mesaj vermek."
+          "text": "Özensizlik"
         },
         {
           "key": "D",
-          "text": "Kredi kartı dolandırıcılığı yapmak."
-        },
-        {
-          "key": "E",
-          "text": "Oyun oynamak."
+          "text": "Görev"
         }
       ],
       "answer": "B"
     },
     {
       "id": "103",
-      "text": "Sony Pictures (2014) saldırısının \"Ders\" başlığı altında vurgulanan özelliği nedir?",
+      "text": "Suçun bilerek ve istenerek yapılmasına ne denir?",
       "options": [
         {
           "key": "A",
-          "text": "Şifrelerin çok zayıf olduğu."
+          "text": "Taksir"
         },
         {
           "key": "B",
-          "text": "Devlet destekli saldırıların yıkıcı gücü."
+          "text": "Kast"
         },
         {
           "key": "C",
-          "text": "Otel sistemlerinin zayıflığı."
+          "text": "İhmal"
         },
         {
           "key": "D",
-          "text": "DDoS'un önemi."
-        },
-        {
-          "key": "E",
-          "text": "Yapay zekanın tehlikesi."
+          "text": "Tesadüf"
         }
       ],
       "answer": "B"
     },
     {
       "id": "104",
-      "text": "2024-2025 siber saldırı istatistikleri sayfasında \"RaaS\" açılımı ve anlamı nedir?",
+      "text": "Siber suç motivasyonlarından \"açgözlülük\" neyi hedefler?",
       "options": [
         {
           "key": "A",
-          "text": "Ransomware as a Service (Teknik bilgisi olmayanlara fidye yazılımı kiralama)."
+          "text": "Macera"
         },
         {
           "key": "B",
-          "text": "Risk Analysis and Security (Risk analizi ve güvenlik)."
+          "text": "Maddi kazanç"
         },
         {
           "key": "C",
-          "text": "Remote Access and Storage (Uzaktan erişim ve depolama)."
+          "text": "İntikam"
         },
         {
           "key": "D",
-          "text": "Rapid Attack and Sytem (Hızlı saldırı ve sistem)."
-        },
-        {
-          "key": "E",
-          "text": "Recovery as a Solution (Çözüm olarak kurtarma)."
+          "text": "Merak"
         }
       ],
-      "answer": "A"
+      "answer": "B"
     },
     {
       "id": "105",
-      "text": "Suçun hukuki tanımı sayfasında yer alan \"HER YASAL HAK, HELAL DEĞİLDİR\" ifadesi hangi ayrımı vurgular?",
+      "text": "Siber suç tanımında bilişim sistemleri ne olarak kullanılır?",
       "options": [
         {
           "key": "A",
-          "text": "Hukuk ile ahlak arasındaki farkı/ilişkiyi."
+          "text": "Amaç dışı"
         },
         {
           "key": "B",
-          "text": "Şifreleme algoritmalarını."
+          "text": "Bir araç olarak"
         },
         {
           "key": "C",
-          "text": "Sunucu maliyetlerini."
+          "text": "Sadece depolama için"
         },
         {
           "key": "D",
-          "text": "İnternet hızını."
-        },
-        {
-          "key": "E",
-          "text": "Yazılım lisanslarını."
+          "text": "Sadece oyun için"
         }
       ],
-      "answer": "A"
+      "answer": "B"
     },
     {
       "id": "106",
-      "text": "Siber suçların tarihsel gelişiminde (sayfa 43) 1960-1980 arası dönemde suçlar genellikle neye yönelikti?",
+      "text": "Geleneksel olup siber dünyada da işlenebilen suç hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "Kişisel veri çalmaya."
+          "text": "DDoS"
         },
         {
           "key": "B",
-          "text": "Donanıma fiziksel zarar verme veya sistem kaynaklarını (CPU zamanı) izinsiz kullanmaya."
+          "text": "Sahtekarlık / Kimlik çalma"
         },
         {
           "key": "C",
-          "text": "Kredi kartı dolandırıcılığına."
+          "text": "SQL Enjeksiyonu"
         },
         {
           "key": "D",
-          "text": "Sosyal medya hesaplarını ele geçirmeye."
-        },
-        {
-          "key": "E",
-          "text": "Kripto para madenciliğine."
+          "text": "Botnet oluşturma"
         }
       ],
       "answer": "B"
     },
     {
       "id": "107",
-      "text": "1980'ler: Virüslerin Doğuşu sayfasında \"The 414s\" grubunun sızdığı spesifik kurum örneği nedir?",
+      "text": "Siber suçlar mevcut suç davranışlarının nesi olarak tanımlanır?",
       "options": [
         {
           "key": "A",
-          "text": "Pentagon"
+          "text": "Zıttı"
         },
         {
           "key": "B",
-          "text": "Sloan-Kettering Kanser Merkezi"
+          "text": "Bir uzantısı"
         },
         {
           "key": "C",
-          "text": "Beyaz Saray"
+          "text": "Tamamen farklısı"
         },
         {
           "key": "D",
-          "text": "NASA"
-        },
-        {
-          "key": "E",
-          "text": "Coca-Cola"
+          "text": "Geçmişi"
         }
       ],
       "answer": "B"
     },
     {
       "id": "108",
-      "text": "Mehmet Özcan'ın Siber Terörizm tanımındaki ana vurgu nedir?",
+      "text": "John Draper'ın telefon şebekelerini manipüle ettiği yöntemin adı nedir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece maddi kazanç sağlamak."
+          "text": "Hacking"
         },
         {
           "key": "B",
-          "text": "Hükümeti veya toplumu yıldırma, baskı altında tutma amacıyla sistemlerin kullanılması."
+          "text": "Phone Phreaking"
         },
         {
           "key": "C",
-          "text": "Sadece bireysel bilgisayarları bozmak."
+          "text": "Cracking"
         },
         {
           "key": "D",
-          "text": "İnternet reklamlarını engellemek."
-        },
-        {
-          "key": "E",
-          "text": "Kriptoloji dersi vermek."
+          "text": "Sniffing"
         }
       ],
       "answer": "B"
     },
     {
       "id": "109",
-      "text": "Siber Şantaj (sayfa 47) tanımında yer alan \"önemli ölçüde doğru veya yanlış bilgi\" yayma tehdidi neyi ifade eder?",
+      "text": "1960-80 arası bilgisayarlar hangi sistemlerden oluşuyordu?",
       "options": [
         {
           "key": "A",
-          "text": "Bilginin mutlaka doğru olması gerektiğini."
+          "text": "Mikroişlemciler"
         },
         {
           "key": "B",
-          "text": "Bilginin doğru ya da yanlış olmasının şantaj eylemini değiştirmediğini (baskı eylemi olduğunu)."
+          "text": "Ana sistemler (Mainframe)"
         },
         {
           "key": "C",
-          "text": "Şantajın sadece yalan bilgilerle yapılabileceğini."
+          "text": "Akıllı telefonlar"
         },
         {
           "key": "D",
-          "text": "Şantajın sadece devlet sırlarıyla yapılabileceğini."
-        },
-        {
-          "key": "E",
-          "text": "Şantajın yasal bir hak olduğunu."
+          "text": "Dizüstü bilgisayarlar"
         }
       ],
       "answer": "B"
     },
     {
       "id": "110",
-      "text": "Siber İstihbarat sayfasında (sayfa 49) istihbaratın \"alan bazlı\" kullanımı hangi fiziksel alanlarla kıyaslanmıştır?",
+      "text": "Pakistanlı kardeşlerin yazdığı ilk PC virüsü hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece kütüphanelerle."
+          "text": "Melissa"
         },
         {
           "key": "B",
-          "text": "Deniz, kara, hava veya uzay ile."
+          "text": "Brain Virus"
         },
         {
           "key": "C",
-          "text": "Sadece stadyumlarla."
+          "text": "ILOVEYOU"
         },
         {
           "key": "D",
-          "text": "Sadece laboratuvarlarla."
-        },
-        {
-          "key": "E",
-          "text": "Sadece alışveriş merkezleriyle."
+          "text": "WannaCry"
         }
       ],
       "answer": "B"
     },
     {
       "id": "111",
-      "text": "Siber Casusluk tanımı (sayfa 51) \"rakip karşısında bir avantaj elde etmek için\" çalınan hangi verileri kapsar?",
+      "text": "\"Cuckoo's Egg\" vakasında yakalanan ajanlar kimin adına çalışıyordu?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece hava durumu verilerini."
+          "text": "CIA"
         },
         {
           "key": "B",
-          "text": "Sınıflandırılmış, hassas verileri veya fikri mülkleri."
+          "text": "KGB (Alman ajan şebekesi aracılığıyla)"
         },
         {
           "key": "C",
-          "text": "Herkese açık haberleri."
+          "text": "MI6"
         },
         {
           "key": "D",
-          "text": "Sadece yemek tariflerini."
-        },
-        {
-          "key": "E",
-          "text": "Sadece magazin haberlerini."
+          "text": "MOSSAD"
         }
       ],
       "answer": "B"
     },
     {
       "id": "112",
-      "text": "Keleştemur'a göre (sayfa 51) siber istihbarat ve casusluk neyin öncesinde kullanılmalıdır?",
+      "text": "Hacker kavramını medyaya taşıyan 1982'deki grubun adı nedir?",
       "options": [
         {
           "key": "A",
-          "text": "Bir işe girmeden önce."
+          "text": "Anonymous"
         },
         {
           "key": "B",
-          "text": "Konvansiyonel veya siber savaş öncesi ve esnasında."
+          "text": "The 414s"
         },
         {
           "key": "C",
-          "text": "Bilgisayar satın almadan önce."
+          "text": "LulzSec"
         },
         {
           "key": "D",
-          "text": "Yeni bir yazılım kodlamadan önce."
-        },
-        {
-          "key": "E",
-          "text": "Mezun olmadan önce."
+          "text": "Chaos Computer Club"
         }
       ],
       "answer": "B"
     },
     {
       "id": "113",
-      "text": "Siber Savaş tanımında Clarke ve Knake'in vurguladığı \"sızma faaliyetleri\"nin hedefi nedir?",
+      "text": "Siber terörizmi \"hükümetleri baskı altına alma\" olarak tanımlayan kimdir?",
       "options": [
         {
           "key": "A",
-          "text": "Sadece şifre değiştirmek."
+          "text": "Hüseyin Yüce"
         },
         {
           "key": "B",
-          "text": "Bir devletin, başka bir devletin bilgisayar veya iletişim ağlarına hasar vermek ya da kesinti yaratmak."
+          "text": "Mehmet Özcan / Colarik"
         },
         {
           "key": "C",
-          "text": "Sadece e-posta okumak."
+          "text": "Clifford Stoll"
         },
         {
           "key": "D",
-          "text": "Sadece reklam yapmak."
-        },
-        {
-          "key": "E",
-          "text": "Sadece oyun oynamak."
+          "text": "Robert Morris"
         }
       ],
       "answer": "B"
     },
     {
       "id": "114",
-      "text": "Yazıcı'nın siber savaş tanımında (sayfa 53) vurgulanan \"savunma\" eylemi nedir?",
+      "text": "Siber terörizmde \"yıldırma\" eylemi kime yöneliktir?",
       "options": [
         {
           "key": "A",
-          "text": "Düşman sistemlerini çökertmek."
+          "text": "Sadece diğer hackerlara"
         },
         {
           "key": "B",
-          "text": "Kendi ülkesindeki sivil, askeri ve hükümete ait bilgi ve iletişim teknolojilerini hasmın saldırılarına karşı korumak."
+          "text": "Topluma veya hükümete"
         },
         {
           "key": "C",
-          "text": "Sadece internet faturasını ödemek."
+          "text": "Sadece yazılımcılara"
         },
         {
           "key": "D",
-          "text": "Sadece antivirüs kurmak."
-        },
-        {
-          "key": "E",
-          "text": "Bilgisayarı kapatmak."
+          "text": "Sadece çocuklara"
         }
       ],
       "answer": "B"
     },
     {
       "id": "115",
-      "text": "Konvansiyonel Savaş ile Siber Savaş karşılaştırma tablosunda (sayfa 54) \"Saldırının Hızı\" karşılaştırması nasıldır?",
+      "text": "Siber terörizmin ekonomik zarar verme yönünü kimler tanımlamıştır?",
       "options": [
         {
           "key": "A",
-          "text": "Konvansiyonel: Yavaş / Siber: Hızlı"
+          "text": "Sağıroğlu"
         },
         {
           "key": "B",
-          "text": "Konvansiyonel: En hızlı muharebe silahı hızında / Siber: İnternet hızında"
+          "text": "Altunok ve arkadaşları"
         },
         {
           "key": "C",
-          "text": "Her ikisi de aynı hızdadır."
+          "text": "Keleştemur"
         },
         {
           "key": "D",
-          "text": "Siber savaş her zaman daha yavaştır."
-        },
-        {
-          "key": "E",
-          "text": "Tabloda hız bilgisi yoktur."
+          "text": "Yazıcı"
         }
       ],
       "answer": "B"
     },
     {
       "id": "116",
-      "text": "Karşılaştırma tablosuna göre siber savaşta kullanılan \"Silahlar\" nelerdir?",
+      "text": "Siber terörizmin hedef aldığı sistemlere ne denir?",
       "options": [
         {
           "key": "A",
-          "text": "Tank, top, tüfek"
+          "text": "Oyun sunucuları"
         },
         {
           "key": "B",
-          "text": "Bilgisayarlar ve bilgi sistemleri"
+          "text": "Kritik altyapılar"
         },
         {
           "key": "C",
-          "text": "Sadece füzeler"
+          "text": "Kişisel bloglar"
         },
         {
           "key": "D",
-          "text": "Sadece uçaklar"
-        },
-        {
-          "key": "E",
-          "text": "Sadece biyolojik silahlar"
+          "text": "Sosyal medya sayfaları"
         }
       ],
       "answer": "B"
     },
     {
       "id": "117",
-      "text": "Siber Silah tanımında (sayfa 55) Hasan Çiftçi'nin belirttiği eylemler arasında hangisi yoktur?",
+      "text": "Şantaj (Blackmail) tanımında talepler karşılanmazsa ne yapılır?",
       "options": [
         {
           "key": "A",
-          "text": "Etkisiz hale getirmek"
+          "text": "Para hediye edilir"
         },
         {
           "key": "B",
-          "text": "Bozmak ve sekteye uğratmak"
+          "text": "Bilgi ortaya çıkarılır veya yayılır"
         },
         {
           "key": "C",
-          "text": "Tahrip etmek"
+          "text": "Bilgisayar tamir edilir"
         },
         {
           "key": "D",
-          "text": "Sistemleri bedava yapmak"
-        },
-        {
-          "key": "E",
-          "text": "CIA üçlüsünü hedef almak"
+          "text": "İnternet kesilir"
         }
       ],
-      "answer": "D"
+      "answer": "B"
     },
     {
       "id": "118",
-      "text": "Siber Savunma odak noktaları (sayfa 56) listesinde yer alan \"Müdahale\"nin özelliği nedir?",
+      "text": "Şantajdaki \"cezai kovuşturma\" tehdidinin amacı nedir?",
       "options": [
         {
           "key": "A",
-          "text": "Her zaman geç yapılması."
+          "text": "Adalet sağlamak"
         },
         {
           "key": "B",
-          "text": "Zamanında müdahale edilmesi."
+          "text": "Kişisel kazanç elde etmek için baskı kurmak"
         },
         {
           "key": "C",
-          "text": "Sadece devletin yapması."
+          "text": "Suçluları yakalamak"
         },
         {
           "key": "D",
-          "text": "Sadece yazılımla yapılması."
-        },
-        {
-          "key": "E",
-          "text": "Hiç müdahale edilmemesi."
+          "text": "Toplumu eğitmek"
         }
       ],
       "answer": "B"
     },
     {
       "id": "119",
-      "text": "Sağıroğlu'na (2011) göre siber güvenliğin 4 temel prensibinden biri olan \"Bütünlük\"ün tanımı nedir?",
+      "text": "Bilgiyi gasp ederek avantaj sağlama yöntemine ne denir?",
       "options": [
         {
           "key": "A",
-          "text": "Bilginin mahremiyetinin korunması."
+          "text": "Siber Savunma"
         },
         {
           "key": "B",
-          "text": "Veri bütünlüğünün muhafazası."
+          "text": "Siber Gasp (Cyber Extortion)"
         },
         {
           "key": "C",
-          "text": "Erişim hızının korunması."
+          "text": "Siber Etik"
         },
         {
           "key": "D",
-          "text": "Sistemin devamlılığı."
-        },
-        {
-          "key": "E",
-          "text": "Yazılımın maliyeti."
+          "text": "Siber Eğitim"
         }
       ],
       "answer": "B"
     },
     {
       "id": "120",
-      "text": "Zafiyet (Açıklık) sayfasında yer alan \"zincirleme reaksiyon\"da \"Tehdit\" örneği olarak ne verilmiştir?",
+      "text": "Siber gaspın en bilinen örneği hangisidir?",
       "options": [
         {
           "key": "A",
-          "text": "Hacker veya Yangın"
+          "text": "Reklam yazılımı"
         },
         {
           "key": "B",
-          "text": "Güncellenmemiş yazılım"
+          "text": "Ransomware (Fidye yazılımı)"
         },
         {
           "key": "C",
-          "text": "Veri veya Sunucu"
+          "text": "Antivirüs"
         },
         {
           "key": "D",
-          "text": "Zararın büyüklüğü"
-        },
-        {
-          "key": "E",
-          "text": "İnternet hızı"
+          "text": "İşletim sistemi"
         }
       ],
-      "answer": "A"
+      "answer": "B"
     },
     {
       "id": "121",
-      "text": "Risk Kavramı sayfasında (sayfa 59) siber güvenlik programı oluştururken \"Sadece tehditleri bilmek yeterli değildir\" ifadesinden sonra hangi çözüm önerilmiştir?",
+      "text": "\"Extortionware\" hangi suçun alt dalıdır?",
       "options": [
         {
           "key": "A",
-          "text": "Daha çok bilgisayar almak."
+          "text": "Casusluk"
         },
         {
           "key": "B",
-          "text": "Risk Yönetimi."
+          "text": "Siber Gasp / Şantaj"
         },
         {
           "key": "C",
-          "text": "İnterneti kapatmak."
+          "text": "Terörizm"
         },
         {
           "key": "D",
-          "text": "Sadece şifreleri değiştirmek."
-        },
-        {
-          "key": "E",
-          "text": "Şirketi taşımak."
+          "text": "Savaş"
         }
       ],
       "answer": "B"
     },
     {
       "id": "122",
-      "text": "SGG Hafta 1 slaytının kaynakçasında yer alan 2016 tarihli çalışmanın sahibi kimdir?",
+      "text": "Rakiplerin niyetlerini değerlendirme sürecine ne ad verilir?",
       "options": [
         {
           "key": "A",
-          "text": "Barış Çeliktaş"
+          "text": "Siber Savunma"
         },
         {
           "key": "B",
-          "text": "Mehmet Özcan"
+          "text": "Siber İstihbarat"
         },
         {
           "key": "C",
-          "text": "Hüseyin Yüce"
+          "text": "Siber Saldırı"
+        },
+        {
+          "key": "D",
+          "text": "Siber Suç"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "123",
+      "text": "Siber uzay kaçıncı harekat alanı/alanı olarak kabul edilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1."
+        },
+        {
+          "key": "B",
+          "text": "3."
+        },
+        {
+          "key": "C",
+          "text": "5."
+        },
+        {
+          "key": "D",
+          "text": "7."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "124",
+      "text": "İstihbarat fonksiyonları arasında hangisi yoktur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Toplama"
+        },
+        {
+          "key": "B",
+          "text": "Analiz"
+        },
+        {
+          "key": "C",
+          "text": "Sosyal medyada beğenme"
+        },
+        {
+          "key": "D",
+          "text": "Raporlama"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "125",
+      "text": "Siber istihbarat neyin bir karışımıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Matematik ve fizik"
+        },
+        {
+          "key": "B",
+          "text": "Fiziksel casusluk ve modern bilgi teknolojisi"
+        },
+        {
+          "key": "C",
+          "text": "Donanım ve yazılım tamiri"
+        },
+        {
+          "key": "D",
+          "text": "Tarih ve coğrafya"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "126",
+      "text": "Rakip şirketin fikri mülkiyetini çalma eylemi nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Siber Savaş"
+        },
+        {
+          "key": "B",
+          "text": "Siber Casusluk"
+        },
+        {
+          "key": "C",
+          "text": "Siber Terörizm"
+        },
+        {
+          "key": "D",
+          "text": "Siber Suç"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "127",
+      "text": "Siber casusluk sonucu elde edilen bilgiler ne sağlar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece para"
+        },
+        {
+          "key": "B",
+          "text": "Gelecekteki bir savaşta bilgi üstünlüğü ve avantaj"
+        },
+        {
+          "key": "C",
+          "text": "Daha hızlı internet"
+        },
+        {
+          "key": "D",
+          "text": "Daha iyi yazılım"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "128",
+      "text": "\"En iyi savaş biçimi savaşmadan ele geçirmektir\" diyen kimdir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clausewitz"
+        },
+        {
+          "key": "B",
+          "text": "Sun Tzu"
+        },
+        {
+          "key": "C",
+          "text": "Keleştemur"
         },
         {
           "key": "D",
           "text": "Hasan Çiftçi"
-        },
-        {
-          "key": "E",
-          "text": "Sağıroğlu"
         }
       ],
-      "answer": "A"
+      "answer": "B"
+    },
+    {
+      "id": "129",
+      "text": "Clarke ve Knake'e göre siber savaşın amacı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Web sitesi tasarlamak"
+        },
+        {
+          "key": "B",
+          "text": "Hasar vermek veya kesinti yaratmak"
+        },
+        {
+          "key": "C",
+          "text": "Yazılım satmak"
+        },
+        {
+          "key": "D",
+          "text": "Şifre değiştirmek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "130",
+      "text": "Clausewitz'e göre savaşın sonu düşmanı neye zorlamaktır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Barışa"
+        },
+        {
+          "key": "B",
+          "text": "İsteğinizi yapmaya"
+        },
+        {
+          "key": "C",
+          "text": "Savaştan kaçmaya"
+        },
+        {
+          "key": "D",
+          "text": "Para vermeye"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "131",
+      "text": "Siber savaşın \"hedef ülkeye organize saldırı\" yönüne ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pasif Savunma"
+        },
+        {
+          "key": "B",
+          "text": "Saldırı (Siber Savaş)"
+        },
+        {
+          "key": "C",
+          "text": "Analiz"
+        },
+        {
+          "key": "D",
+          "text": "Raporlama"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "132",
+      "text": "Siber savaşın konvansiyonelden en büyük farkı (kaynak tespiti açısından) nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Siber savaşta kaynak tespiti çok kolaydır"
+        },
+        {
+          "key": "B",
+          "text": "Siber savaşta kaynak tespiti zor, bazen imkansızdır"
+        },
+        {
+          "key": "C",
+          "text": "Hiçbir fark yoktur"
+        },
+        {
+          "key": "D",
+          "text": "Konvansiyonel savaş daha zordur"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "133",
+      "text": "Siber savaşta hasar tespiti neden zordur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kimse ilgilenmediği için"
+        },
+        {
+          "key": "B",
+          "text": "Saldırı belirtileri bazen tespit edilemediği için"
+        },
+        {
+          "key": "C",
+          "text": "Hasar hiç oluşmadığı için"
+        },
+        {
+          "key": "D",
+          "text": "Sadece fiziksel olduğu için"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "134",
+      "text": "Karşılaştırma tablosuna göre siber savaşta \"İleri Teknoloji İhtiyacı\" durumu nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kesinlikle vardır"
+        },
+        {
+          "key": "B",
+          "text": "Yok olarak belirtilmiştir"
+        },
+        {
+          "key": "C",
+          "text": "Sadece nükleer güçlerde vardır"
+        },
+        {
+          "key": "D",
+          "text": "Çok pahalıdır"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "135",
+      "text": "Siber savaşın etki alanı neresidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece coğrafi sınırlar"
+        },
+        {
+          "key": "B",
+          "text": "Siber uzay içerisinde"
+        },
+        {
+          "key": "C",
+          "text": "Sadece uzay boşluğu"
+        },
+        {
+          "key": "D",
+          "text": "Sadece kağıt üzerinde"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "136",
+      "text": "Hasan Çiftçi'ye göre siber silahların hedef aldığı üç prensip nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hız, Kalite, Güven"
+        },
+        {
+          "key": "B",
+          "text": "Gizlilik, Bütünlük, Erişilebilirlik"
+        },
+        {
+          "key": "C",
+          "text": "Yazılım, Donanım, Ağ"
+        },
+        {
+          "key": "D",
+          "text": "Kullanıcı, Şifre, Veri"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "137",
+      "text": "İnsanlara veya sistemlere zarar vermek için kullanılan araçlara ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Araç"
+        },
+        {
+          "key": "B",
+          "text": "Silah"
+        },
+        {
+          "key": "C",
+          "text": "Cihaz"
+        },
+        {
+          "key": "D",
+          "text": "Yazılım"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "138",
+      "text": "Siber savunmanın üç temel odak noktası nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oku, Yaz, Sil"
+        },
+        {
+          "key": "B",
+          "text": "Önleme, Tespit, Zamanında Müdahale"
+        },
+        {
+          "key": "C",
+          "text": "İzle, Bekle, Raporla"
+        },
+        {
+          "key": "D",
+          "text": "Şifrele, Gizle, Paylaş"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "139",
+      "text": "Bilgiye erişim hız ve kalitesinin muhafazası hangi prensip altındadır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gizlilik"
+        },
+        {
+          "key": "B",
+          "text": "Erişilebilirlik (Availability)"
+        },
+        {
+          "key": "C",
+          "text": "Bütünlük"
+        },
+        {
+          "key": "D",
+          "text": "Süreklilik"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "140",
+      "text": "Sağıroğlu'nun CIA'ya eklediği 4. prensip nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hız"
+        },
+        {
+          "key": "B",
+          "text": "Süreklilik"
+        },
+        {
+          "key": "C",
+          "text": "Şifreleme"
+        },
+        {
+          "key": "D",
+          "text": "Yetkilendirme"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "141",
+      "text": "Sistemin devamlılığının sağlanması prensibi neden kritiktir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Daha çok para kazandırdığı için"
+        },
+        {
+          "key": "B",
+          "text": "Hizmetin kesintisiz sürmesi için"
+        },
+        {
+          "key": "C",
+          "text": "Bilgisayarların eskimesini önlediği için"
+        },
+        {
+          "key": "D",
+          "text": "Şifreleri koruduğu için"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "142",
+      "text": "Bilişim sistemlerindeki zayıf noktalara ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tehdit"
+        },
+        {
+          "key": "B",
+          "text": "Zafiyet (Vulnerability)"
+        },
+        {
+          "key": "C",
+          "text": "Risk"
+        },
+        {
+          "key": "D",
+          "text": "Etki"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "143",
+      "text": "Güvenlik mantık zincirinin son halkası hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Varlık"
+        },
+        {
+          "key": "B",
+          "text": "Tehdit"
+        },
+        {
+          "key": "C",
+          "text": "Etki (Impact)"
+        },
+        {
+          "key": "D",
+          "text": "Zafiyet"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "144",
+      "text": "Siber güvenlik programında kaynakların nereye harcanacağını ne belirler?",
+      "options": [
+        {
+          "key": "A",
+          "text": "En yeni teknoloji"
+        },
+        {
+          "key": "B",
+          "text": "Risk Yönetimi"
+        },
+        {
+          "key": "C",
+          "text": "En ucuz donanım"
+        },
+        {
+          "key": "D",
+          "text": "Sosyal medya trendleri"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "145",
+      "text": "\"Kabul edilebilir risk seviyesi\" hangi sürecin bir parçasıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yazılım geliştirme"
+        },
+        {
+          "key": "B",
+          "text": "Risk Yönetimi"
+        },
+        {
+          "key": "C",
+          "text": "Donanım bakımı"
+        },
+        {
+          "key": "D",
+          "text": "Ağ kablolama"
+        }
+      ],
+      "answer": "B"
     }
   ]
 };
