@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentQuestions.forEach((q, index) => {
             const card = document.createElement('div');
             card.className = 'question-card';
+            card.id = `q-card-${index}`;
             card.style.animationDelay = `${index * 0.05}s`;
 
             const header = document.createElement('div');
@@ -139,10 +140,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Find correct option text
                 const correctOpt = q.options.find(o => o.key === q.answer);
                 incorrectHtml += `
-                    <div class="incorrect-item">
+                    <div class="incorrect-item" onclick="document.getElementById('q-card-${index}').scrollIntoView({behavior: 'smooth', block: 'center'});">
                         <h4>Soru ${index + 1}: ${q.text.replace(/^\d+\.\s*/, '')}</h4>
                         <p>Senin Cevabın: <strong>${uAns}</strong></p>
                         <p class="correct-ans">Doğru Cevap: ${q.answer} - ${correctOpt ? correctOpt.text : ''}</p>
+                        <p class="click-hint">👁️ Soruyu ve şıkları görmek için tıkla</p>
                     </div>
                 `;
             }
