@@ -7430,7 +7430,8 @@ const appData = {
         }
       ],
       "answer": "B"
-    },
+    }
+  ],
   "siber_giris_2": [
   {
     "id": "1",
