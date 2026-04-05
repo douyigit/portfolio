@@ -7430,6 +7430,1307 @@ const appData = {
         }
       ],
       "answer": "B"
-    }
-  ]
+    },
+  "siber_giris_2": [
+  {
+    "id": "1",
+    "text": "Siber güvenliğin \"IT problemi\" olmaktan çıkıp Yönetim Kurulu seviyesinde bir iş riski sayılmasının temel nedeni nedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sunucu yapılandırmalarının karmaşıklaşması"
+      },
+      {
+        "key": "B",
+        "text": "Veri ihlallerinin doğrudan finansal zarara, itibar kaybına ve yasal cezalara yol açması"
+      },
+      {
+        "key": "C",
+        "text": "IT departmanındaki personel sayısının artması"
+      },
+      {
+        "key": "D",
+        "text": "Antivirüs yazılımlarının pahalılaşması"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "2",
+    "text": "\"Doğru şeylerin yapıldığından\" emin olan, stratejiyi belirleyen ve risk iştahını tanımlayan kavram hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yönetim (Management)"
+      },
+      {
+        "key": "B",
+        "text": "Operasyon (Operation)"
+      },
+      {
+        "key": "C",
+        "text": "Yönetişim (Governance)"
+      },
+      {
+        "key": "D",
+        "text": "Denetim (Audit)"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "3",
+    "text": "Yönetişim ve Yönetim farkıyla ilgili hangisi yanlıştır?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yönetişim vizyonerdir, Yönetim operasyoneldir B) Yönetişim \"Nereye gidiyoruz?\", Yönetim \"Oraya nasıl gideceğiz?\" sorusuna yanıt arar C) Yönetim Kurulu yönetişimden sorumludur D) Yönetişim kısa vadeli (günlük), Yönetim uzun vadeli (yıllık) işlere odaklanır"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "4",
+    "text": "İdeal bir senaryoda CISO (Bilgi Güvenliği Yöneticisi) kime raporlama yapmalıdır?",
+    "options": [
+      {
+        "key": "A",
+        "text": "IT Yöneticisine (CIO)"
+      },
+      {
+        "key": "B",
+        "text": "Doğrudan CEO veya Yönetim Kurulu'na"
+      },
+      {
+        "key": "C",
+        "text": "İnsan Kaynakları Müdürü'ne"
+      },
+      {
+        "key": "D",
+        "text": "Muhasebe departmanına"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "5",
+    "text": "Belgeler hiyerarşisinde \"NE\" yapılacağına odaklanan, teknoloji bağımsız ve en üst düzey belge hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Standart"
+      },
+      {
+        "key": "B",
+        "text": "Prosedür"
+      },
+      {
+        "key": "C",
+        "text": "Politika"
+      },
+      {
+        "key": "D",
+        "text": "Rehber"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "6",
+    "text": "Hangi belgenin bağlayıcılığı zorunlu DEĞİLDİR ve tavsiye niteliğindedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Politikalar"
+      },
+      {
+        "key": "B",
+        "text": "Rehberler (Guidelines)"
+      },
+      {
+        "key": "C",
+        "text": "Standartlar"
+      },
+      {
+        "key": "D",
+        "text": "Prosedürler"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "7",
+    "text": "\"Cisco Firewall üzerinde yeni bir kullanıcı oluşturmak için izlenecek adımlar\" hangi belge türüne girer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Politika"
+      },
+      {
+        "key": "B",
+        "text": "Standart"
+      },
+      {
+        "key": "C",
+        "text": "Prosedür"
+      },
+      {
+        "key": "D",
+        "text": "Kanun"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "8",
+    "text": "Risk yönetimine başlamadan önce masaya yatırılması gereken ilk çalışma hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sızma Testi"
+      },
+      {
+        "key": "B",
+        "text": "Varlık Envanteri (Asset Inventory)"
+      },
+      {
+        "key": "C",
+        "text": "Şifreleme Algoritmaları"
+      },
+      {
+        "key": "D",
+        "text": "Kullanıcı Eğitimleri"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "9",
+    "text": "Kurum için değeri olan her şeye ne ad verilir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Varlık (Asset)"
+      },
+      {
+        "key": "B",
+        "text": "Tehdit"
+      },
+      {
+        "key": "C",
+        "text": "Zafiyet"
+      },
+      {
+        "key": "D",
+        "text": "Risk"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "10",
+    "text": "\"Varlık Kritiklik Analizi\"nin (Classification) temel amacı nedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tüm varlıkları aynı bütçeyle korumak"
+      },
+      {
+        "key": "B",
+        "text": "Kurumsal bütçeyi yüksek risk taşıyan kritik varlıklara ayırmak"
+      },
+      {
+        "key": "C",
+        "text": "Personel maaşlarını belirlemek"
+      },
+      {
+        "key": "D",
+        "text": "En ucuz güvenlik cihazını seçmek"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "11",
+    "text": "Sistemdeki eksiklik, tasarım hatası veya zayıflığa ne denir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tehdit"
+      },
+      {
+        "key": "B",
+        "text": "Etki"
+      },
+      {
+        "key": "C",
+        "text": "Zafiyet (Vulnerability)"
+      },
+      {
+        "key": "D",
+        "text": "Olasılık"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "12",
+    "text": "Zafiyeti sömürerek sisteme zarar verme potansiyeli taşıyan aktif unsura ne denir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Varlık"
+      },
+      {
+        "key": "B",
+        "text": "Tehdit (Threat)"
+      },
+      {
+        "key": "C",
+        "text": "Risk iştahı"
+      },
+      {
+        "key": "D",
+        "text": "Uyum"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "13",
+    "text": "\"Zafiyet pasiftir, Tehdit aktiftir.\" Bu ikisi bir araya geldiğinde ne oluşur?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yönetişim"
+      },
+      {
+        "key": "B",
+        "text": "Strateji"
+      },
+      {
+        "key": "C",
+        "text": "Risk"
+      },
+      {
+        "key": "D",
+        "text": "Envanter"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "14",
+    "text": "Siber güvenlik risk denklemine göre, hangisi \"0\" (sıfır) olursa risk de sıfır olur?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sadece Tehdit B) Sadece Zafiyet C) Sadece Etki (Varlık Değeri) D) Hepsi (Tehdit, Zafiyet veya Etki'den herhangi biri)"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "15",
+    "text": "Gerçek dünyada siber risk neden hiçbir zaman \"0\" olamaz?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tehditler çok güçlü olduğu için"
+      },
+      {
+        "key": "B",
+        "text": "Zafiyetin sıfır olması imkansız olduğu için"
+      },
+      {
+        "key": "C",
+        "text": "Bütçe yetersiz olduğu için"
+      },
+      {
+        "key": "D",
+        "text": "Yasalar yetersiz olduğu için"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "16",
+    "text": "Risk değerlendirmesinde \"soyut, tecrübeye dayalı ve renklerle (Yüksek, Orta, Düşük) ifade edilen\" yöntem hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kantitatif (Nicel) Analiz"
+      },
+      {
+        "key": "B",
+        "text": "Kalitatif (Nitel) Analiz"
+      },
+      {
+        "key": "C",
+        "text": "Matematiksel Analiz"
+      },
+      {
+        "key": "D",
+        "text": "Finansal Analiz"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "17",
+    "text": "\"Tamamen sayılara ve dolar/TL bazında maliyetlere dayanan\" risk analizi hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kalitatif Analiz"
+      },
+      {
+        "key": "B",
+        "text": "Kantitatif (Nicel) Analiz"
+      },
+      {
+        "key": "C",
+        "text": "Tahminleme"
+      },
+      {
+        "key": "D",
+        "text": "Anket yöntemi"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "18",
+    "text": "Yönetim kurulundan bütçe almak için en etkili yöntem hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\"Kırmızı riskimiz var\" demek"
+      },
+      {
+        "key": "B",
+        "text": "Riski finansal (para) terimlerle anlatmak"
+      },
+      {
+        "key": "C",
+        "text": "Teknik detayları açıklamak"
+      },
+      {
+        "key": "D",
+        "text": "Firewall modelini söylemek"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "19",
+    "text": "Kantitatif analizde \"ALE\" (Yıllık Kayıp Beklentisi) neyi ifade eder?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bir kez hacklenirsek gidecek parayı B) Bir tehditten dolayı 1 yılda kaybedilmesi beklenen toplam parayı"
+      },
+      {
+        "key": "C",
+        "text": "Güvenlik cihazının fiyatını"
+      },
+      {
+        "key": "D",
+        "text": "Şirketin toplam değerini"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "20",
+    "text": "Bir güvenli önlemi (cihaz/yazılım) hangi durumda SATIN ALINMAZ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Önlemin maliyeti, beklenen zararın maliyetinden (ALE) büyükse"
+      },
+      {
+        "key": "B",
+        "text": "Cihaz çok eskiyse"
+      },
+      {
+        "key": "C",
+        "text": "IT ekibi cihazı kullanmayı bilmiyorsa"
+      },
+      {
+        "key": "D",
+        "text": "Cihaz yabancı menşeliyse"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "21",
+    "text": "Riski azaltmak için antivirüs veya firewall gibi kontroller uygulama stratejisine ne denir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Devretme (Transference)"
+      },
+      {
+        "key": "B",
+        "text": "Kabul Etme (Acceptance)"
+      },
+      {
+        "key": "C",
+        "text": "Azaltma / Kontrol Etme (Mitigation)"
+      },
+      {
+        "key": "D",
+        "text": "Kaçınma"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "22",
+    "text": "Siber Sigorta yaptırmak hangi risk yanıt stratejisine örnektir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Risk Azaltma"
+      },
+      {
+        "key": "B",
+        "text": "Risk Devretme (Transference)"
+      },
+      {
+        "key": "C",
+        "text": "Risk Kabulü"
+      },
+      {
+        "key": "D",
+        "text": "Riskten Kaçınma"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "23",
+    "text": "\"Wi-Fi hacklenmesinden korktuğumuz için tesiste Wi-Fi kullanımını tamamen yasaklamak\" hangi stratejidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Riskten Kaçınma (Avoidance)"
+      },
+      {
+        "key": "B",
+        "text": "Risk Azaltma"
+      },
+      {
+        "key": "C",
+        "text": "Risk Kabulü"
+      },
+      {
+        "key": "D",
+        "text": "Risk Paylaşımı"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "24",
+    "text": "Risk devretme (sigorta vb.) ile ilgili hangisi devredilemez?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Finansal zarar"
+      },
+      {
+        "key": "B",
+        "text": "Maddi kayıp"
+      },
+      {
+        "key": "C",
+        "text": "İtibar kaybı ve hapis cezası"
+      },
+      {
+        "key": "D",
+        "text": "Tamir maliyeti"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "25",
+    "text": "\"Risk Kabulü\" (Acceptance) hakkında hangisi doğrudur?",
+    "options": [
+      {
+        "key": "A",
+        "text": "CISO kendi kendine karar verebilir"
+      },
+      {
+        "key": "B",
+        "text": "Yalnızca Üst Yönetim imza karşılığında yapabilir C) Riski bilmeden görmezden gelmektir"
+      },
+      {
+        "key": "D",
+        "text": "Her zaman en ucuz yoldur"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "26",
+    "text": "Yazılım geliştiricisinin dahi henüz bilmediği ve yaması olmayan kritik açıklara ne denir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tehdit İstihbaratı"
+      },
+      {
+        "key": "B",
+        "text": "Sıfırıncı Gün (Zero-Day) Zafiyeti"
+      },
+      {
+        "key": "C",
+        "text": "Malware"
+      },
+      {
+        "key": "D",
+        "text": "Arka Kapı"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "27",
+    "text": "Hedef kuruma doğrudan saldırmak yerine, onun daha düşük güvenlikli tedarikçisini kullanmaya ne denir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sosyal Mühendislik"
+      },
+      {
+        "key": "B",
+        "text": "Tedarik Zinciri Riski (Supply Chain Risk)"
+      },
+      {
+        "key": "C",
+        "text": "Fiziksel Saldırı"
+      },
+      {
+        "key": "D",
+        "text": "Veri Sızıntısı"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "28",
+    "text": "Bir felaket anında sistemlerin kapalı kalmasına kurumun dayanabileceği MAKSİMUM süre nedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RPO (Kurtarma Noktası Hedefi)"
+      },
+      {
+        "key": "B",
+        "text": "ALE"
+      },
+      {
+        "key": "C",
+        "text": "RTO (Kurtarma Zaman Hedefi)"
+      },
+      {
+        "key": "D",
+        "text": "AV"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "29",
+    "text": "Bir çöküş anında kurumun tolere edebileceği maksimum VERİ KAYBI limitine ne denir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RTO B) RPO (Recovery Point Objective)"
+      },
+      {
+        "key": "C",
+        "text": "EF"
+      },
+      {
+        "key": "D",
+        "text": "SLE"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "30",
+    "text": "NIST CSF (Siber Güvenlik Çerçevesi) döngüsünün 5 temel fonksiyonu hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Planla, Uygula, Kontrol Et, Önlem Al, İzle"
+      },
+      {
+        "key": "B",
+        "text": "Tanımla, Koru, Tespit Et, Müdahale Et, Kurtar"
+      },
+      {
+        "key": "C",
+        "text": "Satın Al, Kur, İşlet, Güncelle, Sil"
+      },
+      {
+        "key": "D",
+        "text": "Analiz, Tasarım, İnşa, Test, Yayınlama"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "31",
+    "text": "Türkiye’deki veri mahremiyeti yasası hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GDPR"
+      },
+      {
+        "key": "B",
+        "text": "KVKK (Kişisel Verilerin Korunması Kanunu)"
+      },
+      {
+        "key": "C",
+        "text": "ISO 27001"
+      },
+      {
+        "key": "D",
+        "text": "NIST SP 800-30"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "32",
+    "text": "Avrupa Birliği vatandaşlarının verilerini işleyen her şirketi bağlayan regülasyon hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "KVKK B) GDPR (General Data Protection Regulation) C) BDDK Tebliği"
+      },
+      {
+        "key": "D",
+        "text": "Siber Sigorta Poliçesi"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "33",
+    "text": "Risk yönetimi döngüsünde temel alınan uluslararası standart hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ISO/IEC 27005"
+      },
+      {
+        "key": "B",
+        "text": "TCP/IP"
+      },
+      {
+        "key": "C",
+        "text": "OSI Modeli"
+      },
+      {
+        "key": "D",
+        "text": "HTTP"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "34",
+    "text": "Kalitatif ve Kantitatif yöntemin birlikte kullanıldığı yaklaşıma ne ad verilir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sadece Teorik Yaklaşım"
+      },
+      {
+        "key": "B",
+        "text": "Karma (Hibrid) Yöntem"
+      },
+      {
+        "key": "C",
+        "text": "Geleneksel Yaklaşım"
+      },
+      {
+        "key": "D",
+        "text": "Reddetme Stratejisi"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "35",
+    "text": "Modern siber tehditlerde statik risk analizlerinin en büyük yetersizliği nedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Çok pahalı olmaları"
+      },
+      {
+        "key": "B",
+        "text": "Anlık gelişen (Zero-Day gibi) tehditlere karşı yetersiz kalmaları"
+      },
+      {
+        "key": "C",
+        "text": "Kağıt israfına yol açmaları"
+      },
+      {
+        "key": "D",
+        "text": "Sadece yönetimi ilgilendirmeleri"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "36",
+    "text": "SIEM sistemleri vasıtasıyla 7/24 izlenen mimari hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Varlık Envanteri"
+      },
+      {
+        "key": "B",
+        "text": "Sürekli İzleme (Continuous Monitoring)"
+      },
+      {
+        "key": "C",
+        "text": "Statik Analiz"
+      },
+      {
+        "key": "D",
+        "text": "Yıllık Denetim"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "37",
+    "text": "Bir ihlal durumunda operasyonların sürdürülebilmesini sağlayan kavram hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Salt Koruma"
+      },
+      {
+        "key": "B",
+        "text": "Siber Dirençlilik (Cyber Resilience)"
+      },
+      {
+        "key": "C",
+        "text": "Şifreleme"
+      },
+      {
+        "key": "D",
+        "text": "Erişim Kontrolü"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "38",
+    "text": "Kritik kriz anlarında asli fonksiyonların icrasını sağlayan stratejik plan hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DRP B) BRP (İş Sürekliliği Planlaması)"
+      },
+      {
+        "key": "C",
+        "text": "SIEM Yapılandırması"
+      },
+      {
+        "key": "D",
+        "text": "Antivirüs Güncellemesi"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "39",
+    "text": "BT altyapılarının yedeklilik prensibiyle yeniden ayağa kaldırılması sürecine ne denir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "İş Etki Analizi (BIA)"
+      },
+      {
+        "key": "B",
+        "text": "Felaket Kurtarma Planlaması (DRP)"
+      },
+      {
+        "key": "C",
+        "text": "Risk Tanımlama"
+      },
+      {
+        "key": "D",
+        "text": "Mevzuat Uyumu"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "40",
+    "text": "Güvenlik süreçlerini kişilere bağımlı olmaktan çıkarıp ölçülebilir hale getirmenin amacı nedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Daha fazla yazılım satın almak"
+      },
+      {
+        "key": "B",
+        "text": "Siber Olgunluk (Cyber Maturity) seviyesini artırmak"
+      },
+      {
+        "key": "C",
+        "text": "Personel sayısını azaltmak"
+      },
+      {
+        "key": "D",
+        "text": "Sadece yasal cezadan kaçmak"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "41",
+    "text": "NIST CSF döngüsündeki \"IDENTIFY (Tanımla)\" fonksiyonunun amacı nedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Güvenlik duvarı kurallarını yazmak"
+      },
+      {
+        "key": "B",
+        "text": "Siber güvenlik riski anlayışının kurumsal boyutta geliştirilmesi"
+      },
+      {
+        "key": "C",
+        "text": "Saldırı anında sistemleri kapatmak"
+      },
+      {
+        "key": "D",
+        "text": "Yedeklerden veri geri dönmek"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "42",
+    "text": "\"Kritik altyapı hizmetlerinin sürekliliğini sağlamak adına bariyerlerin tesisi\" hangi NIST fonksiyonudur?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tanımla"
+      },
+      {
+        "key": "B",
+        "text": "Koru (Protect)"
+      },
+      {
+        "key": "C",
+        "text": "Tespit Et"
+      },
+      {
+        "key": "D",
+        "text": "Müdahale Et"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "43",
+    "text": "Müdahale amaçlı \"önceden simüle edilmiş aksiyonların icrası\" hangi aşamaya girer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Koru"
+      },
+      {
+        "key": "B",
+        "text": "Tespit Et"
+      },
+      {
+        "key": "C",
+        "text": "Müdahale Et (Respond)"
+      },
+      {
+        "key": "D",
+        "text": "Kurtar"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "44",
+    "text": "Standart kabul edilen CMMI ve NIST CSF kurumlara ne teşkil eder?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referans"
+      },
+      {
+        "key": "B",
+        "text": "Siber sigorta primi"
+      },
+      {
+        "key": "C",
+        "text": "Sadece teknoloji cihazı"
+      },
+      {
+        "key": "D",
+        "text": "IT personel yükü"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "45",
+    "text": "BIA metodolojisi aşağıdakilerden hangisini belirler?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Saldırganın kimliğini"
+      },
+      {
+        "key": "B",
+        "text": "İş süreçlerinin kritiklik derecesini"
+      },
+      {
+        "key": "C",
+        "text": "Hangi firewall markasının alınacağını"
+      },
+      {
+        "key": "D",
+        "text": "Şirketin toplam hisse değerini"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "46",
+    "text": "\"Beklenen RTO süresi kısaldıkça\" maliyetlerle ilgili ne söylenebilir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maliyetler azalır"
+      },
+      {
+        "key": "B",
+        "text": "Donanım maliyeti eksponansiyel olarak artar"
+      },
+      {
+        "key": "C",
+        "text": "Maliyetler değişmez"
+      },
+      {
+        "key": "D",
+        "text": "Sadece yazılım maliyeti artar"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "47",
+    "text": "Bankacılık gibi mikro-saniye bazlı işlemlerde RPO ne kabul edilir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "24 Saat"
+      },
+      {
+        "key": "B",
+        "text": "1 Saat"
+      },
+      {
+        "key": "C",
+        "text": "Sıfır"
+      },
+      {
+        "key": "D",
+        "text": "Belirsiz"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "48",
+    "text": "Modern risk yönetiminin kesin engellemek yerine odaklandığı alan hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sadece fiziksel güvenlik"
+      },
+      {
+        "key": "B",
+        "text": "Erken tespit ve hızlı toparlanma"
+      },
+      {
+        "key": "C",
+        "text": "Riski tamamen görmezden gelme"
+      },
+      {
+        "key": "D",
+        "text": "İnterneti tamamen kapatma"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "49",
+    "text": "Kurumsal güvenlik duruşu (Security Posture) aşağıdakilerden hangisi ile sınırlıdır?",
+    "options": [
+      {
+        "key": "A",
+        "text": "En pahalı cihazın gücüyle"
+      },
+      {
+        "key": "B",
+        "text": "En zayıf tedarikçinin güvenlik seviyesiyle"
+      },
+      {
+        "key": "C",
+        "text": "IT müdürünün tecrübesiyle"
+      },
+      {
+        "key": "D",
+        "text": "Ofisin fiziksel konumuyla"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "50",
+    "text": "Kurumsal yönetişim stratejisi olay sonrası analizden ziyade neye dayanmaktadır?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Manuel raporlara"
+      },
+      {
+        "key": "B",
+        "text": "Anlık geri besleme döngülerine"
+      },
+      {
+        "key": "C",
+        "text": "Sadece yasal zorunluluklara"
+      },
+      {
+        "key": "D",
+        "text": "Geçmiş yılın bütçesine"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "51",
+    "text": "Risk değerlendirmesinde \"Tehdit Kabiliyeti\" (Threat Capability) neyi ölçer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sistemin yavaşlığını"
+      },
+      {
+        "key": "B",
+        "text": "Saldırganın amatör mü yoksa APT grubu mu olduğunu"
+      },
+      {
+        "key": "C",
+        "text": "Sadece internet hızını"
+      },
+      {
+        "key": "D",
+        "text": "Firewall cihazının markasını"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "52",
+    "text": "\"Sömürülebilirlik\" (Exploitability) kavramı aşağıdakilerden hangisini ifade eder?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bir sistemin pahalılığını"
+      },
+      {
+        "key": "B",
+        "text": "Sisteme saldırmanın ne kadar kolay olduğunu"
+      },
+      {
+        "key": "C",
+        "text": "Kaç adet yedek sunucu olduğunu"
+      },
+      {
+        "key": "D",
+        "text": "Şirketin kaç çalışanı olduğunu"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "53",
+    "text": "Bir riskin gerçeğe dönüşme hızını ifade eden parametre hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Etki B) Olasılık C) Hız (Velocity) D) Varlık Değeri"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "54",
+    "text": "Güvenlik kontrolü uygulandıktan sonra geride kalan riske ne ad verilir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kabul Edilen Risk"
+      },
+      {
+        "key": "B",
+        "text": "Artık Risk (Residual Risk)"
+      },
+      {
+        "key": "C",
+        "text": "Sıfırıncı Gün Riski"
+      },
+      {
+        "key": "D",
+        "text": "İkincil Kayıp"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "55",
+    "text": "Aşağıdakilerden hangisi bir \"Dolaylı Etki\" (Secondary Loss) örneğidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sistemlerin o an kilitlenmesi B) Veri hırsızlığı anındaki doğrudan zarar C) Müşteri güveni/itibar kaybı D) İyileştirme maliyeti"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "56",
+    "text": "Bulut bilişim mimarilerinde risk yönetimini zorlaştıran temel unsur nedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "İnternet faturasının artması"
+      },
+      {
+        "key": "B",
+        "text": "Sanal sistemlerin anlık devreye alınıp sonlandırılabilmesi"
+      },
+      {
+        "key": "C",
+        "text": "Bulut sistemlerin her zaman daha güvensiz olması"
+      },
+      {
+        "key": "D",
+        "text": "Fiziksel sunucu sayısının azalması"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "57",
+    "text": "Siber olgunluk döngüsünde hedeflenen model hangisidir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reaktif model B) Proaktif ve Adaptif entegre model"
+      },
+      {
+        "key": "C",
+        "text": "Tamamen manuel model"
+      },
+      {
+        "key": "D",
+        "text": "Düşük bütçeli model"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "58",
+    "text": "SolarWinds saldırısında saldırganlar neden resmi derleme sunucusuna sızmıştır?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Orası daha pahalı olduğu için"
+      },
+      {
+        "key": "B",
+        "text": "Yazılım meşru sertifikayla imzalandığı için geleneksel kontrolleri atlatabilmesi amacıyla"
+      },
+      {
+        "key": "C",
+        "text": "Tedarikçi ofisi yakın olduğu için"
+      },
+      {
+        "key": "D",
+        "text": "Daha az elektrik harcadığı için"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "59",
+    "text": "Bir kurumda \"Kontrol Kalitesi\" neyi ifade eder?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Personel nazikliğini"
+      },
+      {
+        "key": "B",
+        "text": "Var olan kontrollerin tehdidi caydıracak kadar olgun olup olmadığını"
+      },
+      {
+        "key": "C",
+        "text": "Şirketin toplam kârını"
+      },
+      {
+        "key": "D",
+        "text": "Ofis binasının sağlamlığını"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "60",
+    "text": "NIST CSF fonksiyonlarından \"DETECT (Tespit Et)\"in temel amacı nedir?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sadece kapıları kilitlemek B) Siber güvenlik olaylarını anında ve proaktif olarak tanımlayabilmek"
+      },
+      {
+        "key": "C",
+        "text": "Olay bittikten sonra rapor yazmak"
+      },
+      {
+        "key": "D",
+        "text": "Yedekleri kontrol etmek"
+      }
+    ],
+    "answer": "B"
+  }
+]
 };

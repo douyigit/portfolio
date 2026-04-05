@@ -1,0 +1,283 @@
+1. Siber güvenliğin "IT problemi" olmaktan çıkıp Yönetim Kurulu seviyesinde bir iş riski sayılmasının temel nedeni nedir? 
+A) Sunucu yapılandırmalarının karmaşıklaşması
+B) Veri ihlallerinin doğrudan finansal zarara, itibar kaybına ve yasal cezalara yol açması 
+C) IT departmanındaki personel sayısının artması
+D) Antivirüs yazılımlarının pahalılaşması
+2. "Doğru şeylerin yapıldığından" emin olan, stratejiyi belirleyen ve risk iştahını tanımlayan kavram hangisidir? 
+A) Yönetim (Management)
+B) Operasyon (Operation)
+C) Yönetişim (Governance) 
+D) Denetim (Audit)
+3. Yönetişim ve Yönetim farkıyla ilgili hangisi yanlıştır? 
+A) Yönetişim vizyonerdir, Yönetim operasyoneldir B) Yönetişim "Nereye gidiyoruz?", Yönetim "Oraya nasıl gideceğiz?" sorusuna yanıt arar C) Yönetim Kurulu yönetişimden sorumludur D) Yönetişim kısa vadeli (günlük), Yönetim uzun vadeli (yıllık) işlere odaklanır 
+4. İdeal bir senaryoda CISO (Bilgi Güvenliği Yöneticisi) kime raporlama yapmalıdır? 
+A) IT Yöneticisine (CIO)
+B) Doğrudan CEO veya Yönetim Kurulu'na 
+C) İnsan Kaynakları Müdürü'ne
+D) Muhasebe departmanına
+5. Belgeler hiyerarşisinde "NE" yapılacağına odaklanan, teknoloji bağımsız ve en üst düzey belge hangisidir? 
+A) Standart
+B) Prosedür
+C) Politika 
+D) Rehber
+6. Hangi belgenin bağlayıcılığı zorunlu DEĞİLDİR ve tavsiye niteliğindedir? 
+A) Politikalar
+B) Rehberler (Guidelines) 
+C) Standartlar
+D) Prosedürler
+7. "Cisco Firewall üzerinde yeni bir kullanıcı oluşturmak için izlenecek adımlar" hangi belge türüne girer? 
+A) Politika
+B) Standart
+C) Prosedür 
+D) Kanun
+8. Risk yönetimine başlamadan önce masaya yatırılması gereken ilk çalışma hangisidir? 
+A) Sızma Testi
+B) Varlık Envanteri (Asset Inventory) 
+C) Şifreleme Algoritmaları
+D) Kullanıcı Eğitimleri
+9. Kurum için değeri olan her şeye ne ad verilir? 
+A) Varlık (Asset) 
+B) Tehdit
+C) Zafiyet
+D) Risk
+10. "Varlık Kritiklik Analizi"nin (Classification) temel amacı nedir? 
+A) Tüm varlıkları aynı bütçeyle korumak
+B) Kurumsal bütçeyi yüksek risk taşıyan kritik varlıklara ayırmak 
+C) Personel maaşlarını belirlemek
+D) En ucuz güvenlik cihazını seçmek
+11. Sistemdeki eksiklik, tasarım hatası veya zayıflığa ne denir? 
+A) Tehdit
+B) Etki
+C) Zafiyet (Vulnerability) 
+D) Olasılık
+12. Zafiyeti sömürerek sisteme zarar verme potansiyeli taşıyan aktif unsura ne denir? 
+A) Varlık
+B) Tehdit (Threat) 
+C) Risk iştahı
+D) Uyum
+13. "Zafiyet pasiftir, Tehdit aktiftir." Bu ikisi bir araya geldiğinde ne oluşur? 
+A) Yönetişim
+B) Strateji
+C) Risk 
+D) Envanter
+14. Siber güvenlik risk denklemine göre, hangisi "0" (sıfır) olursa risk de sıfır olur? 
+A) Sadece Tehdit B) Sadece Zafiyet C) Sadece Etki (Varlık Değeri) D) Hepsi (Tehdit, Zafiyet veya Etki'den herhangi biri) 
+15. Gerçek dünyada siber risk neden hiçbir zaman "0" olamaz? 
+A) Tehditler çok güçlü olduğu için
+B) Zafiyetin sıfır olması imkansız olduğu için 
+C) Bütçe yetersiz olduğu için
+D) Yasalar yetersiz olduğu için
+16. Risk değerlendirmesinde "soyut, tecrübeye dayalı ve renklerle (Yüksek, Orta, Düşük) ifade edilen" yöntem hangisidir? 
+A) Kantitatif (Nicel) Analiz
+B) Kalitatif (Nitel) Analiz 
+C) Matematiksel Analiz
+D) Finansal Analiz
+17. "Tamamen sayılara ve dolar/TL bazında maliyetlere dayanan" risk analizi hangisidir? 
+A) Kalitatif Analiz
+B) Kantitatif (Nicel) Analiz 
+C) Tahminleme
+D) Anket yöntemi
+18. Yönetim kurulundan bütçe almak için en etkili yöntem hangisidir? 
+A) "Kırmızı riskimiz var" demek
+B) Riski finansal (para) terimlerle anlatmak 
+C) Teknik detayları açıklamak
+D) Firewall modelini söylemek
+19. Kantitatif analizde "ALE" (Yıllık Kayıp Beklentisi) neyi ifade eder? 
+A) Bir kez hacklenirsek gidecek parayı B) Bir tehditten dolayı 1 yılda kaybedilmesi beklenen toplam parayı 
+C) Güvenlik cihazının fiyatını
+D) Şirketin toplam değerini
+20. Bir güvenli önlemi (cihaz/yazılım) hangi durumda SATIN ALINMAZ? 
+A) Önlemin maliyeti, beklenen zararın maliyetinden (ALE) büyükse 
+B) Cihaz çok eskiyse
+C) IT ekibi cihazı kullanmayı bilmiyorsa
+D) Cihaz yabancı menşeliyse
+21. Riski azaltmak için antivirüs veya firewall gibi kontroller uygulama stratejisine ne denir? 
+A) Devretme (Transference)
+B) Kabul Etme (Acceptance)
+C) Azaltma / Kontrol Etme (Mitigation) 
+D) Kaçınma
+22. Siber Sigorta yaptırmak hangi risk yanıt stratejisine örnektir? 
+A) Risk Azaltma
+B) Risk Devretme (Transference) 
+C) Risk Kabulü
+D) Riskten Kaçınma
+23. "Wi-Fi hacklenmesinden korktuğumuz için tesiste Wi-Fi kullanımını tamamen yasaklamak" hangi stratejidir? 
+A) Riskten Kaçınma (Avoidance) 
+B) Risk Azaltma
+C) Risk Kabulü
+D) Risk Paylaşımı
+24. Risk devretme (sigorta vb.) ile ilgili hangisi devredilemez? 
+A) Finansal zarar
+B) Maddi kayıp
+C) İtibar kaybı ve hapis cezası 
+D) Tamir maliyeti
+25. "Risk Kabulü" (Acceptance) hakkında hangisi doğrudur? 
+A) CISO kendi kendine karar verebilir
+B) Yalnızca Üst Yönetim imza karşılığında yapabilir C) Riski bilmeden görmezden gelmektir 
+D) Her zaman en ucuz yoldur
+26. Yazılım geliştiricisinin dahi henüz bilmediği ve yaması olmayan kritik açıklara ne denir? 
+A) Tehdit İstihbaratı
+B) Sıfırıncı Gün (Zero-Day) Zafiyeti 
+C) Malware
+D) Arka Kapı
+27. Hedef kuruma doğrudan saldırmak yerine, onun daha düşük güvenlikli tedarikçisini kullanmaya ne denir? 
+A) Sosyal Mühendislik
+B) Tedarik Zinciri Riski (Supply Chain Risk) 
+C) Fiziksel Saldırı
+D) Veri Sızıntısı
+28. Bir felaket anında sistemlerin kapalı kalmasına kurumun dayanabileceği MAKSİMUM süre nedir? 
+A) RPO (Kurtarma Noktası Hedefi) 
+B) ALE
+C) RTO (Kurtarma Zaman Hedefi) 
+D) AV
+29. Bir çöküş anında kurumun tolere edebileceği maksimum VERİ KAYBI limitine ne denir? 
+A) RTO B) RPO (Recovery Point Objective) 
+C) EF
+D) SLE
+30. NIST CSF (Siber Güvenlik Çerçevesi) döngüsünün 5 temel fonksiyonu hangisidir? 
+A) Planla, Uygula, Kontrol Et, Önlem Al, İzle
+B) Tanımla, Koru, Tespit Et, Müdahale Et, Kurtar 
+C) Satın Al, Kur, İşlet, Güncelle, Sil
+D) Analiz, Tasarım, İnşa, Test, Yayınlama
+31. Türkiye’deki veri mahremiyeti yasası hangisidir? 
+A) GDPR
+B) KVKK (Kişisel Verilerin Korunması Kanunu) 
+C) ISO 27001
+D) NIST SP 800-30
+32. Avrupa Birliği vatandaşlarının verilerini işleyen her şirketi bağlayan regülasyon hangisidir? 
+A) KVKK B) GDPR (General Data Protection Regulation) C) BDDK Tebliği 
+D) Siber Sigorta Poliçesi
+33. Risk yönetimi döngüsünde temel alınan uluslararası standart hangisidir? 
+A) ISO/IEC 27005 
+B) TCP/IP
+C) OSI Modeli
+D) HTTP
+34. Kalitatif ve Kantitatif yöntemin birlikte kullanıldığı yaklaşıma ne ad verilir? 
+A) Sadece Teorik Yaklaşım
+B) Karma (Hibrid) Yöntem 
+C) Geleneksel Yaklaşım
+D) Reddetme Stratejisi
+35. Modern siber tehditlerde statik risk analizlerinin en büyük yetersizliği nedir? 
+A) Çok pahalı olmaları
+B) Anlık gelişen (Zero-Day gibi) tehditlere karşı yetersiz kalmaları 
+C) Kağıt israfına yol açmaları
+D) Sadece yönetimi ilgilendirmeleri
+36. SIEM sistemleri vasıtasıyla 7/24 izlenen mimari hangisidir? 
+A) Varlık Envanteri
+B) Sürekli İzleme (Continuous Monitoring) 
+C) Statik Analiz
+D) Yıllık Denetim
+37. Bir ihlal durumunda operasyonların sürdürülebilmesini sağlayan kavram hangisidir? 
+A) Salt Koruma
+B) Siber Dirençlilik (Cyber Resilience) 
+C) Şifreleme
+D) Erişim Kontrolü
+38. Kritik kriz anlarında asli fonksiyonların icrasını sağlayan stratejik plan hangisidir? 
+A) DRP B) BRP (İş Sürekliliği Planlaması) 
+C) SIEM Yapılandırması
+D) Antivirüs Güncellemesi
+39. BT altyapılarının yedeklilik prensibiyle yeniden ayağa kaldırılması sürecine ne denir? 
+A) İş Etki Analizi (BIA)
+B) Felaket Kurtarma Planlaması (DRP) 
+C) Risk Tanımlama
+D) Mevzuat Uyumu
+40. Güvenlik süreçlerini kişilere bağımlı olmaktan çıkarıp ölçülebilir hale getirmenin amacı nedir? 
+A) Daha fazla yazılım satın almak
+B) Siber Olgunluk (Cyber Maturity) seviyesini artırmak 
+C) Personel sayısını azaltmak
+D) Sadece yasal cezadan kaçmak
+41. NIST CSF döngüsündeki "IDENTIFY (Tanımla)" fonksiyonunun amacı nedir? 
+A) Güvenlik duvarı kurallarını yazmak
+B) Siber güvenlik riski anlayışının kurumsal boyutta geliştirilmesi 
+C) Saldırı anında sistemleri kapatmak
+D) Yedeklerden veri geri dönmek
+42. "Kritik altyapı hizmetlerinin sürekliliğini sağlamak adına bariyerlerin tesisi" hangi NIST fonksiyonudur? 
+A) Tanımla
+B) Koru (Protect) 
+C) Tespit Et
+D) Müdahale Et
+43. Müdahale amaçlı "önceden simüle edilmiş aksiyonların icrası" hangi aşamaya girer? 
+A) Koru
+B) Tespit Et
+C) Müdahale Et (Respond) 
+D) Kurtar
+44. Standart kabul edilen CMMI ve NIST CSF kurumlara ne teşkil eder? 
+A) Referans 
+B) Siber sigorta primi
+C) Sadece teknoloji cihazı
+D) IT personel yükü
+45. BIA metodolojisi aşağıdakilerden hangisini belirler? 
+A) Saldırganın kimliğini
+B) İş süreçlerinin kritiklik derecesini 
+C) Hangi firewall markasının alınacağını
+D) Şirketin toplam hisse değerini
+46. "Beklenen RTO süresi kısaldıkça" maliyetlerle ilgili ne söylenebilir? 
+A) Maliyetler azalır
+B) Donanım maliyeti eksponansiyel olarak artar 
+C) Maliyetler değişmez
+D) Sadece yazılım maliyeti artar
+47. Bankacılık gibi mikro-saniye bazlı işlemlerde RPO ne kabul edilir? 
+A) 24 Saat
+B) 1 Saat
+C) Sıfır 
+D) Belirsiz
+48. Modern risk yönetiminin kesin engellemek yerine odaklandığı alan hangisidir? 
+A) Sadece fiziksel güvenlik
+B) Erken tespit ve hızlı toparlanma 
+C) Riski tamamen görmezden gelme
+D) İnterneti tamamen kapatma
+49. Kurumsal güvenlik duruşu (Security Posture) aşağıdakilerden hangisi ile sınırlıdır? 
+A) En pahalı cihazın gücüyle
+B) En zayıf tedarikçinin güvenlik seviyesiyle 
+C) IT müdürünün tecrübesiyle
+D) Ofisin fiziksel konumuyla
+50. Kurumsal yönetişim stratejisi olay sonrası analizden ziyade neye dayanmaktadır? 
+A) Manuel raporlara
+B) Anlık geri besleme döngülerine 
+C) Sadece yasal zorunluluklara
+D) Geçmiş yılın bütçesine
+51. Risk değerlendirmesinde "Tehdit Kabiliyeti" (Threat Capability) neyi ölçer? 
+A) Sistemin yavaşlığını
+B) Saldırganın amatör mü yoksa APT grubu mu olduğunu 
+C) Sadece internet hızını
+D) Firewall cihazının markasını
+52. "Sömürülebilirlik" (Exploitability) kavramı aşağıdakilerden hangisini ifade eder? 
+A) Bir sistemin pahalılığını
+B) Sisteme saldırmanın ne kadar kolay olduğunu 
+C) Kaç adet yedek sunucu olduğunu
+D) Şirketin kaç çalışanı olduğunu
+53. Bir riskin gerçeğe dönüşme hızını ifade eden parametre hangisidir? 
+A) Etki B) Olasılık C) Hız (Velocity) D) Varlık Değeri 
+54. Güvenlik kontrolü uygulandıktan sonra geride kalan riske ne ad verilir? 
+A) Kabul Edilen Risk
+B) Artık Risk (Residual Risk) 
+C) Sıfırıncı Gün Riski
+D) İkincil Kayıp 
+55. Aşağıdakilerden hangisi bir "Dolaylı Etki" (Secondary Loss) örneğidir? 
+A) Sistemlerin o an kilitlenmesi B) Veri hırsızlığı anındaki doğrudan zarar C) Müşteri güveni/itibar kaybı D) İyileştirme maliyeti 
+56. Bulut bilişim mimarilerinde risk yönetimini zorlaştıran temel unsur nedir? 
+A) İnternet faturasının artması
+B) Sanal sistemlerin anlık devreye alınıp sonlandırılabilmesi 
+C) Bulut sistemlerin her zaman daha güvensiz olması
+D) Fiziksel sunucu sayısının azalması
+57. Siber olgunluk döngüsünde hedeflenen model hangisidir? 
+A) Reaktif model B) Proaktif ve Adaptif entegre model 
+C) Tamamen manuel model
+D) Düşük bütçeli model
+58. SolarWinds saldırısında saldırganlar neden resmi derleme sunucusuna sızmıştır? 
+A) Orası daha pahalı olduğu için
+B) Yazılım meşru sertifikayla imzalandığı için geleneksel kontrolleri atlatabilmesi amacıyla 
+C) Tedarikçi ofisi yakın olduğu için
+D) Daha az elektrik harcadığı için
+59. Bir kurumda "Kontrol Kalitesi" neyi ifade eder? 
+A) Personel nazikliğini
+B) Var olan kontrollerin tehdidi caydıracak kadar olgun olup olmadığını 
+C) Şirketin toplam kârını
+D) Ofis binasının sağlamlığını
+60. NIST CSF fonksiyonlarından "DETECT (Tespit Et)"in temel amacı nedir? 
+A) Sadece kapıları kilitlemek B) Siber güvenlik olaylarını anında ve proaktif olarak tanımlayabilmek 
+C) Olay bittikten sonra rapor yazmak
+D) Yedekleri kontrol etmek
+
+CEVAP ANAHTARI (60 SORU)
+1-B, 2-C, 3-D, 4-B, 5-C, 6-B, 7-C, 8-B, 9-A, 10-B, 11-C, 12-B, 13-C, 14-D, 15-B, 16-B, 17-B, 18-B, 19-B, 20-A, 21-C, 22-B, 23-A, 24-C, 25-B, 26-B, 27-B, 28-C, 29-B, 30-B, 31-B, 32-B, 33-A, 34-B, 35-B, 36-B, 37-B, 38-B, 39-B, 40-B, 41-B, 42-B, 43-D, 44-A, 45-B, 46-B, 47-C, 48-B, 49-B, 50-B, 51-B, 52-B, 53-C, 54-B, 55-C, 56-B, 57-B, 58-B, 59-B, 60-B
