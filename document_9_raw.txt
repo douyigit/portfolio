@@ -1,0 +1,555 @@
+
+
+1. "İki ya da daha fazla yapının haberleştiği ortama" verilen teknik isim nedir? A) Client 
+B) Network C) Peer to Peer D) Server 
+2. Günümuzde dünya nüfusunun yaklaşık kaç katı internet kullanıcısı bulunmaktadır? A) 
+1 katı B) 2 katı C) 3 katı D) 5 katı 
+3. Notlara göre günümüzde ağlara bağlı toplam cihaz sayısı yaklaşık ne kadardır? A) 10 
+milyar B) 25 milyar C) 50 milyar D) 100 milyar 
+4. 1990'ların başında Yahoo gibi sitelerle özdeşleşen eski HTTP sürümü hangisidir? A) 
+http offer B) http 1.1 C) http 2.0 D) http 3.0 
+5. Akıllı telefonlar ve Apple ile yaygınlaşan, 2000'li yıllara damga vuran HTTP sürümü 
+hangisidir? A) http 1.0 B) http 1.1 C) http 2.0 D) http 3.0 
+6. Peer to Peer (P2P) modelinde hangisi bir avantaj olarak belirtilmiştir? A) Merkezi 
+yönetim olması B) Kolay kurulum ve az maliyet C) Yüksek ölçeklenebilirlik D) Karmaşık 
+yapı 
+7. Peer to Peer (P2P) ağların dezavantajları arasında hangisi yer almaz? A) Güvenli 
+olmaması B) Merkezi yönetimin yokluğu C) Ölçeklenebilir olmaması D) Kurulum 
+maliyetinin yüksekliği 
+8. "Hizmet almak ve vermek" prensibine dayanan, notlarda belirtilen temel model 
+hangisidir? A) Mesh Modeli B) Star Modeli C) Server-Client Modeli D) Ring Modeli 
+9. İstekte bulunan bilgisayar veya uç cihaz aşağıdakilerden hangisidir? A) Server B) 
+Client C) Switch D) Router 
+10. Notlarda "Endpoint / Host / Son Cihaz" kategorisine giren cihaz hangisidir? A) Switch 
+B) Router C) El terminali (Wi-Fi) D) Firewall 
+11. İnternette haberleşebilmek için bir cihazda mutlaka bulunması gereken fiziksel 
+arayüz kartı nedir? A) GPU B) Sound Card C) NIC (Network Interface Card) D) RAM 
+12. Notlardaki tanıma göre "aynı lokasyonda cihazları bağlayarak LAN oluşturan" 
+taşıyıcı cihaz hangisidir? A) Router B) Switch C) Firewall D) Modem 
+13. Switch üzerinde kabloların takıldığı fiziksel giriş yerlerine ne denir? A) Bus B) Port C) 
+Terminal D) Socket 
+14. Kablosuz erişim noktaları (Access Point) genellikle hangi cihaza bağlanır? A) Direkt 
+internete B) Switche C) Güç kaynağına D) Bilgisayara 
+
+15. Farklı networkleri birbirine bağlayan ve ağlar arası haberleşmeyi sağlayan cihaz 
+hangisidir? A) Switch B) Bridge C) Router (Yönlendirici) D) Hub 
+16. Notlarda "Trafik Bodyguard"ı olarak tanımlanan ve trafiği yöneten cihaz hangisidir? 
+A) Router B) Firewall C) Switch D) Access Point 
+17. Firewall cihazının IDS ve IPS dışında yaptığı temel işlev hangisidir? A) Kablo testi 
+yapmak B) Trafiği yönetmek C) MAC adresi üretmek D) Sinyali güçlendirmek 
+18. Bakır kablo (UTP/Ethernet) içerisinde toplam kaç adet tel bulunur? A) 2 B) 4 C) 8 D) 
+10 
+19. Işık ile iletim yapan ve internet omurgasını oluşturan kablo türü hangisidir? A) UTP B) 
+Coaxial C) Fiber Optic D) STP 
+20. "Sınırlı bir alanda uç cihazları bağlayan yüksek bant genişlikli ağ" hangisidir? A) WAN 
+B) MAN C) LAN D) SAN 
+21. "Geniş coğrafi alanda LAN'ları birbirine bağlayan ağ" hangisidir? A) WLAN B) WAN C) 
+PAN D) Intranet 
+22. ISP kavramının açılımı notlarda nasıl geçmektedir? A) Internet System Provider B) 
+Internet Service Provider C) Information Service Point D) International System Protocol 
+23. "LAN + WAN =" denkleminin karşılığı nedir? A) Extranet B) Intranet C) Internet D) SAN 
+24. "Sadece şirkete özel (company only)" olan ağ yapısı hangisidir? A) Internet B) 
+Intranet C) Extranet D) Public Network 
+25. Tedarikçilerin ve müşterilerin (suppliers, customer) erişebildiği özel ağ yapısı nedir? 
+A) Intranet B) Extranet C) Cloud D) VPN 
+26. Extranet bağlantıları notlara göre genellikle hangi yöntemle yapılır? A) Dial-up B) 
+VPN tünelleri (Firewallar arası) C) Uydu bağlantısı D) Fiber optik 
+27. Güvenilir ağ mimarisinin "Fault Tolerance" (Hata Toleransı) ilkesi neyi hedefler? A) 
+Ağın en yüksek hızda çalışmasını B) Bir hata oluştuğunda sistemin 
+çökmemesini/yedekliliği C) Sistemin her gün büyümesini D) Şifreleme algoritmalarının 
+güçlendirilmesini 
+28. Notlarda "Single point of failure istenmez" ifadesi hangi durum için kullanılmıştır? A) 
+Bir switchin bozulup 24 bilgisayarı devre dışı bırakması B) Kablonun renginin yanlış 
+olması C) İnternet hızının düşmesi D) Şifrenin çalınması 
+
+29. "Kapasite artma talebine hayır denmemeli" maddesi ağ mimarisinin hangi 
+özelliğidir? A) Güvenlik B) Scalability (Ölçeklenebilirlik) C) Fault Tolerance D) QoS 
+30. Kaliteli Hizmet (QoS) için paketlerin ulaşma süresi (latency) maksimum kaç ms 
+olmalıdır? A) 50ms B) 100ms C) 150ms D) 200ms 
+31. Ağ Güvenliği'nin CIA üçlüsünden "Confidentiality" (Gizlilik) neyi ifade eder? A) 
+Verinin değiştirilememesini B) Veriyi sahibi dışında kimsenin görmemesini C) Veriye her 
+zaman ulaşılabilmesini D) Verinin silinmemesini 
+32. "Bana ait ürünü kimse değiştirememeli, orijinal kalmalı" ifadesi CIA'in hangi 
+öğesidir? A) Availability B) Confidentiality C) Integrity (Bütünlük) D) Authentication 
+33. "Bana ait ürüne istediğimde erişebilmeliyim" ifadesi hangi güvenlik öğesidir? A) 
+Integrity B) Confidentiality C) Availability (Erişilebilirlik) D) Encryption 
+34. Telefon ve kamera ağlarının IP üzerinden bilgisayar ağına bağlanmasına ne ad 
+verilir? A) Parallel Network B) Converged Network (Bütünleşen Ağlar) C) Hybrid System 
+D) Cloud Network 
+35. Şirketler için daha pahalı olan ve SLA imzalanan internet teknolojisi hangisidir? A) 
+Broadband DSL B) Broadband Cable C) Dedicated Leased Lines D) Mobile Services 
+36. Notlarda "gecikme, kalabalık ortam" sorunu yaşayan erişim türü hangisidir? A) Fiber 
+B) DSL C) Cellular (Hücresel) D) Dial-Up 
+37. Eskiden kullanılan, telefon hattı üzerinden çalışan ve "circuit switch" mantığına 
+dayanan teknoloji nedir? A) Metro Ethernet B) Satellite C) Dial-Up D) Fiber GPON 
+38. BYOD trendinin notlardaki tam karşılığı nedir? A) Buy Your Own Data B) Bring Your 
+Own Device C) Build Your Own Design D) Best Yield on Device 
+39. "Gecikmedeki değişim" olarak tanımlanan kavram hangisidir? A) Latency B) 
+Bandwidth C) Jitter D) Throughput 
+40. İç tehditlerin (Internal Threat) dış tehditlerden daha riskli olmasının sebebi nedir? A) 
+İçerdeki kullanıcıların daha zeki olması B) İçerde sunucuya hızlı erişim olması ve firewall 
+olmaması C) Dış tehditlerin şifreli olması D) Dışardan gelenlerin yavaş olması 
+41. Standartları belirleyen IEEE kurumunun yaklaşık kaç üyesi vardır? A) 100 bin B) 250 
+bin C) 400 bin D) 1 milyon 
+42. Wi-Fi standartlarının IEEE kodu aşağıdakilerden hangisidir? A) 802.3 B) 802.15 C) 
+802.11 D) 802.1 
+
+43. Bluetooth teknolojisinin IEEE kodu nedir? A) 802.11 B) 802.15 C) 802.3 D) 802.1 
+44. IETF tarafından yayınlanan, her şeyin birinci el dökümantasyonu olan "pure text" 
+belgeler nedir? A) PDF B) RFC C) IEEE Standard D) ISO Document 
+45. Verinin iletilmesi için gerekli bilgilerin mesaja eklenmesi işlemine ne denir? A) 
+Decapsulation B) Segmentation C) Encapsulation D) Encoding 
+46. Mesajın sadece bir kişiye (tekil) gönderilmesi işlemine ne denir? A) Multicast B) 
+Broadcast C) Unicast D) Anycast 
+47. Mesajın bir gruba (çoklu) gönderilmesi işlemine ne denir? A) Unicast B) Multicast C) 
+Broadcast D) Simplex 
+48. Mesajın herkese (genel yayım) gönderilmesi işlemine ne denir? A) Multicast B) 
+Unicast C) Broadcast D) Full Duplex 
+49. OSI modelinde Layer 7 hangisidir? A) Presentation B) Session C) Application 
+(Uygulama) D) Transport 
+50. Tarayıcı, notepad veya Safari gibi kullanıcı arayüzleri hangi katmanda yer alır? A) 
+Layer 4 B) Layer 3 C) Layer 7 (Application) D) Layer 2 
+51. Uygulamaya gelen verinin nasıl işleneceğini tarif eden (örneğin dosya formatı) 
+katman hangisidir? A) Session B) Presentation (Sunum) C) Application D) Network 
+52. Oturumların karışmasını önleyen ve oturumu yöneten katman hangisidir? A) 
+Transport B) Data Link C) Session (Oturum) D) Physical 
+53. Verinin küçük parçalara (segment) bölündüğü ve sıra numarası (sequence no) aldığı 
+katman hangisidir? A) Network B) Transport (Taşıma) C) Data Link D) Session 
+54. OSI Layer 4'te (Transport) veriye ne ad verilir? A) Paket B) Frame C) Segment D) Bit 
+55. OSI Layer 3'te (Network) veriye ne ad verilir? A) Segment B) Paket C) Frame D) Bit 
+56. OSI Layer 2'de (Data Link) veriye ne ad verilir? A) Paket B) Frame (Çerçeve) C) 
+Segment D) Signal 
+57. Kaynak ve hedef IP adreslerinin eklendiği katman hangisidir? A) Layer 2 B) Layer 3 
+(Network) C) Layer 4 D) Layer 7 
+58. Kaynak ve hedef MAC adreslerinin eklendiği katman hangisidir? A) Layer 3 B) Layer 2 
+(Data Link) C) Layer 1 D) Layer 4 
+
+59. Veri kapsülleme (Encapsulation) hiyerarşisi nasıldır? A) IP -> Ethernet -> TCP -> APP 
+B) APP -> TCP -> IP -> Ethernet C) Ethernet -> IP -> TCP -> APP D) TCP -> IP -> APP -> 
+Ethernet 
+60. Verinin en sonuna "Trailer" (kuyruk) eklenen katman hangisidir? A) Layer 3 B) Layer 4 
+C) Layer 2 (Data Link) D) Layer 1 
+61. Verinin bozuk olup olmadığını anlamak için kullanılan "CRC hesabı" nerede yer alır? 
+A) IP Header B) TCP Header C) Ethernet Trailer (FCS) D) Application Data 
+62. Veriyi "bit"lere (1 ve 0) çevirip kabloya/havaya basan katman hangisidir? A) Layer 2 
+B) Layer 3 C) Layer 1 (Physical) D) Layer 7 
+63. Router kaçıncı katman cihazıdır? A) Layer 1 B) Layer 2 C) Layer 3 D) Layer 4 
+64. Switch kaçıncı katman cihazıdır? A) Layer 1 B) Layer 2 C) Layer 3 D) Layer 4 
+65. Hub kaçıncı katman cihazıdır? A) Layer 1 B) Layer 2 C) Layer 3 D) Layer 4 
+66. Kapsül açma (Decapsulation) işlemi sırasında veri en son hangi katmana ulaşır? A) 
+Physical B) Transport C) Application D) Network 
+67. Fiziksel katmanda "1 ve 0'ları uygun olarak taşıma" işlemine ne denir? A) Signaling B) 
+Encoding C) Modulation D) Fragmentation 
+68. Fiziksel katmanda "veriyi kodlama üzerine bindirme" işlemine ne denir? A) Encoding 
+B) Signaling C) Routing ) Switching 
+69. "Sistemin taşıyabileceği maksimum veri miktarı" nedir? A) Throughput B) Goodput 
+C) Bandwidth (Bant Genişliği) D) Latency 
+70. "Gerçekte alınan veri hızı" nedir? A) Bandwidth B) Throughput C) Goodput D) Jitter 
+71. "Kullanılabilir data aktarımı (Throughput - trafik overhead)" nedir? A) Goodput B) 
+Bandwidth C) Latency D) Attenuation 
+72. "Mesafe uzadıkça sinyalin dirençle karşılaşması ve zayıflaması" nedir? A) Crosstalk 
+B) Attenuation C) Collision D) Noise 
+73. Bakır kablolarda dışarıdan gelen elektromanyetik etkilere ne denir? A) RFI B) EMI C) 
+CRC D) MTU 
+74. Bakır kablolarda yan yana geçen tellerin birbirini bozmasına ne denir? A) 
+Attenuation B) Crosstalk (Diyafon) C) Jitter D) Latency 
+
+75. UTP kablo standartlarında mesafenin kaç metreyi geçmemesi önerilir? A) 50m B) 
+100m C) 150m D) 200m 
+76. STP kablonun UTP'den temel farkı nedir? A) Daha ince olması B) Folyo koruması 
+(Shield) ile EMI/RFI koruması sağlaması C) Daha ucuz olması D) Daha az tel içermesi 
+77. UTP kabloların ucuna takılan plastik konnektörün adı nedir? A) BNC B) RJ-45 C) SFP 
+D) DB9 
+78. "Turuncu-Beyaz" ile başlayan kablo renk standardı hangisidir? A) T568A B) T568B C) 
+Crossover D) Rollover 
+79. Eskiden kullanılan, PC'den PC'ye doğrudan bağlantı sağlayan kablo türü nedir? A) 
+Straight-through B) Crossover C) Rollover D) Fiber 
+80. Switch konfigürasyonu için kullanılan (genellikle mavi renkli) kablo hangisidir? A) 
+Crossover B) Rollover (Console cable) C) Patch cable D) Single Mode 
+81. Fiber optik kablolarda ışıkla veri ileten kısmın ham maddesi nedir? A) Bakır B) 
+Gümüş C) Cam (Silika) D) Plastik 
+82. "Single-Mode Fiber" (SMF) için ışık kaynağı nedir? A) LED B) Lazer C) Floresan D) 
+Halojen 
+83. SMF kablo ile yaklaşık ne kadar mesafe (switchten switche) gidilebilir? A) 550 metre 
+B) 2 km C) 80 km D) 100 metre 
+84. "Multi-Mode Fiber" (MMF) için ışık kaynağı nedir? A) Lazer B) LED C) Güneş ışığı D) 
+Kızılötesi 
+85. MMF kablo ile gidilebilen yaklaşık mesafe nedir? A) 100m B) 550m C) 80km D) 
+1000m 
+86. MMF kablonun cam çekirdek çapı ne kadardır? A) 9 mikron B) 50 / 62.5 mikron C) 
+100 mikron D) 5 mikron 
+87. SMF kablonun cam çekirdek çapı ne kadardır? A) 9 mikron B) 50 mikron C) 62.5 
+mikron D) 100 mikron 
+88. Fiber optik kablolarda aynı anda veri alıp-vermek için genellikle kaç tel kullanılır? A) 
+1 B) 2 (biri transmit, biri receive) C) 8 D) 4 
+89. Fiber kabloları test etmek için kullanılan cihazın adı nedir? A) Multi-metre B) OTDR 
+C) SFP D) GBIC 
+
+90. Bakır ve fiber karşılaştırmasında hangisinin maliyeti en düşüktür? A) Single Mode 
+Fiber B) Multi Mode Fiber C) UTP (Bakır) D) Coaxial 
+91. "Herkesin birbirine bağlı olduğu" tam yedekli topoloji hangisidir? A) Star B) Mesh C) 
+Bus D) Ring 
+92. Hattın sonlarında "terminatör" bulunan eski topoloji hangisidir? A) Mesh B) Star C) 
+Bus D) Ring 
+93. Günümüzde yerel ağlarda (LAN) en çok kullanılan yıldız yapılı topoloji hangisidir? A) 
+Bus B) Star C) Ring D) Point-to-Point 
+94. "Sırası boş paketi alan verisini koyar" mantığıyla çalışan eski topoloji nedir? A) Mesh 
+B) Star C) Ring (Token Ring) D) Bus 
+95. "Ya veri yollar ya veri alır, aynı anda yapamaz" iletişim türü nedir? A) Full Duplex B) 
+Half Duplex C) Simplex D) Multicast 
+96. "Aynı anda hem veri alıp hem veri verebilir" iletişim türü nedir? A) Full Duplex ) Half 
+Duplex C) Simplex D) Broadcast 
+97. Ethernet ağlarında kullanılan erişim kontrol yöntemi hangisidir? A) CSMA/CA B) 
+CSMA/CD C) Token Passing D) Polling 
+98. CSMA/CD'de çakışma (collision) olduğunda tüm cihazlara gönderilen sinyal nedir? 
+A) Stop B) Jam C) Back-off D) Reset 
+99. Çakışma sonrası cihazların tekrar veri yollamak için beklediği süreye ne denir? A) 
+Wait time B) Latency C) Back-off time D) Jitter 
+100. Wi-Fi ağlarında çakışmayı önlemek için kullanılan yöntem hangisidir? A) CSMA/CD 
+B) CSMA/CA (Collision Avoidance) C) FDDI D) ALOHA 
+101. Ethernet çerçevesinin (Frame) minimum boyutu kaç byte'tır? A) 32 byte B) 48 byte 
+C) 64 byte D) 1518 byte 
+102. Ethernet çerçevesinin (Frame) standart maksimum boyutu kaç byte'tır? A) 1000 
+byte B) 1500 byte C) 1518 byte D) 9000 byte 
+103. 64 byte'tan küçük olan bozuk Ethernet çerçevelerine ne denir? A) Giant Frame B) 
+Runt Frame C) Jumbo Frame D) Normal Frame 
+104. 1518 byte'tan büyük olan bozuk Ethernet çerçevelerine ne denir? A) Runt Frame B) 
+Giant Frame C) Jumbo Frame D) Micro Frame 
+
+105. "Jumbo Frame" kullanabilmek için ne yapılması gerekir? A) Hiçbir şeye gerek yoktur 
+B) Özel konfigürasyon yapılmalı ve her yerde açık olmalı C) Sadece kablo değiştirilmeli 
+D) Hızı 10mb'a düşürmeli 
+106. MAC adresleri kaç bit uzunluğundadır? A) 32 bit B) 48 bit C) 64 bit D) 128 bit 
+107. MAC adresleri hangi sayı sisteminde yazılır? A) Decimal (Onluk) B) Binary (İkilik) C) 
+Hexadecimal (On altılık) D) Octal (Sekizlik) 
+108. MAC adresinin ilk 24 bitini kim belirler/verir? A) Kurum (Satıcı) B) IEEE C) IANA D) 
+Kullanıcı 
+109. MAC adresinin ikinci 24 bitine ne denir? A) OUI B) Kurumun karta verdiği sayı (NIC 
+ID) C) IP adresi D) Port numarası 
+110. Kaynak MAC adresi her zaman nasıl bir adrestir? A) Multicast B) Broadcast C) 
+Unicast (Tekil) D) Anycast 
+111. "FF-FF-FF-FF-FF-FF" adresi neyi temsil eder? A) Hiçbir şeyi B) Broadcast MAC 
+adresini (Herkese) C) Google'ın adresini D) Router'ın adresini 
+112. IPv6 Multicast MAC adresleri hangi ön ek ile başlar? A) 01-00-5E B) 33-33 C) FF-FF 
+D) 00-00 
+113. IPv4 Multicast MAC adresleri hangi ön ek ile başlar? A) 01-00-5E B) 33-33 C) FF-FF 
+D) 11-11 
+114. IP adresi bilinen bir cihazın MAC adresini öğrenmek için kullanılan protokol nedir? 
+A) DHCP B) DNS C) ARP (Address Resolution Protocol) D) HTTP 
+115. ARP Request (İstek) paketi ağda nasıl yayılır? A) Unicast B) Multicast C) Broadcast 
+D) Sadece sunucuya gider 
+116. ARP Reply (Cevap) paketi nasıl gönderilir? A) Unicast B) Broadcast C) Multicast D) 
+Şifreli 
+117. Bir bilgisayar öğrendiği MAC adreslerini nereye kaydeder? A) Hard diske B) ARP 
+tablosuna (Dinamik/Statik) C) BIOS'a D) Tarayıcı geçmişine 
+118. Hacker'ın sahte ARP cevapları yollayarak trafiği kendi üzerine çekmesine ne denir? 
+A) Phishing B) DDoS C) ARP Poisoning / Man-in-the-Middle D) Brute Force 
+119. ARP zehirlenmesini önlemek için switch üzerinde hangi özellik açılmalıdır? A) Port 
+Security B) DAI (Dynamic ARP Inspection) C) DHCP Snooping D) VLAN 
+
+120. Router'a gelen bir paketin hedefi başka ağdaysa, router paketi hangi adrese 
+bakarak yönlendirir? A) Hedef MAC B) Hedef IP C) Kaynak MAC D) Kaynak Port 
+121. Switch, kendisine gelen Ethernet çerçevesini hangi tabloya bakarak iletir? A) IP 
+Tablosu B) MAC Adres Tablosu C) Routing Tablosu D) Port Tablosu 
+122. Hub'a gelen bir veri nasıl dağıtılır? A) Sadece hedefe yollanır B) Geldiği port hariç 
+tüm portlara basılır C) Sadece router'a yollanır D) Şifrelenip saklanır 
+123. "Throughput" ölçülürken neye bakılır? A) Kablonun rengine B) Belli bir sürede 
+gerçekte alınan veri miktarına C) Sistemin maksimum kapasitesine D) Port sayısına 
+124. Cat5e kablo standart olarak ne kadar hız destekler? A) 10mb B) 100mb C) 1000mb 
+(1gb) D) 10gb 
+125. Cat6 kablonun Cat5e'den farkı nedir? A) Daha ucuz olması B) Kalite artışı (fakat 
+1000mb/100m sınırı benzerdir) C) Sadece fiber olması D) 8 telden fazla olması 
+126. "Ox" ön eki (örneğin 0x8600) bir sayının hangi formatta olduğunu gösterir? A) Binary 
+B) Decimal C) Hexadecimal D) Octal 
+127. Bir frame switch'e geldiğinde switch önce hangi MAC adresini tabloya yazar? A) 
+Hedef MAC B) Kaynak MAC C) Broadcast MAC D) Kendi MAC'ini 
+128. "LLC" alt katmanı (Layer 2) neyi bildirir? A) Fiziksel kablo tipini B) Bir üst katmanda 
+hangi protokolün (Type) olduğunu C) Cihazın seri numarasını D) Sinyal gücünü 
+129. "MAC" alt katmanı (Layer 2) temel olarak ne yapar? A) IP ataması yapar B) 
+Encapsulation ve veri işleme yapar C) Şifre çözer D) Web sayfasını görüntüler 
+130. Fiziksel Topoloji ve Mantıksal (Logical) Topoloji farkı nedir? A) Fark yoktur B) 
+Fiziksel kablo yerini, mantıksal IP/WLAN yapısını gösterir C) Fiziksel interneti, mantıksal 
+intranet'i gösterir D) Mantıksal sadece routerlar içindir 
+131. 802.11 standardında hat boşsa rastlantısal süre seçilip yollama yapılmasına ne 
+denir? A) CSMA/CD B) CSMA/CA C) Polling D) Token Passing 
+132. Ethernet frame yapısında "Type" alanı kaç byte yer kaplar? A) 2 byte (16 bit) B) 4 
+byte C) 6 byte D) 8 byte 
+133. Ethernet frame yapısında "MAC adresleri" kaçar byte yer kaplar? A) 2 byte B) 4 byte 
+C) 6 byte (48 bit) D) 8 byte 
+134. MTU kavramının açılımı nedir? A) Minimum Transmission Unit B) Maximum 
+Transmission Unit C) Mode Transfer Unit D) Media Transmission Unit 
+
+135. Fiber optik "Single-Mode" kablonun çekirdek çapı yaklaşık kaç mikrondur? A) 9 
+mikron B) 50 mikron C) 62.5 mikron D) 100 mikron 
+136. Fiber konnektör tipleri arasında hangisi yer almaz? A) LC B) SC C) RJ-45 (Bakır 
+içindir) D) SFP 
+137. Notlarda "yüksek akım" tehlikesi nedeniyle binalar arası önerilmeyen kablo 
+hangisidir? A) Fiber B) UTP (Bakır) C) STP D) Coaxial 
+138. "Faraday Kafesi" mantığı hangi kabloda EMI'yi engellemek için kullanılır? A) UTP B) 
+STP C) Fiber D) Mavi kablo 
+139. Bir paketin hedefe ulaşması için geçen toplam süreye ne ad verilir? A) Bandwidth 
+B) Throughput C) Latency (Gecikme) ) Goodput 
+140. Coaxial kablo türlerinden PC haberleşmesi için kullanılan uç hangisidir? A) F Type 
+B) BNC C) N Type D) RJ-11 
+141. "Jitter" özellikle hangi trafik türü için kritik bir sorundur? A) E-posta B) Dosya 
+indirme C) Video ve Ses (Canlı trafik) D) Web sörfü 
+142. Bulut bilişim (Cloud Computing) hangi amaçla kullanılır? A) Sadece oyun oynamak 
+B) Veri depolama ve online işlem yapma C) Kablo testi yapma D) MAC adresi değiştirme 
+143. "ARP Request" paketi içindeki "Target MAC" alanı başlangıçta nasıldır? A) FF-FF... 
+B) 00-00... (Bilinmiyor) C) Kendi MAC'i D) Router MAC'i 
+144. Bir switch'in portuna bağlı olan cihazın MAC adresini unutma süresi (timeout) 
+nerede gerçekleşir? A) Flash bellek B) RAM / MAC Adres Tablosu C) Hard disk D) İşlemci 
+145. "Digital veriye çevirme" işlemi hangi katman fonksiyonudur? A) Layer 3 B) Layer 2 
+C) Layer 1 (Physical) D) Layer 7 
+146. EIA/TIA standartları en çok hangi konuda belirleyicidir? A) IP adresleme B) Kablo 
+kalitesi ve renk kodlaması C) Şifreleme algoritmaları D) Web tasarımı 
+147. Notlarda "SFP" (Small Form-factor Pluggable) ne için kullanılır? A) IP adresi almak 
+B) Fiber optik giriş modülü olarak switchlere takılır C) Kablo soymak D) Voltaj ölçmek 
+148. "Point-to-Point" (P2P) WAN topolojisinde kaç cihaz birbirine bağlıdır? A) 2 cihaz 
+direkt birbirine B) 10 cihaz C) Sınırsız cihaz D) Tüm dünya 
+149. Ethernet'te "Contension Based" (çekişmeli) erişim neyi ifade eder? A) Herkesin 
+sırasını beklemesini B) Kaotik ortamda herkesin hattı boş bulduğunda konuşmaya 
+çalışmasını C) Sadece sunucunun izin vermesini D) Şifreli erişimi 
+
+150. OSI modelinde "Uygulama, Sunum ve Oturum" katmanları (L7, L6, L5) TCP/IP 
+modelinde hangi tek katman altında birleştirilmiştir? A) Transport B) Internet C) 
+Application (Uygulama) D) Network Access 
+151. Notlardaki şemaya göre, bir veri "Kapsül Açma (Decapsulation)" işlemine 
+girdiğinde Layer 2'de (Veri Bağlantısı) hangi kontrol yapıldıktan sonra Layer 3'e 
+aktarılır? A) IP Adres kontrolü B) Port numarası kontrolü C) FCS/CRC (Hata Kontrolü) ve 
+Kuyruk kontrolü D) HTTP versiyon kontrolü 
+152. "Verinin hangi uygulamaya ait olduğunu belirlemek için kullanılan" port 
+numaraları (Örn: 80 portu), kapsülleme sürecinin hangi aşamasında veriye eklenir? 
+A) Segmentasyon (L4) B) Paketleme (L3) C) Çerçeveleme (L2) D) Bit akışı (L1) 
+153. Notlardaki fiber optik tablosunda "Long Haul" (Uzun mesafe/Okyanus altı) 
+iletim için hangi fiber türü ve ışık kaynağı eşleştirilmiştir? A) Multimode - LED B) 
+Single Mode - Lazer C) Single Mode - LED D) Multimode - Lazer 
+154. Fiber optik bağlantılarda "SFP" (Small Form-factor Pluggable) modüllerinin 
+takıldığı cihazların ana görevi notlarda nasıl tanımlanmıştır? A) IP adreslerini 
+yönetmek B) Işık sinyalini dijital veriye (veya tersi) çevirmek C) Sadece elektrik akımını 
+kontrol etmek D) Şifreleme algoritması üretmek 
+155. "STP kablonun UTP'ye göre kurulumu daha zordur" bilgisinin teknik gerekçesi 
+notlarda neye bağlanmıştır? A) Kablonun daha ince olmasına B) İçindeki folyo koruma 
+(shield) ve topraklama gereksinimi nedeniyle daha sert/kalın olmasına C) Daha az tel 
+içermesine D) Sadece dış mekanda kullanılmasına 
+156. Notlarda "Hata Toleransı" kapsamında geçen "24 PC yok oldu" örneği hangi ağ 
+cihazının yedeği olmamasını eleştirmek için verilmiştir? A) Router B) Switch C) 
+Firewall D) Modem 
+157. Veri Bağlantısı katmanında (L2) kullanılan "LLC (802.2)" alt katmanının, 
+Ethernet başlığındaki (Frame) hangi alanla doğrudan ilişkili olduğu belirtilmiştir? A) 
+Destination MAC B) Source MAC C) Type (Üst katman protokol bilgisi) D) FCS 
+158. "CSMA/CD" yönteminde bir cihaz hatta "Jam" sinyali duyduğunda neyi 
+anlamalıdır? A) Hattın boş olduğunu B) Bir çakışma (collision) meydana geldiğini ve 
+durması gerektiğini C) Verinin başarıyla ulaştığını D) Hızın artırıldığını 
+159. Notlardaki "Crossover" kablo tanımına göre, bu kablo hangi iki cihaz tipini 
+birbirine bağlamak için (eskiden) zorunluydu? A) PC - Switch B) Switch - Router C) PC 
+- PC (Aynı tip cihazlar) D) PC - Modem 
+
+160. Notlarda "Kablo sonlandırılırken çok açılmamalı" uyarısının sebebi nedir? A) 
+Kablonun renginin solması B) "Cancellation" (iptal/koruma) efektinin bozulması ve 
+girişimin artması C) Kablonun kısalması D) Konnektörün kırılması 
+161. "Half Duplex" bir ortamda (Örn: Hub veya eski Bus yapı), aynı anda veri 
+gönderilirse ne oluşur? A) Throughput artar B) Veriler birleşir C) Collision (Çakışma) 
+oluşur ve veri bozulur D) Otomatik olarak Full Duplex'e geçer 
+162. Notlarda "Logical Topology" (Mantıksal Topoloji) neleri içerir? A) Kabloların 
+geçtiği oda numaraları B) Port numaraları ve fiziksel cihaz yerleri C) IP adresleri, 
+VLAN'lar ve sanal ağ yapısı D) Sadece kablo tipleri 
+163. Ethernet Frame yapısında "Preamble" alanından sonra gelen ve çerçevenin 
+başladığını haber veren alan hangisidir? (Notlardaki görsel detay) A) Source Address 
+B) Type C) Destination Address D) Start Frame Delimiter (SFD) 
+164. Bir "Switch" cihazı, hedef MAC adresini tablosunda bulamazsa veriyi ne yapar? 
+A) Veriyi çöpe atar (Drop) B) Geldiği port hariç tüm portlara gönderir (Flooding) C) 
+Sadece Router'a yollar D) Cihazı ağdan atar 
+165. Notlarda "Power over Ethernet (PoE)" kavramı geçmese de, "switchler arası 
+vertical, uç cihazlar arası horizontal" kablolama notuna göre; duvarın içinden 
+geçen sabit kablolama türü hangisidir? A) Vertical B) Horizontal (Yatay) C) Patch 
+Cable D) Console 
+166. "Goodput" değerinin "Throughput"tan düşük olmasının temel sebebi nedir? A) 
+İnternetin yavaş olması B) Protokol başlıkları (Overhead) ve hatalı paketlerin toplam veri 
+hızından düşülmesi C) Kablonun çok uzun olması D) Cihazın eski olması 
+167. "1500 byte" sınırı (MTU) Ethernet'in hangi katmanında tanımlanmıştır? A) Layer 
+1 B) Layer 2 (Data Link) C) Layer 3 D) Layer 4 
+168. "ARP Reply" (ARP Cevabı) neden Broadcast değil de Unicast olarak gönderilir? 
+A) Hackerlar görmesin diye B) Cevabı sadece isteği gönderen makinenin alması yeterli 
+olduğu için (Adresi artık bildiği için) C) Switch izin vermediği için D) IP adresi değiştiği 
+için 
+169. Notlardaki topoloji çiziminde "A -> D'ye veri gönderirken hattın dinlenmesi" 
+hangi yöntemi açıklar? A) CSMA/CA B) Token Ring C) CSMA/CD (Carrier Sense) D) 
+Mesh 
+170. "MAC adresleri dünyada eşsizdir" ifadesinin garantisi nedir? A) Windows 
+tarafından atanması B) İlk 24 bitin (OUI) IEEE tarafından üreticilere benzersiz olarak 
+verilmesi C) Kullanıcının kendi yazması D) Her modemin aynı olması 
+
+171. OSI 1. Katman cihazı olan "Hub" neden "Collision Domain"i (çakışma alanı) 
+daraltamaz? A) Çok pahalı olduğu için B) Gelen elektriksel sinyali ayırt etmeden tüm 
+portlara çoğalttığı için C) IP adresi olmadığı için D) Fiber desteklemediği için 
+172. "Encapsulation" (Kapsülleme) işlemi donanım olarak nerede başlar ve nerede 
+biter? A) Router'da başlar, Switch'te biter B) Gönderen bilgisayarın uygulama 
+katmanında başlar, fiziksel katmanında biter C) İnternet kablosunda başlar D) Sadece 
+sunucuda olur 
+173. Notlarda "Router trafiği geçirgendir" ifadesi neyi anlatmak için "Firewall 
+(Bodyguard)" ile kıyaslanmıştır? A) Router'ın her veriyi şifrelediğini B) Router'ın 
+varsayılan olarak paketleri yönlendirmeye odaklı olduğunu, Firewall'un ise engellemeye 
+odaklı olduğunu C) Router'ın daha yavaş olduğunu D) Firewall'un kablosuz olduğunu 
+174. "100 metre" sınırı aşıldığında bakır kabloda oluşan "Attenuation" (Zayıflama) 
+sonucunda ne olur? A) Kablo ısınır B) Voltaj değerleri alıcı tarafından doğru okunamaz 
+(Veri bozulur/kaybolur) C) Cihaz yanar D) İnternet hızı iki katına çıkar 
+175. Notlardaki "ARP Poisoning" şemasında, Hacker paketlerin kendisine 
+gelmesini sağlamak için neyi "zehirler"? A) Bilgisayarın işlemcisini B) Hedef cihazın ve 
+Router'ın ARP Tablosunu (IP-MAC eşleşmesini) C) İnternet tarayıcısını D) Duvar prizini 
+176. Notlardaki "Ders 1" kısmında geçen "http offer" kavramı hangi döneme ait bir 
+protokol olarak sınıflandırılmıştır? A) 1990'ların başı B) 2000'li yıllar C) Günümüz D) 
+Gelecek  
+177. Notlardaki "Ağ Bileşenleri" şemasında, bir "File Server" ile haberleşen uç 
+cihazın adı nedir? A) Email client B) Web server C) File client D) Switch  
+178. Peer to Peer (P2P) ağlar için notlarda geçen "Küçük Ofis" ve "Ev" kullanım 
+örneğinde temel amaç nedir? A) Büyük veri tabanı yönetimi B) Dosya aktarma ve yazıcı 
+kullanmak C) Yüksek güvenlik sağlamak D) Uzaktan sunucu yönetimi  
+179. Notlarda "NIC" (Network Interface Card) ile ilgili olarak Google örneği 
+verilirken hangi önemli ayrım yapılmıştır? A) Google'da NIC olmadığı B) Bizden çıkan 
+kablonun doğrudan Google'a gitmediği, arada "Ara Cihaz" olduğu C) Kablonun sadece 
+fiber olduğu D) Google'ın sadece Wi-Fi kullandığı  
+180. Router ve Firewall kıyaslamasında, notlarda Firewall için kullanılan 
+"Bodyguard" benzetmesinin sebebi nedir? A) Router'dan daha hızlı olması B) Trafiği 
+bizim yönettiğimiz ve denetlediğimiz bir yapı olması C) Sadece kablosuz çalışması D) IP 
+adreslerini gizlemesi  
+
+181. "Fiber Optik" kablo türlerinden "Single Mode" için notlarda hangi fiziksel 
+özellik belirtilmiştir? A) Cam çapının 50 mikron olduğu B) LED ışık kullandığı C) 
+Yansımasız ve lazer ışık kullandığı D) Sadece kısa mesafelerde (550m) kullanıldığı  
+182. Notlardaki "Network Types" listesinde "SAN" kısaltmasının açılımı nedir? A) 
+System Area Network B) Storage Area Network C) Signal Access Network ) Security Area 
+Network  
+183. "İntranet: Tüm internet altyapısını, LAN ve WAN içerebilir" notuna göre 
+İntranet'in kapsama alanı hangisidir? A) Sadece tek bir oda B) Şirketin iç ağı (birden 
+fazla lokasyon olabilir) C) Sadece dış müşteriler D) Sadece bulut sistemleri  
+184. Güvenilir ağlarda "Quality of Service (QoS)" maddesinde, bir paket için 
+"timeout" (zaman aşımı) olmaması için sunucuda neyin gerçekleşmemesi gerekir? 
+A) Elektrik kesilmesi B) İstemcide timeout olması C) Kablonun renginin değişmesi D) IP 
+adresinin silinmesi  
+185. Notlarda "Converged Network" (Bütünleşen Ağlar) başlığı altında "Computer 
+Network"e bağlanan 3 temel yapı nedir? A) Telefon, Kamera, Yazıcı B) Mouse, Klavye, 
+Monitör C) Uydu, Kablo, Radyo D) Switch, Router, Hub  
+186. "Broadband Digital Subscriber Line (DSL)" teknolojisi için notlarda belirtilen 
+temel özellik nedir? A) Sadece işletmelere özel olması B) Kullanıcının internete 
+bağlanması için bakır telefon hattı kullanması C) Işıkla iletim yapması D) Sadece 
+uydudan sinyal alması  
+187. Notlarda "Satellite" (Uydu) internet erişimi için hangi yerel örnek verilmiştir? A) 
+Turkcell B) Türk Telekom C) Türksat D) Vodafone  
+188. "Kapasite artma talebine hayır denmemeli" notu hangi kavramın altında 2. 
+madde olarak yer alır? A) Fault Tolerance B) Scalability (Ölçeklenebilirlik) C) Security 
+D) QoS  
+189. IETF tarafından hazırlanan RFC dökümanları için notlarda hangi teknik tanım 
+kullanılmıştır? A) Elden yazılan dökümantasyon / Pure text B) Renkli şema dökümanları 
+C) Video eğitim serileri D) Sadece Cisco'ya özel metinler  
+190. Mesaj teslim çeşitlerinde "Unicast" için yapılan çizimde veri akışı nasıldır? A) 
+Tek kaynaktan herkese B) Tek kaynaktan tek bir hedefe (Tekil) C) Herkesten herkese D) 
+Kaynaksız rastgele iletim  
+191. OSI modelinde "Data Link" katmanı (L2) için notlarda hangi iki alt katman 
+(sublayer) belirtilmiştir? A) IP ve TCP B) LLC ve MAC C) Physical ve Segment D) HTTP 
+ve FTP  
+
+192. TCP/IP modelinde "Internet" katmanı, OSI modelinde hangi katmana karşılık 
+gelir? A) Transport B) Network C) Session D) Physical  
+193. Notlarda "Coaxial Cable" için "Topraklama çok iyi olmalı" uyarısı hangi amaçla 
+yapılmıştır? A) İnterneti hızlandırmak B) Sinyal kalitesini korumak ve paraziti önlemek 
+C) Kablonun rengini korumak D) Konnektörü sıkılaştırmak  
+194. "Category 5e" kablonun Cat5'ten temel farkı ve desteklediği hız nedir? A) 
+100mb hız desteklemesi B) 1000mb (1gb) hız desteklemesi ve 100 metre sınırı C) 10gb 
+hız desteklemesi D) Sadece fiber olması  
+195. Notlardaki "Straight-through (TT)" kablo türü için yapılan çizimde pinlerin 
+durumu nasıldır? A) Bir ucu farklı, diğer ucu farklı B) İki ucu da aynı renk sıralamasında 
+C) Sadece 2 tel bağlı D) Teller çaprazlanmış  
+196. "Physical Layer" fonksiyonlarından "Signaling" neyi ifade eder? A) Veriyi 
+parçalara bölmek B) Veriyi kodlama üzerine bindirmek C) IP adresi atamak D) Hata 
+kontrolü yapmak  
+197. Notlarda "Throughput - Traffic Overhead" formülü hangi kavramı hesaplamak 
+için kullanılır? A) Goodput (Kullanılabilir data aktarımı) B) Bandwidth C) Latency D) 
+Jitter  
+198. "802.1x" standardı notlarda hangi amaçla belirtilmiştir? A) Hız testi yapmak B) 
+Kimlik doğrulama (Authentication) C) Kablo renklerini belirlemek D) IP adresi dağıtmak  
+199. Notlardaki "ARP Poisoning" kısmında hacker, PC'den çıkan paketlerin önce 
+kendisine gelmesi için neyi yapar? A) Kabloyu keser B) Router'ın da ARP tablosunu 
+zehirler C) Bilgisayarı kapatır D) Şifreyi değiştirir  
+200. Notlarda Ethernet çerçeveleri için belirtilen "Runt Frame" tam olarak nedir? A) 
+1518 byte'tan büyük veri B) 64 byte'tan küçük olduğu için çöpe atılan veri C) Sadece 
+fiberde görülen hata D) Şifrelenmiş veri 
+201. Switch (Anahtar) cihazı için notlarda kullanılan "Transparent (Şeffaf)" ifadesi 
+neyi anlatır? A) Cihazın fiziksel olarak camdan yapıldığını B) Veriyi iletirken MAC 
+adresine bakıp sadece ilgili katmanı (L2) açtığını C) IP adresini gizlediğini D) İnternet 
+hızını etkilemediğini 
+202. Notlardaki "Ders 1" kısmına göre, sınıftaki "kalan sayısı" tahmini yüzde kaçtır? 
+A) %1 B) %3 C) %5 D) %10 
+
+203. "CRC hesap" işlemi notlarda hangi aşamada gerçekleşir? A) Veri daha 
+bilgisayardan çıkmadan önce yapılır ve kuyruğa yerleştirilir B) Veri Router'a ulaştığında 
+yapılır C) Sadece internet sitesine girerken yapılır D) Kablo takıldığı anda yapılır 
+204. Bir ARP Request (İstek) paketi ile ilgili hangisi doğrudur? A) Tüm interneti dolaşır 
+B) İlk karşılaştığı Router cihazında çöpe atılır (Ağ dışına çıkmaz) C) Sadece fiber 
+kablolarda çalışır D) Şifreli olarak gönderilir 
+205. Notlarda "pure text" ve "elden yazılan dökümantasyon" olarak tanımlanan 
+döküman türü hangisidir? A) IEEE Standartları B) RFC Dökümanları C) Cisco 
+Katalogları D) Windows Yardım Dosyaları 
+206. "Giant Frame" kavramı notlarda nasıl tanımlanmıştır? A) Çok hızlı iletilen veri B) 
+1500 byte sınırını geçen bozuk veri C) Fiber kablo türü D) Yüksek güvenlikli paket 
+207. Notlardaki fiber optik bilgisinde, ışığın özelliği için hangi ifade kullanılmıştır? 
+A) Çok parlak renkli ışık B) Görünmez ışık C) Sadece kırmızı ışık D) Güneş enerjili ışık 
+208. Switch, kendisine gelen bir veriyi iletmeden önce "kuyruğu (trailer)" neden 
+kontrol eder? A) Verinin hızını ölçmek için B) Verinin bozuk olup olmadığını anlamak 
+için (CRC/FCS) C) Gönderen kişinin adını öğrenmek için D) Kablo tipini belirlemek için 
+209. Notlardaki "A-D" arası veri iletim çiziminde, hattın boş olduğunun anlaşılması 
+için yapılan işleme ne denir? A) Jam sinyali B) Hat dinleme (Carrier Sense) C) 
+Kapsülleme D) Şifreleme 
+210. Notlarda "!" ile vurgulanan "hizmet almak ve vermek" ifadesi hangi mimariyi 
+tanımlamak için kullanılmıştır? A) Peer 2 Peer B) Cloud Computing C) Internet 
+Omurgası D) Metro Ethernet  
+211. Notlardaki Ethernet şemasında, verinin sonuna eklenen "Trailer" alanının 
+içindeki "FCS" neyi temsil eder? A) Frame Check Sequence B) Fiber Connector 
+System C) File Client Server D) Firewall Control System  
+212. Notlarda "Multicast MAC adresi asla kaynak MAC adresi olamaz!" ifadesi 
+hangi kuralı vurgular? A) Kaynağın her zaman tek (Unicast) olması gerektiğini B) 
+İnternetin yavaşlayacağını C) Router'ın bozulacağını D) Kablonun yanacağını  
+213. Notlardaki kablo tablosunda yer alan "renk kodlaması" neden yapılır? A) 
+Kablonun güzel görünmesi için B) Pinleri doğru eşleştirmek ve doğru pin eşleşmesini 
+sağlamak için C) Hızı artırmak için D) Fiberi korumak için  
+
+214. "Single point of failure" (Tek hata noktası) örneği olarak notlarda hangisi 
+verilmiştir? A) Router'ın çalınması B) Switch giderse 24 PC'nin yok olması C) Kablonun 
+renginin yanlış olması D) İnternet faturasının ödenmemesi  
+215. Notlarda "Ethernet 802.3" standardı hangi kurumu temsil eder? A) IETF B) IANA 
+C) IEEE D) EIA/TIA  
+216. "Jumbo Frame" kullanmak için notlarda belirtilen temel şart nedir? A) Sadece 
+fiber kablo kullanmak B) Her yerde (tüm cihazlarda) açık ve konfigüre edilmiş olması C) 
+Sadece gece kullanmak D) İnternet hızını düşürmek  
+217. "ARP Request" paketi içindeki hedef IP ile kendi IP'si eşleşen cihaz ne yapar? 
+A) Paketi çöpe atar B) "Unicast" olarak kendi MAC adresini içeren cevap dondurur C) 
+Herkese bağırır D) Kendi kendine reset atar  
+218. Notlarda "2. katman başlıklarının çoğunu IEEE koyar" ifadesi hangi protokoller 
+için geçerlidir? A) Sadece IP B) Ethernet (802.3), Wireless (802.11) ve Bluetooth 
+(802.15) C) HTTP ve FTP D) Sadece fiber  
+219. "ARP zehirlenmesi" (Poisoning) sonucunda paketin izlediği yol nasıldır? A) PC -
+> Router -> İnternet B) PC -> Hacker -> Router -> İnternet C) PC -> İnternet -> Hacker D) 
+Sadece PC içinde döner  
+220. Notların en sonunda yer alan "kuyruğu kontrol eder, bozuk ise çöpe gider" 
+işlemi hangi cihazda yapılır? A) Hub B) Switch C) Sadece PC D) Sadece Modem 
+1-B | 2-B | 3-C | 4-A | 5-C | 6-B | 7-D | 8-C | 9-B | 10-C | 11-C | 12-B | 13-B | 14-B | 15-C | 16-
+B | 17-B | 18-C | 19-C | 20-C | 21-B | 22-B | 23-C | 24-B | 25-B | 26-B | 27-B | 28-A | 29-B | 
+30-C | 31-B | 32-C | 33-C | 34-B | 35-C | 36-C | 37-C | 38-B | 39-C | 40-B | 41-C | 42-C | 43-
+B | 44-B | 45-C | 46-C | 47-B | 48-C | 49-C | 50-C | 51-B | 52-C | 53-B | 54-C | 55-B | 56-B | 
+57-B | 58-B | 59-B | 60-C | 61-C | 62-C | 63-C | 64-B | 65-A | 66-C | 67-B | 68-B | 69-C | 70-B 
+| 71-A | 72-B | 73-B | 74-B | 75-B | 76-B | 77-B | 78-B | 79-B | 80-B | 81-C | 82-B | 83-C | 84-B 
+| 85-B | 86-B | 87-A | 88-B | 89-B | 90-C | 91-B | 92-C | 93-B | 94-C | 95-B | 96-A | 97-B | 98-
+B | 99-C | 100-B | 101-C | 102-C | 103-B | 104-B | 105-B | 106-B | 107-C | 108-B | 109-B | 
+110-C | 111-B | 112-B | 113-A | 114-C | 115-C | 116-A | 117-B | 118-C | 119-B | 120-B | 
+121-B | 122-B | 123-B | 124-C | 125-B | 126-C | 127-B | 128-B | 129-B | 130-B | 131-B | 132-
+A | 133-C | 134-B | 135-A | 136-C | 137-B | 138-B | 139-C | 140-B | 141-C | 142-B | 143-B | 
+144-B | 145-C | 146-B | 147-B | 148-A | 149-B |  150-C | 151-C | 152-A | 153-B | 154-B | 
+155-B | 156-B | 157-C | 158-B | 159-C | 160-B | 161-C | 162-C | 163-D | 164-B | 165-B | 
+166-B | 167-B | 168-B | 169-C | 170-B | 171-B | 172-B | 173-B | 174-B | 175-B 
+
+ 176-A | 177-C | 178-B | 179-B | 180-B | 181-C | 182-B | 183-B | 184-B | 185-A | 186-B | 
+187-C | 188-B | 189-A | 190-B | 191-B | 192-B | 193-B | 194-B | 195-B | 196-B | 197-A | 198-
+B | 199-B  
+200-B | 201-B | 202-B | 203-A | 204-B | 205-B | 206-B | 207-B | 208-B | 209-B  
+210-A | 211-A | 212-A | 213-B | 214-B | 215-C | 216-B | 217-B | 218-B | 219-B | 220-B  
+ 

@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
             walkthrough: [...appData.walkthrough],
             bilgiguvenligi: [...appData.bilgiguvenligi],
             sibergiris1: [...appData.sibergiris1],
-            siber_giris_2: [...appData.siber_giris_2]
+            siber_giris_2: [...appData.siber_giris_2],
+            veri_iletisimi: [...appData.veri_iletisimi]
         }
     };
 
@@ -206,6 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
         else if (tabId === 'bilgiguvenligi') title.textContent = 'Bilgi Güvenliği Testi';
         else if (tabId === 'sibergiris1') title.textContent = 'Siber Güvenliğe Giriş 1. Slayt Soruları';
         else if (tabId === 'siber_giris_2') title.textContent = 'Siber Güvenliğe Giriş 2. Slayt Soruları';
+        else if (tabId === 'veri_iletisimi') title.textContent = 'Veri İletişimi ve Bilgisayar Ağları';
         
         renderQuestions();
         if (window.innerWidth <= 768) {
