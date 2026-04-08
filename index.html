@@ -18,19 +18,19 @@
                 <h2>QuizApp</h2>
             </div>
             <nav class="nav-menu">
-                <button class="nav-btn active" data-target="sunu">
+                <button class="nav-btn protected" data-target="sunu">
                     <span class="nav-icon">📊</span>
                     Sunu Testi
                 </button>
-                <button class="nav-btn" data-target="walkthrough">
+                <button class="nav-btn protected" data-target="walkthrough">
                     <span class="nav-icon">💡</span>
                     Walkthrough Testi
                 </button>
-                <button class="nav-btn" data-target="bilgiguvenligi">
+                <button class="nav-btn protected" data-target="bilgiguvenligi">
                     <span class="nav-icon">🛡️</span>
                     Bilgi Güvenliği Testi
                 </button>
-                <button class="nav-btn" data-target="sibergiris1">
+                <button class="nav-btn active" data-target="sibergiris1">
                     <span class="nav-icon">🔒</span>
                     Siber Güvenliğe Giriş 1
                 </button>
@@ -42,13 +42,17 @@
                     <span class="nav-icon">🌐</span>
                     Veri İletişimi ve Bilgisayar Ağları
                 </button>
+                <button class="nav-btn admin-login-btn" id="admin-login-btn">
+                    <span class="nav-icon">🔑</span>
+                    Admin Girişi
+                </button>
             </nav>
         </aside>
 
         <!-- Main Content -->
         <main class="main-content">
             <header class="top-bar">
-                <h1 id="section-title">Sunu Testi</h1>
+                <h1 id="section-title">Siber Güvenliğe Giriş 1. Slayt Soruları</h1>
                 <div class="controls">
                     <label class="expert-toggle" title="Expert Modu açtığınızda cevaplar anında gösterilmez, testin sonunda değerlendirilir.">
                         <span class="toggle-label">Expert Mod:</span>
@@ -82,6 +86,17 @@
                 </div>
             </div>
         </main>
+    </div>
+
+    <!-- Admin Modal -->
+    <div class="modal-overlay" id="admin-modal">
+        <div class="modal-content">
+            <h3 style="color: white; text-align: center; margin-bottom: 10px;">Admin Girişi</h3>
+            <input type="text" id="admin-id" placeholder="Kullanıcı Adı (ID)">
+            <input type="password" id="admin-pass" placeholder="Şifre">
+            <button id="admin-submit">Giriş Yap</button>
+            <button class="modal-close" id="admin-close">İptal</button>
+        </div>
     </div>
 
     <!-- Data & Script -->

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // State
     const state = {
-        currentTab: 'sunu',
+        currentTab: 'sibergiris1',
         expertMode: false,
         userAnswers: {},
         questions: {
@@ -26,6 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitWrapper = document.getElementById('submit-wrapper');
     const submitBtn = document.getElementById('submit-exam-btn');
     const expertSummary = document.getElementById('expert-summary');
+
+    // Admin Modal Elements
+    const adminBtn = document.getElementById('admin-login-btn');
+    const adminModal = document.getElementById('admin-modal');
+    const adminSubmit = document.getElementById('admin-submit');
+    const adminClose = document.getElementById('admin-close');
 
     // Utility: Shuffle
     function shuffleArray(array) {
@@ -258,6 +264,21 @@ document.addEventListener('DOMContentLoaded', () => {
     expertToggleCb.addEventListener('change', toggleExpertMode);
     submitBtn.addEventListener('click', handleEvaluateExam);
 
+    if (adminBtn) adminBtn.addEventListener('click', () => adminModal.classList.add('active'));
+    if (adminClose) adminClose.addEventListener('click', () => adminModal.classList.remove('active'));
+    if (adminSubmit) adminSubmit.addEventListener('click', () => {
+        const id = document.getElementById('admin-id').value;
+        const pass = document.getElementById('admin-pass').value;
+        if (id === 'dogu' && pass === '341200') {
+            document.body.classList.add('is-admin');
+            adminModal.classList.remove('active');
+            adminBtn.style.display = 'none';
+        } else {
+            alert('Hatalı ID veya Şifre!');
+        }
+    });
+
     // Initial Render
+    title.textContent = 'Siber Güvenliğe Giriş 1. Slayt Soruları';
     renderQuestions();
 });
