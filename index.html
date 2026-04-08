@@ -30,23 +30,24 @@
                     <span class="nav-icon">🛡️</span>
                     Bilgi Güvenliği Testi
                 </button>
-                <button class="nav-btn protected" data-target="sibergiris1">
+                <button class="nav-btn" data-target="sibergiris1">
                     <span class="nav-icon">🔒</span>
                     Siber Güvenliğe Giriş 1
                 </button>
-                <button class="nav-btn protected" data-target="siber_giris_2">
+                <button class="nav-btn" data-target="siber_giris_2">
                     <span class="nav-icon">🛡️</span>
                     Siber Güvenliğe Giriş 2
                 </button>
-                <button class="nav-btn protected" data-target="veri_iletisimi">
+                <button class="nav-btn" data-target="veri_iletisimi">
                     <span class="nav-icon">🌐</span>
                     Veri İletişimi ve Bilgisayar Ağları
                 </button>
-                <button class="nav-btn admin-login-btn" id="admin-login-btn">
-                    <span class="nav-icon">🔑</span>
-                    Admin Girişi
-                </button>
             </nav>
+            
+            <!-- Question Navigation Grid -->
+            <div class="question-nav-container" id="question-nav">
+                <!-- Dynamically populated numbers will go here -->
+            </div>
         </aside>
 
         <!-- Main Content -->
@@ -88,16 +89,7 @@
         </main>
     </div>
 
-    <!-- Admin Modal -->
-    <div class="modal-overlay" id="admin-modal">
-        <div class="modal-content">
-            <h3 style="color: white; text-align: center; margin-bottom: 10px;">Admin Girişi</h3>
-            <input type="text" id="admin-id" placeholder="Kullanıcı Adı (ID)">
-            <input type="password" id="admin-pass" placeholder="Şifre">
-            <button id="admin-submit">Giriş Yap</button>
-            <button class="modal-close" id="admin-close">İptal</button>
-        </div>
-    </div>
+
 
     <!-- Data & Script -->
     <script src="data.js"></script>

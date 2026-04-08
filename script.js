@@ -27,11 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitBtn = document.getElementById('submit-exam-btn');
     const expertSummary = document.getElementById('expert-summary');
 
-    // Admin Modal Elements
-    const adminBtn = document.getElementById('admin-login-btn');
-    const adminModal = document.getElementById('admin-modal');
-    const adminSubmit = document.getElementById('admin-submit');
-    const adminClose = document.getElementById('admin-close');
+
 
     // Utility: Shuffle
     function shuffleArray(array) {
@@ -48,6 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderQuestions() {
         wrapper.innerHTML = '';
         expertSummary.style.display = 'none';
+
+        const navContainer = document.getElementById('question-nav');
+        if (navContainer) navContainer.innerHTML = '';
         
         // Reset expert mode evaluation view if active
         if (state.expertMode) {
@@ -90,12 +89,29 @@ document.addEventListener('DOMContentLoaded', () => {
             card.appendChild(optionsList);
             card.appendChild(feedback);
             wrapper.appendChild(card);
+            
+            // Create navigation button
+            if (navContainer) {
+                const navBtn = document.createElement('div');
+                navBtn.className = 'nav-q-btn';
+                navBtn.id = `nav-btn-${index}`;
+                navBtn.textContent = index + 1;
+                navBtn.addEventListener('click', () => {
+                    document.getElementById(`q-card-${index}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
+                });
+                navContainer.appendChild(navBtn);
+            }
         });
     }
 
     // Handle Option Click
     function handleOptionClick(clickedBtn, question, optionsList, card) {
         const allBtns = optionsList.querySelectorAll('.option-btn');
+        
+        // Mark nav button as answered
+        const questionIndex = card.id.replace('q-card-', '');
+        const navBtn = document.getElementById(`nav-btn-${questionIndex}`);
+        if(navBtn) navBtn.classList.add('answered-nav');
         
         if (state.expertMode) {
             // EXPERT MODE: Just select the answer, don't show result
@@ -263,20 +279,6 @@ document.addEventListener('DOMContentLoaded', () => {
     shuffleBtn.addEventListener('click', handleShuffle);
     expertToggleCb.addEventListener('change', toggleExpertMode);
     submitBtn.addEventListener('click', handleEvaluateExam);
-
-    if (adminBtn) adminBtn.addEventListener('click', () => adminModal.classList.add('active'));
-    if (adminClose) adminClose.addEventListener('click', () => adminModal.classList.remove('active'));
-    if (adminSubmit) adminSubmit.addEventListener('click', () => {
-        const id = document.getElementById('admin-id').value;
-        const pass = document.getElementById('admin-pass').value;
-        if (id === 'dogu' && pass === '341200') {
-            document.body.classList.add('is-admin');
-            adminModal.classList.remove('active');
-            adminBtn.style.display = 'none';
-        } else {
-            alert('Hatalı ID veya Şifre!');
-        }
-    });
 
     // Initial Render
     title.textContent = 'Sunu Testi';
