@@ -7433,6344 +7433,6160 @@ const appData = {
     }
   ],
   "siber_giris_2": [
-  {
-    "id": "1",
-    "text": "Siber güvenliğin \"IT problemi\" olmaktan çıkıp Yönetim Kurulu seviyesinde bir iş riski sayılmasının temel nedeni nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sunucu yapılandırmalarının karmaşıklaşması"
-      },
-      {
-        "key": "B",
-        "text": "Veri ihlallerinin doğrudan finansal zarara, itibar kaybına ve yasal cezalara yol açması"
-      },
-      {
-        "key": "C",
-        "text": "IT departmanındaki personel sayısının artması"
-      },
-      {
-        "key": "D",
-        "text": "Antivirüs yazılımlarının pahalılaşması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "2",
-    "text": "\"Doğru şeylerin yapıldığından\" emin olan, stratejiyi belirleyen ve risk iştahını tanımlayan kavram hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Yönetim (Management)"
-      },
-      {
-        "key": "B",
-        "text": "Operasyon (Operation)"
-      },
-      {
-        "key": "C",
-        "text": "Yönetişim (Governance)"
-      },
-      {
-        "key": "D",
-        "text": "Denetim (Audit)"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "3",
-    "text": "Yönetişim ve Yönetim farkıyla ilgili hangisi yanlıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Yönetişim vizyonerdir, Yönetim operasyoneldir B) Yönetişim \"Nereye gidiyoruz?\", Yönetim \"Oraya nasıl gideceğiz?\" sorusuna yanıt arar C) Yönetim Kurulu yönetişimden sorumludur D) Yönetişim kısa vadeli (günlük), Yönetim uzun vadeli (yıllık) işlere odaklanır"
-      }
-    ],
-    "answer": "D"
-  },
-  {
-    "id": "4",
-    "text": "İdeal bir senaryoda CISO (Bilgi Güvenliği Yöneticisi) kime raporlama yapmalıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IT Yöneticisine (CIO)"
-      },
-      {
-        "key": "B",
-        "text": "Doğrudan CEO veya Yönetim Kurulu'na"
-      },
-      {
-        "key": "C",
-        "text": "İnsan Kaynakları Müdürü'ne"
-      },
-      {
-        "key": "D",
-        "text": "Muhasebe departmanına"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "5",
-    "text": "Belgeler hiyerarşisinde \"NE\" yapılacağına odaklanan, teknoloji bağımsız ve en üst düzey belge hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Standart"
-      },
-      {
-        "key": "B",
-        "text": "Prosedür"
-      },
-      {
-        "key": "C",
-        "text": "Politika"
-      },
-      {
-        "key": "D",
-        "text": "Rehber"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "6",
-    "text": "Hangi belgenin bağlayıcılığı zorunlu DEĞİLDİR ve tavsiye niteliğindedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Politikalar"
-      },
-      {
-        "key": "B",
-        "text": "Rehberler (Guidelines)"
-      },
-      {
-        "key": "C",
-        "text": "Standartlar"
-      },
-      {
-        "key": "D",
-        "text": "Prosedürler"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "7",
-    "text": "\"Cisco Firewall üzerinde yeni bir kullanıcı oluşturmak için izlenecek adımlar\" hangi belge türüne girer?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Politika"
-      },
-      {
-        "key": "B",
-        "text": "Standart"
-      },
-      {
-        "key": "C",
-        "text": "Prosedür"
-      },
-      {
-        "key": "D",
-        "text": "Kanun"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "8",
-    "text": "Risk yönetimine başlamadan önce masaya yatırılması gereken ilk çalışma hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sızma Testi"
-      },
-      {
-        "key": "B",
-        "text": "Varlık Envanteri (Asset Inventory)"
-      },
-      {
-        "key": "C",
-        "text": "Şifreleme Algoritmaları"
-      },
-      {
-        "key": "D",
-        "text": "Kullanıcı Eğitimleri"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "9",
-    "text": "Kurum için değeri olan her şeye ne ad verilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Varlık (Asset)"
-      },
-      {
-        "key": "B",
-        "text": "Tehdit"
-      },
-      {
-        "key": "C",
-        "text": "Zafiyet"
-      },
-      {
-        "key": "D",
-        "text": "Risk"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "10",
-    "text": "\"Varlık Kritiklik Analizi\"nin (Classification) temel amacı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Tüm varlıkları aynı bütçeyle korumak"
-      },
-      {
-        "key": "B",
-        "text": "Kurumsal bütçeyi yüksek risk taşıyan kritik varlıklara ayırmak"
-      },
-      {
-        "key": "C",
-        "text": "Personel maaşlarını belirlemek"
-      },
-      {
-        "key": "D",
-        "text": "En ucuz güvenlik cihazını seçmek"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "11",
-    "text": "Sistemdeki eksiklik, tasarım hatası veya zayıflığa ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Tehdit"
-      },
-      {
-        "key": "B",
-        "text": "Etki"
-      },
-      {
-        "key": "C",
-        "text": "Zafiyet (Vulnerability)"
-      },
-      {
-        "key": "D",
-        "text": "Olasılık"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "12",
-    "text": "Zafiyeti sömürerek sisteme zarar verme potansiyeli taşıyan aktif unsura ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Varlık"
-      },
-      {
-        "key": "B",
-        "text": "Tehdit (Threat)"
-      },
-      {
-        "key": "C",
-        "text": "Risk iştahı"
-      },
-      {
-        "key": "D",
-        "text": "Uyum"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "13",
-    "text": "\"Zafiyet pasiftir, Tehdit aktiftir.\" Bu ikisi bir araya geldiğinde ne oluşur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Yönetişim"
-      },
-      {
-        "key": "B",
-        "text": "Strateji"
-      },
-      {
-        "key": "C",
-        "text": "Risk"
-      },
-      {
-        "key": "D",
-        "text": "Envanter"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "14",
-    "text": "Siber güvenlik risk denklemine göre, hangisi \"0\" (sıfır) olursa risk de sıfır olur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece Tehdit B) Sadece Zafiyet C) Sadece Etki (Varlık Değeri) D) Hepsi (Tehdit, Zafiyet veya Etki'den herhangi biri)"
-      }
-    ],
-    "answer": "D"
-  },
-  {
-    "id": "15",
-    "text": "Gerçek dünyada siber risk neden hiçbir zaman \"0\" olamaz?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Tehditler çok güçlü olduğu için"
-      },
-      {
-        "key": "B",
-        "text": "Zafiyetin sıfır olması imkansız olduğu için"
-      },
-      {
-        "key": "C",
-        "text": "Bütçe yetersiz olduğu için"
-      },
-      {
-        "key": "D",
-        "text": "Yasalar yetersiz olduğu için"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "16",
-    "text": "Risk değerlendirmesinde \"soyut, tecrübeye dayalı ve renklerle (Yüksek, Orta, Düşük) ifade edilen\" yöntem hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kantitatif (Nicel) Analiz"
-      },
-      {
-        "key": "B",
-        "text": "Kalitatif (Nitel) Analiz"
-      },
-      {
-        "key": "C",
-        "text": "Matematiksel Analiz"
-      },
-      {
-        "key": "D",
-        "text": "Finansal Analiz"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "17",
-    "text": "\"Tamamen sayılara ve dolar/TL bazında maliyetlere dayanan\" risk analizi hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kalitatif Analiz"
-      },
-      {
-        "key": "B",
-        "text": "Kantitatif (Nicel) Analiz"
-      },
-      {
-        "key": "C",
-        "text": "Tahminleme"
-      },
-      {
-        "key": "D",
-        "text": "Anket yöntemi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "18",
-    "text": "Yönetim kurulundan bütçe almak için en etkili yöntem hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "\"Kırmızı riskimiz var\" demek"
-      },
-      {
-        "key": "B",
-        "text": "Riski finansal (para) terimlerle anlatmak"
-      },
-      {
-        "key": "C",
-        "text": "Teknik detayları açıklamak"
-      },
-      {
-        "key": "D",
-        "text": "Firewall modelini söylemek"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "19",
-    "text": "Kantitatif analizde \"ALE\" (Yıllık Kayıp Beklentisi) neyi ifade eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bir kez hacklenirsek gidecek parayı B) Bir tehditten dolayı 1 yılda kaybedilmesi beklenen toplam parayı"
-      },
-      {
-        "key": "C",
-        "text": "Güvenlik cihazının fiyatını"
-      },
-      {
-        "key": "D",
-        "text": "Şirketin toplam değerini"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "20",
-    "text": "Bir güvenli önlemi (cihaz/yazılım) hangi durumda SATIN ALINMAZ?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Önlemin maliyeti, beklenen zararın maliyetinden (ALE) büyükse"
-      },
-      {
-        "key": "B",
-        "text": "Cihaz çok eskiyse"
-      },
-      {
-        "key": "C",
-        "text": "IT ekibi cihazı kullanmayı bilmiyorsa"
-      },
-      {
-        "key": "D",
-        "text": "Cihaz yabancı menşeliyse"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "21",
-    "text": "Riski azaltmak için antivirüs veya firewall gibi kontroller uygulama stratejisine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Devretme (Transference)"
-      },
-      {
-        "key": "B",
-        "text": "Kabul Etme (Acceptance)"
-      },
-      {
-        "key": "C",
-        "text": "Azaltma / Kontrol Etme (Mitigation)"
-      },
-      {
-        "key": "D",
-        "text": "Kaçınma"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "22",
-    "text": "Siber Sigorta yaptırmak hangi risk yanıt stratejisine örnektir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Risk Azaltma"
-      },
-      {
-        "key": "B",
-        "text": "Risk Devretme (Transference)"
-      },
-      {
-        "key": "C",
-        "text": "Risk Kabulü"
-      },
-      {
-        "key": "D",
-        "text": "Riskten Kaçınma"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "23",
-    "text": "\"Wi-Fi hacklenmesinden korktuğumuz için tesiste Wi-Fi kullanımını tamamen yasaklamak\" hangi stratejidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Riskten Kaçınma (Avoidance)"
-      },
-      {
-        "key": "B",
-        "text": "Risk Azaltma"
-      },
-      {
-        "key": "C",
-        "text": "Risk Kabulü"
-      },
-      {
-        "key": "D",
-        "text": "Risk Paylaşımı"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "24",
-    "text": "Risk devretme (sigorta vb.) ile ilgili hangisi devredilemez?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Finansal zarar"
-      },
-      {
-        "key": "B",
-        "text": "Maddi kayıp"
-      },
-      {
-        "key": "C",
-        "text": "İtibar kaybı ve hapis cezası"
-      },
-      {
-        "key": "D",
-        "text": "Tamir maliyeti"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "25",
-    "text": "\"Risk Kabulü\" (Acceptance) hakkında hangisi doğrudur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "CISO kendi kendine karar verebilir"
-      },
-      {
-        "key": "B",
-        "text": "Yalnızca Üst Yönetim imza karşılığında yapabilir C) Riski bilmeden görmezden gelmektir"
-      },
-      {
-        "key": "D",
-        "text": "Her zaman en ucuz yoldur"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "26",
-    "text": "Yazılım geliştiricisinin dahi henüz bilmediği ve yaması olmayan kritik açıklara ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Tehdit İstihbaratı"
-      },
-      {
-        "key": "B",
-        "text": "Sıfırıncı Gün (Zero-Day) Zafiyeti"
-      },
-      {
-        "key": "C",
-        "text": "Malware"
-      },
-      {
-        "key": "D",
-        "text": "Arka Kapı"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "27",
-    "text": "Hedef kuruma doğrudan saldırmak yerine, onun daha düşük güvenlikli tedarikçisini kullanmaya ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sosyal Mühendislik"
-      },
-      {
-        "key": "B",
-        "text": "Tedarik Zinciri Riski (Supply Chain Risk)"
-      },
-      {
-        "key": "C",
-        "text": "Fiziksel Saldırı"
-      },
-      {
-        "key": "D",
-        "text": "Veri Sızıntısı"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "28",
-    "text": "Bir felaket anında sistemlerin kapalı kalmasına kurumun dayanabileceği MAKSİMUM süre nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "RPO (Kurtarma Noktası Hedefi)"
-      },
-      {
-        "key": "B",
-        "text": "ALE"
-      },
-      {
-        "key": "C",
-        "text": "RTO (Kurtarma Zaman Hedefi)"
-      },
-      {
-        "key": "D",
-        "text": "AV"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "29",
-    "text": "Bir çöküş anında kurumun tolere edebileceği maksimum VERİ KAYBI limitine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "RTO B) RPO (Recovery Point Objective)"
-      },
-      {
-        "key": "C",
-        "text": "EF"
-      },
-      {
-        "key": "D",
-        "text": "SLE"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "30",
-    "text": "NIST CSF (Siber Güvenlik Çerçevesi) döngüsünün 5 temel fonksiyonu hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Planla, Uygula, Kontrol Et, Önlem Al, İzle"
-      },
-      {
-        "key": "B",
-        "text": "Tanımla, Koru, Tespit Et, Müdahale Et, Kurtar"
-      },
-      {
-        "key": "C",
-        "text": "Satın Al, Kur, İşlet, Güncelle, Sil"
-      },
-      {
-        "key": "D",
-        "text": "Analiz, Tasarım, İnşa, Test, Yayınlama"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "31",
-    "text": "Türkiye’deki veri mahremiyeti yasası hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "GDPR"
-      },
-      {
-        "key": "B",
-        "text": "KVKK (Kişisel Verilerin Korunması Kanunu)"
-      },
-      {
-        "key": "C",
-        "text": "ISO 27001"
-      },
-      {
-        "key": "D",
-        "text": "NIST SP 800-30"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "32",
-    "text": "Avrupa Birliği vatandaşlarının verilerini işleyen her şirketi bağlayan regülasyon hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "KVKK B) GDPR (General Data Protection Regulation) C) BDDK Tebliği"
-      },
-      {
-        "key": "D",
-        "text": "Siber Sigorta Poliçesi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "33",
-    "text": "Risk yönetimi döngüsünde temel alınan uluslararası standart hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "ISO/IEC 27005"
-      },
-      {
-        "key": "B",
-        "text": "TCP/IP"
-      },
-      {
-        "key": "C",
-        "text": "OSI Modeli"
-      },
-      {
-        "key": "D",
-        "text": "HTTP"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "34",
-    "text": "Kalitatif ve Kantitatif yöntemin birlikte kullanıldığı yaklaşıma ne ad verilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece Teorik Yaklaşım"
-      },
-      {
-        "key": "B",
-        "text": "Karma (Hibrid) Yöntem"
-      },
-      {
-        "key": "C",
-        "text": "Geleneksel Yaklaşım"
-      },
-      {
-        "key": "D",
-        "text": "Reddetme Stratejisi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "35",
-    "text": "Modern siber tehditlerde statik risk analizlerinin en büyük yetersizliği nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Çok pahalı olmaları"
-      },
-      {
-        "key": "B",
-        "text": "Anlık gelişen (Zero-Day gibi) tehditlere karşı yetersiz kalmaları"
-      },
-      {
-        "key": "C",
-        "text": "Kağıt israfına yol açmaları"
-      },
-      {
-        "key": "D",
-        "text": "Sadece yönetimi ilgilendirmeleri"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "36",
-    "text": "SIEM sistemleri vasıtasıyla 7/24 izlenen mimari hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Varlık Envanteri"
-      },
-      {
-        "key": "B",
-        "text": "Sürekli İzleme (Continuous Monitoring)"
-      },
-      {
-        "key": "C",
-        "text": "Statik Analiz"
-      },
-      {
-        "key": "D",
-        "text": "Yıllık Denetim"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "37",
-    "text": "Bir ihlal durumunda operasyonların sürdürülebilmesini sağlayan kavram hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Salt Koruma"
-      },
-      {
-        "key": "B",
-        "text": "Siber Dirençlilik (Cyber Resilience)"
-      },
-      {
-        "key": "C",
-        "text": "Şifreleme"
-      },
-      {
-        "key": "D",
-        "text": "Erişim Kontrolü"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "38",
-    "text": "Kritik kriz anlarında asli fonksiyonların icrasını sağlayan stratejik plan hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "DRP B) BRP (İş Sürekliliği Planlaması)"
-      },
-      {
-        "key": "C",
-        "text": "SIEM Yapılandırması"
-      },
-      {
-        "key": "D",
-        "text": "Antivirüs Güncellemesi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "39",
-    "text": "BT altyapılarının yedeklilik prensibiyle yeniden ayağa kaldırılması sürecine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "İş Etki Analizi (BIA)"
-      },
-      {
-        "key": "B",
-        "text": "Felaket Kurtarma Planlaması (DRP)"
-      },
-      {
-        "key": "C",
-        "text": "Risk Tanımlama"
-      },
-      {
-        "key": "D",
-        "text": "Mevzuat Uyumu"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "40",
-    "text": "Güvenlik süreçlerini kişilere bağımlı olmaktan çıkarıp ölçülebilir hale getirmenin amacı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Daha fazla yazılım satın almak"
-      },
-      {
-        "key": "B",
-        "text": "Siber Olgunluk (Cyber Maturity) seviyesini artırmak"
-      },
-      {
-        "key": "C",
-        "text": "Personel sayısını azaltmak"
-      },
-      {
-        "key": "D",
-        "text": "Sadece yasal cezadan kaçmak"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "41",
-    "text": "NIST CSF döngüsündeki \"IDENTIFY (Tanımla)\" fonksiyonunun amacı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Güvenlik duvarı kurallarını yazmak"
-      },
-      {
-        "key": "B",
-        "text": "Siber güvenlik riski anlayışının kurumsal boyutta geliştirilmesi"
-      },
-      {
-        "key": "C",
-        "text": "Saldırı anında sistemleri kapatmak"
-      },
-      {
-        "key": "D",
-        "text": "Yedeklerden veri geri dönmek"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "42",
-    "text": "\"Kritik altyapı hizmetlerinin sürekliliğini sağlamak adına bariyerlerin tesisi\" hangi NIST fonksiyonudur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Tanımla"
-      },
-      {
-        "key": "B",
-        "text": "Koru (Protect)"
-      },
-      {
-        "key": "C",
-        "text": "Tespit Et"
-      },
-      {
-        "key": "D",
-        "text": "Müdahale Et"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "43",
-    "text": "Müdahale amaçlı \"önceden simüle edilmiş aksiyonların icrası\" hangi aşamaya girer?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Koru"
-      },
-      {
-        "key": "B",
-        "text": "Tespit Et"
-      },
-      {
-        "key": "C",
-        "text": "Müdahale Et (Respond)"
-      },
-      {
-        "key": "D",
-        "text": "Kurtar"
-      }
-    ],
-    "answer": "D"
-  },
-  {
-    "id": "44",
-    "text": "Standart kabul edilen CMMI ve NIST CSF kurumlara ne teşkil eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Referans"
-      },
-      {
-        "key": "B",
-        "text": "Siber sigorta primi"
-      },
-      {
-        "key": "C",
-        "text": "Sadece teknoloji cihazı"
-      },
-      {
-        "key": "D",
-        "text": "IT personel yükü"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "45",
-    "text": "BIA metodolojisi aşağıdakilerden hangisini belirler?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Saldırganın kimliğini"
-      },
-      {
-        "key": "B",
-        "text": "İş süreçlerinin kritiklik derecesini"
-      },
-      {
-        "key": "C",
-        "text": "Hangi firewall markasının alınacağını"
-      },
-      {
-        "key": "D",
-        "text": "Şirketin toplam hisse değerini"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "46",
-    "text": "\"Beklenen RTO süresi kısaldıkça\" maliyetlerle ilgili ne söylenebilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Maliyetler azalır"
-      },
-      {
-        "key": "B",
-        "text": "Donanım maliyeti eksponansiyel olarak artar"
-      },
-      {
-        "key": "C",
-        "text": "Maliyetler değişmez"
-      },
-      {
-        "key": "D",
-        "text": "Sadece yazılım maliyeti artar"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "47",
-    "text": "Bankacılık gibi mikro-saniye bazlı işlemlerde RPO ne kabul edilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "24 Saat"
-      },
-      {
-        "key": "B",
-        "text": "1 Saat"
-      },
-      {
-        "key": "C",
-        "text": "Sıfır"
-      },
-      {
-        "key": "D",
-        "text": "Belirsiz"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "48",
-    "text": "Modern risk yönetiminin kesin engellemek yerine odaklandığı alan hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece fiziksel güvenlik"
-      },
-      {
-        "key": "B",
-        "text": "Erken tespit ve hızlı toparlanma"
-      },
-      {
-        "key": "C",
-        "text": "Riski tamamen görmezden gelme"
-      },
-      {
-        "key": "D",
-        "text": "İnterneti tamamen kapatma"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "49",
-    "text": "Kurumsal güvenlik duruşu (Security Posture) aşağıdakilerden hangisi ile sınırlıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "En pahalı cihazın gücüyle"
-      },
-      {
-        "key": "B",
-        "text": "En zayıf tedarikçinin güvenlik seviyesiyle"
-      },
-      {
-        "key": "C",
-        "text": "IT müdürünün tecrübesiyle"
-      },
-      {
-        "key": "D",
-        "text": "Ofisin fiziksel konumuyla"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "50",
-    "text": "Kurumsal yönetişim stratejisi olay sonrası analizden ziyade neye dayanmaktadır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Manuel raporlara"
-      },
-      {
-        "key": "B",
-        "text": "Anlık geri besleme döngülerine"
-      },
-      {
-        "key": "C",
-        "text": "Sadece yasal zorunluluklara"
-      },
-      {
-        "key": "D",
-        "text": "Geçmiş yılın bütçesine"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "51",
-    "text": "Risk değerlendirmesinde \"Tehdit Kabiliyeti\" (Threat Capability) neyi ölçer?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sistemin yavaşlığını"
-      },
-      {
-        "key": "B",
-        "text": "Saldırganın amatör mü yoksa APT grubu mu olduğunu"
-      },
-      {
-        "key": "C",
-        "text": "Sadece internet hızını"
-      },
-      {
-        "key": "D",
-        "text": "Firewall cihazının markasını"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "52",
-    "text": "\"Sömürülebilirlik\" (Exploitability) kavramı aşağıdakilerden hangisini ifade eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bir sistemin pahalılığını"
-      },
-      {
-        "key": "B",
-        "text": "Sisteme saldırmanın ne kadar kolay olduğunu"
-      },
-      {
-        "key": "C",
-        "text": "Kaç adet yedek sunucu olduğunu"
-      },
-      {
-        "key": "D",
-        "text": "Şirketin kaç çalışanı olduğunu"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "53",
-    "text": "Bir riskin gerçeğe dönüşme hızını ifade eden parametre hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Etki B) Olasılık C) Hız (Velocity) D) Varlık Değeri"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "54",
-    "text": "Güvenlik kontrolü uygulandıktan sonra geride kalan riske ne ad verilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kabul Edilen Risk"
-      },
-      {
-        "key": "B",
-        "text": "Artık Risk (Residual Risk)"
-      },
-      {
-        "key": "C",
-        "text": "Sıfırıncı Gün Riski"
-      },
-      {
-        "key": "D",
-        "text": "İkincil Kayıp"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "55",
-    "text": "Aşağıdakilerden hangisi bir \"Dolaylı Etki\" (Secondary Loss) örneğidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sistemlerin o an kilitlenmesi B) Veri hırsızlığı anındaki doğrudan zarar C) Müşteri güveni/itibar kaybı D) İyileştirme maliyeti"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "56",
-    "text": "Bulut bilişim mimarilerinde risk yönetimini zorlaştıran temel unsur nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "İnternet faturasının artması"
-      },
-      {
-        "key": "B",
-        "text": "Sanal sistemlerin anlık devreye alınıp sonlandırılabilmesi"
-      },
-      {
-        "key": "C",
-        "text": "Bulut sistemlerin her zaman daha güvensiz olması"
-      },
-      {
-        "key": "D",
-        "text": "Fiziksel sunucu sayısının azalması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "57",
-    "text": "Siber olgunluk döngüsünde hedeflenen model hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Reaktif model B) Proaktif ve Adaptif entegre model"
-      },
-      {
-        "key": "C",
-        "text": "Tamamen manuel model"
-      },
-      {
-        "key": "D",
-        "text": "Düşük bütçeli model"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "58",
-    "text": "SolarWinds saldırısında saldırganlar neden resmi derleme sunucusuna sızmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Orası daha pahalı olduğu için"
-      },
-      {
-        "key": "B",
-        "text": "Yazılım meşru sertifikayla imzalandığı için geleneksel kontrolleri atlatabilmesi amacıyla"
-      },
-      {
-        "key": "C",
-        "text": "Tedarikçi ofisi yakın olduğu için"
-      },
-      {
-        "key": "D",
-        "text": "Daha az elektrik harcadığı için"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "59",
-    "text": "Bir kurumda \"Kontrol Kalitesi\" neyi ifade eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Personel nazikliğini"
-      },
-      {
-        "key": "B",
-        "text": "Var olan kontrollerin tehdidi caydıracak kadar olgun olup olmadığını"
-      },
-      {
-        "key": "C",
-        "text": "Şirketin toplam kârını"
-      },
-      {
-        "key": "D",
-        "text": "Ofis binasının sağlamlığını"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "60",
-    "text": "NIST CSF fonksiyonlarından \"DETECT (Tespit Et)\"in temel amacı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece kapıları kilitlemek B) Siber güvenlik olaylarını anında ve proaktif olarak tanımlayabilmek"
-      },
-      {
-        "key": "C",
-        "text": "Olay bittikten sonra rapor yazmak"
-      },
-      {
-        "key": "D",
-        "text": "Yedekleri kontrol etmek"
-      }
-    ],
-    "answer": "B"
-  }
+    {
+      "id": "1",
+      "text": "Siber güvenliğin \"IT problemi\" olmaktan çıkıp Yönetim Kurulu seviyesinde bir iş riski sayılmasının temel nedeni nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sunucu yapılandırmalarının karmaşıklaşması"
+        },
+        {
+          "key": "B",
+          "text": "Veri ihlallerinin doğrudan finansal zarara, itibar kaybına ve yasal cezalara yol açması"
+        },
+        {
+          "key": "C",
+          "text": "IT departmanındaki personel sayısının artması"
+        },
+        {
+          "key": "D",
+          "text": "Antivirüs yazılımlarının pahalılaşması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "2",
+      "text": "\"Doğru şeylerin yapıldığından\" emin olan, stratejiyi belirleyen ve risk iştahını tanımlayan kavram hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yönetim (Management)"
+        },
+        {
+          "key": "B",
+          "text": "Operasyon (Operation)"
+        },
+        {
+          "key": "C",
+          "text": "Yönetişim (Governance)"
+        },
+        {
+          "key": "D",
+          "text": "Denetim (Audit)"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "3",
+      "text": "Yönetişim ve Yönetim farkıyla ilgili hangisi yanlıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yönetişim vizyonerdir, Yönetim operasyoneldir B) Yönetişim \"Nereye gidiyoruz?\", Yönetim \"Oraya nasıl gideceğiz?\" sorusuna yanıt arar C) Yönetim Kurulu yönetişimden sorumludur D) Yönetişim kısa vadeli (günlük), Yönetim uzun vadeli (yıllık) işlere odaklanır"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "4",
+      "text": "İdeal bir senaryoda CISO (Bilgi Güvenliği Yöneticisi) kime raporlama yapmalıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IT Yöneticisine (CIO)"
+        },
+        {
+          "key": "B",
+          "text": "Doğrudan CEO veya Yönetim Kurulu'na"
+        },
+        {
+          "key": "C",
+          "text": "İnsan Kaynakları Müdürü'ne"
+        },
+        {
+          "key": "D",
+          "text": "Muhasebe departmanına"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "5",
+      "text": "Belgeler hiyerarşisinde \"NE\" yapılacağına odaklanan, teknoloji bağımsız ve en üst düzey belge hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Standart"
+        },
+        {
+          "key": "B",
+          "text": "Prosedür"
+        },
+        {
+          "key": "C",
+          "text": "Politika"
+        },
+        {
+          "key": "D",
+          "text": "Rehber"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "6",
+      "text": "Hangi belgenin bağlayıcılığı zorunlu DEĞİLDİR ve tavsiye niteliğindedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Politikalar"
+        },
+        {
+          "key": "B",
+          "text": "Rehberler (Guidelines)"
+        },
+        {
+          "key": "C",
+          "text": "Standartlar"
+        },
+        {
+          "key": "D",
+          "text": "Prosedürler"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "7",
+      "text": "\"Cisco Firewall üzerinde yeni bir kullanıcı oluşturmak için izlenecek adımlar\" hangi belge türüne girer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Politika"
+        },
+        {
+          "key": "B",
+          "text": "Standart"
+        },
+        {
+          "key": "C",
+          "text": "Prosedür"
+        },
+        {
+          "key": "D",
+          "text": "Kanun"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "8",
+      "text": "Risk yönetimine başlamadan önce masaya yatırılması gereken ilk çalışma hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sızma Testi"
+        },
+        {
+          "key": "B",
+          "text": "Varlık Envanteri (Asset Inventory)"
+        },
+        {
+          "key": "C",
+          "text": "Şifreleme Algoritmaları"
+        },
+        {
+          "key": "D",
+          "text": "Kullanıcı Eğitimleri"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "9",
+      "text": "Kurum için değeri olan her şeye ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Varlık (Asset)"
+        },
+        {
+          "key": "B",
+          "text": "Tehdit"
+        },
+        {
+          "key": "C",
+          "text": "Zafiyet"
+        },
+        {
+          "key": "D",
+          "text": "Risk"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "10",
+      "text": "\"Varlık Kritiklik Analizi\"nin (Classification) temel amacı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tüm varlıkları aynı bütçeyle korumak"
+        },
+        {
+          "key": "B",
+          "text": "Kurumsal bütçeyi yüksek risk taşıyan kritik varlıklara ayırmak"
+        },
+        {
+          "key": "C",
+          "text": "Personel maaşlarını belirlemek"
+        },
+        {
+          "key": "D",
+          "text": "En ucuz güvenlik cihazını seçmek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "11",
+      "text": "Sistemdeki eksiklik, tasarım hatası veya zayıflığa ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tehdit"
+        },
+        {
+          "key": "B",
+          "text": "Etki"
+        },
+        {
+          "key": "C",
+          "text": "Zafiyet (Vulnerability)"
+        },
+        {
+          "key": "D",
+          "text": "Olasılık"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "12",
+      "text": "Zafiyeti sömürerek sisteme zarar verme potansiyeli taşıyan aktif unsura ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Varlık"
+        },
+        {
+          "key": "B",
+          "text": "Tehdit (Threat)"
+        },
+        {
+          "key": "C",
+          "text": "Risk iştahı"
+        },
+        {
+          "key": "D",
+          "text": "Uyum"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "13",
+      "text": "\"Zafiyet pasiftir, Tehdit aktiftir.\" Bu ikisi bir araya geldiğinde ne oluşur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yönetişim"
+        },
+        {
+          "key": "B",
+          "text": "Strateji"
+        },
+        {
+          "key": "C",
+          "text": "Risk"
+        },
+        {
+          "key": "D",
+          "text": "Envanter"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "14",
+      "text": "Siber güvenlik risk denklemine göre, hangisi \"0\" (sıfır) olursa risk de sıfır olur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece Tehdit B) Sadece Zafiyet C) Sadece Etki (Varlık Değeri) D) Hepsi (Tehdit, Zafiyet veya Etki'den herhangi biri)"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "15",
+      "text": "Gerçek dünyada siber risk neden hiçbir zaman \"0\" olamaz?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tehditler çok güçlü olduğu için"
+        },
+        {
+          "key": "B",
+          "text": "Zafiyetin sıfır olması imkansız olduğu için"
+        },
+        {
+          "key": "C",
+          "text": "Bütçe yetersiz olduğu için"
+        },
+        {
+          "key": "D",
+          "text": "Yasalar yetersiz olduğu için"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "16",
+      "text": "Risk değerlendirmesinde \"soyut, tecrübeye dayalı ve renklerle (Yüksek, Orta, Düşük) ifade edilen\" yöntem hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kantitatif (Nicel) Analiz"
+        },
+        {
+          "key": "B",
+          "text": "Kalitatif (Nitel) Analiz"
+        },
+        {
+          "key": "C",
+          "text": "Matematiksel Analiz"
+        },
+        {
+          "key": "D",
+          "text": "Finansal Analiz"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "17",
+      "text": "\"Tamamen sayılara ve dolar/TL bazında maliyetlere dayanan\" risk analizi hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kalitatif Analiz"
+        },
+        {
+          "key": "B",
+          "text": "Kantitatif (Nicel) Analiz"
+        },
+        {
+          "key": "C",
+          "text": "Tahminleme"
+        },
+        {
+          "key": "D",
+          "text": "Anket yöntemi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "18",
+      "text": "Yönetim kurulundan bütçe almak için en etkili yöntem hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"Kırmızı riskimiz var\" demek"
+        },
+        {
+          "key": "B",
+          "text": "Riski finansal (para) terimlerle anlatmak"
+        },
+        {
+          "key": "C",
+          "text": "Teknik detayları açıklamak"
+        },
+        {
+          "key": "D",
+          "text": "Firewall modelini söylemek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "19",
+      "text": "Kantitatif analizde \"ALE\" (Yıllık Kayıp Beklentisi) neyi ifade eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bir kez hacklenirsek gidecek parayı B) Bir tehditten dolayı 1 yılda kaybedilmesi beklenen toplam parayı"
+        },
+        {
+          "key": "C",
+          "text": "Güvenlik cihazının fiyatını"
+        },
+        {
+          "key": "D",
+          "text": "Şirketin toplam değerini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "20",
+      "text": "Bir güvenli önlemi (cihaz/yazılım) hangi durumda SATIN ALINMAZ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Önlemin maliyeti, beklenen zararın maliyetinden (ALE) büyükse"
+        },
+        {
+          "key": "B",
+          "text": "Cihaz çok eskiyse"
+        },
+        {
+          "key": "C",
+          "text": "IT ekibi cihazı kullanmayı bilmiyorsa"
+        },
+        {
+          "key": "D",
+          "text": "Cihaz yabancı menşeliyse"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "21",
+      "text": "Riski azaltmak için antivirüs veya firewall gibi kontroller uygulama stratejisine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Devretme (Transference)"
+        },
+        {
+          "key": "B",
+          "text": "Kabul Etme (Acceptance)"
+        },
+        {
+          "key": "C",
+          "text": "Azaltma / Kontrol Etme (Mitigation)"
+        },
+        {
+          "key": "D",
+          "text": "Kaçınma"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "22",
+      "text": "Siber Sigorta yaptırmak hangi risk yanıt stratejisine örnektir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Risk Azaltma"
+        },
+        {
+          "key": "B",
+          "text": "Risk Devretme (Transference)"
+        },
+        {
+          "key": "C",
+          "text": "Risk Kabulü"
+        },
+        {
+          "key": "D",
+          "text": "Riskten Kaçınma"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "23",
+      "text": "\"Wi-Fi hacklenmesinden korktuğumuz için tesiste Wi-Fi kullanımını tamamen yasaklamak\" hangi stratejidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Riskten Kaçınma (Avoidance)"
+        },
+        {
+          "key": "B",
+          "text": "Risk Azaltma"
+        },
+        {
+          "key": "C",
+          "text": "Risk Kabulü"
+        },
+        {
+          "key": "D",
+          "text": "Risk Paylaşımı"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "24",
+      "text": "Risk devretme (sigorta vb.) ile ilgili hangisi devredilemez?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Finansal zarar"
+        },
+        {
+          "key": "B",
+          "text": "Maddi kayıp"
+        },
+        {
+          "key": "C",
+          "text": "İtibar kaybı ve hapis cezası"
+        },
+        {
+          "key": "D",
+          "text": "Tamir maliyeti"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "25",
+      "text": "\"Risk Kabulü\" (Acceptance) hakkında hangisi doğrudur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CISO kendi kendine karar verebilir"
+        },
+        {
+          "key": "B",
+          "text": "Yalnızca Üst Yönetim imza karşılığında yapabilir C) Riski bilmeden görmezden gelmektir"
+        },
+        {
+          "key": "D",
+          "text": "Her zaman en ucuz yoldur"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "26",
+      "text": "Yazılım geliştiricisinin dahi henüz bilmediği ve yaması olmayan kritik açıklara ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tehdit İstihbaratı"
+        },
+        {
+          "key": "B",
+          "text": "Sıfırıncı Gün (Zero-Day) Zafiyeti"
+        },
+        {
+          "key": "C",
+          "text": "Malware"
+        },
+        {
+          "key": "D",
+          "text": "Arka Kapı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "27",
+      "text": "Hedef kuruma doğrudan saldırmak yerine, onun daha düşük güvenlikli tedarikçisini kullanmaya ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sosyal Mühendislik"
+        },
+        {
+          "key": "B",
+          "text": "Tedarik Zinciri Riski (Supply Chain Risk)"
+        },
+        {
+          "key": "C",
+          "text": "Fiziksel Saldırı"
+        },
+        {
+          "key": "D",
+          "text": "Veri Sızıntısı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "28",
+      "text": "Bir felaket anında sistemlerin kapalı kalmasına kurumun dayanabileceği MAKSİMUM süre nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RPO (Kurtarma Noktası Hedefi)"
+        },
+        {
+          "key": "B",
+          "text": "ALE"
+        },
+        {
+          "key": "C",
+          "text": "RTO (Kurtarma Zaman Hedefi)"
+        },
+        {
+          "key": "D",
+          "text": "AV"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "29",
+      "text": "Bir çöküş anında kurumun tolere edebileceği maksimum VERİ KAYBI limitine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RTO B) RPO (Recovery Point Objective)"
+        },
+        {
+          "key": "C",
+          "text": "EF"
+        },
+        {
+          "key": "D",
+          "text": "SLE"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "30",
+      "text": "NIST CSF (Siber Güvenlik Çerçevesi) döngüsünün 5 temel fonksiyonu hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Planla, Uygula, Kontrol Et, Önlem Al, İzle"
+        },
+        {
+          "key": "B",
+          "text": "Tanımla, Koru, Tespit Et, Müdahale Et, Kurtar"
+        },
+        {
+          "key": "C",
+          "text": "Satın Al, Kur, İşlet, Güncelle, Sil"
+        },
+        {
+          "key": "D",
+          "text": "Analiz, Tasarım, İnşa, Test, Yayınlama"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "31",
+      "text": "Türkiye’deki veri mahremiyeti yasası hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "GDPR"
+        },
+        {
+          "key": "B",
+          "text": "KVKK (Kişisel Verilerin Korunması Kanunu)"
+        },
+        {
+          "key": "C",
+          "text": "ISO 27001"
+        },
+        {
+          "key": "D",
+          "text": "NIST SP 800-30"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "32",
+      "text": "Avrupa Birliği vatandaşlarının verilerini işleyen her şirketi bağlayan regülasyon hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "KVKK B) GDPR (General Data Protection Regulation) C) BDDK Tebliği"
+        },
+        {
+          "key": "D",
+          "text": "Siber Sigorta Poliçesi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "33",
+      "text": "Risk yönetimi döngüsünde temel alınan uluslararası standart hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ISO/IEC 27005"
+        },
+        {
+          "key": "B",
+          "text": "TCP/IP"
+        },
+        {
+          "key": "C",
+          "text": "OSI Modeli"
+        },
+        {
+          "key": "D",
+          "text": "HTTP"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "34",
+      "text": "Kalitatif ve Kantitatif yöntemin birlikte kullanıldığı yaklaşıma ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece Teorik Yaklaşım"
+        },
+        {
+          "key": "B",
+          "text": "Karma (Hibrid) Yöntem"
+        },
+        {
+          "key": "C",
+          "text": "Geleneksel Yaklaşım"
+        },
+        {
+          "key": "D",
+          "text": "Reddetme Stratejisi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "35",
+      "text": "Modern siber tehditlerde statik risk analizlerinin en büyük yetersizliği nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Çok pahalı olmaları"
+        },
+        {
+          "key": "B",
+          "text": "Anlık gelişen (Zero-Day gibi) tehditlere karşı yetersiz kalmaları"
+        },
+        {
+          "key": "C",
+          "text": "Kağıt israfına yol açmaları"
+        },
+        {
+          "key": "D",
+          "text": "Sadece yönetimi ilgilendirmeleri"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "36",
+      "text": "SIEM sistemleri vasıtasıyla 7/24 izlenen mimari hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Varlık Envanteri"
+        },
+        {
+          "key": "B",
+          "text": "Sürekli İzleme (Continuous Monitoring)"
+        },
+        {
+          "key": "C",
+          "text": "Statik Analiz"
+        },
+        {
+          "key": "D",
+          "text": "Yıllık Denetim"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "37",
+      "text": "Bir ihlal durumunda operasyonların sürdürülebilmesini sağlayan kavram hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Salt Koruma"
+        },
+        {
+          "key": "B",
+          "text": "Siber Dirençlilik (Cyber Resilience)"
+        },
+        {
+          "key": "C",
+          "text": "Şifreleme"
+        },
+        {
+          "key": "D",
+          "text": "Erişim Kontrolü"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "38",
+      "text": "Kritik kriz anlarında asli fonksiyonların icrasını sağlayan stratejik plan hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DRP B) BRP (İş Sürekliliği Planlaması)"
+        },
+        {
+          "key": "C",
+          "text": "SIEM Yapılandırması"
+        },
+        {
+          "key": "D",
+          "text": "Antivirüs Güncellemesi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "39",
+      "text": "BT altyapılarının yedeklilik prensibiyle yeniden ayağa kaldırılması sürecine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "İş Etki Analizi (BIA)"
+        },
+        {
+          "key": "B",
+          "text": "Felaket Kurtarma Planlaması (DRP)"
+        },
+        {
+          "key": "C",
+          "text": "Risk Tanımlama"
+        },
+        {
+          "key": "D",
+          "text": "Mevzuat Uyumu"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "40",
+      "text": "Güvenlik süreçlerini kişilere bağımlı olmaktan çıkarıp ölçülebilir hale getirmenin amacı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Daha fazla yazılım satın almak"
+        },
+        {
+          "key": "B",
+          "text": "Siber Olgunluk (Cyber Maturity) seviyesini artırmak"
+        },
+        {
+          "key": "C",
+          "text": "Personel sayısını azaltmak"
+        },
+        {
+          "key": "D",
+          "text": "Sadece yasal cezadan kaçmak"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "41",
+      "text": "NIST CSF döngüsündeki \"IDENTIFY (Tanımla)\" fonksiyonunun amacı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Güvenlik duvarı kurallarını yazmak"
+        },
+        {
+          "key": "B",
+          "text": "Siber güvenlik riski anlayışının kurumsal boyutta geliştirilmesi"
+        },
+        {
+          "key": "C",
+          "text": "Saldırı anında sistemleri kapatmak"
+        },
+        {
+          "key": "D",
+          "text": "Yedeklerden veri geri dönmek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "42",
+      "text": "\"Kritik altyapı hizmetlerinin sürekliliğini sağlamak adına bariyerlerin tesisi\" hangi NIST fonksiyonudur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tanımla"
+        },
+        {
+          "key": "B",
+          "text": "Koru (Protect)"
+        },
+        {
+          "key": "C",
+          "text": "Tespit Et"
+        },
+        {
+          "key": "D",
+          "text": "Müdahale Et"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "43",
+      "text": "Müdahale amaçlı \"önceden simüle edilmiş aksiyonların icrası\" hangi aşamaya girer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Koru"
+        },
+        {
+          "key": "B",
+          "text": "Tespit Et"
+        },
+        {
+          "key": "C",
+          "text": "Müdahale Et (Respond)"
+        },
+        {
+          "key": "D",
+          "text": "Kurtar"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "44",
+      "text": "Standart kabul edilen CMMI ve NIST CSF kurumlara ne teşkil eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Referans"
+        },
+        {
+          "key": "B",
+          "text": "Siber sigorta primi"
+        },
+        {
+          "key": "C",
+          "text": "Sadece teknoloji cihazı"
+        },
+        {
+          "key": "D",
+          "text": "IT personel yükü"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "45",
+      "text": "BIA metodolojisi aşağıdakilerden hangisini belirler?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saldırganın kimliğini"
+        },
+        {
+          "key": "B",
+          "text": "İş süreçlerinin kritiklik derecesini"
+        },
+        {
+          "key": "C",
+          "text": "Hangi firewall markasının alınacağını"
+        },
+        {
+          "key": "D",
+          "text": "Şirketin toplam hisse değerini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "46",
+      "text": "\"Beklenen RTO süresi kısaldıkça\" maliyetlerle ilgili ne söylenebilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maliyetler azalır"
+        },
+        {
+          "key": "B",
+          "text": "Donanım maliyeti eksponansiyel olarak artar"
+        },
+        {
+          "key": "C",
+          "text": "Maliyetler değişmez"
+        },
+        {
+          "key": "D",
+          "text": "Sadece yazılım maliyeti artar"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "47",
+      "text": "Bankacılık gibi mikro-saniye bazlı işlemlerde RPO ne kabul edilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "24 Saat"
+        },
+        {
+          "key": "B",
+          "text": "1 Saat"
+        },
+        {
+          "key": "C",
+          "text": "Sıfır"
+        },
+        {
+          "key": "D",
+          "text": "Belirsiz"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "48",
+      "text": "Modern risk yönetiminin kesin engellemek yerine odaklandığı alan hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece fiziksel güvenlik"
+        },
+        {
+          "key": "B",
+          "text": "Erken tespit ve hızlı toparlanma"
+        },
+        {
+          "key": "C",
+          "text": "Riski tamamen görmezden gelme"
+        },
+        {
+          "key": "D",
+          "text": "İnterneti tamamen kapatma"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "49",
+      "text": "Kurumsal güvenlik duruşu (Security Posture) aşağıdakilerden hangisi ile sınırlıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "En pahalı cihazın gücüyle"
+        },
+        {
+          "key": "B",
+          "text": "En zayıf tedarikçinin güvenlik seviyesiyle"
+        },
+        {
+          "key": "C",
+          "text": "IT müdürünün tecrübesiyle"
+        },
+        {
+          "key": "D",
+          "text": "Ofisin fiziksel konumuyla"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "50",
+      "text": "Kurumsal yönetişim stratejisi olay sonrası analizden ziyade neye dayanmaktadır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Manuel raporlara"
+        },
+        {
+          "key": "B",
+          "text": "Anlık geri besleme döngülerine"
+        },
+        {
+          "key": "C",
+          "text": "Sadece yasal zorunluluklara"
+        },
+        {
+          "key": "D",
+          "text": "Geçmiş yılın bütçesine"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "51",
+      "text": "Risk değerlendirmesinde \"Tehdit Kabiliyeti\" (Threat Capability) neyi ölçer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sistemin yavaşlığını"
+        },
+        {
+          "key": "B",
+          "text": "Saldırganın amatör mü yoksa APT grubu mu olduğunu"
+        },
+        {
+          "key": "C",
+          "text": "Sadece internet hızını"
+        },
+        {
+          "key": "D",
+          "text": "Firewall cihazının markasını"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "52",
+      "text": "\"Sömürülebilirlik\" (Exploitability) kavramı aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bir sistemin pahalılığını"
+        },
+        {
+          "key": "B",
+          "text": "Sisteme saldırmanın ne kadar kolay olduğunu"
+        },
+        {
+          "key": "C",
+          "text": "Kaç adet yedek sunucu olduğunu"
+        },
+        {
+          "key": "D",
+          "text": "Şirketin kaç çalışanı olduğunu"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "53",
+      "text": "Bir riskin gerçeğe dönüşme hızını ifade eden parametre hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Etki B) Olasılık C) Hız (Velocity) D) Varlık Değeri"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "54",
+      "text": "Güvenlik kontrolü uygulandıktan sonra geride kalan riske ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kabul Edilen Risk"
+        },
+        {
+          "key": "B",
+          "text": "Artık Risk (Residual Risk)"
+        },
+        {
+          "key": "C",
+          "text": "Sıfırıncı Gün Riski"
+        },
+        {
+          "key": "D",
+          "text": "İkincil Kayıp"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "55",
+      "text": "Aşağıdakilerden hangisi bir \"Dolaylı Etki\" (Secondary Loss) örneğidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sistemlerin o an kilitlenmesi B) Veri hırsızlığı anındaki doğrudan zarar C) Müşteri güveni/itibar kaybı D) İyileştirme maliyeti"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "56",
+      "text": "Bulut bilişim mimarilerinde risk yönetimini zorlaştıran temel unsur nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "İnternet faturasının artması"
+        },
+        {
+          "key": "B",
+          "text": "Sanal sistemlerin anlık devreye alınıp sonlandırılabilmesi"
+        },
+        {
+          "key": "C",
+          "text": "Bulut sistemlerin her zaman daha güvensiz olması"
+        },
+        {
+          "key": "D",
+          "text": "Fiziksel sunucu sayısının azalması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "57",
+      "text": "Siber olgunluk döngüsünde hedeflenen model hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reaktif model B) Proaktif ve Adaptif entegre model"
+        },
+        {
+          "key": "C",
+          "text": "Tamamen manuel model"
+        },
+        {
+          "key": "D",
+          "text": "Düşük bütçeli model"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "58",
+      "text": "SolarWinds saldırısında saldırganlar neden resmi derleme sunucusuna sızmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Orası daha pahalı olduğu için"
+        },
+        {
+          "key": "B",
+          "text": "Yazılım meşru sertifikayla imzalandığı için geleneksel kontrolleri atlatabilmesi amacıyla"
+        },
+        {
+          "key": "C",
+          "text": "Tedarikçi ofisi yakın olduğu için"
+        },
+        {
+          "key": "D",
+          "text": "Daha az elektrik harcadığı için"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "59",
+      "text": "Bir kurumda \"Kontrol Kalitesi\" neyi ifade eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Personel nazikliğini"
+        },
+        {
+          "key": "B",
+          "text": "Var olan kontrollerin tehdidi caydıracak kadar olgun olup olmadığını"
+        },
+        {
+          "key": "C",
+          "text": "Şirketin toplam kârını"
+        },
+        {
+          "key": "D",
+          "text": "Ofis binasının sağlamlığını"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "60",
+      "text": "NIST CSF fonksiyonlarından \"DETECT (Tespit Et)\"in temel amacı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece kapıları kilitlemek B) Siber güvenlik olaylarını anında ve proaktif olarak tanımlayabilmek"
+        },
+        {
+          "key": "C",
+          "text": "Olay bittikten sonra rapor yazmak"
+        },
+        {
+          "key": "D",
+          "text": "Yedekleri kontrol etmek"
+        }
+      ],
+      "answer": "B"
+    }
   ],
   "veri_iletisimi": [
-  {
-    "id": "1",
-    "text": "\"İki ya da daha fazla yapının haberleştiği ortama\" verilen teknik isim nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Client"
-      },
-      {
-        "key": "B",
-        "text": "Network"
-      },
-      {
-        "key": "C",
-        "text": "Peer to Peer"
-      },
-      {
-        "key": "D",
-        "text": "Server"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "2",
-    "text": "Günümuzde dünya nüfusunun yaklaşık kaç katı internet kullanıcısı bulunmaktadır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "1 katı"
-      },
-      {
-        "key": "B",
-        "text": "2 katı"
-      },
-      {
-        "key": "C",
-        "text": "3 katı"
-      },
-      {
-        "key": "D",
-        "text": "5 katı"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "3",
-    "text": "Notlara göre günümüzde ağlara bağlı toplam cihaz sayısı yaklaşık ne kadardır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "10 milyar"
-      },
-      {
-        "key": "B",
-        "text": "25 milyar"
-      },
-      {
-        "key": "C",
-        "text": "50 milyar"
-      },
-      {
-        "key": "D",
-        "text": "100 milyar"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "4",
-    "text": "1990'ların başında Yahoo gibi sitelerle özdeşleşen eski HTTP sürümü hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "http offer"
-      },
-      {
-        "key": "B",
-        "text": "http 1.1"
-      },
-      {
-        "key": "C",
-        "text": "http 2.0"
-      },
-      {
-        "key": "D",
-        "text": "http 3.0"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "5",
-    "text": "Akıllı telefonlar ve Apple ile yaygınlaşan, 2000'li yıllara damga vuran HTTP sürümü hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "http 1.0"
-      },
-      {
-        "key": "B",
-        "text": "http 1.1"
-      },
-      {
-        "key": "C",
-        "text": "http 2.0"
-      },
-      {
-        "key": "D",
-        "text": "http 3.0"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "6",
-    "text": "Peer to Peer (P2P) modelinde hangisi bir avantaj olarak belirtilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Merkezi yönetim olması"
-      },
-      {
-        "key": "B",
-        "text": "Kolay kurulum ve az maliyet"
-      },
-      {
-        "key": "C",
-        "text": "Yüksek ölçeklenebilirlik"
-      },
-      {
-        "key": "D",
-        "text": "Karmaşık yapı"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "7",
-    "text": "Peer to Peer (P2P) ağların dezavantajları arasında hangisi yer almaz?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Güvenli olmaması"
-      },
-      {
-        "key": "B",
-        "text": "Merkezi yönetimin yokluğu"
-      },
-      {
-        "key": "C",
-        "text": "Ölçeklenebilir olmaması"
-      },
-      {
-        "key": "D",
-        "text": "Kurulum maliyetinin yüksekliği"
-      }
-    ],
-    "answer": "D"
-  },
-  {
-    "id": "8",
-    "text": "\"Hizmet almak ve vermek\" prensibine dayanan, notlarda belirtilen temel model hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Mesh Modeli"
-      },
-      {
-        "key": "B",
-        "text": "Star Modeli"
-      },
-      {
-        "key": "C",
-        "text": "Server-Client Modeli"
-      },
-      {
-        "key": "D",
-        "text": "Ring Modeli"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "9",
-    "text": "İstekte bulunan bilgisayar veya uç cihaz aşağıdakilerden hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Server"
-      },
-      {
-        "key": "B",
-        "text": "Client"
-      },
-      {
-        "key": "C",
-        "text": "Switch"
-      },
-      {
-        "key": "D",
-        "text": "Router"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "10",
-    "text": "Notlarda \"Endpoint / Host / Son Cihaz\" kategorisine giren cihaz hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Switch"
-      },
-      {
-        "key": "B",
-        "text": "Router"
-      },
-      {
-        "key": "C",
-        "text": "El terminali (Wi-Fi)"
-      },
-      {
-        "key": "D",
-        "text": "Firewall"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "11",
-    "text": "İnternette haberleşebilmek için bir cihazda mutlaka bulunması gereken fiziksel arayüz kartı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "GPU"
-      },
-      {
-        "key": "B",
-        "text": "Sound Card"
-      },
-      {
-        "key": "C",
-        "text": "NIC (Network Interface Card)"
-      },
-      {
-        "key": "D",
-        "text": "RAM"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "12",
-    "text": "Notlardaki tanıma göre \"aynı lokasyonda cihazları bağlayarak LAN oluşturan\" taşıyıcı cihaz hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Router"
-      },
-      {
-        "key": "B",
-        "text": "Switch"
-      },
-      {
-        "key": "C",
-        "text": "Firewall"
-      },
-      {
-        "key": "D",
-        "text": "Modem"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "13",
-    "text": "Switch üzerinde kabloların takıldığı fiziksel giriş yerlerine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bus"
-      },
-      {
-        "key": "B",
-        "text": "Port"
-      },
-      {
-        "key": "C",
-        "text": "Terminal"
-      },
-      {
-        "key": "D",
-        "text": "Socket"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "14",
-    "text": "Kablosuz erişim noktaları (Access Point) genellikle hangi cihaza bağlanır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Direkt internete"
-      },
-      {
-        "key": "B",
-        "text": "Switche"
-      },
-      {
-        "key": "C",
-        "text": "Güç kaynağına"
-      },
-      {
-        "key": "D",
-        "text": "Bilgisayara"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "15",
-    "text": "Farklı networkleri birbirine bağlayan ve ağlar arası haberleşmeyi sağlayan cihaz hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Switch"
-      },
-      {
-        "key": "B",
-        "text": "Bridge"
-      },
-      {
-        "key": "C",
-        "text": "Router (Yönlendirici)"
-      },
-      {
-        "key": "D",
-        "text": "Hub"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "16",
-    "text": "Notlarda \"Trafik Bodyguard\"ı olarak tanımlanan ve trafiği yöneten cihaz hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Router"
-      },
-      {
-        "key": "B",
-        "text": "Firewall"
-      },
-      {
-        "key": "C",
-        "text": "Switch"
-      },
-      {
-        "key": "D",
-        "text": "Access Point"
-      }
-    ],
-    "answer": "UNKNOWN"
-  },
-  {
-    "id": "17",
-    "text": "Firewall cihazının IDS ve IPS dışında yaptığı temel işlev hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kablo testi yapmak"
-      },
-      {
-        "key": "B",
-        "text": "Trafiği yönetmek"
-      },
-      {
-        "key": "C",
-        "text": "MAC adresi üretmek"
-      },
-      {
-        "key": "D",
-        "text": "Sinyali güçlendirmek"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "18",
-    "text": "Bakır kablo (UTP/Ethernet) içerisinde toplam kaç adet tel bulunur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "2"
-      },
-      {
-        "key": "B",
-        "text": "4"
-      },
-      {
-        "key": "C",
-        "text": "8"
-      },
-      {
-        "key": "D",
-        "text": "10"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "19",
-    "text": "Işık ile iletim yapan ve internet omurgasını oluşturan kablo türü hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "UTP"
-      },
-      {
-        "key": "B",
-        "text": "Coaxial"
-      },
-      {
-        "key": "C",
-        "text": "Fiber Optic"
-      },
-      {
-        "key": "D",
-        "text": "STP"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "20",
-    "text": "\"Sınırlı bir alanda uç cihazları bağlayan yüksek bant genişlikli ağ\" hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "WAN"
-      },
-      {
-        "key": "B",
-        "text": "MAN"
-      },
-      {
-        "key": "C",
-        "text": "LAN"
-      },
-      {
-        "key": "D",
-        "text": "SAN"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "21",
-    "text": "\"Geniş coğrafi alanda LAN'ları birbirine bağlayan ağ\" hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "WLAN"
-      },
-      {
-        "key": "B",
-        "text": "WAN"
-      },
-      {
-        "key": "C",
-        "text": "PAN"
-      },
-      {
-        "key": "D",
-        "text": "Intranet"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "22",
-    "text": "ISP kavramının açılımı notlarda nasıl geçmektedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Internet System Provider"
-      },
-      {
-        "key": "B",
-        "text": "Internet Service Provider"
-      },
-      {
-        "key": "C",
-        "text": "Information Service Point"
-      },
-      {
-        "key": "D",
-        "text": "International System Protocol"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "23",
-    "text": "\"LAN + WAN =\" denkleminin karşılığı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Extranet"
-      },
-      {
-        "key": "B",
-        "text": "Intranet"
-      },
-      {
-        "key": "C",
-        "text": "Internet"
-      },
-      {
-        "key": "D",
-        "text": "SAN"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "24",
-    "text": "\"Sadece şirkete özel (company only)\" olan ağ yapısı hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Internet"
-      },
-      {
-        "key": "B",
-        "text": "Intranet"
-      },
-      {
-        "key": "C",
-        "text": "Extranet"
-      },
-      {
-        "key": "D",
-        "text": "Public Network"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "25",
-    "text": "Tedarikçilerin ve müşterilerin (suppliers, customer) erişebildiği özel ağ yapısı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Intranet"
-      },
-      {
-        "key": "B",
-        "text": "Extranet"
-      },
-      {
-        "key": "C",
-        "text": "Cloud"
-      },
-      {
-        "key": "D",
-        "text": "VPN"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "26",
-    "text": "Extranet bağlantıları notlara göre genellikle hangi yöntemle yapılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Dial-up"
-      },
-      {
-        "key": "B",
-        "text": "VPN tünelleri (Firewallar arası)"
-      },
-      {
-        "key": "C",
-        "text": "Uydu bağlantısı"
-      },
-      {
-        "key": "D",
-        "text": "Fiber optik"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "27",
-    "text": "Güvenilir ağ mimarisinin \"Fault Tolerance\" (Hata Toleransı) ilkesi neyi hedefler?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ağın en yüksek hızda çalışmasını"
-      },
-      {
-        "key": "B",
-        "text": "Bir hata oluştuğunda sistemin çökmemesini/yedekliliği"
-      },
-      {
-        "key": "C",
-        "text": "Sistemin her gün büyümesini"
-      },
-      {
-        "key": "D",
-        "text": "Şifreleme algoritmalarının güçlendirilmesini"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "28",
-    "text": "Notlarda \"Single point of failure istenmez\" ifadesi hangi durum için kullanılmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bir switchin bozulup 24 bilgisayarı devre dışı bırakması"
-      },
-      {
-        "key": "B",
-        "text": "Kablonun renginin yanlış olması"
-      },
-      {
-        "key": "C",
-        "text": "İnternet hızının düşmesi"
-      },
-      {
-        "key": "D",
-        "text": "Şifrenin çalınması"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "29",
-    "text": "\"Kapasite artma talebine hayır denmemeli\" maddesi ağ mimarisinin hangi özelliğidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Güvenlik"
-      },
-      {
-        "key": "B",
-        "text": "Scalability (Ölçeklenebilirlik)"
-      },
-      {
-        "key": "C",
-        "text": "Fault Tolerance"
-      },
-      {
-        "key": "D",
-        "text": "QoS"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "30",
-    "text": "Kaliteli Hizmet (QoS) için paketlerin ulaşma süresi (latency) maksimum kaç ms olmalıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "50ms"
-      },
-      {
-        "key": "B",
-        "text": "100ms"
-      },
-      {
-        "key": "C",
-        "text": "150ms"
-      },
-      {
-        "key": "D",
-        "text": "200ms"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "31",
-    "text": "Ağ Güvenliği'nin CIA üçlüsünden \"Confidentiality\" (Gizlilik) neyi ifade eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Verinin değiştirilememesini"
-      },
-      {
-        "key": "B",
-        "text": "Veriyi sahibi dışında kimsenin görmemesini"
-      },
-      {
-        "key": "C",
-        "text": "Veriye her zaman ulaşılabilmesini"
-      },
-      {
-        "key": "D",
-        "text": "Verinin silinmemesini"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "32",
-    "text": "\"Bana ait ürünü kimse değiştirememeli, orijinal kalmalı\" ifadesi CIA'in hangi öğesidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Availability"
-      },
-      {
-        "key": "B",
-        "text": "Confidentiality"
-      },
-      {
-        "key": "C",
-        "text": "Integrity (Bütünlük)"
-      },
-      {
-        "key": "D",
-        "text": "Authentication"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "33",
-    "text": "\"Bana ait ürüne istediğimde erişebilmeliyim\" ifadesi hangi güvenlik öğesidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Integrity"
-      },
-      {
-        "key": "B",
-        "text": "Confidentiality"
-      },
-      {
-        "key": "C",
-        "text": "Availability (Erişilebilirlik)"
-      },
-      {
-        "key": "D",
-        "text": "Encryption"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "34",
-    "text": "Telefon ve kamera ağlarının IP üzerinden bilgisayar ağına bağlanmasına ne ad verilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Parallel Network"
-      },
-      {
-        "key": "B",
-        "text": "Converged Network (Bütünleşen Ağlar)"
-      },
-      {
-        "key": "C",
-        "text": "Hybrid System"
-      },
-      {
-        "key": "D",
-        "text": "Cloud Network"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "35",
-    "text": "Şirketler için daha pahalı olan ve SLA imzalanan internet teknolojisi hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Broadband DSL"
-      },
-      {
-        "key": "B",
-        "text": "Broadband Cable"
-      },
-      {
-        "key": "C",
-        "text": "Dedicated Leased Lines"
-      },
-      {
-        "key": "D",
-        "text": "Mobile Services"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "36",
-    "text": "Notlarda \"gecikme, kalabalık ortam\" sorunu yaşayan erişim türü hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Fiber"
-      },
-      {
-        "key": "B",
-        "text": "DSL"
-      },
-      {
-        "key": "C",
-        "text": "Cellular (Hücresel)"
-      },
-      {
-        "key": "D",
-        "text": "Dial-Up"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "37",
-    "text": "Eskiden kullanılan, telefon hattı üzerinden çalışan ve \"circuit switch\" mantığına dayanan teknoloji nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Metro Ethernet"
-      },
-      {
-        "key": "B",
-        "text": "Satellite"
-      },
-      {
-        "key": "C",
-        "text": "Dial-Up"
-      },
-      {
-        "key": "D",
-        "text": "Fiber GPON"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "38",
-    "text": "BYOD trendinin notlardaki tam karşılığı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Buy Your Own Data"
-      },
-      {
-        "key": "B",
-        "text": "Bring Your Own Device"
-      },
-      {
-        "key": "C",
-        "text": "Build Your Own Design"
-      },
-      {
-        "key": "D",
-        "text": "Best Yield on Device"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "39",
-    "text": "\"Gecikmedeki değişim\" olarak tanımlanan kavram hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Latency"
-      },
-      {
-        "key": "B",
-        "text": "Bandwidth"
-      },
-      {
-        "key": "C",
-        "text": "Jitter"
-      },
-      {
-        "key": "D",
-        "text": "Throughput"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "40",
-    "text": "İç tehditlerin (Internal Threat) dış tehditlerden daha riskli olmasının sebebi nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "İçerdeki kullanıcıların daha zeki olması"
-      },
-      {
-        "key": "B",
-        "text": "İçerde sunucuya hızlı erişim olması ve firewall olmaması"
-      },
-      {
-        "key": "C",
-        "text": "Dış tehditlerin şifreli olması"
-      },
-      {
-        "key": "D",
-        "text": "Dışardan gelenlerin yavaş olması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "41",
-    "text": "Standartları belirleyen IEEE kurumunun yaklaşık kaç üyesi vardır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "100 bin"
-      },
-      {
-        "key": "B",
-        "text": "250 bin"
-      },
-      {
-        "key": "C",
-        "text": "400 bin"
-      },
-      {
-        "key": "D",
-        "text": "1 milyon"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "42",
-    "text": "Wi-Fi standartlarının IEEE kodu aşağıdakilerden hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "802.3"
-      },
-      {
-        "key": "B",
-        "text": "802.15"
-      },
-      {
-        "key": "C",
-        "text": "802.11"
-      },
-      {
-        "key": "D",
-        "text": "802.1"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "43",
-    "text": "Bluetooth teknolojisinin IEEE kodu nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "802.11"
-      },
-      {
-        "key": "B",
-        "text": "802.15"
-      },
-      {
-        "key": "C",
-        "text": "802.3"
-      },
-      {
-        "key": "D",
-        "text": "802.1"
-      }
-    ],
-    "answer": "UNKNOWN"
-  },
-  {
-    "id": "44",
-    "text": "IETF tarafından yayınlanan, her şeyin birinci el dökümantasyonu olan \"pure text\" belgeler nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "PDF"
-      },
-      {
-        "key": "B",
-        "text": "RFC"
-      },
-      {
-        "key": "C",
-        "text": "IEEE Standard"
-      },
-      {
-        "key": "D",
-        "text": "ISO Document"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "45",
-    "text": "Verinin iletilmesi için gerekli bilgilerin mesaja eklenmesi işlemine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Decapsulation"
-      },
-      {
-        "key": "B",
-        "text": "Segmentation"
-      },
-      {
-        "key": "C",
-        "text": "Encapsulation"
-      },
-      {
-        "key": "D",
-        "text": "Encoding"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "46",
-    "text": "Mesajın sadece bir kişiye (tekil) gönderilmesi işlemine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Multicast"
-      },
-      {
-        "key": "B",
-        "text": "Broadcast"
-      },
-      {
-        "key": "C",
-        "text": "Unicast"
-      },
-      {
-        "key": "D",
-        "text": "Anycast"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "47",
-    "text": "Mesajın bir gruba (çoklu) gönderilmesi işlemine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Unicast"
-      },
-      {
-        "key": "B",
-        "text": "Multicast"
-      },
-      {
-        "key": "C",
-        "text": "Broadcast"
-      },
-      {
-        "key": "D",
-        "text": "Simplex"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "48",
-    "text": "Mesajın herkese (genel yayım) gönderilmesi işlemine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Multicast"
-      },
-      {
-        "key": "B",
-        "text": "Unicast"
-      },
-      {
-        "key": "C",
-        "text": "Broadcast"
-      },
-      {
-        "key": "D",
-        "text": "Full Duplex"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "49",
-    "text": "OSI modelinde Layer 7 hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Presentation"
-      },
-      {
-        "key": "B",
-        "text": "Session"
-      },
-      {
-        "key": "C",
-        "text": "Application (Uygulama)"
-      },
-      {
-        "key": "D",
-        "text": "Transport"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "50",
-    "text": "Tarayıcı, notepad veya Safari gibi kullanıcı arayüzleri hangi katmanda yer alır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 4"
-      },
-      {
-        "key": "B",
-        "text": "Layer 3"
-      },
-      {
-        "key": "C",
-        "text": "Layer 7 (Application)"
-      },
-      {
-        "key": "D",
-        "text": "Layer 2"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "51",
-    "text": "Uygulamaya gelen verinin nasıl işleneceğini tarif eden (örneğin dosya formatı) katman hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Session"
-      },
-      {
-        "key": "B",
-        "text": "Presentation (Sunum)"
-      },
-      {
-        "key": "C",
-        "text": "Application"
-      },
-      {
-        "key": "D",
-        "text": "Network"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "52",
-    "text": "Oturumların karışmasını önleyen ve oturumu yöneten katman hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Transport"
-      },
-      {
-        "key": "B",
-        "text": "Data Link"
-      },
-      {
-        "key": "C",
-        "text": "Session (Oturum)"
-      },
-      {
-        "key": "D",
-        "text": "Physical"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "53",
-    "text": "Verinin küçük parçalara (segment) bölündüğü ve sıra numarası (sequence no) aldığı katman hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Network"
-      },
-      {
-        "key": "B",
-        "text": "Transport (Taşıma)"
-      },
-      {
-        "key": "C",
-        "text": "Data Link"
-      },
-      {
-        "key": "D",
-        "text": "Session"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "54",
-    "text": "OSI Layer 4'te (Transport) veriye ne ad verilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Paket"
-      },
-      {
-        "key": "B",
-        "text": "Frame"
-      },
-      {
-        "key": "C",
-        "text": "Segment"
-      },
-      {
-        "key": "D",
-        "text": "Bit"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "55",
-    "text": "OSI Layer 3'te (Network) veriye ne ad verilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Segment"
-      },
-      {
-        "key": "B",
-        "text": "Paket"
-      },
-      {
-        "key": "C",
-        "text": "Frame"
-      },
-      {
-        "key": "D",
-        "text": "Bit"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "56",
-    "text": "OSI Layer 2'de (Data Link) veriye ne ad verilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Paket"
-      },
-      {
-        "key": "B",
-        "text": "Frame (Çerçeve)"
-      },
-      {
-        "key": "C",
-        "text": "Segment"
-      },
-      {
-        "key": "D",
-        "text": "Signal"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "57",
-    "text": "Kaynak ve hedef IP adreslerinin eklendiği katman hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 2"
-      },
-      {
-        "key": "B",
-        "text": "Layer 3 (Network)"
-      },
-      {
-        "key": "C",
-        "text": "Layer 4"
-      },
-      {
-        "key": "D",
-        "text": "Layer 7"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "58",
-    "text": "Kaynak ve hedef MAC adreslerinin eklendiği katman hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 3"
-      },
-      {
-        "key": "B",
-        "text": "Layer 2 (Data Link)"
-      },
-      {
-        "key": "C",
-        "text": "Layer 1"
-      },
-      {
-        "key": "D",
-        "text": "Layer 4"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "59",
-    "text": "Veri kapsülleme (Encapsulation) hiyerarşisi nasıldır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP -> Ethernet -> TCP -> APP"
-      },
-      {
-        "key": "B",
-        "text": "APP -> TCP -> IP -> Ethernet"
-      },
-      {
-        "key": "C",
-        "text": "Ethernet -> IP -> TCP -> APP"
-      },
-      {
-        "key": "D",
-        "text": "TCP -> IP -> APP -> Ethernet"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "60",
-    "text": "Verinin en sonuna \"Trailer\" (kuyruk) eklenen katman hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 3"
-      },
-      {
-        "key": "B",
-        "text": "Layer 4"
-      },
-      {
-        "key": "C",
-        "text": "Layer 2 (Data Link)"
-      },
-      {
-        "key": "D",
-        "text": "Layer 1"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "61",
-    "text": "Verinin bozuk olup olmadığını anlamak için kullanılan \"CRC hesabı\" nerede yer alır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP Header"
-      },
-      {
-        "key": "B",
-        "text": "TCP Header"
-      },
-      {
-        "key": "C",
-        "text": "Ethernet Trailer (FCS)"
-      },
-      {
-        "key": "D",
-        "text": "Application Data"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "62",
-    "text": "Veriyi \"bit\"lere (1 ve 0) çevirip kabloya/havaya basan katman hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 2"
-      },
-      {
-        "key": "B",
-        "text": "Layer 3"
-      },
-      {
-        "key": "C",
-        "text": "Layer 1 (Physical)"
-      },
-      {
-        "key": "D",
-        "text": "Layer 7"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "63",
-    "text": "Router kaçıncı katman cihazıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 1"
-      },
-      {
-        "key": "B",
-        "text": "Layer 2"
-      },
-      {
-        "key": "C",
-        "text": "Layer 3"
-      },
-      {
-        "key": "D",
-        "text": "Layer 4"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "64",
-    "text": "Switch kaçıncı katman cihazıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 1"
-      },
-      {
-        "key": "B",
-        "text": "Layer 2"
-      },
-      {
-        "key": "C",
-        "text": "Layer 3"
-      },
-      {
-        "key": "D",
-        "text": "Layer 4"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "65",
-    "text": "Hub kaçıncı katman cihazıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 1"
-      },
-      {
-        "key": "B",
-        "text": "Layer 2"
-      },
-      {
-        "key": "C",
-        "text": "Layer 3"
-      },
-      {
-        "key": "D",
-        "text": "Layer 4"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "66",
-    "text": "Kapsül açma (Decapsulation) işlemi sırasında veri en son hangi katmana ulaşır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Physical"
-      },
-      {
-        "key": "B",
-        "text": "Transport"
-      },
-      {
-        "key": "C",
-        "text": "Application"
-      },
-      {
-        "key": "D",
-        "text": "Network"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "67",
-    "text": "Fiziksel katmanda \"1 ve 0'ları uygun olarak taşıma\" işlemine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Signaling"
-      },
-      {
-        "key": "B",
-        "text": "Encoding"
-      },
-      {
-        "key": "C",
-        "text": "Modulation"
-      },
-      {
-        "key": "D",
-        "text": "Fragmentation"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "68",
-    "text": "Fiziksel katmanda \"veriyi kodlama üzerine bindirme\" işlemine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Encoding"
-      },
-      {
-        "key": "B",
-        "text": "Signaling"
-      },
-      {
-        "key": "C",
-        "text": "Routing ) Switching"
-      },
-      {
-        "key": "D",
-        "text": "Bilinmiyor/Eksik"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "69",
-    "text": "\"Sistemin taşıyabileceği maksimum veri miktarı\" nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Throughput"
-      },
-      {
-        "key": "B",
-        "text": "Goodput"
-      },
-      {
-        "key": "C",
-        "text": "Bandwidth (Bant Genişliği)"
-      },
-      {
-        "key": "D",
-        "text": "Latency"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "70",
-    "text": "\"Gerçekte alınan veri hızı\" nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bandwidth"
-      },
-      {
-        "key": "B",
-        "text": "Throughput"
-      },
-      {
-        "key": "C",
-        "text": "Goodput"
-      },
-      {
-        "key": "D",
-        "text": "Jitter"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "71",
-    "text": "\"Kullanılabilir data aktarımı (Throughput - trafik overhead)\" nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Goodput"
-      },
-      {
-        "key": "B",
-        "text": "Bandwidth"
-      },
-      {
-        "key": "C",
-        "text": "Latency"
-      },
-      {
-        "key": "D",
-        "text": "Attenuation"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "72",
-    "text": "\"Mesafe uzadıkça sinyalin dirençle karşılaşması ve zayıflaması\" nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Crosstalk"
-      },
-      {
-        "key": "B",
-        "text": "Attenuation"
-      },
-      {
-        "key": "C",
-        "text": "Collision"
-      },
-      {
-        "key": "D",
-        "text": "Noise"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "73",
-    "text": "Bakır kablolarda dışarıdan gelen elektromanyetik etkilere ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "RFI"
-      },
-      {
-        "key": "B",
-        "text": "EMI"
-      },
-      {
-        "key": "C",
-        "text": "CRC"
-      },
-      {
-        "key": "D",
-        "text": "MTU"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "74",
-    "text": "Bakır kablolarda yan yana geçen tellerin birbirini bozmasına ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Attenuation"
-      },
-      {
-        "key": "B",
-        "text": "Crosstalk (Diyafon)"
-      },
-      {
-        "key": "C",
-        "text": "Jitter"
-      },
-      {
-        "key": "D",
-        "text": "Latency"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "75",
-    "text": "UTP kablo standartlarında mesafenin kaç metreyi geçmemesi önerilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "50m"
-      },
-      {
-        "key": "B",
-        "text": "100m"
-      },
-      {
-        "key": "C",
-        "text": "150m"
-      },
-      {
-        "key": "D",
-        "text": "200m"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "76",
-    "text": "STP kablonun UTP'den temel farkı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Daha ince olması"
-      },
-      {
-        "key": "B",
-        "text": "Folyo koruması (Shield) ile EMI/RFI koruması sağlaması"
-      },
-      {
-        "key": "C",
-        "text": "Daha ucuz olması"
-      },
-      {
-        "key": "D",
-        "text": "Daha az tel içermesi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "77",
-    "text": "UTP kabloların ucuna takılan plastik konnektörün adı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "BNC"
-      },
-      {
-        "key": "B",
-        "text": "RJ-45"
-      },
-      {
-        "key": "C",
-        "text": "SFP"
-      },
-      {
-        "key": "D",
-        "text": "DB9"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "78",
-    "text": "\"Turuncu-Beyaz\" ile başlayan kablo renk standardı hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "T568A"
-      },
-      {
-        "key": "B",
-        "text": "T568B"
-      },
-      {
-        "key": "C",
-        "text": "Crossover"
-      },
-      {
-        "key": "D",
-        "text": "Rollover"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "79",
-    "text": "Eskiden kullanılan, PC'den PC'ye doğrudan bağlantı sağlayan kablo türü nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Straight-through"
-      },
-      {
-        "key": "B",
-        "text": "Crossover"
-      },
-      {
-        "key": "C",
-        "text": "Rollover"
-      },
-      {
-        "key": "D",
-        "text": "Fiber"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "80",
-    "text": "Switch konfigürasyonu için kullanılan (genellikle mavi renkli) kablo hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Crossover"
-      },
-      {
-        "key": "B",
-        "text": "Rollover (Console cable)"
-      },
-      {
-        "key": "C",
-        "text": "Patch cable"
-      },
-      {
-        "key": "D",
-        "text": "Single Mode"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "81",
-    "text": "Fiber optik kablolarda ışıkla veri ileten kısmın ham maddesi nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bakır"
-      },
-      {
-        "key": "B",
-        "text": "Gümüş"
-      },
-      {
-        "key": "C",
-        "text": "Cam (Silika)"
-      },
-      {
-        "key": "D",
-        "text": "Plastik"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "82",
-    "text": "\"Single-Mode Fiber\" (SMF) için ışık kaynağı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "LED"
-      },
-      {
-        "key": "B",
-        "text": "Lazer"
-      },
-      {
-        "key": "C",
-        "text": "Floresan"
-      },
-      {
-        "key": "D",
-        "text": "Halojen"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "83",
-    "text": "SMF kablo ile yaklaşık ne kadar mesafe (switchten switche) gidilebilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "550 metre"
-      },
-      {
-        "key": "B",
-        "text": "2 km"
-      },
-      {
-        "key": "C",
-        "text": "80 km"
-      },
-      {
-        "key": "D",
-        "text": "100 metre"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "84",
-    "text": "\"Multi-Mode Fiber\" (MMF) için ışık kaynağı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Lazer"
-      },
-      {
-        "key": "B",
-        "text": "LED"
-      },
-      {
-        "key": "C",
-        "text": "Güneş ışığı"
-      },
-      {
-        "key": "D",
-        "text": "Kızılötesi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "85",
-    "text": "MMF kablo ile gidilebilen yaklaşık mesafe nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "100m"
-      },
-      {
-        "key": "B",
-        "text": "550m"
-      },
-      {
-        "key": "C",
-        "text": "80km"
-      },
-      {
-        "key": "D",
-        "text": "1000m"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "86",
-    "text": "MMF kablonun cam çekirdek çapı ne kadardır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "9 mikron"
-      },
-      {
-        "key": "B",
-        "text": "50 / 62.5 mikron"
-      },
-      {
-        "key": "C",
-        "text": "100 mikron"
-      },
-      {
-        "key": "D",
-        "text": "5 mikron"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "87",
-    "text": "SMF kablonun cam çekirdek çapı ne kadardır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "9 mikron"
-      },
-      {
-        "key": "B",
-        "text": "50 mikron"
-      },
-      {
-        "key": "C",
-        "text": "62.5 mikron"
-      },
-      {
-        "key": "D",
-        "text": "100 mikron"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "88",
-    "text": "Fiber optik kablolarda aynı anda veri alıp-vermek için genellikle kaç tel kullanılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "1"
-      },
-      {
-        "key": "B",
-        "text": "2 (biri transmit, biri receive)"
-      },
-      {
-        "key": "C",
-        "text": "8"
-      },
-      {
-        "key": "D",
-        "text": "4"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "89",
-    "text": "Fiber kabloları test etmek için kullanılan cihazın adı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Multi-metre"
-      },
-      {
-        "key": "B",
-        "text": "OTDR"
-      },
-      {
-        "key": "C",
-        "text": "SFP"
-      },
-      {
-        "key": "D",
-        "text": "GBIC"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "90",
-    "text": "Bakır ve fiber karşılaştırmasında hangisinin maliyeti en düşüktür?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Single Mode Fiber"
-      },
-      {
-        "key": "B",
-        "text": "Multi Mode Fiber"
-      },
-      {
-        "key": "C",
-        "text": "UTP (Bakır)"
-      },
-      {
-        "key": "D",
-        "text": "Coaxial"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "91",
-    "text": "\"Herkesin birbirine bağlı olduğu\" tam yedekli topoloji hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Star"
-      },
-      {
-        "key": "B",
-        "text": "Mesh"
-      },
-      {
-        "key": "C",
-        "text": "Bus"
-      },
-      {
-        "key": "D",
-        "text": "Ring"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "92",
-    "text": "Hattın sonlarında \"terminatör\" bulunan eski topoloji hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Mesh"
-      },
-      {
-        "key": "B",
-        "text": "Star"
-      },
-      {
-        "key": "C",
-        "text": "Bus"
-      },
-      {
-        "key": "D",
-        "text": "Ring"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "93",
-    "text": "Günümüzde yerel ağlarda (LAN) en çok kullanılan yıldız yapılı topoloji hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bus"
-      },
-      {
-        "key": "B",
-        "text": "Star"
-      },
-      {
-        "key": "C",
-        "text": "Ring"
-      },
-      {
-        "key": "D",
-        "text": "Point-to-Point"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "94",
-    "text": "\"Sırası boş paketi alan verisini koyar\" mantığıyla çalışan eski topoloji nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Mesh"
-      },
-      {
-        "key": "B",
-        "text": "Star"
-      },
-      {
-        "key": "C",
-        "text": "Ring (Token Ring)"
-      },
-      {
-        "key": "D",
-        "text": "Bus"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "95",
-    "text": "\"Ya veri yollar ya veri alır, aynı anda yapamaz\" iletişim türü nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Full Duplex"
-      },
-      {
-        "key": "B",
-        "text": "Half Duplex"
-      },
-      {
-        "key": "C",
-        "text": "Simplex"
-      },
-      {
-        "key": "D",
-        "text": "Multicast"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "96",
-    "text": "\"Aynı anda hem veri alıp hem veri verebilir\" iletişim türü nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Full Duplex ) Half Duplex"
-      },
-      {
-        "key": "B",
-        "text": "Bilinmiyor/Eksik"
-      },
-      {
-        "key": "C",
-        "text": "Simplex"
-      },
-      {
-        "key": "D",
-        "text": "Broadcast"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "97",
-    "text": "Ethernet ağlarında kullanılan erişim kontrol yöntemi hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "CSMA/CA"
-      },
-      {
-        "key": "B",
-        "text": "CSMA/CD"
-      },
-      {
-        "key": "C",
-        "text": "Token Passing"
-      },
-      {
-        "key": "D",
-        "text": "Polling"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "98",
-    "text": "CSMA/CD'de çakışma (collision) olduğunda tüm cihazlara gönderilen sinyal nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Stop"
-      },
-      {
-        "key": "B",
-        "text": "Jam"
-      },
-      {
-        "key": "C",
-        "text": "Back-off"
-      },
-      {
-        "key": "D",
-        "text": "Reset"
-      }
-    ],
-    "answer": "UNKNOWN"
-  },
-  {
-    "id": "99",
-    "text": "Çakışma sonrası cihazların tekrar veri yollamak için beklediği süreye ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Wait time"
-      },
-      {
-        "key": "B",
-        "text": "Latency"
-      },
-      {
-        "key": "C",
-        "text": "Back-off time"
-      },
-      {
-        "key": "D",
-        "text": "Jitter"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "100",
-    "text": "Wi-Fi ağlarında çakışmayı önlemek için kullanılan yöntem hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "CSMA/CD"
-      },
-      {
-        "key": "B",
-        "text": "CSMA/CA (Collision Avoidance)"
-      },
-      {
-        "key": "C",
-        "text": "FDDI"
-      },
-      {
-        "key": "D",
-        "text": "ALOHA"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "101",
-    "text": "Ethernet çerçevesinin (Frame) minimum boyutu kaç byte'tır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "32 byte"
-      },
-      {
-        "key": "B",
-        "text": "48 byte"
-      },
-      {
-        "key": "C",
-        "text": "64 byte"
-      },
-      {
-        "key": "D",
-        "text": "1518 byte"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "102",
-    "text": "Ethernet çerçevesinin (Frame) standart maksimum boyutu kaç byte'tır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "1000 byte"
-      },
-      {
-        "key": "B",
-        "text": "1500 byte"
-      },
-      {
-        "key": "C",
-        "text": "1518 byte"
-      },
-      {
-        "key": "D",
-        "text": "9000 byte"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "103",
-    "text": "64 byte'tan küçük olan bozuk Ethernet çerçevelerine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Giant Frame"
-      },
-      {
-        "key": "B",
-        "text": "Runt Frame"
-      },
-      {
-        "key": "C",
-        "text": "Jumbo Frame"
-      },
-      {
-        "key": "D",
-        "text": "Normal Frame"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "104",
-    "text": "1518 byte'tan büyük olan bozuk Ethernet çerçevelerine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Runt Frame"
-      },
-      {
-        "key": "B",
-        "text": "Giant Frame"
-      },
-      {
-        "key": "C",
-        "text": "Jumbo Frame"
-      },
-      {
-        "key": "D",
-        "text": "Micro Frame"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "105",
-    "text": "\"Jumbo Frame\" kullanabilmek için ne yapılması gerekir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hiçbir şeye gerek yoktur"
-      },
-      {
-        "key": "B",
-        "text": "Özel konfigürasyon yapılmalı ve her yerde açık olmalı"
-      },
-      {
-        "key": "C",
-        "text": "Sadece kablo değiştirilmeli"
-      },
-      {
-        "key": "D",
-        "text": "Hızı 10mb'a düşürmeli"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "106",
-    "text": "MAC adresleri kaç bit uzunluğundadır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "32 bit"
-      },
-      {
-        "key": "B",
-        "text": "48 bit"
-      },
-      {
-        "key": "C",
-        "text": "64 bit"
-      },
-      {
-        "key": "D",
-        "text": "128 bit"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "107",
-    "text": "MAC adresleri hangi sayı sisteminde yazılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Decimal (Onluk)"
-      },
-      {
-        "key": "B",
-        "text": "Binary (İkilik)"
-      },
-      {
-        "key": "C",
-        "text": "Hexadecimal (On altılık)"
-      },
-      {
-        "key": "D",
-        "text": "Octal (Sekizlik)"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "108",
-    "text": "MAC adresinin ilk 24 bitini kim belirler/verir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kurum (Satıcı)"
-      },
-      {
-        "key": "B",
-        "text": "IEEE"
-      },
-      {
-        "key": "C",
-        "text": "IANA"
-      },
-      {
-        "key": "D",
-        "text": "Kullanıcı"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "109",
-    "text": "MAC adresinin ikinci 24 bitine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "OUI"
-      },
-      {
-        "key": "B",
-        "text": "Kurumun karta verdiği sayı (NIC ID)"
-      },
-      {
-        "key": "C",
-        "text": "IP adresi"
-      },
-      {
-        "key": "D",
-        "text": "Port numarası"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "110",
-    "text": "Kaynak MAC adresi her zaman nasıl bir adrestir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Multicast"
-      },
-      {
-        "key": "B",
-        "text": "Broadcast"
-      },
-      {
-        "key": "C",
-        "text": "Unicast (Tekil)"
-      },
-      {
-        "key": "D",
-        "text": "Anycast"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "111",
-    "text": "\"FF-FF-FF-FF-FF-FF\" adresi neyi temsil eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hiçbir şeyi"
-      },
-      {
-        "key": "B",
-        "text": "Broadcast MAC adresini (Herkese)"
-      },
-      {
-        "key": "C",
-        "text": "Google'ın adresini"
-      },
-      {
-        "key": "D",
-        "text": "Router'ın adresini"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "112",
-    "text": "IPv6 Multicast MAC adresleri hangi ön ek ile başlar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "01-00-5E"
-      },
-      {
-        "key": "B",
-        "text": "33-33"
-      },
-      {
-        "key": "C",
-        "text": "FF-FF"
-      },
-      {
-        "key": "D",
-        "text": "00-00"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "113",
-    "text": "IPv4 Multicast MAC adresleri hangi ön ek ile başlar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "01-00-5E"
-      },
-      {
-        "key": "B",
-        "text": "33-33"
-      },
-      {
-        "key": "C",
-        "text": "FF-FF"
-      },
-      {
-        "key": "D",
-        "text": "11-11"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "114",
-    "text": "IP adresi bilinen bir cihazın MAC adresini öğrenmek için kullanılan protokol nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "DHCP"
-      },
-      {
-        "key": "B",
-        "text": "DNS"
-      },
-      {
-        "key": "C",
-        "text": "ARP (Address Resolution Protocol)"
-      },
-      {
-        "key": "D",
-        "text": "HTTP"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "115",
-    "text": "ARP Request (İstek) paketi ağda nasıl yayılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Unicast"
-      },
-      {
-        "key": "B",
-        "text": "Multicast"
-      },
-      {
-        "key": "C",
-        "text": "Broadcast"
-      },
-      {
-        "key": "D",
-        "text": "Sadece sunucuya gider"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "116",
-    "text": "ARP Reply (Cevap) paketi nasıl gönderilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Unicast"
-      },
-      {
-        "key": "B",
-        "text": "Broadcast"
-      },
-      {
-        "key": "C",
-        "text": "Multicast"
-      },
-      {
-        "key": "D",
-        "text": "Şifreli"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "117",
-    "text": "Bir bilgisayar öğrendiği MAC adreslerini nereye kaydeder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hard diske"
-      },
-      {
-        "key": "B",
-        "text": "ARP tablosuna (Dinamik/Statik)"
-      },
-      {
-        "key": "C",
-        "text": "BIOS'a"
-      },
-      {
-        "key": "D",
-        "text": "Tarayıcı geçmişine"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "118",
-    "text": "Hacker'ın sahte ARP cevapları yollayarak trafiği kendi üzerine çekmesine ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Phishing"
-      },
-      {
-        "key": "B",
-        "text": "DDoS"
-      },
-      {
-        "key": "C",
-        "text": "ARP Poisoning / Man-in-the-Middle"
-      },
-      {
-        "key": "D",
-        "text": "Brute Force"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "119",
-    "text": "ARP zehirlenmesini önlemek için switch üzerinde hangi özellik açılmalıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Port Security"
-      },
-      {
-        "key": "B",
-        "text": "DAI (Dynamic ARP Inspection)"
-      },
-      {
-        "key": "C",
-        "text": "DHCP Snooping"
-      },
-      {
-        "key": "D",
-        "text": "VLAN"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "120",
-    "text": "Router'a gelen bir paketin hedefi başka ağdaysa, router paketi hangi adrese bakarak yönlendirir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hedef MAC"
-      },
-      {
-        "key": "B",
-        "text": "Hedef IP"
-      },
-      {
-        "key": "C",
-        "text": "Kaynak MAC"
-      },
-      {
-        "key": "D",
-        "text": "Kaynak Port"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "121",
-    "text": "Switch, kendisine gelen Ethernet çerçevesini hangi tabloya bakarak iletir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP Tablosu"
-      },
-      {
-        "key": "B",
-        "text": "MAC Adres Tablosu"
-      },
-      {
-        "key": "C",
-        "text": "Routing Tablosu"
-      },
-      {
-        "key": "D",
-        "text": "Port Tablosu"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "122",
-    "text": "Hub'a gelen bir veri nasıl dağıtılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece hedefe yollanır"
-      },
-      {
-        "key": "B",
-        "text": "Geldiği port hariç tüm portlara basılır"
-      },
-      {
-        "key": "C",
-        "text": "Sadece router'a yollanır"
-      },
-      {
-        "key": "D",
-        "text": "Şifrelenip saklanır"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "123",
-    "text": "\"Throughput\" ölçülürken neye bakılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kablonun rengine"
-      },
-      {
-        "key": "B",
-        "text": "Belli bir sürede gerçekte alınan veri miktarına"
-      },
-      {
-        "key": "C",
-        "text": "Sistemin maksimum kapasitesine"
-      },
-      {
-        "key": "D",
-        "text": "Port sayısına"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "124",
-    "text": "Cat5e kablo standart olarak ne kadar hız destekler?",
-    "options": [
-      {
-        "key": "A",
-        "text": "10mb"
-      },
-      {
-        "key": "B",
-        "text": "100mb"
-      },
-      {
-        "key": "C",
-        "text": "1000mb (1gb)"
-      },
-      {
-        "key": "D",
-        "text": "10gb"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "125",
-    "text": "Cat6 kablonun Cat5e'den farkı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Daha ucuz olması"
-      },
-      {
-        "key": "B",
-        "text": "Kalite artışı (fakat 1000mb/100m sınırı benzerdir)"
-      },
-      {
-        "key": "C",
-        "text": "Sadece fiber olması"
-      },
-      {
-        "key": "D",
-        "text": "8 telden fazla olması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "126",
-    "text": "\"Ox\" ön eki (örneğin 0x8600) bir sayının hangi formatta olduğunu gösterir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Binary"
-      },
-      {
-        "key": "B",
-        "text": "Decimal"
-      },
-      {
-        "key": "C",
-        "text": "Hexadecimal"
-      },
-      {
-        "key": "D",
-        "text": "Octal"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "127",
-    "text": "Bir frame switch'e geldiğinde switch önce hangi MAC adresini tabloya yazar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hedef MAC"
-      },
-      {
-        "key": "B",
-        "text": "Kaynak MAC"
-      },
-      {
-        "key": "C",
-        "text": "Broadcast MAC"
-      },
-      {
-        "key": "D",
-        "text": "Kendi MAC'ini"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "128",
-    "text": "\"LLC\" alt katmanı (Layer 2) neyi bildirir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Fiziksel kablo tipini"
-      },
-      {
-        "key": "B",
-        "text": "Bir üst katmanda hangi protokolün (Type) olduğunu"
-      },
-      {
-        "key": "C",
-        "text": "Cihazın seri numarasını"
-      },
-      {
-        "key": "D",
-        "text": "Sinyal gücünü"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "129",
-    "text": "\"MAC\" alt katmanı (Layer 2) temel olarak ne yapar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP ataması yapar"
-      },
-      {
-        "key": "B",
-        "text": "Encapsulation ve veri işleme yapar"
-      },
-      {
-        "key": "C",
-        "text": "Şifre çözer"
-      },
-      {
-        "key": "D",
-        "text": "Web sayfasını görüntüler"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "130",
-    "text": "Fiziksel Topoloji ve Mantıksal (Logical) Topoloji farkı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Fark yoktur"
-      },
-      {
-        "key": "B",
-        "text": "Fiziksel kablo yerini, mantıksal IP/WLAN yapısını gösterir"
-      },
-      {
-        "key": "C",
-        "text": "Fiziksel interneti, mantıksal intranet'i gösterir"
-      },
-      {
-        "key": "D",
-        "text": "Mantıksal sadece routerlar içindir"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "131",
-    "text": "802.11 standardında hat boşsa rastlantısal süre seçilip yollama yapılmasına ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "CSMA/CD"
-      },
-      {
-        "key": "B",
-        "text": "CSMA/CA"
-      },
-      {
-        "key": "C",
-        "text": "Polling"
-      },
-      {
-        "key": "D",
-        "text": "Token Passing"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "132",
-    "text": "Ethernet frame yapısında \"Type\" alanı kaç byte yer kaplar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "2 byte (16 bit)"
-      },
-      {
-        "key": "B",
-        "text": "4 byte"
-      },
-      {
-        "key": "C",
-        "text": "6 byte"
-      },
-      {
-        "key": "D",
-        "text": "8 byte"
-      }
-    ],
-    "answer": "UNKNOWN"
-  },
-  {
-    "id": "133",
-    "text": "Ethernet frame yapısında \"MAC adresleri\" kaçar byte yer kaplar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "2 byte"
-      },
-      {
-        "key": "B",
-        "text": "4 byte"
-      },
-      {
-        "key": "C",
-        "text": "6 byte (48 bit)"
-      },
-      {
-        "key": "D",
-        "text": "8 byte"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "134",
-    "text": "MTU kavramının açılımı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Minimum Transmission Unit"
-      },
-      {
-        "key": "B",
-        "text": "Maximum Transmission Unit"
-      },
-      {
-        "key": "C",
-        "text": "Mode Transfer Unit"
-      },
-      {
-        "key": "D",
-        "text": "Media Transmission Unit"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "135",
-    "text": "Fiber optik \"Single-Mode\" kablonun çekirdek çapı yaklaşık kaç mikrondur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "9 mikron"
-      },
-      {
-        "key": "B",
-        "text": "50 mikron"
-      },
-      {
-        "key": "C",
-        "text": "62.5 mikron"
-      },
-      {
-        "key": "D",
-        "text": "100 mikron"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "136",
-    "text": "Fiber konnektör tipleri arasında hangisi yer almaz?",
-    "options": [
-      {
-        "key": "A",
-        "text": "LC"
-      },
-      {
-        "key": "B",
-        "text": "SC"
-      },
-      {
-        "key": "C",
-        "text": "RJ-45 (Bakır içindir)"
-      },
-      {
-        "key": "D",
-        "text": "SFP"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "137",
-    "text": "Notlarda \"yüksek akım\" tehlikesi nedeniyle binalar arası önerilmeyen kablo hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Fiber"
-      },
-      {
-        "key": "B",
-        "text": "UTP (Bakır)"
-      },
-      {
-        "key": "C",
-        "text": "STP"
-      },
-      {
-        "key": "D",
-        "text": "Coaxial"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "138",
-    "text": "\"Faraday Kafesi\" mantığı hangi kabloda EMI'yi engellemek için kullanılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "UTP"
-      },
-      {
-        "key": "B",
-        "text": "STP"
-      },
-      {
-        "key": "C",
-        "text": "Fiber"
-      },
-      {
-        "key": "D",
-        "text": "Mavi kablo"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "139",
-    "text": "Bir paketin hedefe ulaşması için geçen toplam süreye ne ad verilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bandwidth"
-      },
-      {
-        "key": "B",
-        "text": "Throughput"
-      },
-      {
-        "key": "C",
-        "text": "Latency (Gecikme) ) Goodput"
-      },
-      {
-        "key": "D",
-        "text": "Bilinmiyor/Eksik"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "140",
-    "text": "Coaxial kablo türlerinden PC haberleşmesi için kullanılan uç hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "F Type"
-      },
-      {
-        "key": "B",
-        "text": "BNC"
-      },
-      {
-        "key": "C",
-        "text": "N Type"
-      },
-      {
-        "key": "D",
-        "text": "RJ-11"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "141",
-    "text": "\"Jitter\" özellikle hangi trafik türü için kritik bir sorundur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "E-posta"
-      },
-      {
-        "key": "B",
-        "text": "Dosya indirme"
-      },
-      {
-        "key": "C",
-        "text": "Video ve Ses (Canlı trafik)"
-      },
-      {
-        "key": "D",
-        "text": "Web sörfü"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "142",
-    "text": "Bulut bilişim (Cloud Computing) hangi amaçla kullanılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece oyun oynamak"
-      },
-      {
-        "key": "B",
-        "text": "Veri depolama ve online işlem yapma"
-      },
-      {
-        "key": "C",
-        "text": "Kablo testi yapma"
-      },
-      {
-        "key": "D",
-        "text": "MAC adresi değiştirme"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "143",
-    "text": "\"ARP Request\" paketi içindeki \"Target MAC\" alanı başlangıçta nasıldır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "FF-FF..."
-      },
-      {
-        "key": "B",
-        "text": "00-00... (Bilinmiyor)"
-      },
-      {
-        "key": "C",
-        "text": "Kendi MAC'i"
-      },
-      {
-        "key": "D",
-        "text": "Router MAC'i"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "144",
-    "text": "Bir switch'in portuna bağlı olan cihazın MAC adresini unutma süresi (timeout) nerede gerçekleşir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Flash bellek"
-      },
-      {
-        "key": "B",
-        "text": "RAM / MAC Adres Tablosu"
-      },
-      {
-        "key": "C",
-        "text": "Hard disk"
-      },
-      {
-        "key": "D",
-        "text": "İşlemci"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "145",
-    "text": "\"Digital veriye çevirme\" işlemi hangi katman fonksiyonudur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 3"
-      },
-      {
-        "key": "B",
-        "text": "Layer 2"
-      },
-      {
-        "key": "C",
-        "text": "Layer 1 (Physical)"
-      },
-      {
-        "key": "D",
-        "text": "Layer 7"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "146",
-    "text": "EIA/TIA standartları en çok hangi konuda belirleyicidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP adresleme"
-      },
-      {
-        "key": "B",
-        "text": "Kablo kalitesi ve renk kodlaması"
-      },
-      {
-        "key": "C",
-        "text": "Şifreleme algoritmaları"
-      },
-      {
-        "key": "D",
-        "text": "Web tasarımı"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "147",
-    "text": "Notlarda \"SFP\" (Small Form-factor Pluggable) ne için kullanılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP adresi almak"
-      },
-      {
-        "key": "B",
-        "text": "Fiber optik giriş modülü olarak switchlere takılır"
-      },
-      {
-        "key": "C",
-        "text": "Kablo soymak"
-      },
-      {
-        "key": "D",
-        "text": "Voltaj ölçmek"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "148",
-    "text": "\"Point-to-Point\" (P2P) WAN topolojisinde kaç cihaz birbirine bağlıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "2 cihaz direkt birbirine"
-      },
-      {
-        "key": "B",
-        "text": "10 cihaz"
-      },
-      {
-        "key": "C",
-        "text": "Sınırsız cihaz"
-      },
-      {
-        "key": "D",
-        "text": "Tüm dünya"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "149",
-    "text": "Ethernet'te \"Contension Based\" (çekişmeli) erişim neyi ifade eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Herkesin sırasını beklemesini"
-      },
-      {
-        "key": "B",
-        "text": "Kaotik ortamda herkesin hattı boş bulduğunda konuşmaya çalışmasını"
-      },
-      {
-        "key": "C",
-        "text": "Sadece sunucunun izin vermesini"
-      },
-      {
-        "key": "D",
-        "text": "Şifreli erişimi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "150",
-    "text": "OSI modelinde \"Uygulama, Sunum ve Oturum\" katmanları (L7, L6, L5) TCP/IP modelinde hangi tek katman altında birleştirilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Transport"
-      },
-      {
-        "key": "B",
-        "text": "Internet"
-      },
-      {
-        "key": "C",
-        "text": "Application (Uygulama)"
-      },
-      {
-        "key": "D",
-        "text": "Network Access"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "151",
-    "text": "Notlardaki şemaya göre, bir veri \"Kapsül Açma (Decapsulation)\" işlemine girdiğinde Layer 2'de (Veri Bağlantısı) hangi kontrol yapıldıktan sonra Layer 3'e aktarılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP Adres kontrolü"
-      },
-      {
-        "key": "B",
-        "text": "Port numarası kontrolü"
-      },
-      {
-        "key": "C",
-        "text": "FCS/CRC (Hata Kontrolü) ve Kuyruk kontrolü"
-      },
-      {
-        "key": "D",
-        "text": "HTTP versiyon kontrolü"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "152",
-    "text": "\"Verinin hangi uygulamaya ait olduğunu belirlemek için kullanılan\" port numaraları (Örn: 80 portu), kapsülleme sürecinin hangi aşamasında veriye eklenir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Segmentasyon (L4)"
-      },
-      {
-        "key": "B",
-        "text": "Paketleme (L3)"
-      },
-      {
-        "key": "C",
-        "text": "Çerçeveleme (L2)"
-      },
-      {
-        "key": "D",
-        "text": "Bit akışı (L1)"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "153",
-    "text": "Notlardaki fiber optik tablosunda \"Long Haul\" (Uzun mesafe/Okyanus altı) iletim için hangi fiber türü ve ışık kaynağı eşleştirilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Multimode - LED"
-      },
-      {
-        "key": "B",
-        "text": "Single Mode - Lazer"
-      },
-      {
-        "key": "C",
-        "text": "Single Mode - LED"
-      },
-      {
-        "key": "D",
-        "text": "Multimode - Lazer"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "154",
-    "text": "Fiber optik bağlantılarda \"SFP\" (Small Form-factor Pluggable) modüllerinin takıldığı cihazların ana görevi notlarda nasıl tanımlanmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP adreslerini yönetmek"
-      },
-      {
-        "key": "B",
-        "text": "Işık sinyalini dijital veriye (veya tersi) çevirmek"
-      },
-      {
-        "key": "C",
-        "text": "Sadece elektrik akımını kontrol etmek"
-      },
-      {
-        "key": "D",
-        "text": "Şifreleme algoritması üretmek"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "155",
-    "text": "\"STP kablonun UTP'ye göre kurulumu daha zordur\" bilgisinin teknik gerekçesi notlarda neye bağlanmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kablonun daha ince olmasına"
-      },
-      {
-        "key": "B",
-        "text": "İçindeki folyo koruma (shield) ve topraklama gereksinimi nedeniyle daha sert/kalın olmasına"
-      },
-      {
-        "key": "C",
-        "text": "Daha az tel içermesine"
-      },
-      {
-        "key": "D",
-        "text": "Sadece dış mekanda kullanılmasına"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "156",
-    "text": "Notlarda \"Hata Toleransı\" kapsamında geçen \"24 PC yok oldu\" örneği hangi ağ cihazının yedeği olmamasını eleştirmek için verilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Router"
-      },
-      {
-        "key": "B",
-        "text": "Switch"
-      },
-      {
-        "key": "C",
-        "text": "Firewall"
-      },
-      {
-        "key": "D",
-        "text": "Modem"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "157",
-    "text": "Veri Bağlantısı katmanında (L2) kullanılan \"LLC (802.2)\" alt katmanının, Ethernet başlığındaki (Frame) hangi alanla doğrudan ilişkili olduğu belirtilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Destination MAC"
-      },
-      {
-        "key": "B",
-        "text": "Source MAC"
-      },
-      {
-        "key": "C",
-        "text": "Type (Üst katman protokol bilgisi)"
-      },
-      {
-        "key": "D",
-        "text": "FCS"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "158",
-    "text": "\"CSMA/CD\" yönteminde bir cihaz hatta \"Jam\" sinyali duyduğunda neyi anlamalıdır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hattın boş olduğunu"
-      },
-      {
-        "key": "B",
-        "text": "Bir çakışma (collision) meydana geldiğini ve durması gerektiğini"
-      },
-      {
-        "key": "C",
-        "text": "Verinin başarıyla ulaştığını"
-      },
-      {
-        "key": "D",
-        "text": "Hızın artırıldığını"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "159",
-    "text": "Notlardaki \"Crossover\" kablo tanımına göre, bu kablo hangi iki cihaz tipini birbirine bağlamak için (eskiden) zorunluydu?",
-    "options": [
-      {
-        "key": "A",
-        "text": "PC - Switch"
-      },
-      {
-        "key": "B",
-        "text": "Switch - Router"
-      },
-      {
-        "key": "C",
-        "text": "PC - PC (Aynı tip cihazlar)"
-      },
-      {
-        "key": "D",
-        "text": "PC - Modem"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "160",
-    "text": "Notlarda \"Kablo sonlandırılırken çok açılmamalı\" uyarısının sebebi nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kablonun renginin solması"
-      },
-      {
-        "key": "B",
-        "text": "\"Cancellation\" (iptal/koruma) efektinin bozulması ve girişimin artması"
-      },
-      {
-        "key": "C",
-        "text": "Kablonun kısalması"
-      },
-      {
-        "key": "D",
-        "text": "Konnektörün kırılması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "161",
-    "text": "\"Half Duplex\" bir ortamda (Örn: Hub veya eski Bus yapı), aynı anda veri gönderilirse ne oluşur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Throughput artar"
-      },
-      {
-        "key": "B",
-        "text": "Veriler birleşir"
-      },
-      {
-        "key": "C",
-        "text": "Collision (Çakışma) oluşur ve veri bozulur"
-      },
-      {
-        "key": "D",
-        "text": "Otomatik olarak Full Duplex'e geçer"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "162",
-    "text": "Notlarda \"Logical Topology\" (Mantıksal Topoloji) neleri içerir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kabloların geçtiği oda numaraları"
-      },
-      {
-        "key": "B",
-        "text": "Port numaraları ve fiziksel cihaz yerleri"
-      },
-      {
-        "key": "C",
-        "text": "IP adresleri, VLAN'lar ve sanal ağ yapısı"
-      },
-      {
-        "key": "D",
-        "text": "Sadece kablo tipleri"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "163",
-    "text": "Ethernet Frame yapısında \"Preamble\" alanından sonra gelen ve çerçevenin başladığını haber veren alan hangisidir? (Notlardaki görsel detay)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Source Address"
-      },
-      {
-        "key": "B",
-        "text": "Type"
-      },
-      {
-        "key": "C",
-        "text": "Destination Address"
-      },
-      {
-        "key": "D",
-        "text": "Start Frame Delimiter (SFD)"
-      }
-    ],
-    "answer": "D"
-  },
-  {
-    "id": "164",
-    "text": "Bir \"Switch\" cihazı, hedef MAC adresini tablosunda bulamazsa veriyi ne yapar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Veriyi çöpe atar (Drop)"
-      },
-      {
-        "key": "B",
-        "text": "Geldiği port hariç tüm portlara gönderir (Flooding)"
-      },
-      {
-        "key": "C",
-        "text": "Sadece Router'a yollar"
-      },
-      {
-        "key": "D",
-        "text": "Cihazı ağdan atar"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "165",
-    "text": "Notlarda \"Power over Ethernet (PoE)\" kavramı geçmese de, \"switchler arası vertical, uç cihazlar arası horizontal\" kablolama notuna göre; duvarın içinden geçen sabit kablolama türü hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Vertical"
-      },
-      {
-        "key": "B",
-        "text": "Horizontal (Yatay)"
-      },
-      {
-        "key": "C",
-        "text": "Patch Cable"
-      },
-      {
-        "key": "D",
-        "text": "Console"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "166",
-    "text": "\"Goodput\" değerinin \"Throughput\"tan düşük olmasının temel sebebi nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "İnternetin yavaş olması"
-      },
-      {
-        "key": "B",
-        "text": "Protokol başlıkları (Overhead) ve hatalı paketlerin toplam veri hızından düşülmesi"
-      },
-      {
-        "key": "C",
-        "text": "Kablonun çok uzun olması"
-      },
-      {
-        "key": "D",
-        "text": "Cihazın eski olması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "167",
-    "text": "\"1500 byte\" sınırı (MTU) Ethernet'in hangi katmanında tanımlanmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Layer 1"
-      },
-      {
-        "key": "B",
-        "text": "Layer 2 (Data Link)"
-      },
-      {
-        "key": "C",
-        "text": "Layer 3"
-      },
-      {
-        "key": "D",
-        "text": "Layer 4"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "168",
-    "text": "\"ARP Reply\" (ARP Cevabı) neden Broadcast değil de Unicast olarak gönderilir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hackerlar görmesin diye"
-      },
-      {
-        "key": "B",
-        "text": "Cevabı sadece isteği gönderen makinenin alması yeterli olduğu için (Adresi artık bildiği için)"
-      },
-      {
-        "key": "C",
-        "text": "Switch izin vermediği için"
-      },
-      {
-        "key": "D",
-        "text": "IP adresi değiştiği için"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "169",
-    "text": "Notlardaki topoloji çiziminde \"A -> D'ye veri gönderirken hattın dinlenmesi\" hangi yöntemi açıklar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "CSMA/CA"
-      },
-      {
-        "key": "B",
-        "text": "Token Ring"
-      },
-      {
-        "key": "C",
-        "text": "CSMA/CD (Carrier Sense)"
-      },
-      {
-        "key": "D",
-        "text": "Mesh"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "170",
-    "text": "\"MAC adresleri dünyada eşsizdir\" ifadesinin garantisi nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Windows tarafından atanması"
-      },
-      {
-        "key": "B",
-        "text": "İlk 24 bitin (OUI) IEEE tarafından üreticilere benzersiz olarak verilmesi"
-      },
-      {
-        "key": "C",
-        "text": "Kullanıcının kendi yazması"
-      },
-      {
-        "key": "D",
-        "text": "Her modemin aynı olması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "1",
-    "text": "Katman cihazı olan \"Hub\" neden \"Collision Domain\"i (çakışma alanı) daraltamaz?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Çok pahalı olduğu için"
-      },
-      {
-        "key": "B",
-        "text": "Gelen elektriksel sinyali ayırt etmeden tüm portlara çoğalttığı için"
-      },
-      {
-        "key": "C",
-        "text": "IP adresi olmadığı için"
-      },
-      {
-        "key": "D",
-        "text": "Fiber desteklemediği için"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "172",
-    "text": "\"Encapsulation\" (Kapsülleme) işlemi donanım olarak nerede başlar ve nerede biter?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Router'da başlar, Switch'te biter"
-      },
-      {
-        "key": "B",
-        "text": "Gönderen bilgisayarın uygulama katmanında başlar, fiziksel katmanında biter"
-      },
-      {
-        "key": "C",
-        "text": "İnternet kablosunda başlar"
-      },
-      {
-        "key": "D",
-        "text": "Sadece sunucuda olur"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "173",
-    "text": "Notlarda \"Router trafiği geçirgendir\" ifadesi neyi anlatmak için \"Firewall (Bodyguard)\" ile kıyaslanmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Router'ın her veriyi şifrelediğini"
-      },
-      {
-        "key": "B",
-        "text": "Router'ın varsayılan olarak paketleri yönlendirmeye odaklı olduğunu, Firewall'un ise engellemeye odaklı olduğunu"
-      },
-      {
-        "key": "C",
-        "text": "Router'ın daha yavaş olduğunu"
-      },
-      {
-        "key": "D",
-        "text": "Firewall'un kablosuz olduğunu"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "174",
-    "text": "\"100 metre\" sınırı aşıldığında bakır kabloda oluşan \"Attenuation\" (Zayıflama) sonucunda ne olur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kablo ısınır"
-      },
-      {
-        "key": "B",
-        "text": "Voltaj değerleri alıcı tarafından doğru okunamaz (Veri bozulur/kaybolur)"
-      },
-      {
-        "key": "C",
-        "text": "Cihaz yanar"
-      },
-      {
-        "key": "D",
-        "text": "İnternet hızı iki katına çıkar"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "175",
-    "text": "Notlardaki \"ARP Poisoning\" şemasında, Hacker paketlerin kendisine gelmesini sağlamak için neyi \"zehirler\"?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bilgisayarın işlemcisini"
-      },
-      {
-        "key": "B",
-        "text": "Hedef cihazın ve Router'ın ARP Tablosunu (IP-MAC eşleşmesini)"
-      },
-      {
-        "key": "C",
-        "text": "İnternet tarayıcısını"
-      },
-      {
-        "key": "D",
-        "text": "Duvar prizini"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "176",
-    "text": "Notlardaki \"Ders 1\" kısmında geçen \"http offer\" kavramı hangi döneme ait bir protokol olarak sınıflandırılmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "1990'ların başı"
-      },
-      {
-        "key": "B",
-        "text": "2000'li yıllar"
-      },
-      {
-        "key": "C",
-        "text": "Günümüz"
-      },
-      {
-        "key": "D",
-        "text": "Gelecek"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "177",
-    "text": "Notlardaki \"Ağ Bileşenleri\" şemasında, bir \"File Server\" ile haberleşen uç cihazın adı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Email client"
-      },
-      {
-        "key": "B",
-        "text": "Web server"
-      },
-      {
-        "key": "C",
-        "text": "File client"
-      },
-      {
-        "key": "D",
-        "text": "Switch"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "178",
-    "text": "Peer to Peer (P2P) ağlar için notlarda geçen \"Küçük Ofis\" ve \"Ev\" kullanım örneğinde temel amaç nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Büyük veri tabanı yönetimi"
-      },
-      {
-        "key": "B",
-        "text": "Dosya aktarma ve yazıcı kullanmak"
-      },
-      {
-        "key": "C",
-        "text": "Yüksek güvenlik sağlamak"
-      },
-      {
-        "key": "D",
-        "text": "Uzaktan sunucu yönetimi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "179",
-    "text": "Notlarda \"NIC\" (Network Interface Card) ile ilgili olarak Google örneği verilirken hangi önemli ayrım yapılmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Google'da NIC olmadığı"
-      },
-      {
-        "key": "B",
-        "text": "Bizden çıkan kablonun doğrudan Google'a gitmediği, arada \"Ara Cihaz\" olduğu"
-      },
-      {
-        "key": "C",
-        "text": "Kablonun sadece fiber olduğu"
-      },
-      {
-        "key": "D",
-        "text": "Google'ın sadece Wi-Fi kullandığı"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "180",
-    "text": "Router ve Firewall kıyaslamasında, notlarda Firewall için kullanılan \"Bodyguard\" benzetmesinin sebebi nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Router'dan daha hızlı olması"
-      },
-      {
-        "key": "B",
-        "text": "Trafiği bizim yönettiğimiz ve denetlediğimiz bir yapı olması"
-      },
-      {
-        "key": "C",
-        "text": "Sadece kablosuz çalışması"
-      },
-      {
-        "key": "D",
-        "text": "IP adreslerini gizlemesi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "181",
-    "text": "\"Fiber Optik\" kablo türlerinden \"Single Mode\" için notlarda hangi fiziksel özellik belirtilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Cam çapının 50 mikron olduğu"
-      },
-      {
-        "key": "B",
-        "text": "LED ışık kullandığı"
-      },
-      {
-        "key": "C",
-        "text": "Yansımasız ve lazer ışık kullandığı"
-      },
-      {
-        "key": "D",
-        "text": "Sadece kısa mesafelerde (550m) kullanıldığı"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "182",
-    "text": "Notlardaki \"Network Types\" listesinde \"SAN\" kısaltmasının açılımı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "System Area Network"
-      },
-      {
-        "key": "B",
-        "text": "Storage Area Network"
-      },
-      {
-        "key": "C",
-        "text": "Signal Access Network ) Security Area Network"
-      },
-      {
-        "key": "D",
-        "text": "Bilinmiyor/Eksik"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "183",
-    "text": "\"İntranet: Tüm internet altyapısını, LAN ve WAN içerebilir\" notuna göre İntranet'in kapsama alanı hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece tek bir oda"
-      },
-      {
-        "key": "B",
-        "text": "Şirketin iç ağı (birden fazla lokasyon olabilir)"
-      },
-      {
-        "key": "C",
-        "text": "Sadece dış müşteriler"
-      },
-      {
-        "key": "D",
-        "text": "Sadece bulut sistemleri"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "184",
-    "text": "Güvenilir ağlarda \"Quality of Service (QoS)\" maddesinde, bir paket için \"timeout\" (zaman aşımı) olmaması için sunucuda neyin gerçekleşmemesi gerekir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Elektrik kesilmesi"
-      },
-      {
-        "key": "B",
-        "text": "İstemcide timeout olması"
-      },
-      {
-        "key": "C",
-        "text": "Kablonun renginin değişmesi"
-      },
-      {
-        "key": "D",
-        "text": "IP adresinin silinmesi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "185",
-    "text": "Notlarda \"Converged Network\" (Bütünleşen Ağlar) başlığı altında \"Computer Network\"e bağlanan 3 temel yapı nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Telefon, Kamera, Yazıcı"
-      },
-      {
-        "key": "B",
-        "text": "Mouse, Klavye, Monitör"
-      },
-      {
-        "key": "C",
-        "text": "Uydu, Kablo, Radyo"
-      },
-      {
-        "key": "D",
-        "text": "Switch, Router, Hub"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "186",
-    "text": "\"Broadband Digital Subscriber Line (DSL)\" teknolojisi için notlarda belirtilen temel özellik nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece işletmelere özel olması"
-      },
-      {
-        "key": "B",
-        "text": "Kullanıcının internete bağlanması için bakır telefon hattı kullanması"
-      },
-      {
-        "key": "C",
-        "text": "Işıkla iletim yapması"
-      },
-      {
-        "key": "D",
-        "text": "Sadece uydudan sinyal alması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "187",
-    "text": "Notlarda \"Satellite\" (Uydu) internet erişimi için hangi yerel örnek verilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Turkcell"
-      },
-      {
-        "key": "B",
-        "text": "Türk Telekom"
-      },
-      {
-        "key": "C",
-        "text": "Türksat"
-      },
-      {
-        "key": "D",
-        "text": "Vodafone"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "2",
-    "text": "madde olarak yer alır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Fault Tolerance"
-      },
-      {
-        "key": "B",
-        "text": "Scalability (Ölçeklenebilirlik)"
-      },
-      {
-        "key": "C",
-        "text": "Security"
-      },
-      {
-        "key": "D",
-        "text": "QoS"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "189",
-    "text": "IETF tarafından hazırlanan RFC dökümanları için notlarda hangi teknik tanım kullanılmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Elden yazılan dökümantasyon / Pure text"
-      },
-      {
-        "key": "B",
-        "text": "Renkli şema dökümanları"
-      },
-      {
-        "key": "C",
-        "text": "Video eğitim serileri"
-      },
-      {
-        "key": "D",
-        "text": "Sadece Cisco'ya özel metinler"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "190",
-    "text": "Mesaj teslim çeşitlerinde \"Unicast\" için yapılan çizimde veri akışı nasıldır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Tek kaynaktan herkese"
-      },
-      {
-        "key": "B",
-        "text": "Tek kaynaktan tek bir hedefe (Tekil)"
-      },
-      {
-        "key": "C",
-        "text": "Herkesten herkese"
-      },
-      {
-        "key": "D",
-        "text": "Kaynaksız rastgele iletim"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "191",
-    "text": "OSI modelinde \"Data Link\" katmanı (L2) için notlarda hangi iki alt katman (sublayer) belirtilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IP ve TCP"
-      },
-      {
-        "key": "B",
-        "text": "LLC ve MAC"
-      },
-      {
-        "key": "C",
-        "text": "Physical ve Segment"
-      },
-      {
-        "key": "D",
-        "text": "HTTP ve FTP"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "192",
-    "text": "TCP/IP modelinde \"Internet\" katmanı, OSI modelinde hangi katmana karşılık gelir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Transport"
-      },
-      {
-        "key": "B",
-        "text": "Network"
-      },
-      {
-        "key": "C",
-        "text": "Session"
-      },
-      {
-        "key": "D",
-        "text": "Physical"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "193",
-    "text": "Notlarda \"Coaxial Cable\" için \"Topraklama çok iyi olmalı\" uyarısı hangi amaçla yapılmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "İnterneti hızlandırmak"
-      },
-      {
-        "key": "B",
-        "text": "Sinyal kalitesini korumak ve paraziti önlemek"
-      },
-      {
-        "key": "C",
-        "text": "Kablonun rengini korumak"
-      },
-      {
-        "key": "D",
-        "text": "Konnektörü sıkılaştırmak"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "194",
-    "text": "\"Category 5e\" kablonun Cat5'ten temel farkı ve desteklediği hız nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "100mb hız desteklemesi"
-      },
-      {
-        "key": "B",
-        "text": "1000mb (1gb) hız desteklemesi ve 100 metre sınırı"
-      },
-      {
-        "key": "C",
-        "text": "10gb hız desteklemesi"
-      },
-      {
-        "key": "D",
-        "text": "Sadece fiber olması"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "195",
-    "text": "Notlardaki \"Straight-through (TT)\" kablo türü için yapılan çizimde pinlerin durumu nasıldır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bir ucu farklı, diğer ucu farklı"
-      },
-      {
-        "key": "B",
-        "text": "İki ucu da aynı renk sıralamasında"
-      },
-      {
-        "key": "C",
-        "text": "Sadece 2 tel bağlı"
-      },
-      {
-        "key": "D",
-        "text": "Teller çaprazlanmış"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "196",
-    "text": "\"Physical Layer\" fonksiyonlarından \"Signaling\" neyi ifade eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Veriyi parçalara bölmek"
-      },
-      {
-        "key": "B",
-        "text": "Veriyi kodlama üzerine bindirmek"
-      },
-      {
-        "key": "C",
-        "text": "IP adresi atamak"
-      },
-      {
-        "key": "D",
-        "text": "Hata kontrolü yapmak"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "197",
-    "text": "Notlarda \"Throughput - Traffic Overhead\" formülü hangi kavramı hesaplamak için kullanılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Goodput (Kullanılabilir data aktarımı)"
-      },
-      {
-        "key": "B",
-        "text": "Bandwidth"
-      },
-      {
-        "key": "C",
-        "text": "Latency"
-      },
-      {
-        "key": "D",
-        "text": "Jitter"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "198",
-    "text": "\"802.1x\" standardı notlarda hangi amaçla belirtilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hız testi yapmak"
-      },
-      {
-        "key": "B",
-        "text": "Kimlik doğrulama (Authentication)"
-      },
-      {
-        "key": "C",
-        "text": "Kablo renklerini belirlemek"
-      },
-      {
-        "key": "D",
-        "text": "IP adresi dağıtmak"
-      }
-    ],
-    "answer": "UNKNOWN"
-  },
-  {
-    "id": "199",
-    "text": "Notlardaki \"ARP Poisoning\" kısmında hacker, PC'den çıkan paketlerin önce kendisine gelmesi için neyi yapar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kabloyu keser"
-      },
-      {
-        "key": "B",
-        "text": "Router'ın da ARP tablosunu zehirler"
-      },
-      {
-        "key": "C",
-        "text": "Bilgisayarı kapatır"
-      },
-      {
-        "key": "D",
-        "text": "Şifreyi değiştirir"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "200",
-    "text": "Notlarda Ethernet çerçeveleri için belirtilen \"Runt Frame\" tam olarak nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "1518 byte'tan büyük veri"
-      },
-      {
-        "key": "B",
-        "text": "64 byte'tan küçük olduğu için çöpe atılan veri"
-      },
-      {
-        "key": "C",
-        "text": "Sadece fiberde görülen hata"
-      },
-      {
-        "key": "D",
-        "text": "Şifrelenmiş veri"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "201",
-    "text": "Switch (Anahtar) cihazı için notlarda kullanılan \"Transparent (Şeffaf)\" ifadesi neyi anlatır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Cihazın fiziksel olarak camdan yapıldığını"
-      },
-      {
-        "key": "B",
-        "text": "Veriyi iletirken MAC adresine bakıp sadece ilgili katmanı (L2) açtığını"
-      },
-      {
-        "key": "C",
-        "text": "IP adresini gizlediğini"
-      },
-      {
-        "key": "D",
-        "text": "İnternet hızını etkilemediğini"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "203",
-    "text": "\"CRC hesap\" işlemi notlarda hangi aşamada gerçekleşir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Veri daha bilgisayardan çıkmadan önce yapılır ve kuyruğa yerleştirilir"
-      },
-      {
-        "key": "B",
-        "text": "Veri Router'a ulaştığında yapılır"
-      },
-      {
-        "key": "C",
-        "text": "Sadece internet sitesine girerken yapılır"
-      },
-      {
-        "key": "D",
-        "text": "Kablo takıldığı anda yapılır"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "204",
-    "text": "Bir ARP Request (İstek) paketi ile ilgili hangisi doğrudur?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Tüm interneti dolaşır"
-      },
-      {
-        "key": "B",
-        "text": "İlk karşılaştığı Router cihazında çöpe atılır (Ağ dışına çıkmaz)"
-      },
-      {
-        "key": "C",
-        "text": "Sadece fiber kablolarda çalışır"
-      },
-      {
-        "key": "D",
-        "text": "Şifreli olarak gönderilir"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "205",
-    "text": "Notlarda \"pure text\" ve \"elden yazılan dökümantasyon\" olarak tanımlanan döküman türü hangisidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IEEE Standartları"
-      },
-      {
-        "key": "B",
-        "text": "RFC Dökümanları"
-      },
-      {
-        "key": "C",
-        "text": "Cisco Katalogları"
-      },
-      {
-        "key": "D",
-        "text": "Windows Yardım Dosyaları"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "206",
-    "text": "\"Giant Frame\" kavramı notlarda nasıl tanımlanmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Çok hızlı iletilen veri"
-      },
-      {
-        "key": "B",
-        "text": "1500 byte sınırını geçen bozuk veri"
-      },
-      {
-        "key": "C",
-        "text": "Fiber kablo türü"
-      },
-      {
-        "key": "D",
-        "text": "Yüksek güvenlikli paket"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "207",
-    "text": "Notlardaki fiber optik bilgisinde, ışığın özelliği için hangi ifade kullanılmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Çok parlak renkli ışık"
-      },
-      {
-        "key": "B",
-        "text": "Görünmez ışık"
-      },
-      {
-        "key": "C",
-        "text": "Sadece kırmızı ışık"
-      },
-      {
-        "key": "D",
-        "text": "Güneş enerjili ışık"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "208",
-    "text": "Switch, kendisine gelen bir veriyi iletmeden önce \"kuyruğu (trailer)\" neden kontrol eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Verinin hızını ölçmek için"
-      },
-      {
-        "key": "B",
-        "text": "Verinin bozuk olup olmadığını anlamak için (CRC/FCS)"
-      },
-      {
-        "key": "C",
-        "text": "Gönderen kişinin adını öğrenmek için"
-      },
-      {
-        "key": "D",
-        "text": "Kablo tipini belirlemek için"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "209",
-    "text": "Notlardaki \"A-D\" arası veri iletim çiziminde, hattın boş olduğunun anlaşılması için yapılan işleme ne denir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Jam sinyali"
-      },
-      {
-        "key": "B",
-        "text": "Hat dinleme (Carrier Sense)"
-      },
-      {
-        "key": "C",
-        "text": "Kapsülleme"
-      },
-      {
-        "key": "D",
-        "text": "Şifreleme"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "210",
-    "text": "Notlarda \"!\" ile vurgulanan \"hizmet almak ve vermek\" ifadesi hangi mimariyi tanımlamak için kullanılmıştır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Peer 2 Peer"
-      },
-      {
-        "key": "B",
-        "text": "Cloud Computing"
-      },
-      {
-        "key": "C",
-        "text": "Internet Omurgası"
-      },
-      {
-        "key": "D",
-        "text": "Metro Ethernet"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "211",
-    "text": "Notlardaki Ethernet şemasında, verinin sonuna eklenen \"Trailer\" alanının içindeki \"FCS\" neyi temsil eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Frame Check Sequence"
-      },
-      {
-        "key": "B",
-        "text": "Fiber Connector System"
-      },
-      {
-        "key": "C",
-        "text": "File Client Server"
-      },
-      {
-        "key": "D",
-        "text": "Firewall Control System"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "212",
-    "text": "Notlarda \"Multicast MAC adresi asla kaynak MAC adresi olamaz!\" ifadesi hangi kuralı vurgular?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kaynağın her zaman tek (Unicast) olması gerektiğini"
-      },
-      {
-        "key": "B",
-        "text": "İnternetin yavaşlayacağını"
-      },
-      {
-        "key": "C",
-        "text": "Router'ın bozulacağını"
-      },
-      {
-        "key": "D",
-        "text": "Kablonun yanacağını"
-      }
-    ],
-    "answer": "A"
-  },
-  {
-    "id": "213",
-    "text": "Notlardaki kablo tablosunda yer alan \"renk kodlaması\" neden yapılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kablonun güzel görünmesi için"
-      },
-      {
-        "key": "B",
-        "text": "Pinleri doğru eşleştirmek ve doğru pin eşleşmesini sağlamak için"
-      },
-      {
-        "key": "C",
-        "text": "Hızı artırmak için"
-      },
-      {
-        "key": "D",
-        "text": "Fiberi korumak için"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "214",
-    "text": "\"Single point of failure\" (Tek hata noktası) örneği olarak notlarda hangisi verilmiştir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Router'ın çalınması"
-      },
-      {
-        "key": "B",
-        "text": "Switch giderse 24 PC'nin yok olması"
-      },
-      {
-        "key": "C",
-        "text": "Kablonun renginin yanlış olması"
-      },
-      {
-        "key": "D",
-        "text": "İnternet faturasının ödenmemesi"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "215",
-    "text": "Notlarda \"Ethernet 802.3\" standardı hangi kurumu temsil eder?",
-    "options": [
-      {
-        "key": "A",
-        "text": "IETF"
-      },
-      {
-        "key": "B",
-        "text": "IANA"
-      },
-      {
-        "key": "C",
-        "text": "IEEE"
-      },
-      {
-        "key": "D",
-        "text": "EIA/TIA"
-      }
-    ],
-    "answer": "C"
-  },
-  {
-    "id": "216",
-    "text": "\"Jumbo Frame\" kullanmak için notlarda belirtilen temel şart nedir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece fiber kablo kullanmak"
-      },
-      {
-        "key": "B",
-        "text": "Her yerde (tüm cihazlarda) açık ve konfigüre edilmiş olması"
-      },
-      {
-        "key": "C",
-        "text": "Sadece gece kullanmak"
-      },
-      {
-        "key": "D",
-        "text": "İnternet hızını düşürmek"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "217",
-    "text": "\"ARP Request\" paketi içindeki hedef IP ile kendi IP'si eşleşen cihaz ne yapar?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Paketi çöpe atar"
-      },
-      {
-        "key": "B",
-        "text": "\"Unicast\" olarak kendi MAC adresini içeren cevap dondurur"
-      },
-      {
-        "key": "C",
-        "text": "Herkese bağırır"
-      },
-      {
-        "key": "D",
-        "text": "Kendi kendine reset atar"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "2",
-    "text": "katman başlıklarının çoğunu IEEE koyar\" ifadesi hangi protokoller için geçerlidir?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sadece IP"
-      },
-      {
-        "key": "B",
-        "text": "Ethernet (802.3), Wireless (802.11) ve Bluetooth (802.15)"
-      },
-      {
-        "key": "C",
-        "text": "HTTP ve FTP"
-      },
-      {
-        "key": "D",
-        "text": "Sadece fiber"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "219",
-    "text": "\"ARP zehirlenmesi\" (Poisoning) sonucunda paketin izlediği yol nasıldır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "PC - > Router -> İnternet"
-      },
-      {
-        "key": "B",
-        "text": "PC -> Hacker -> Router -> İnternet"
-      },
-      {
-        "key": "C",
-        "text": "PC -> İnternet -> Hacker"
-      },
-      {
-        "key": "D",
-        "text": "Sadece PC içinde döner"
-      }
-    ],
-    "answer": "B"
-  },
-  {
-    "id": "220",
-    "text": "Notların en sonunda yer alan \"kuyruğu kontrol eder, bozuk ise çöpe gider\" işlemi hangi cihazda yapılır?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hub"
-      },
-      {
-        "key": "B",
-        "text": "Switch"
-      },
-      {
-        "key": "C",
-        "text": "Sadece PC"
-      },
-      {
-        "key": "D",
-        "text": "Sadece Modem"
-      }
-    ],
-    "answer": "B"
-  }
-]
+    {
+      "id": "1",
+      "text": "\"İki ya da daha fazla yapının haberleştiği ortama\" verilen teknik isim nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Client"
+        },
+        {
+          "key": "B",
+          "text": "Network"
+        },
+        {
+          "key": "C",
+          "text": "Peer to Peer"
+        },
+        {
+          "key": "D",
+          "text": "Server"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "2",
+      "text": "Günümuzde dünya nüfusunun yaklaşık kaç katı internet kullanıcısı bulunmaktadır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 katı"
+        },
+        {
+          "key": "B",
+          "text": "2 katı"
+        },
+        {
+          "key": "C",
+          "text": "3 katı"
+        },
+        {
+          "key": "D",
+          "text": "5 katı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "3",
+      "text": "Notlara göre günümüzde ağlara bağlı toplam cihaz sayısı yaklaşık ne kadardır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 milyar"
+        },
+        {
+          "key": "B",
+          "text": "25 milyar"
+        },
+        {
+          "key": "C",
+          "text": "50 milyar"
+        },
+        {
+          "key": "D",
+          "text": "100 milyar"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "4",
+      "text": "1990'ların başında Yahoo gibi sitelerle özdeşleşen eski HTTP sürümü hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "http offer"
+        },
+        {
+          "key": "B",
+          "text": "http 1.1"
+        },
+        {
+          "key": "C",
+          "text": "http 2.0"
+        },
+        {
+          "key": "D",
+          "text": "http 3.0"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "5",
+      "text": "Akıllı telefonlar ve Apple ile yaygınlaşan, 2000'li yıllara damga vuran HTTP sürümü hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "http 1.0"
+        },
+        {
+          "key": "B",
+          "text": "http 1.1"
+        },
+        {
+          "key": "C",
+          "text": "http 2.0"
+        },
+        {
+          "key": "D",
+          "text": "http 3.0"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "6",
+      "text": "Peer to Peer (P2P) modelinde hangisi bir avantaj olarak belirtilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Merkezi yönetim olması"
+        },
+        {
+          "key": "B",
+          "text": "Kolay kurulum ve az maliyet"
+        },
+        {
+          "key": "C",
+          "text": "Yüksek ölçeklenebilirlik"
+        },
+        {
+          "key": "D",
+          "text": "Karmaşık yapı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "7",
+      "text": "Peer to Peer (P2P) ağların dezavantajları arasında hangisi yer almaz?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Güvenli olmaması"
+        },
+        {
+          "key": "B",
+          "text": "Merkezi yönetimin yokluğu"
+        },
+        {
+          "key": "C",
+          "text": "Ölçeklenebilir olmaması"
+        },
+        {
+          "key": "D",
+          "text": "Kurulum maliyetinin yüksekliği"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "8",
+      "text": "\"Hizmet almak ve vermek\" prensibine dayanan, notlarda belirtilen temel model hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mesh Modeli"
+        },
+        {
+          "key": "B",
+          "text": "Star Modeli"
+        },
+        {
+          "key": "C",
+          "text": "Server-Client Modeli"
+        },
+        {
+          "key": "D",
+          "text": "Ring Modeli"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "9",
+      "text": "İstekte bulunan bilgisayar veya uç cihaz aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Server"
+        },
+        {
+          "key": "B",
+          "text": "Client"
+        },
+        {
+          "key": "C",
+          "text": "Switch"
+        },
+        {
+          "key": "D",
+          "text": "Router"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "10",
+      "text": "Notlarda \"Endpoint / Host / Son Cihaz\" kategorisine giren cihaz hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switch"
+        },
+        {
+          "key": "B",
+          "text": "Router"
+        },
+        {
+          "key": "C",
+          "text": "El terminali"
+        },
+        {
+          "key": "D",
+          "text": "Firewall"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "11",
+      "text": "İnternette haberleşebilmek için bir cihazda mutlaka bulunması gereken fiziksel arayüz kartı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "GPU"
+        },
+        {
+          "key": "B",
+          "text": "Sound Card"
+        },
+        {
+          "key": "C",
+          "text": "NIC"
+        },
+        {
+          "key": "D",
+          "text": "RAM"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "12",
+      "text": "Notlardaki tanıma göre \"aynı lokasyonda cihazları bağlayarak LAN oluşturan\" taşıyıcı cihaz hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Router"
+        },
+        {
+          "key": "B",
+          "text": "Switch"
+        },
+        {
+          "key": "C",
+          "text": "Firewall"
+        },
+        {
+          "key": "D",
+          "text": "Modem"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "13",
+      "text": "Switch üzerinde kabloların takıldığı fiziksel giriş yerlerine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bus"
+        },
+        {
+          "key": "B",
+          "text": "Port"
+        },
+        {
+          "key": "C",
+          "text": "Terminal"
+        },
+        {
+          "key": "D",
+          "text": "Socket"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "14",
+      "text": "Kablosuz erişim noktaları (Access Point) genellikle hangi cihaza bağlanır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Direkt internete"
+        },
+        {
+          "key": "B",
+          "text": "Switche"
+        },
+        {
+          "key": "C",
+          "text": "Güç kaynağına"
+        },
+        {
+          "key": "D",
+          "text": "Bilgisayara"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "15",
+      "text": "Farklı networkleri birbirine bağlayan ve ağlar arası haberleşmeyi sağlayan cihaz hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switch"
+        },
+        {
+          "key": "B",
+          "text": "Bridge"
+        },
+        {
+          "key": "C",
+          "text": "Router"
+        },
+        {
+          "key": "D",
+          "text": "Hub"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "16",
+      "text": "Notlarda \"Trafik Bodyguard\"ı olarak tanımlanan ve trafiği yöneten cihaz hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Router"
+        },
+        {
+          "key": "B",
+          "text": "Firewall"
+        },
+        {
+          "key": "C",
+          "text": "Switch"
+        },
+        {
+          "key": "D",
+          "text": "Access Point"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "17",
+      "text": "Firewall cihazının IDS ve IPS dışında yaptığı temel işlev hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kablo testi yapmak"
+        },
+        {
+          "key": "B",
+          "text": "Trafiği yönetmek"
+        },
+        {
+          "key": "C",
+          "text": "MAC adresi üretmek"
+        },
+        {
+          "key": "D",
+          "text": "Sinyali güçlendirmek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "18",
+      "text": "Bakır kablo (UTP/Ethernet) içerisinde toplam kaç adet tel bulunur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "19",
+      "text": "Işık ile iletim yapan ve internet omurgasını oluşturan kablo türü hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "UTP"
+        },
+        {
+          "key": "B",
+          "text": "Coaxial"
+        },
+        {
+          "key": "C",
+          "text": "Fiber Optic"
+        },
+        {
+          "key": "D",
+          "text": "STP"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "20",
+      "text": "\"Sınırlı bir alanda uç cihazları bağlayan yüksek bant genişlikli ağ\" hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "WAN"
+        },
+        {
+          "key": "B",
+          "text": "MAN"
+        },
+        {
+          "key": "C",
+          "text": "LAN"
+        },
+        {
+          "key": "D",
+          "text": "SAN"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "21",
+      "text": "\"Geniş coğrafi alanda LAN'ları birbirine bağlayan ağ\" hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "WLAN"
+        },
+        {
+          "key": "B",
+          "text": "WAN"
+        },
+        {
+          "key": "C",
+          "text": "PAN"
+        },
+        {
+          "key": "D",
+          "text": "Intranet"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "22",
+      "text": "ISP kavramının açılımı notlarda nasıl geçmektedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Internet System Provider"
+        },
+        {
+          "key": "B",
+          "text": "Internet Service Provider"
+        },
+        {
+          "key": "C",
+          "text": "Information Service Point"
+        },
+        {
+          "key": "D",
+          "text": "International System Protocol"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "23",
+      "text": "\"LAN + WAN =\" denkleminin karşılığı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Extranet"
+        },
+        {
+          "key": "B",
+          "text": "Intranet"
+        },
+        {
+          "key": "C",
+          "text": "Internet"
+        },
+        {
+          "key": "D",
+          "text": "SAN"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "24",
+      "text": "\"Sadece şirkete özel (company only)\" olan ağ yapısı hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Internet"
+        },
+        {
+          "key": "B",
+          "text": "Intranet"
+        },
+        {
+          "key": "C",
+          "text": "Extranet"
+        },
+        {
+          "key": "D",
+          "text": "Public Network"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "25",
+      "text": "Tedarikçilerin ve müşterilerin (suppliers, customer) erişebildiği özel ağ yapısı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Intranet"
+        },
+        {
+          "key": "B",
+          "text": "Extranet"
+        },
+        {
+          "key": "C",
+          "text": "Cloud"
+        },
+        {
+          "key": "D",
+          "text": "VPN"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "26",
+      "text": "Extranet bağlantıları notlara göre genellikle hangi yöntemle yapılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dial-up"
+        },
+        {
+          "key": "B",
+          "text": "VPN tünelleri"
+        },
+        {
+          "key": "C",
+          "text": "Uydu bağlantısı"
+        },
+        {
+          "key": "D",
+          "text": "Fiber optik"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "27",
+      "text": "Güvenilir ağ mimarisinin \"Fault Tolerance\" (Hata Toleransı) ilkesi neyi hedefler?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ağın en yüksek hızda çalışmasını"
+        },
+        {
+          "key": "B",
+          "text": "Bir hata oluştuğunda sistemin çökmemesini/yedekliliği"
+        },
+        {
+          "key": "C",
+          "text": "Sistemin her gün büyümesini"
+        },
+        {
+          "key": "D",
+          "text": "Şifreleme algoritmalarının güçlendirilmesini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "28",
+      "text": "Notlarda \"Single point of failure istenmez\" ifadesi hangi durum için kullanılmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bir switchin bozulup 24 bilgisayarı devre dışı bırakması"
+        },
+        {
+          "key": "B",
+          "text": "Kablonun renginin yanlış olması"
+        },
+        {
+          "key": "C",
+          "text": "İnternet hızının düşmesi"
+        },
+        {
+          "key": "D",
+          "text": "Şifrenin çalınması"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "29",
+      "text": "\"Kapasite artma talebine hayır denmemeli\" maddesi ağ mimarisinin hangi özelliğidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Güvenlik"
+        },
+        {
+          "key": "B",
+          "text": "Scalability"
+        },
+        {
+          "key": "C",
+          "text": "Fault Tolerance"
+        },
+        {
+          "key": "D",
+          "text": "QoS"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "30",
+      "text": "Kaliteli Hizmet (QoS) için paketlerin ulaşma süresi (latency) maksimum kaç ms olmalıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50ms"
+        },
+        {
+          "key": "B",
+          "text": "100ms"
+        },
+        {
+          "key": "C",
+          "text": "150ms"
+        },
+        {
+          "key": "D",
+          "text": "200ms"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "31",
+      "text": "Ağ Güvenliği'nin CIA üçlüsünden \"Confidentiality\" (Gizlilik) neyi ifade eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Verinin değiştirilememesini"
+        },
+        {
+          "key": "B",
+          "text": "Veriyi sahibi dışında kimsenin görmemesini"
+        },
+        {
+          "key": "C",
+          "text": "Veriye her zaman ulaşılabilmesini"
+        },
+        {
+          "key": "D",
+          "text": "Verinin silinmemesini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "32",
+      "text": "\"Bana ait ürünü kimse değiştirememeli, orijinal kalmalı\" ifadesi CIA'in hangi öğesidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Availability"
+        },
+        {
+          "key": "B",
+          "text": "Confidentiality"
+        },
+        {
+          "key": "C",
+          "text": "Integrity"
+        },
+        {
+          "key": "D",
+          "text": "Authentication"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "33",
+      "text": "\"Bana ait ürüne istediğimde erişebilmeliyim\" ifadesi hangi güvenlik öğesidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Integrity"
+        },
+        {
+          "key": "B",
+          "text": "Confidentiality"
+        },
+        {
+          "key": "C",
+          "text": "Availability"
+        },
+        {
+          "key": "D",
+          "text": "Encryption"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "34",
+      "text": "Telefon ve kamera ağlarının IP üzerinden bilgisayar ağına bağlanmasına ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Parallel Network"
+        },
+        {
+          "key": "B",
+          "text": "Converged Network"
+        },
+        {
+          "key": "C",
+          "text": "Hybrid System"
+        },
+        {
+          "key": "D",
+          "text": "Cloud Network"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "35",
+      "text": "Şirketler için daha pahalı olan ve SLA imzalanan internet teknolojisi hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Broadband DSL"
+        },
+        {
+          "key": "B",
+          "text": "Broadband Cable"
+        },
+        {
+          "key": "C",
+          "text": "Dedicated Leased Lines"
+        },
+        {
+          "key": "D",
+          "text": "Mobile Services"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "36",
+      "text": "Notlarda \"gecikme, kalabalık ortam\" sorunu yaşayan erişim türü hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fiber"
+        },
+        {
+          "key": "B",
+          "text": "DSL"
+        },
+        {
+          "key": "C",
+          "text": "Cellular"
+        },
+        {
+          "key": "D",
+          "text": "Dial-Up"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "37",
+      "text": "Eskiden kullanılan, telefon hattı üzerinden çalışan ve \"circuit switch\" mantığına dayanan teknoloji nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Metro Ethernet"
+        },
+        {
+          "key": "B",
+          "text": "Satellite"
+        },
+        {
+          "key": "C",
+          "text": "Dial-Up"
+        },
+        {
+          "key": "D",
+          "text": "Fiber GPON"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "38",
+      "text": "BYOD trendinin notlardaki tam karşılığı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Buy Your Own Data"
+        },
+        {
+          "key": "B",
+          "text": "Bring Your Own Device"
+        },
+        {
+          "key": "C",
+          "text": "Build Your Own Design"
+        },
+        {
+          "key": "D",
+          "text": "Best Yield on Device"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "39",
+      "text": "\"Gecikmedeki değişim\" olarak tanımlanan kavram hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Latency"
+        },
+        {
+          "key": "B",
+          "text": "Bandwidth"
+        },
+        {
+          "key": "C",
+          "text": "Jitter"
+        },
+        {
+          "key": "D",
+          "text": "Throughput"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "40",
+      "text": "İç tehditlerin (Internal Threat) dış tehditlerden daha riskli olmasının sebebi nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "İçerdeki kullanıcıların daha zeki olması"
+        },
+        {
+          "key": "B",
+          "text": "İçerde sunucuya hızlı erişim olması ve firewall olmaması"
+        },
+        {
+          "key": "C",
+          "text": "Dış tehditlerin şifreli olması"
+        },
+        {
+          "key": "D",
+          "text": "Dışardan gelenlerin yavaş olması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "41",
+      "text": "Standartları belirleyen IEEE kurumunun yaklaşık kaç üyesi vardır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "100 bin"
+        },
+        {
+          "key": "B",
+          "text": "250 bin"
+        },
+        {
+          "key": "C",
+          "text": "400 bin"
+        },
+        {
+          "key": "D",
+          "text": "1 milyon"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "42",
+      "text": "Wi-Fi standartlarının IEEE kodu aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "802.3"
+        },
+        {
+          "key": "B",
+          "text": "802.15"
+        },
+        {
+          "key": "C",
+          "text": "802.11"
+        },
+        {
+          "key": "D",
+          "text": "802.1"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "43",
+      "text": "Bluetooth teknolojisinin IEEE kodu nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "802.11"
+        },
+        {
+          "key": "B",
+          "text": "802.15"
+        },
+        {
+          "key": "C",
+          "text": "802.3"
+        },
+        {
+          "key": "D",
+          "text": "802.1"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "44",
+      "text": "IETF tarafından yayınlanan, her şeyin birinci el dökümantasyonu olan \"pure text\" belgeler nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "PDF"
+        },
+        {
+          "key": "B",
+          "text": "RFC"
+        },
+        {
+          "key": "C",
+          "text": "IEEE Standard"
+        },
+        {
+          "key": "D",
+          "text": "ISO Document"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "46",
+      "text": "Mesajın sadece bir kişiye (tekil) gönderilmesi işlemine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multicast"
+        },
+        {
+          "key": "B",
+          "text": "Broadcast"
+        },
+        {
+          "key": "C",
+          "text": "Unicast"
+        },
+        {
+          "key": "D",
+          "text": "Anycast"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "47",
+      "text": "Mesajın bir gruba (çoklu) gönderilmesi işlemine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unicast"
+        },
+        {
+          "key": "B",
+          "text": "Multicast"
+        },
+        {
+          "key": "C",
+          "text": "Broadcast"
+        },
+        {
+          "key": "D",
+          "text": "Simplex"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "48",
+      "text": "Mesajın herkese (genel yayım) gönderilmesi işlemine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multicast"
+        },
+        {
+          "key": "B",
+          "text": "Unicast"
+        },
+        {
+          "key": "C",
+          "text": "Broadcast"
+        },
+        {
+          "key": "D",
+          "text": "Full Duplex"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "49",
+      "text": "OSI modelinde Layer 7 hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Presentation"
+        },
+        {
+          "key": "B",
+          "text": "Session"
+        },
+        {
+          "key": "C",
+          "text": "Application"
+        },
+        {
+          "key": "D",
+          "text": "Transport"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "50",
+      "text": "Tarayıcı, notepad veya Safari gibi kullanıcı arayüzleri hangi katmanda yer alır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 4"
+        },
+        {
+          "key": "B",
+          "text": "Layer 3"
+        },
+        {
+          "key": "C",
+          "text": "Layer 7"
+        },
+        {
+          "key": "D",
+          "text": "Layer 2"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "51",
+      "text": "Uygulamaya gelen verinin nasıl işleneceğini tarif eden (örneğin dosya formatı) katman hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Session"
+        },
+        {
+          "key": "B",
+          "text": "Presentation"
+        },
+        {
+          "key": "C",
+          "text": "Application"
+        },
+        {
+          "key": "D",
+          "text": "Network"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "52",
+      "text": "Oturumların karışmasını önleyen ve oturumu yöneten katman hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Transport"
+        },
+        {
+          "key": "B",
+          "text": "Data Link"
+        },
+        {
+          "key": "C",
+          "text": "Session"
+        },
+        {
+          "key": "D",
+          "text": "Physical"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "53",
+      "text": "Verinin küçük parçalara (segment) bölündüğü ve sıra numarası (sequence no) aldığı katman hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Network"
+        },
+        {
+          "key": "B",
+          "text": "Transport"
+        },
+        {
+          "key": "C",
+          "text": "Data Link"
+        },
+        {
+          "key": "D",
+          "text": "Session"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "54",
+      "text": "OSI Layer 4'te (Transport) veriye ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paket"
+        },
+        {
+          "key": "B",
+          "text": "Frame"
+        },
+        {
+          "key": "C",
+          "text": "Segment"
+        },
+        {
+          "key": "D",
+          "text": "Bit"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "55",
+      "text": "OSI Layer 3'te (Network) veriye ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Segment"
+        },
+        {
+          "key": "B",
+          "text": "Paket"
+        },
+        {
+          "key": "C",
+          "text": "Frame"
+        },
+        {
+          "key": "D",
+          "text": "Bit"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "56",
+      "text": "OSI Layer 2'de (Data Link) veriye ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paket"
+        },
+        {
+          "key": "B",
+          "text": "Frame"
+        },
+        {
+          "key": "C",
+          "text": "Segment"
+        },
+        {
+          "key": "D",
+          "text": "Signal"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "57",
+      "text": "Kaynak ve hedef IP adreslerinin eklendiği katman hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 2"
+        },
+        {
+          "key": "B",
+          "text": "Layer 3"
+        },
+        {
+          "key": "C",
+          "text": "Layer 4"
+        },
+        {
+          "key": "D",
+          "text": "Layer 7"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "58",
+      "text": "Kaynak ve hedef MAC adreslerinin eklendiği katman hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 3"
+        },
+        {
+          "key": "B",
+          "text": "Layer 2"
+        },
+        {
+          "key": "C",
+          "text": "Layer 1"
+        },
+        {
+          "key": "D",
+          "text": "Layer 4"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "59",
+      "text": "Veri kapsülleme (Encapsulation) hiyerarşisi nasıldır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP -> Ethernet -> TCP -> APP"
+        },
+        {
+          "key": "B",
+          "text": "APP -> TCP -> IP -> Ethernet"
+        },
+        {
+          "key": "C",
+          "text": "Ethernet -> IP -> TCP -> APP"
+        },
+        {
+          "key": "D",
+          "text": "TCP -> IP -> APP -> Ethernet"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "60",
+      "text": "Verinin en sonuna \"Trailer\" (kuyruk) eklenen katman hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 3"
+        },
+        {
+          "key": "B",
+          "text": "Layer 4"
+        },
+        {
+          "key": "C",
+          "text": "Layer 2"
+        },
+        {
+          "key": "D",
+          "text": "Layer 1"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "61",
+      "text": "Verinin bozuk olup olmadığını anlamak için kullanılan \"CRC hesabı\" nerede yer alır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP Header"
+        },
+        {
+          "key": "B",
+          "text": "TCP Header"
+        },
+        {
+          "key": "C",
+          "text": "Ethernet Trailer"
+        },
+        {
+          "key": "D",
+          "text": "Application Data"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "62",
+      "text": "Veriyi \"bit\"lere (1 ve 0) çevirip kabloya/havaya basan katman hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 2"
+        },
+        {
+          "key": "B",
+          "text": "Layer 3"
+        },
+        {
+          "key": "C",
+          "text": "Layer 1"
+        },
+        {
+          "key": "D",
+          "text": "Layer 7"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "63",
+      "text": "Router kaçıncı katman cihazıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 1"
+        },
+        {
+          "key": "B",
+          "text": "Layer 2"
+        },
+        {
+          "key": "C",
+          "text": "Layer 3"
+        },
+        {
+          "key": "D",
+          "text": "Layer 4"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "64",
+      "text": "Switch kaçıncı katman cihazıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 1"
+        },
+        {
+          "key": "B",
+          "text": "Layer 2"
+        },
+        {
+          "key": "C",
+          "text": "Layer 3"
+        },
+        {
+          "key": "D",
+          "text": "Layer 4"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "65",
+      "text": "Hub kaçıncı katman cihazıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 1"
+        },
+        {
+          "key": "B",
+          "text": "Layer 2"
+        },
+        {
+          "key": "C",
+          "text": "Layer 3"
+        },
+        {
+          "key": "D",
+          "text": "Layer 4"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "66",
+      "text": "Kapsül açma (Decapsulation) işlemi sırasında veri en son hangi katmana ulaşır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Physical"
+        },
+        {
+          "key": "B",
+          "text": "Transport"
+        },
+        {
+          "key": "C",
+          "text": "Application"
+        },
+        {
+          "key": "D",
+          "text": "Network"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "67",
+      "text": "Fiziksel katmanda \"1 ve 0'ları uygun olarak taşıma\" işlemine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Signaling"
+        },
+        {
+          "key": "B",
+          "text": "Encoding"
+        },
+        {
+          "key": "C",
+          "text": "Modulation"
+        },
+        {
+          "key": "D",
+          "text": "Fragmentation"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "68",
+      "text": "Fiziksel katmanda \"veriyi kodlama üzerine bindirme\" işlemine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encoding"
+        },
+        {
+          "key": "B",
+          "text": "Signaling"
+        },
+        {
+          "key": "C",
+          "text": "Routing"
+        },
+        {
+          "key": "D",
+          "text": "Switching"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "69",
+      "text": "\"Sistemin taşıyabileceği maksimum veri miktarı\" nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Throughput"
+        },
+        {
+          "key": "B",
+          "text": "Goodput"
+        },
+        {
+          "key": "C",
+          "text": "Bandwidth"
+        },
+        {
+          "key": "D",
+          "text": "Latency"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "70",
+      "text": "\"Gerçekte alınan veri hızı\" nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bandwidth"
+        },
+        {
+          "key": "B",
+          "text": "Throughput"
+        },
+        {
+          "key": "C",
+          "text": "Goodput"
+        },
+        {
+          "key": "D",
+          "text": "Jitter"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "71",
+      "text": "\"Kullanılabilir data aktarımı (Throughput - trafik overhead)\" nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Goodput"
+        },
+        {
+          "key": "B",
+          "text": "Bandwidth"
+        },
+        {
+          "key": "C",
+          "text": "Latency"
+        },
+        {
+          "key": "D",
+          "text": "Attenuation"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "72",
+      "text": "\"Mesafe uzadıkça sinyalin dirençle karşılaşması ve zayıflaması\" nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Crosstalk"
+        },
+        {
+          "key": "B",
+          "text": "Attenuation"
+        },
+        {
+          "key": "C",
+          "text": "Collision"
+        },
+        {
+          "key": "D",
+          "text": "Noise"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "73",
+      "text": "Bakır kablolarda dışarıdan gelen elektromanyetik etkilere ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RFI"
+        },
+        {
+          "key": "B",
+          "text": "EMI"
+        },
+        {
+          "key": "C",
+          "text": "CRC"
+        },
+        {
+          "key": "D",
+          "text": "MTU"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "74",
+      "text": "Bakır kablolarda yan yana geçen tellerin birbirini bozmasına ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attenuation"
+        },
+        {
+          "key": "B",
+          "text": "Crosstalk"
+        },
+        {
+          "key": "C",
+          "text": "Jitter"
+        },
+        {
+          "key": "D",
+          "text": "Latency"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "75",
+      "text": "UTP kablo standartlarında mesafenin kaç metreyi geçmemesi önerilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50m"
+        },
+        {
+          "key": "B",
+          "text": "100m"
+        },
+        {
+          "key": "C",
+          "text": "150m"
+        },
+        {
+          "key": "D",
+          "text": "200m"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "76",
+      "text": "STP kablonun UTP'den temel farkı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Daha ince olması"
+        },
+        {
+          "key": "B",
+          "text": "Folyo koruması ile EMI/RFI koruması sağlaması"
+        },
+        {
+          "key": "C",
+          "text": "Daha ucuz olması"
+        },
+        {
+          "key": "D",
+          "text": "Daha az tel içermesi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "77",
+      "text": "UTP kabloların ucuna takılan plastik konnektörün adı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "BNC"
+        },
+        {
+          "key": "B",
+          "text": "RJ-45"
+        },
+        {
+          "key": "C",
+          "text": "SFP"
+        },
+        {
+          "key": "D",
+          "text": "DB9"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "78",
+      "text": "\"Turuncu-Beyaz\" ile başlayan kablo renk standardı hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "T568A"
+        },
+        {
+          "key": "B",
+          "text": "T568B"
+        },
+        {
+          "key": "C",
+          "text": "Crossover"
+        },
+        {
+          "key": "D",
+          "text": "Rollover"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "79",
+      "text": "Eskiden kullanılan, PC'den PC'ye doğrudan bağlantı sağlayan kablo türü nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Straight-through"
+        },
+        {
+          "key": "B",
+          "text": "Crossover"
+        },
+        {
+          "key": "C",
+          "text": "Rollover"
+        },
+        {
+          "key": "D",
+          "text": "Fiber"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "80",
+      "text": "Switch konfigürasyonu için kullanılan (genellikle mavi renkli) kablo hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Crossover"
+        },
+        {
+          "key": "B",
+          "text": "Rollover"
+        },
+        {
+          "key": "C",
+          "text": "Patch cable"
+        },
+        {
+          "key": "D",
+          "text": "Single Mode"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "81",
+      "text": "Fiber optik kablolarda ışıkla veri ileten kısmın ham maddesi nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bakır"
+        },
+        {
+          "key": "B",
+          "text": "Gümüş"
+        },
+        {
+          "key": "C",
+          "text": "Cam"
+        },
+        {
+          "key": "D",
+          "text": "Plastik"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "82",
+      "text": "\"Single-Mode Fiber\" (SMF) için ışık kaynağı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "LED"
+        },
+        {
+          "key": "B",
+          "text": "Lazer"
+        },
+        {
+          "key": "C",
+          "text": "Floresan"
+        },
+        {
+          "key": "D",
+          "text": "Halojen"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "83",
+      "text": "SMF kablo ile yaklaşık ne kadar mesafe (switchten switche) gidilebilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "550 metre"
+        },
+        {
+          "key": "B",
+          "text": "2 km"
+        },
+        {
+          "key": "C",
+          "text": "80 km"
+        },
+        {
+          "key": "D",
+          "text": "100 metre"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "84",
+      "text": "\"Multi-Mode Fiber\" (MMF) için ışık kaynağı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lazer"
+        },
+        {
+          "key": "B",
+          "text": "LED"
+        },
+        {
+          "key": "C",
+          "text": "Güneş ışığı"
+        },
+        {
+          "key": "D",
+          "text": "Kızılötesi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "85",
+      "text": "MMF kablo ile gidilebilen yaklaşık mesafe nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "100m"
+        },
+        {
+          "key": "B",
+          "text": "550m"
+        },
+        {
+          "key": "C",
+          "text": "80km"
+        },
+        {
+          "key": "D",
+          "text": "1000m"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "86",
+      "text": "MMF kablonun cam çekirdek çapı ne kadardır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9 mikron"
+        },
+        {
+          "key": "B",
+          "text": "50 / 62.5 mikron"
+        },
+        {
+          "key": "C",
+          "text": "100 mikron"
+        },
+        {
+          "key": "D",
+          "text": "5 mikron"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "87",
+      "text": "SMF kablonun cam çekirdek çapı ne kadardır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9 mikron"
+        },
+        {
+          "key": "B",
+          "text": "50 mikron"
+        },
+        {
+          "key": "C",
+          "text": "62.5 mikron"
+        },
+        {
+          "key": "D",
+          "text": "100 mikron"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "88",
+      "text": "Fiber optik kablolarda aynı anda veri alıp-vermek için genellikle kaç tel kullanılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "89",
+      "text": "Fiber kabloları test etmek için kullanılan cihazın adı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multi-metre"
+        },
+        {
+          "key": "B",
+          "text": "OTDR"
+        },
+        {
+          "key": "C",
+          "text": "SFP"
+        },
+        {
+          "key": "D",
+          "text": "GBIC"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "90",
+      "text": "Bakır ve fiber karşılaştırmasında hangisinin maliyeti en düşüktür?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Single Mode Fiber"
+        },
+        {
+          "key": "B",
+          "text": "Multi Mode Fiber"
+        },
+        {
+          "key": "C",
+          "text": "UTP"
+        },
+        {
+          "key": "D",
+          "text": "Coaxial"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "91",
+      "text": "\"Herkesin birbirine bağlı olduğu\" tam yedekli topoloji hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Star"
+        },
+        {
+          "key": "B",
+          "text": "Mesh"
+        },
+        {
+          "key": "C",
+          "text": "Bus"
+        },
+        {
+          "key": "D",
+          "text": "Ring"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "92",
+      "text": "Hattın sonlarında \"terminatör\" bulunan eski topoloji hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mesh"
+        },
+        {
+          "key": "B",
+          "text": "Star"
+        },
+        {
+          "key": "C",
+          "text": "Bus"
+        },
+        {
+          "key": "D",
+          "text": "Ring"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "93",
+      "text": "Günümüzde yerel ağlarda (LAN) en çok kullanılan yıldız yapılı topoloji hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bus"
+        },
+        {
+          "key": "B",
+          "text": "Star"
+        },
+        {
+          "key": "C",
+          "text": "Ring"
+        },
+        {
+          "key": "D",
+          "text": "Point-to-Point"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "94",
+      "text": "\"Sırası boş paketi alan verisini koyar\" mantığıyla çalışan eski topoloji nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mesh"
+        },
+        {
+          "key": "B",
+          "text": "Star"
+        },
+        {
+          "key": "C",
+          "text": "Ring"
+        },
+        {
+          "key": "D",
+          "text": "Bus"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "95",
+      "text": "\"Ya veri yollar ya veri alır, aynı anda yapamaz\" iletişim türü nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full Duplex"
+        },
+        {
+          "key": "B",
+          "text": "Half Duplex"
+        },
+        {
+          "key": "C",
+          "text": "Simplex"
+        },
+        {
+          "key": "D",
+          "text": "Multicast"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "96",
+      "text": "\"Aynı anda hem veri alıp hem veri verebilir\" iletişim türü nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full Duplex"
+        },
+        {
+          "key": "B",
+          "text": "Half Duplex"
+        },
+        {
+          "key": "C",
+          "text": "Simplex"
+        },
+        {
+          "key": "D",
+          "text": "Broadcast"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "97",
+      "text": "Ethernet ağlarında kullanılan erişim kontrol yöntemi hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CSMA/CA"
+        },
+        {
+          "key": "B",
+          "text": "CSMA/CD"
+        },
+        {
+          "key": "C",
+          "text": "Token Passing"
+        },
+        {
+          "key": "D",
+          "text": "Polling"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "98",
+      "text": "CSMA/CD'de çakışma (collision) olduğunda tüm cihazlara gönderilen sinyal nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stop"
+        },
+        {
+          "key": "B",
+          "text": "Jam"
+        },
+        {
+          "key": "C",
+          "text": "Back-off"
+        },
+        {
+          "key": "D",
+          "text": "Reset"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "99",
+      "text": "Çakışma sonrası cihazların tekrar veri yollamak için beklediği süreye ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait time"
+        },
+        {
+          "key": "B",
+          "text": "Latency"
+        },
+        {
+          "key": "C",
+          "text": "Back-off time"
+        },
+        {
+          "key": "D",
+          "text": "Jitter"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "100",
+      "text": "Wi-Fi ağlarında çakışmayı önlemek için kullanılan yöntem hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CSMA/CD"
+        },
+        {
+          "key": "B",
+          "text": "CSMA/CA"
+        },
+        {
+          "key": "C",
+          "text": "FDDI"
+        },
+        {
+          "key": "D",
+          "text": "ALOHA"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "101",
+      "text": "Ethernet çerçevesinin (Frame) minimum boyutu kaç byte'tır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "32 byte"
+        },
+        {
+          "key": "B",
+          "text": "48 byte"
+        },
+        {
+          "key": "C",
+          "text": "64 byte"
+        },
+        {
+          "key": "D",
+          "text": "1518 byte"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "102",
+      "text": "Ethernet çerçevesinin (Frame) standart maksimum boyutu kaç byte'tır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1000 byte"
+        },
+        {
+          "key": "B",
+          "text": "1500 byte"
+        },
+        {
+          "key": "C",
+          "text": "1518 byte"
+        },
+        {
+          "key": "D",
+          "text": "9000 byte"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "103",
+      "text": "64 byte'tan küçük olan bozuk Ethernet çerçevelerine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giant Frame"
+        },
+        {
+          "key": "B",
+          "text": "Runt Frame"
+        },
+        {
+          "key": "C",
+          "text": "Jumbo Frame"
+        },
+        {
+          "key": "D",
+          "text": "Normal Frame"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "104",
+      "text": "1518 byte'tan büyük olan bozuk Ethernet çerçevelerine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Runt Frame"
+        },
+        {
+          "key": "B",
+          "text": "Giant Frame"
+        },
+        {
+          "key": "C",
+          "text": "Jumbo Frame"
+        },
+        {
+          "key": "D",
+          "text": "Micro Frame"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "105",
+      "text": "\"Jumbo Frame\" kullanabilmek için ne yapılması gerekir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hiçbir şeye gerek yoktur"
+        },
+        {
+          "key": "B",
+          "text": "Özel konfigürasyon yapılmalı ve her yerde açık olmalı"
+        },
+        {
+          "key": "C",
+          "text": "Sadece kablo değiştirilmeli"
+        },
+        {
+          "key": "D",
+          "text": "Hızı 10mb'a düşürmeli"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "106",
+      "text": "MAC adresleri kaç bit uzunluğundadır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "32 bit"
+        },
+        {
+          "key": "B",
+          "text": "48 bit"
+        },
+        {
+          "key": "C",
+          "text": "64 bit"
+        },
+        {
+          "key": "D",
+          "text": "128 bit"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "107",
+      "text": "MAC adresleri hangi sayı sisteminde yazılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decimal"
+        },
+        {
+          "key": "B",
+          "text": "Binary"
+        },
+        {
+          "key": "C",
+          "text": "Hexadecimal"
+        },
+        {
+          "key": "D",
+          "text": "Octal"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "108",
+      "text": "MAC adresinin ilk 24 bitini kim belirler/verir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kurum"
+        },
+        {
+          "key": "B",
+          "text": "IEEE"
+        },
+        {
+          "key": "C",
+          "text": "IANA"
+        },
+        {
+          "key": "D",
+          "text": "Kullanıcı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "109",
+      "text": "MAC adresinin ikinci 24 bitine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "OUI"
+        },
+        {
+          "key": "B",
+          "text": "Kurumun karta verdiği sayı"
+        },
+        {
+          "key": "C",
+          "text": "IP adresi"
+        },
+        {
+          "key": "D",
+          "text": "Port numarası"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "110",
+      "text": "Kaynak MAC adresi her zaman nasıl bir adrestir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multicast"
+        },
+        {
+          "key": "B",
+          "text": "Broadcast"
+        },
+        {
+          "key": "C",
+          "text": "Unicast"
+        },
+        {
+          "key": "D",
+          "text": "Anycast"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "111",
+      "text": "\"FF-FF-FF-FF-FF-FF\" adresi neyi temsil eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hiçbir şeyi"
+        },
+        {
+          "key": "B",
+          "text": "Broadcast MAC adresini"
+        },
+        {
+          "key": "C",
+          "text": "Google'ın adresini"
+        },
+        {
+          "key": "D",
+          "text": "Router'ın adresini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "112",
+      "text": "IPv6 Multicast MAC adresleri hangi ön ek ile başlar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "01-00-5E"
+        },
+        {
+          "key": "B",
+          "text": "33-33"
+        },
+        {
+          "key": "C",
+          "text": "FF-FF"
+        },
+        {
+          "key": "D",
+          "text": "00-00"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "113",
+      "text": "IPv4 Multicast MAC adresleri hangi ön ek ile başlar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "01-00-5E"
+        },
+        {
+          "key": "B",
+          "text": "33-33"
+        },
+        {
+          "key": "C",
+          "text": "FF-FF"
+        },
+        {
+          "key": "D",
+          "text": "11-11"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "114",
+      "text": "IP adresi bilinen bir cihazın MAC adresini öğrenmek için kullanılan protokol nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DHCP"
+        },
+        {
+          "key": "B",
+          "text": "DNS"
+        },
+        {
+          "key": "C",
+          "text": "ARP"
+        },
+        {
+          "key": "D",
+          "text": "HTTP"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "115",
+      "text": "ARP Request (İstek) paketi ağda nasıl yayılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unicast"
+        },
+        {
+          "key": "B",
+          "text": "Multicast"
+        },
+        {
+          "key": "C",
+          "text": "Broadcast"
+        },
+        {
+          "key": "D",
+          "text": "Sadece sunucuya gider"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "116",
+      "text": "ARP Reply (Cevap) paketi nasıl gönderilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unicast"
+        },
+        {
+          "key": "B",
+          "text": "Broadcast"
+        },
+        {
+          "key": "C",
+          "text": "Multicast"
+        },
+        {
+          "key": "D",
+          "text": "Şifreli"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "117",
+      "text": "Bir bilgisayar öğrendiği MAC adreslerini nereye kaydeder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hard diske"
+        },
+        {
+          "key": "B",
+          "text": "ARP tablosuna"
+        },
+        {
+          "key": "C",
+          "text": "BIOS'a"
+        },
+        {
+          "key": "D",
+          "text": "Tarayıcı geçmişine"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "118",
+      "text": "Hacker'ın sahte ARP cevapları yollayarak trafiği kendi üzerine çekmesine ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phishing"
+        },
+        {
+          "key": "B",
+          "text": "DDoS"
+        },
+        {
+          "key": "C",
+          "text": "ARP Poisoning / Man-in-the-Middle"
+        },
+        {
+          "key": "D",
+          "text": "Brute Force"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "119",
+      "text": "ARP zehirlenmesini önlemek için switch üzerinde hangi özellik açılmalıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Port Security"
+        },
+        {
+          "key": "B",
+          "text": "DAI"
+        },
+        {
+          "key": "C",
+          "text": "DHCP Snooping"
+        },
+        {
+          "key": "D",
+          "text": "VLAN"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "120",
+      "text": "Router'a gelen bir paketin hedefi başka ağdaysa, router paketi hangi adrese bakarak yönlendirir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hedef MAC"
+        },
+        {
+          "key": "B",
+          "text": "Hedef IP"
+        },
+        {
+          "key": "C",
+          "text": "Kaynak MAC"
+        },
+        {
+          "key": "D",
+          "text": "Kaynak Port"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "121",
+      "text": "Switch, kendisine gelen Ethernet çerçevesini hangi tabloya bakarak iletir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP Tablosu"
+        },
+        {
+          "key": "B",
+          "text": "MAC Adres Tablosu"
+        },
+        {
+          "key": "C",
+          "text": "Routing Tablosu"
+        },
+        {
+          "key": "D",
+          "text": "Port Tablosu"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "122",
+      "text": "Hub'a gelen bir veri nasıl dağıtılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece hedefe yollanır"
+        },
+        {
+          "key": "B",
+          "text": "Geldiği port hariç tüm portlara basılır"
+        },
+        {
+          "key": "C",
+          "text": "Sadece router'a yollanır"
+        },
+        {
+          "key": "D",
+          "text": "Şifrelenip saklanır"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "123",
+      "text": "\"Throughput\" ölçülürken neye bakılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kablonun rengine"
+        },
+        {
+          "key": "B",
+          "text": "Belli bir sürede gerçekte alınan veri miktarına"
+        },
+        {
+          "key": "C",
+          "text": "Sistemin maksimum kapasitesine"
+        },
+        {
+          "key": "D",
+          "text": "Port sayısına"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "124",
+      "text": "Cat5e kablo standart olarak ne kadar hız destekler?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10mb"
+        },
+        {
+          "key": "B",
+          "text": "100mb"
+        },
+        {
+          "key": "C",
+          "text": "1000mb"
+        },
+        {
+          "key": "D",
+          "text": "10gb"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "125",
+      "text": "Cat6 kablonun Cat5e'den farkı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Daha ucuz olması"
+        },
+        {
+          "key": "B",
+          "text": "Kalite artışı"
+        },
+        {
+          "key": "C",
+          "text": "Sadece fiber olması"
+        },
+        {
+          "key": "D",
+          "text": "8 telden fazla olması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "127",
+      "text": "Bir frame switch'e geldiğinde switch önce hangi MAC adresini tabloya yazar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hedef MAC"
+        },
+        {
+          "key": "B",
+          "text": "Kaynak MAC"
+        },
+        {
+          "key": "C",
+          "text": "Broadcast MAC"
+        },
+        {
+          "key": "D",
+          "text": "Kendi MAC'ini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "128",
+      "text": "\"LLC\" alt katmanı (Layer 2) neyi bildirir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fiziksel kablo tipini"
+        },
+        {
+          "key": "B",
+          "text": "Bir üst katmanda hangi protokolün olduğunu"
+        },
+        {
+          "key": "C",
+          "text": "Cihazın seri numarasını"
+        },
+        {
+          "key": "D",
+          "text": "Sinyal gücünü"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "129",
+      "text": "\"MAC\" alt katmanı (Layer 2) temel olarak ne yapar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP ataması yapar"
+        },
+        {
+          "key": "B",
+          "text": "Encapsulation ve veri işleme yapar"
+        },
+        {
+          "key": "C",
+          "text": "Şifre çözer"
+        },
+        {
+          "key": "D",
+          "text": "Web sayfasını görüntüler"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "130",
+      "text": "Fiziksel Topoloji ve Mantıksal (Logical) Topoloji farkı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fark yoktur"
+        },
+        {
+          "key": "B",
+          "text": "Fiziksel kablo yerini, mantıksal IP/WLAN yapısını gösterir"
+        },
+        {
+          "key": "C",
+          "text": "Fiziksel interneti, mantıksal intranet'i gösterir"
+        },
+        {
+          "key": "D",
+          "text": "Mantıksal sadece routerlar içindir"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "131",
+      "text": "802.11 standardında hat boşsa rastlantısal süre seçilip yollama yapılmasına ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CSMA/CD"
+        },
+        {
+          "key": "B",
+          "text": "CSMA/CA"
+        },
+        {
+          "key": "C",
+          "text": "Polling"
+        },
+        {
+          "key": "D",
+          "text": "Token Passing"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "132",
+      "text": "Ethernet frame yapısında \"Type\" alanı kaç byte yer kaplar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 byte"
+        },
+        {
+          "key": "B",
+          "text": "4 byte"
+        },
+        {
+          "key": "C",
+          "text": "6 byte"
+        },
+        {
+          "key": "D",
+          "text": "8 byte"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "133",
+      "text": "Ethernet frame yapısında \"MAC adresleri\" kaçar byte yer kaplar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 byte"
+        },
+        {
+          "key": "B",
+          "text": "4 byte"
+        },
+        {
+          "key": "C",
+          "text": "6 byte"
+        },
+        {
+          "key": "D",
+          "text": "8 byte"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "134",
+      "text": "MTU kavramının açılımı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Minimum Transmission Unit"
+        },
+        {
+          "key": "B",
+          "text": "Maximum Transmission Unit"
+        },
+        {
+          "key": "C",
+          "text": "Mode Transfer Unit"
+        },
+        {
+          "key": "D",
+          "text": "Media Transmission Unit"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "135",
+      "text": "Fiber optik \"Single-Mode\" kablonun çekirdek çapı yaklaşık kaç mikrondur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9 mikron"
+        },
+        {
+          "key": "B",
+          "text": "50 mikron"
+        },
+        {
+          "key": "C",
+          "text": "62.5 mikron"
+        },
+        {
+          "key": "D",
+          "text": "100 mikron"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "136",
+      "text": "Fiber konnektör tipleri arasında hangisi yer almaz?",
+      "options": [
+        {
+          "key": "A",
+          "text": "LC"
+        },
+        {
+          "key": "B",
+          "text": "SC"
+        },
+        {
+          "key": "C",
+          "text": "RJ-45"
+        },
+        {
+          "key": "D",
+          "text": "SFP"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "137",
+      "text": "Notlarda \"yüksek akım\" tehlikesi nedeniyle binalar arası önerilmeyen kablo hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fiber"
+        },
+        {
+          "key": "B",
+          "text": "UTP"
+        },
+        {
+          "key": "C",
+          "text": "STP"
+        },
+        {
+          "key": "D",
+          "text": "Coaxial"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "138",
+      "text": "\"Faraday Kafesi\" mantığı hangi kabloda EMI'yi engellemek için kullanılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "UTP"
+        },
+        {
+          "key": "B",
+          "text": "STP"
+        },
+        {
+          "key": "C",
+          "text": "Fiber"
+        },
+        {
+          "key": "D",
+          "text": "Mavi kablo"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "139",
+      "text": "Bir paketin hedefe ulaşması için geçen toplam süreye ne ad verilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bandwidth"
+        },
+        {
+          "key": "B",
+          "text": "Throughput"
+        },
+        {
+          "key": "C",
+          "text": "Latency"
+        },
+        {
+          "key": "D",
+          "text": "Goodput"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "140",
+      "text": "Coaxial kablo türlerinden PC haberleşmesi için kullanılan uç hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "F Type"
+        },
+        {
+          "key": "B",
+          "text": "BNC"
+        },
+        {
+          "key": "C",
+          "text": "N Type"
+        },
+        {
+          "key": "D",
+          "text": "RJ-11"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "141",
+      "text": "\"Jitter\" özellikle hangi trafik türü için kritik bir sorundur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "E-posta"
+        },
+        {
+          "key": "B",
+          "text": "Dosya indirme"
+        },
+        {
+          "key": "C",
+          "text": "Video ve Ses"
+        },
+        {
+          "key": "D",
+          "text": "Web sörfü"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "142",
+      "text": "Bulut bilişim (Cloud Computing) hangi amaçla kullanılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece oyun oynamak"
+        },
+        {
+          "key": "B",
+          "text": "Veri depolama ve online işlem yapma"
+        },
+        {
+          "key": "C",
+          "text": "Kablo testi yapma"
+        },
+        {
+          "key": "D",
+          "text": "MAC adresi değiştirme"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "144",
+      "text": "Bir switch'in portuna bağlı olan cihazın MAC adresini unutma süresi (timeout) nerede gerçekleşir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Flash bellek"
+        },
+        {
+          "key": "B",
+          "text": "RAM / MAC Adres Tablosu"
+        },
+        {
+          "key": "C",
+          "text": "Hard disk"
+        },
+        {
+          "key": "D",
+          "text": "İşlemci"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "145",
+      "text": "\"Digital veriye çevirme\" işlemi hangi katman fonksiyonudur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 3"
+        },
+        {
+          "key": "B",
+          "text": "Layer 2"
+        },
+        {
+          "key": "C",
+          "text": "Layer 1"
+        },
+        {
+          "key": "D",
+          "text": "Layer 7"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "146",
+      "text": "EIA/TIA standartları en çok hangi konuda belirleyicidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP adresleme"
+        },
+        {
+          "key": "B",
+          "text": "Kablo kalitesi ve renk kodlaması"
+        },
+        {
+          "key": "C",
+          "text": "Şifreleme algoritmaları"
+        },
+        {
+          "key": "D",
+          "text": "Web tasarımı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "147",
+      "text": "Notlarda \"SFP\" (Small Form-factor Pluggable) ne için kullanılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP adresi almak"
+        },
+        {
+          "key": "B",
+          "text": "Fiber optik giriş modülü olarak switchlere takılır"
+        },
+        {
+          "key": "C",
+          "text": "Kablo soymak"
+        },
+        {
+          "key": "D",
+          "text": "Voltaj ölçmek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "148",
+      "text": "\"Point-to-Point\" (P2P) WAN topolojisinde kaç cihaz birbirine bağlıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 cihaz direkt birbirine"
+        },
+        {
+          "key": "B",
+          "text": "10 cihaz"
+        },
+        {
+          "key": "C",
+          "text": "Sınırsız cihaz"
+        },
+        {
+          "key": "D",
+          "text": "Tüm dünya"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "150",
+      "text": "OSI modelinde \"Uygulama, Sunum ve Oturum\" katmanları (L7, L6, L5) TCP/IP modelinde hangi tek katman altında birleştirilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Transport"
+        },
+        {
+          "key": "B",
+          "text": "Internet"
+        },
+        {
+          "key": "C",
+          "text": "Application"
+        },
+        {
+          "key": "D",
+          "text": "Network Access"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "151",
+      "text": "Notlardaki şemaya göre, bir veri \"Kapsül Açma (Decapsulation)\" işlemine girdiğinde Layer 2'de (Veri Bağlantısı) hangi kontrol yapıldıktan sonra Layer 3'e aktarılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP Adres kontrolü"
+        },
+        {
+          "key": "B",
+          "text": "Port numarası kontrolü"
+        },
+        {
+          "key": "C",
+          "text": "FCS/CRC ve Kuyruk kontrolü"
+        },
+        {
+          "key": "D",
+          "text": "HTTP versiyon kontrolü"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "152",
+      "text": "\"Verinin hangi uygulamaya ait olduğunu belirlemek için kullanılan\" port numaraları (Örn: 80 portu), kapsülleme sürecinin hangi aşamasında veriye eklenir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Segmentasyon"
+        },
+        {
+          "key": "B",
+          "text": "Paketleme"
+        },
+        {
+          "key": "C",
+          "text": "Çerçeveleme"
+        },
+        {
+          "key": "D",
+          "text": "Bit akışı"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "153",
+      "text": "Notlardaki fiber optik tablosunda \"Long Haul\" (Uzun mesafe/Okyanus altı) iletim için hangi fiber türü ve ışık kaynağı eşleştirilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multimode - LED"
+        },
+        {
+          "key": "B",
+          "text": "Single Mode - Lazer"
+        },
+        {
+          "key": "C",
+          "text": "Single Mode - LED"
+        },
+        {
+          "key": "D",
+          "text": "Multimode - Lazer"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "154",
+      "text": "Fiber optik bağlantılarda \"SFP\" (Small Form-factor Pluggable) modüllerinin takıldığı cihazların ana görevi notlarda nasıl tanımlanmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP adreslerini yönetmek"
+        },
+        {
+          "key": "B",
+          "text": "Işık sinyalini dijital veriye çevirmek"
+        },
+        {
+          "key": "C",
+          "text": "Sadece elektrik akımını kontrol etmek"
+        },
+        {
+          "key": "D",
+          "text": "Şifreleme algoritması üretmek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "155",
+      "text": "\"STP kablonun UTP'ye göre kurulumu daha zordur\" bilgisinin teknik gerekçesi notlarda neye bağlanmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kablonun daha ince olmasına"
+        },
+        {
+          "key": "B",
+          "text": "İçindeki folyo koruma ve topraklama gereksinimi nedeniyle daha sert/kalın olmasına"
+        },
+        {
+          "key": "C",
+          "text": "Daha az tel içermesine"
+        },
+        {
+          "key": "D",
+          "text": "Sadece dış mekanda kullanılmasına"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "156",
+      "text": "Notlarda \"Hata Toleransı\" kapsamında geçen \"24 PC yok oldu\" örneği hangi ağ cihazının yedeği olmamasını eleştirmek için verilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Router"
+        },
+        {
+          "key": "B",
+          "text": "Switch"
+        },
+        {
+          "key": "C",
+          "text": "Firewall"
+        },
+        {
+          "key": "D",
+          "text": "Modem"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "157",
+      "text": "Veri Bağlantısı katmanında (L2) kullanılan \"LLC (802.2)\" alt katmanının, Ethernet başlığındaki (Frame) hangi alanla doğrudan ilişkili olduğu belirtilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Destination MAC"
+        },
+        {
+          "key": "B",
+          "text": "Source MAC"
+        },
+        {
+          "key": "C",
+          "text": "Type"
+        },
+        {
+          "key": "D",
+          "text": "FCS"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "158",
+      "text": "\"CSMA/CD\" yönteminde bir cihaz hatta \"Jam\" sinyali duyduğunda neyi anlamalıdır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hattın boş olduğunu"
+        },
+        {
+          "key": "B",
+          "text": "Bir çakışma meydana geldiğini ve durması gerektiğini"
+        },
+        {
+          "key": "C",
+          "text": "Verinin başarıyla ulaştığını"
+        },
+        {
+          "key": "D",
+          "text": "Hızın artırıldığını"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "160",
+      "text": "Notlarda \"Kablo sonlandırılırken çok açılmamalı\" uyarısının sebebi nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kablonun renginin solması"
+        },
+        {
+          "key": "B",
+          "text": "\"Cancellation\" efektinin bozulması ve girişimin artması"
+        },
+        {
+          "key": "C",
+          "text": "Kablonun kısalması"
+        },
+        {
+          "key": "D",
+          "text": "Konnektörün kırılması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "161",
+      "text": "\"Half Duplex\" bir ortamda (Örn: Hub veya eski Bus yapı), aynı anda veri gönderilirse ne oluşur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Throughput artar"
+        },
+        {
+          "key": "B",
+          "text": "Veriler birleşir"
+        },
+        {
+          "key": "C",
+          "text": "Collision oluşur ve veri bozulur"
+        },
+        {
+          "key": "D",
+          "text": "Otomatik olarak Full Duplex'e geçer"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "162",
+      "text": "Notlarda \"Logical Topology\" (Mantıksal Topoloji) neleri içerir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kabloların geçtiği oda numaraları"
+        },
+        {
+          "key": "B",
+          "text": "Port numaraları ve fiziksel cihaz yerleri"
+        },
+        {
+          "key": "C",
+          "text": "IP adresleri, VLAN'lar ve sanal ağ yapısı"
+        },
+        {
+          "key": "D",
+          "text": "Sadece kablo tipleri"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "163",
+      "text": "Ethernet Frame yapısında \"Preamble\" alanından sonra gelen ve çerçevenin başladığını haber veren alan hangisidir? (Notlardaki görsel detay)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Source Address"
+        },
+        {
+          "key": "B",
+          "text": "Type"
+        },
+        {
+          "key": "C",
+          "text": "Destination Address"
+        },
+        {
+          "key": "D",
+          "text": "Start Frame Delimiter"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "165",
+      "text": "Notlarda \"Power over Ethernet (PoE)\" kavramı geçmese de, \"switchler arası vertical, uç cihazlar arası horizontal\" kablolama notuna göre; duvarın içinden geçen sabit kablolama türü hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vertical"
+        },
+        {
+          "key": "B",
+          "text": "Horizontal"
+        },
+        {
+          "key": "C",
+          "text": "Patch Cable"
+        },
+        {
+          "key": "D",
+          "text": "Console"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "166",
+      "text": "\"Goodput\" değerinin \"Throughput\"tan düşük olmasının temel sebebi nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "İnternetin yavaş olması"
+        },
+        {
+          "key": "B",
+          "text": "Protokol başlıkları ve hatalı paketlerin toplam veri hızından düşülmesi"
+        },
+        {
+          "key": "C",
+          "text": "Kablonun çok uzun olması"
+        },
+        {
+          "key": "D",
+          "text": "Cihazın eski olması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "167",
+      "text": "\"1500 byte\" sınırı (MTU) Ethernet'in hangi katmanında tanımlanmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 1"
+        },
+        {
+          "key": "B",
+          "text": "Layer 2"
+        },
+        {
+          "key": "C",
+          "text": "Layer 3"
+        },
+        {
+          "key": "D",
+          "text": "Layer 4"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "168",
+      "text": "\"ARP Reply\" (ARP Cevabı) neden Broadcast değil de Unicast olarak gönderilir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hackerlar görmesin diye"
+        },
+        {
+          "key": "B",
+          "text": "Cevabı sadece isteği gönderen makinenin alması yeterli olduğu için"
+        },
+        {
+          "key": "C",
+          "text": "Switch izin vermediği için"
+        },
+        {
+          "key": "D",
+          "text": "IP adresi değiştiği için"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "169",
+      "text": "Notlardaki topoloji çiziminde \"A -> D'ye veri gönderirken hattın dinlenmesi\" hangi yöntemi açıklar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CSMA/CA"
+        },
+        {
+          "key": "B",
+          "text": "Token Ring"
+        },
+        {
+          "key": "C",
+          "text": "CSMA/CD"
+        },
+        {
+          "key": "D",
+          "text": "Mesh"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "170",
+      "text": "\"MAC adresleri dünyada eşsizdir\" ifadesinin garantisi nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Windows tarafından atanması"
+        },
+        {
+          "key": "B",
+          "text": "İlk 24 bitin IEEE tarafından üreticilere benzersiz olarak verilmesi"
+        },
+        {
+          "key": "C",
+          "text": "Kullanıcının kendi yazması"
+        },
+        {
+          "key": "D",
+          "text": "Her modemin aynı olması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "1",
+      "text": "Katman cihazı olan \"Hub\" neden \"Collision Domain\"i (çakışma alanı) daraltamaz?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Çok pahalı olduğu için"
+        },
+        {
+          "key": "B",
+          "text": "Gelen elektriksel sinyali ayırt etmeden tüm portlara çoğalttığı için"
+        },
+        {
+          "key": "C",
+          "text": "IP adresi olmadığı için"
+        },
+        {
+          "key": "D",
+          "text": "Fiber desteklemediği için"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "172",
+      "text": "\"Encapsulation\" (Kapsülleme) işlemi donanım olarak nerede başlar ve nerede biter?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Router'da başlar, Switch'te biter"
+        },
+        {
+          "key": "B",
+          "text": "Gönderen bilgisayarın uygulama katmanında başlar, fiziksel katmanında biter"
+        },
+        {
+          "key": "C",
+          "text": "İnternet kablosunda başlar"
+        },
+        {
+          "key": "D",
+          "text": "Sadece sunucuda olur"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "173",
+      "text": "Notlarda \"Router trafiği geçirgendir\" ifadesi neyi anlatmak için \"Firewall (Bodyguard)\" ile kıyaslanmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Router'ın her veriyi şifrelediğini"
+        },
+        {
+          "key": "B",
+          "text": "Router'ın varsayılan olarak paketleri yönlendirmeye odaklı olduğunu, Firewall'un ise engellemeye odaklı olduğunu"
+        },
+        {
+          "key": "C",
+          "text": "Router'ın daha yavaş olduğunu"
+        },
+        {
+          "key": "D",
+          "text": "Firewall'un kablosuz olduğunu"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "174",
+      "text": "\"100 metre\" sınırı aşıldığında bakır kabloda oluşan \"Attenuation\" (Zayıflama) sonucunda ne olur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kablo ısınır"
+        },
+        {
+          "key": "B",
+          "text": "Voltaj değerleri alıcı tarafından doğru okunamaz"
+        },
+        {
+          "key": "C",
+          "text": "Cihaz yanar"
+        },
+        {
+          "key": "D",
+          "text": "İnternet hızı iki katına çıkar"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "175",
+      "text": "Notlardaki \"ARP Poisoning\" şemasında, Hacker paketlerin kendisine gelmesini sağlamak için neyi \"zehirler\"?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bilgisayarın işlemcisini"
+        },
+        {
+          "key": "B",
+          "text": "Hedef cihazın ve Router'ın ARP Tablosunu"
+        },
+        {
+          "key": "C",
+          "text": "İnternet tarayıcısını"
+        },
+        {
+          "key": "D",
+          "text": "Duvar prizini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "176",
+      "text": "Notlardaki \"Ders 1\" kısmında geçen \"http offer\" kavramı hangi döneme ait bir protokol olarak sınıflandırılmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1990'ların başı"
+        },
+        {
+          "key": "B",
+          "text": "2000'li yıllar"
+        },
+        {
+          "key": "C",
+          "text": "Günümüz"
+        },
+        {
+          "key": "D",
+          "text": "Gelecek"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "177",
+      "text": "Notlardaki \"Ağ Bileşenleri\" şemasında, bir \"File Server\" ile haberleşen uç cihazın adı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Email client"
+        },
+        {
+          "key": "B",
+          "text": "Web server"
+        },
+        {
+          "key": "C",
+          "text": "File client"
+        },
+        {
+          "key": "D",
+          "text": "Switch"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "178",
+      "text": "Peer to Peer (P2P) ağlar için notlarda geçen \"Küçük Ofis\" ve \"Ev\" kullanım örneğinde temel amaç nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Büyük veri tabanı yönetimi"
+        },
+        {
+          "key": "B",
+          "text": "Dosya aktarma ve yazıcı kullanmak"
+        },
+        {
+          "key": "C",
+          "text": "Yüksek güvenlik sağlamak"
+        },
+        {
+          "key": "D",
+          "text": "Uzaktan sunucu yönetimi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "179",
+      "text": "Notlarda \"NIC\" (Network Interface Card) ile ilgili olarak Google örneği verilirken hangi önemli ayrım yapılmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google'da NIC olmadığı"
+        },
+        {
+          "key": "B",
+          "text": "Bizden çıkan kablonun doğrudan Google'a gitmediği, arada \"Ara Cihaz\" olduğu"
+        },
+        {
+          "key": "C",
+          "text": "Kablonun sadece fiber olduğu"
+        },
+        {
+          "key": "D",
+          "text": "Google'ın sadece Wi-Fi kullandığı"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "180",
+      "text": "Router ve Firewall kıyaslamasında, notlarda Firewall için kullanılan \"Bodyguard\" benzetmesinin sebebi nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Router'dan daha hızlı olması"
+        },
+        {
+          "key": "B",
+          "text": "Trafiği bizim yönettiğimiz ve denetlediğimiz bir yapı olması"
+        },
+        {
+          "key": "C",
+          "text": "Sadece kablosuz çalışması"
+        },
+        {
+          "key": "D",
+          "text": "IP adreslerini gizlemesi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "181",
+      "text": "\"Fiber Optik\" kablo türlerinden \"Single Mode\" için notlarda hangi fiziksel özellik belirtilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cam çapının 50 mikron olduğu"
+        },
+        {
+          "key": "B",
+          "text": "LED ışık kullandığı"
+        },
+        {
+          "key": "C",
+          "text": "Yansımasız ve lazer ışık kullandığı"
+        },
+        {
+          "key": "D",
+          "text": "Sadece kısa mesafelerde kullanıldığı"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "182",
+      "text": "Notlardaki \"Network Types\" listesinde \"SAN\" kısaltmasının açılımı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "System Area Network"
+        },
+        {
+          "key": "B",
+          "text": "Storage Area Network"
+        },
+        {
+          "key": "C",
+          "text": "Signal Access Network"
+        },
+        {
+          "key": "D",
+          "text": "Security Area Network"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "183",
+      "text": "\"İntranet: Tüm internet altyapısını, LAN ve WAN içerebilir\" notuna göre İntranet'in kapsama alanı hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece tek bir oda"
+        },
+        {
+          "key": "B",
+          "text": "Şirketin iç ağı"
+        },
+        {
+          "key": "C",
+          "text": "Sadece dış müşteriler"
+        },
+        {
+          "key": "D",
+          "text": "Sadece bulut sistemleri"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "184",
+      "text": "Güvenilir ağlarda \"Quality of Service (QoS)\" maddesinde, bir paket için \"timeout\" (zaman aşımı) olmaması için sunucuda neyin gerçekleşmemesi gerekir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Elektrik kesilmesi"
+        },
+        {
+          "key": "B",
+          "text": "İstemcide timeout olması"
+        },
+        {
+          "key": "C",
+          "text": "Kablonun renginin değişmesi"
+        },
+        {
+          "key": "D",
+          "text": "IP adresinin silinmesi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "185",
+      "text": "Notlarda \"Converged Network\" (Bütünleşen Ağlar) başlığı altında \"Computer Network\"e bağlanan 3 temel yapı nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Telefon, Kamera, Yazıcı"
+        },
+        {
+          "key": "B",
+          "text": "Mouse, Klavye, Monitör"
+        },
+        {
+          "key": "C",
+          "text": "Uydu, Kablo, Radyo"
+        },
+        {
+          "key": "D",
+          "text": "Switch, Router, Hub"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "186",
+      "text": "\"Broadband Digital Subscriber Line (DSL)\" teknolojisi için notlarda belirtilen temel özellik nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece işletmelere özel olması"
+        },
+        {
+          "key": "B",
+          "text": "Kullanıcının internete bağlanması için bakır telefon hattı kullanması"
+        },
+        {
+          "key": "C",
+          "text": "Işıkla iletim yapması"
+        },
+        {
+          "key": "D",
+          "text": "Sadece uydudan sinyal alması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "2",
+      "text": "madde olarak yer alır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fault Tolerance"
+        },
+        {
+          "key": "B",
+          "text": "Scalability"
+        },
+        {
+          "key": "C",
+          "text": "Security"
+        },
+        {
+          "key": "D",
+          "text": "QoS"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "189",
+      "text": "IETF tarafından hazırlanan RFC dökümanları için notlarda hangi teknik tanım kullanılmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Elden yazılan dökümantasyon / Pure text"
+        },
+        {
+          "key": "B",
+          "text": "Renkli şema dökümanları"
+        },
+        {
+          "key": "C",
+          "text": "Video eğitim serileri"
+        },
+        {
+          "key": "D",
+          "text": "Sadece Cisco'ya özel metinler"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "190",
+      "text": "Mesaj teslim çeşitlerinde \"Unicast\" için yapılan çizimde veri akışı nasıldır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tek kaynaktan herkese"
+        },
+        {
+          "key": "B",
+          "text": "Tek kaynaktan tek bir hedefe"
+        },
+        {
+          "key": "C",
+          "text": "Herkesten herkese"
+        },
+        {
+          "key": "D",
+          "text": "Kaynaksız rastgele iletim"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "191",
+      "text": "OSI modelinde \"Data Link\" katmanı (L2) için notlarda hangi iki alt katman (sublayer) belirtilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP ve TCP"
+        },
+        {
+          "key": "B",
+          "text": "LLC ve MAC"
+        },
+        {
+          "key": "C",
+          "text": "Physical ve Segment"
+        },
+        {
+          "key": "D",
+          "text": "HTTP ve FTP"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "192",
+      "text": "TCP/IP modelinde \"Internet\" katmanı, OSI modelinde hangi katmana karşılık gelir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Transport"
+        },
+        {
+          "key": "B",
+          "text": "Network"
+        },
+        {
+          "key": "C",
+          "text": "Session"
+        },
+        {
+          "key": "D",
+          "text": "Physical"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "193",
+      "text": "Notlarda \"Coaxial Cable\" için \"Topraklama çok iyi olmalı\" uyarısı hangi amaçla yapılmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "İnterneti hızlandırmak"
+        },
+        {
+          "key": "B",
+          "text": "Sinyal kalitesini korumak ve paraziti önlemek"
+        },
+        {
+          "key": "C",
+          "text": "Kablonun rengini korumak"
+        },
+        {
+          "key": "D",
+          "text": "Konnektörü sıkılaştırmak"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "194",
+      "text": "\"Category 5e\" kablonun Cat5'ten temel farkı ve desteklediği hız nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "100mb hız desteklemesi"
+        },
+        {
+          "key": "B",
+          "text": "1000mb hız desteklemesi ve 100 metre sınırı"
+        },
+        {
+          "key": "C",
+          "text": "10gb hız desteklemesi"
+        },
+        {
+          "key": "D",
+          "text": "Sadece fiber olması"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "195",
+      "text": "Notlardaki \"Straight-through (TT)\" kablo türü için yapılan çizimde pinlerin durumu nasıldır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bir ucu farklı, diğer ucu farklı"
+        },
+        {
+          "key": "B",
+          "text": "İki ucu da aynı renk sıralamasında"
+        },
+        {
+          "key": "C",
+          "text": "Sadece 2 tel bağlı"
+        },
+        {
+          "key": "D",
+          "text": "Teller çaprazlanmış"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "196",
+      "text": "\"Physical Layer\" fonksiyonlarından \"Signaling\" neyi ifade eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Veriyi parçalara bölmek"
+        },
+        {
+          "key": "B",
+          "text": "Veriyi kodlama üzerine bindirmek"
+        },
+        {
+          "key": "C",
+          "text": "IP adresi atamak"
+        },
+        {
+          "key": "D",
+          "text": "Hata kontrolü yapmak"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "197",
+      "text": "Notlarda \"Throughput - Traffic Overhead\" formülü hangi kavramı hesaplamak için kullanılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Goodput"
+        },
+        {
+          "key": "B",
+          "text": "Bandwidth"
+        },
+        {
+          "key": "C",
+          "text": "Latency"
+        },
+        {
+          "key": "D",
+          "text": "Jitter"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "199",
+      "text": "Notlardaki \"ARP Poisoning\" kısmında hacker, PC'den çıkan paketlerin önce kendisine gelmesi için neyi yapar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kabloyu keser"
+        },
+        {
+          "key": "B",
+          "text": "Router'ın da ARP tablosunu zehirler"
+        },
+        {
+          "key": "C",
+          "text": "Bilgisayarı kapatır"
+        },
+        {
+          "key": "D",
+          "text": "Şifreyi değiştirir"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "200",
+      "text": "Notlarda Ethernet çerçeveleri için belirtilen \"Runt Frame\" tam olarak nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1518 byte'tan büyük veri"
+        },
+        {
+          "key": "B",
+          "text": "64 byte'tan küçük olduğu için çöpe atılan veri"
+        },
+        {
+          "key": "C",
+          "text": "Sadece fiberde görülen hata"
+        },
+        {
+          "key": "D",
+          "text": "Şifrelenmiş veri"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "201",
+      "text": "Switch (Anahtar) cihazı için notlarda kullanılan \"Transparent (Şeffaf)\" ifadesi neyi anlatır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cihazın fiziksel olarak camdan yapıldığını"
+        },
+        {
+          "key": "B",
+          "text": "Veriyi iletirken MAC adresine bakıp sadece ilgili katmanı açtığını"
+        },
+        {
+          "key": "C",
+          "text": "IP adresini gizlediğini"
+        },
+        {
+          "key": "D",
+          "text": "İnternet hızını etkilemediğini"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "203",
+      "text": "\"CRC hesap\" işlemi notlarda hangi aşamada gerçekleşir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Veri daha bilgisayardan çıkmadan önce yapılır ve kuyruğa yerleştirilir"
+        },
+        {
+          "key": "B",
+          "text": "Veri Router'a ulaştığında yapılır"
+        },
+        {
+          "key": "C",
+          "text": "Sadece internet sitesine girerken yapılır"
+        },
+        {
+          "key": "D",
+          "text": "Kablo takıldığı anda yapılır"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "204",
+      "text": "Bir ARP Request (İstek) paketi ile ilgili hangisi doğrudur?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tüm interneti dolaşır"
+        },
+        {
+          "key": "B",
+          "text": "İlk karşılaştığı Router cihazında çöpe atılır"
+        },
+        {
+          "key": "C",
+          "text": "Sadece fiber kablolarda çalışır"
+        },
+        {
+          "key": "D",
+          "text": "Şifreli olarak gönderilir"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "205",
+      "text": "Notlarda \"pure text\" ve \"elden yazılan dökümantasyon\" olarak tanımlanan döküman türü hangisidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IEEE Standartları"
+        },
+        {
+          "key": "B",
+          "text": "RFC Dökümanları"
+        },
+        {
+          "key": "C",
+          "text": "Cisco Katalogları"
+        },
+        {
+          "key": "D",
+          "text": "Windows Yardım Dosyaları"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "206",
+      "text": "\"Giant Frame\" kavramı notlarda nasıl tanımlanmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Çok hızlı iletilen veri"
+        },
+        {
+          "key": "B",
+          "text": "1500 byte sınırını geçen bozuk veri"
+        },
+        {
+          "key": "C",
+          "text": "Fiber kablo türü"
+        },
+        {
+          "key": "D",
+          "text": "Yüksek güvenlikli paket"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "207",
+      "text": "Notlardaki fiber optik bilgisinde, ışığın özelliği için hangi ifade kullanılmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Çok parlak renkli ışık"
+        },
+        {
+          "key": "B",
+          "text": "Görünmez ışık"
+        },
+        {
+          "key": "C",
+          "text": "Sadece kırmızı ışık"
+        },
+        {
+          "key": "D",
+          "text": "Güneş enerjili ışık"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "208",
+      "text": "Switch, kendisine gelen bir veriyi iletmeden önce \"kuyruğu (trailer)\" neden kontrol eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Verinin hızını ölçmek için"
+        },
+        {
+          "key": "B",
+          "text": "Verinin bozuk olup olmadığını anlamak için"
+        },
+        {
+          "key": "C",
+          "text": "Gönderen kişinin adını öğrenmek için"
+        },
+        {
+          "key": "D",
+          "text": "Kablo tipini belirlemek için"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "209",
+      "text": "Notlardaki \"A-D\" arası veri iletim çiziminde, hattın boş olduğunun anlaşılması için yapılan işleme ne denir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Jam sinyali"
+        },
+        {
+          "key": "B",
+          "text": "Hat dinleme"
+        },
+        {
+          "key": "C",
+          "text": "Kapsülleme"
+        },
+        {
+          "key": "D",
+          "text": "Şifreleme"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "210",
+      "text": "Notlarda \"!\" ile vurgulanan \"hizmet almak ve vermek\" ifadesi hangi mimariyi tanımlamak için kullanılmıştır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Peer 2 Peer"
+        },
+        {
+          "key": "B",
+          "text": "Cloud Computing"
+        },
+        {
+          "key": "C",
+          "text": "Internet Omurgası"
+        },
+        {
+          "key": "D",
+          "text": "Metro Ethernet"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "211",
+      "text": "Notlardaki Ethernet şemasında, verinin sonuna eklenen \"Trailer\" alanının içindeki \"FCS\" neyi temsil eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Frame Check Sequence"
+        },
+        {
+          "key": "B",
+          "text": "Fiber Connector System"
+        },
+        {
+          "key": "C",
+          "text": "File Client Server"
+        },
+        {
+          "key": "D",
+          "text": "Firewall Control System"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "212",
+      "text": "Notlarda \"Multicast MAC adresi asla kaynak MAC adresi olamaz!\" ifadesi hangi kuralı vurgular?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kaynağın her zaman tek olması gerektiğini"
+        },
+        {
+          "key": "B",
+          "text": "İnternetin yavaşlayacağını"
+        },
+        {
+          "key": "C",
+          "text": "Router'ın bozulacağını"
+        },
+        {
+          "key": "D",
+          "text": "Kablonun yanacağını"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "213",
+      "text": "Notlardaki kablo tablosunda yer alan \"renk kodlaması\" neden yapılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kablonun güzel görünmesi için"
+        },
+        {
+          "key": "B",
+          "text": "Pinleri doğru eşleştirmek ve doğru pin eşleşmesini sağlamak için"
+        },
+        {
+          "key": "C",
+          "text": "Hızı artırmak için"
+        },
+        {
+          "key": "D",
+          "text": "Fiberi korumak için"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "214",
+      "text": "\"Single point of failure\" (Tek hata noktası) örneği olarak notlarda hangisi verilmiştir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Router'ın çalınması"
+        },
+        {
+          "key": "B",
+          "text": "Switch giderse 24 PC'nin yok olması"
+        },
+        {
+          "key": "C",
+          "text": "Kablonun renginin yanlış olması"
+        },
+        {
+          "key": "D",
+          "text": "İnternet faturasının ödenmemesi"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "215",
+      "text": "Notlarda \"Ethernet 802.3\" standardı hangi kurumu temsil eder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IETF"
+        },
+        {
+          "key": "B",
+          "text": "IANA"
+        },
+        {
+          "key": "C",
+          "text": "IEEE"
+        },
+        {
+          "key": "D",
+          "text": "EIA/TIA"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "216",
+      "text": "\"Jumbo Frame\" kullanmak için notlarda belirtilen temel şart nedir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece fiber kablo kullanmak"
+        },
+        {
+          "key": "B",
+          "text": "Her yerde açık ve konfigüre edilmiş olması"
+        },
+        {
+          "key": "C",
+          "text": "Sadece gece kullanmak"
+        },
+        {
+          "key": "D",
+          "text": "İnternet hızını düşürmek"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "217",
+      "text": "\"ARP Request\" paketi içindeki hedef IP ile kendi IP'si eşleşen cihaz ne yapar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paketi çöpe atar"
+        },
+        {
+          "key": "B",
+          "text": "\"Unicast\" olarak kendi MAC adresini içeren cevap dondurur"
+        },
+        {
+          "key": "C",
+          "text": "Herkese bağırır"
+        },
+        {
+          "key": "D",
+          "text": "Kendi kendine reset atar"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "2",
+      "text": "katman başlıklarının çoğunu IEEE koyar\" ifadesi hangi protokoller için geçerlidir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sadece IP"
+        },
+        {
+          "key": "B",
+          "text": "Ethernet , Wireless ve Bluetooth"
+        },
+        {
+          "key": "C",
+          "text": "HTTP ve FTP"
+        },
+        {
+          "key": "D",
+          "text": "Sadece fiber"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "219",
+      "text": "\"ARP zehirlenmesi\" (Poisoning) sonucunda paketin izlediği yol nasıldır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "PC - > Router -> İnternet"
+        },
+        {
+          "key": "B",
+          "text": "PC -> Hacker -> Router -> İnternet"
+        },
+        {
+          "key": "C",
+          "text": "PC -> İnternet -> Hacker"
+        },
+        {
+          "key": "D",
+          "text": "Sadece PC içinde döner"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "220",
+      "text": "Notların en sonunda yer alan \"kuyruğu kontrol eder, bozuk ise çöpe gider\" işlemi hangi cihazda yapılır?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hub"
+        },
+        {
+          "key": "B",
+          "text": "Switch"
+        },
+        {
+          "key": "C",
+          "text": "Sadece PC"
+        },
+        {
+          "key": "D",
+          "text": "Sadece Modem"
+        }
+      ],
+      "answer": "B"
+    }
+  ]
 };
