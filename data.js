@@ -8732,7 +8732,8 @@ const appData = {
       }
     ],
     "answer": "B"
-  },
+  }
+  ],
   "veri_iletisimi": [
   {
     "id": "1",
