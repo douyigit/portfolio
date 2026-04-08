@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // State
     const state = {
-        currentTab: 'sibergiris1',
+        currentTab: 'sunu',
         expertMode: false,
         userAnswers: {},
         questions: {
@@ -279,6 +279,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Initial Render
-    title.textContent = 'Siber Güvenliğe Giriş 1. Slayt Soruları';
+    title.textContent = 'Sunu Testi';
     renderQuestions();
 });
