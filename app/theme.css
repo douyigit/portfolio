@@ -1,0 +1,48 @@
+/*
+ * ─────────────────────────────────────────────────────────────
+ *  THEME — every colour on the site comes from these variables.
+ *  Change the values below to restyle the whole site.
+ *  --accent / --accent-2 form the signature gradient.
+ * ─────────────────────────────────────────────────────────────
+ */
+
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #07080d;
+  --bg-elevated: #0d0f17;
+  --surface: #11141e;
+  --surface-hover: #161a27;
+  --border: #1f2433;
+  --border-strong: #2c3346;
+  --fg: #e8eaf2;
+  --fg-muted: #9aa1b5;
+  --fg-subtle: #7d8499;
+  --accent: #5eead4;
+  --accent-2: #818cf8;
+  --accent-fg: #04110e;
+  --glow: rgb(94 234 212 / 0.18);
+  --grid-line: rgb(255 255 255 / 0.045);
+  --success: #4ade80;
+  --danger: #f87171;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f7f8fb;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-hover: #f1f3f8;
+  --border: #e3e6ee;
+  --border-strong: #cdd2de;
+  --fg: #0d1020;
+  --fg-muted: #4a5068;
+  --fg-subtle: #626a82;
+  --accent: #0d9488;
+  --accent-2: #4f46e5;
+  --accent-fg: #ffffff;
+  --glow: rgb(13 148 136 / 0.14);
+  --grid-line: rgb(13 16 32 / 0.06);
+  --success: #15803d;
+  --danger: #b91c1c;
+}
