@@ -62,7 +62,7 @@ export default async function LangLayout({ children, params }: LayoutProps<"/[la
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = getDictionary(lang);
-  const cvHref = getCvLinks(lang, { ats: "", photo: "", default: "" })[0]?.href;
+  const cvHref = getCvLinks({ main: "", ats: "" })[0]?.href;
 
   const personJsonLd = {
     "@context": "https://schema.org",

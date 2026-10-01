@@ -51,7 +51,7 @@ Yeni PDF'i aynı dosya adıyla `public/cv/` altına koyup push'lamak yeterli. Do
 
 ## İletişim formu (Resend)
 
-1. [resend.com](https://resend.com) hesabını **doguyigit1@gmail.com** ile aç ve bir API key oluştur.
+1. [resend.com](https://resend.com) hesabını **doguthecreator@gmail.com** ile aç ve bir API key oluştur.
 2. Vercel → Project → Settings → Environment Variables altına `RESEND_API_KEY` ekle ve yeniden deploy et.
 3. Varsayılan gönderici `onboarding@resend.dev`. Bu adres yalnızca hesap sahibinin e-postasına gönderebilir; bizim senaryomuz için yeterli. İstersen Resend'de `doguy.online` domainini doğrulayıp `CONTACT_FROM_EMAIL=Portfolio <hello@doguy.online>` ayarlayabilirsin.
 

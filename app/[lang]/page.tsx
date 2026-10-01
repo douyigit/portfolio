@@ -27,7 +27,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         subtitle={profile.subtitle[lang]}
         tagline={profile.tagline[lang]}
         location={profile.location[lang]}
-        cvLinks={getCvLinks(lang, { ats: `${dict.hero.cvAts} (PDF)`, photo: `${dict.hero.cvPhoto} (PDF)`, default: dict.hero.cvDefault })}
+        cvLinks={getCvLinks({ main: dict.hero.cvDefault, ats: `${dict.hero.cvAts} (PDF)` })}
       />
       <About lang={lang} dict={dict.about} />
       <Section id="skills" index={2} title={dict.skills.title}>

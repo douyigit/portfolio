@@ -63,21 +63,19 @@ export const profile = {
     tr: ["Full-stack web", "Makine öğrenmesi", "Siber güvenlik", "Girişimcilik", "Platform iş modelleri"],
   } satisfies Localized<string[]>,
 
-  email: "doguyigit1@gmail.com",
+  email: "doguthecreator@gmail.com",
   socials: {
     github: "https://github.com/douyigit",
     linkedin: "https://linkedin.com/in/doguyigit",
   },
 
   /**
-   * CV files live in /public/cv/. Buttons only appear once a file actually
-   * exists. Simplest: put a single PDF at /public/cv/dogu-yigit-cv.pdf.
-   * Optional per-language / ATS versions are picked first when present.
+   * CV files in /public/cv/. Replace a PDF with one of the same name to
+   * update it. A download option only appears if its file exists.
    */
   cv: {
-    ats: { en: "/cv/dogu-yigit-cv-ats-en.pdf", tr: "/cv/dogu-yigit-cv-ats-tr.pdf" } satisfies Localized,
-    photo: { en: "/cv/dogu-yigit-cv-en.pdf", tr: "/cv/dogu-yigit-cv-tr.pdf" } satisfies Localized,
-    default: "/cv/dogu-yigit-cv.pdf",
+    main: "/cv/dogu-yigit-cv.pdf",
+    ats: "/cv/dogu-yigit-cv-ats.pdf",
   },
 
   skills: [
