@@ -70,12 +70,14 @@ export const profile = {
   },
 
   /**
-   * CV files live in /public/cv/. A button only appears once the file
-   * actually exists, so you can drop the PDFs in whenever they are ready.
+   * CV files live in /public/cv/. Buttons only appear once a file actually
+   * exists. Simplest: put a single PDF at /public/cv/dogu-yigit-cv.pdf.
+   * Optional per-language / ATS versions are picked first when present.
    */
   cv: {
     ats: { en: "/cv/dogu-yigit-cv-ats-en.pdf", tr: "/cv/dogu-yigit-cv-ats-tr.pdf" } satisfies Localized,
     photo: { en: "/cv/dogu-yigit-cv-en.pdf", tr: "/cv/dogu-yigit-cv-tr.pdf" } satisfies Localized,
+    default: "/cv/dogu-yigit-cv.pdf",
   },
 
   skills: [

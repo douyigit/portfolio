@@ -9,6 +9,9 @@ import { siteUrl } from "@/lib/site";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { MotionProvider } from "@/components/motion-provider";
+import { ScrollProgress } from "@/components/scroll-progress";
+import { Loader } from "@/components/loader";
+import { getCvLinks } from "@/lib/cv";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin", "latin-ext"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin", "latin-ext"] });
@@ -21,8 +24,8 @@ export const dynamicParams = false;
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: dark)", color: "#07080d" },
-    { media: "(prefers-color-scheme: light)", color: "#f7f8fb" },
+    { media: "(prefers-color-scheme: dark)", color: "#09090b" },
+    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
   ],
 };
 
@@ -51,13 +54,15 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
   };
 }
 
-// Runs before paint so the saved theme never flashes. Dark is the default.
-const themeScript = `try{var t=localStorage.getItem("theme");document.documentElement.dataset.theme=t==="light"?"light":"dark"}catch(e){document.documentElement.dataset.theme="dark"}`;
+// Runs before paint: applies the saved theme (dark by default) and turns on
+// the intro loader only for the first page view of a browser session.
+const themeScript = `(function(){var d=document.documentElement;try{d.dataset.theme=localStorage.getItem("theme")==="light"?"light":"dark"}catch(e){d.dataset.theme="dark"}try{if(!sessionStorage.getItem("intro")){sessionStorage.setItem("intro","1");d.classList.add("intro")}}catch(e){}})()`;
 
 export default async function LangLayout({ children, params }: LayoutProps<"/[lang]">) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = getDictionary(lang);
+  const cvHref = getCvLinks(lang, { ats: "", photo: "", default: "" })[0]?.href;
 
   const personJsonLd = {
     "@context": "https://schema.org",
@@ -94,8 +99,10 @@ export default async function LangLayout({ children, params }: LayoutProps<"/[la
         >
           {dict.nav.skip}
         </a>
+        <Loader name={profile.name} />
         <MotionProvider>
-          <Navbar lang={lang} dict={dict.nav} />
+          <ScrollProgress />
+          <Navbar lang={lang} dict={dict.nav} cvHref={cvHref} />
           <main id="main">{children}</main>
           <Footer lang={lang} dict={dict.footer} />
         </MotionProvider>

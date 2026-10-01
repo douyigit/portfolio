@@ -4,13 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { Menu, Moon, Sun, X } from "lucide-react";
+import { Download, Menu, Moon, Sun, X } from "lucide-react";
+import { Logo } from "./logo";
 import type { Dictionary } from "@/content/ui";
 import { LOCALE_COOKIE, otherLocale, type Locale } from "@/lib/i18n";
 
 const sections = ["about", "skills", "projects", "education", "contact"] as const;
 
-export function Navbar({ lang, dict }: { lang: Locale; dict: Dictionary["nav"] }) {
+export function Navbar({ lang, dict, cvHref }: { lang: Locale; dict: Dictionary["nav"]; cvHref?: string }) {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -53,8 +54,13 @@ export function Navbar({ lang, dict }: { lang: Locale; dict: Dictionary["nav"] }
       }`}
     >
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href={`/${lang}`} className="font-mono text-sm font-semibold tracking-tight" onClick={() => setOpen(false)}>
-          <span className="text-accent">~/</span>doguy<span className="text-fg-subtle">.online</span>
+        <Link
+          href={`/${lang}`}
+          aria-label={dict.home}
+          onClick={() => setOpen(false)}
+          className="group -ml-1 rounded-xl p-1 transition hover:bg-surface-hover"
+        >
+          <Logo id="nav-logo" className="size-9 transition-transform duration-500 group-hover:rotate-[-8deg] group-hover:scale-110" />
         </Link>
 
         <ul className="hidden items-center gap-1 md:flex">
@@ -71,6 +77,17 @@ export function Navbar({ lang, dict }: { lang: Locale; dict: Dictionary["nav"] }
         </ul>
 
         <div className="flex items-center gap-1">
+          {cvHref && (
+            <a
+              href={cvHref}
+              download
+              className="btn-shine mr-1 inline-flex h-9 items-center gap-1.5 rounded-lg bg-gradient-accent px-3 text-xs font-semibold text-accent-fg transition hover:brightness-110"
+            >
+              <Download className="size-3.5" aria-hidden="true" />
+              <span className="hidden sm:inline">{dict.cv}</span>
+              <span className="sm:hidden">CV</span>
+            </a>
+          )}
           <Link
             href={switchHref}
             onClick={rememberLocale}

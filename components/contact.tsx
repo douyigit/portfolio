@@ -90,7 +90,7 @@ export function ContactForm({ dict }: { dict: Dictionary["contact"] }) {
         <button
           type="submit"
           disabled={status === "sending"}
-          className="mt-6 inline-flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-gradient-accent px-6 text-sm font-semibold text-accent-fg transition hover:brightness-110 disabled:opacity-70 sm:w-auto"
+          className="btn-shine mt-6 inline-flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-gradient-accent px-6 text-sm font-semibold text-accent-fg transition hover:brightness-110 disabled:opacity-70 sm:w-auto"
         >
           {status === "sending" ? (
             <Loader2 className="size-4 animate-spin" aria-hidden="true" />

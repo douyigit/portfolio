@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRef, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { motion, useReducedMotion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/content/projects";
 import type { Dictionary } from "@/content/ui";
@@ -13,58 +13,23 @@ type Props = {
   lang: Locale;
   dict: Dictionary["projects"];
   projects: Project[];
-  tech: string[];
 };
 
-export function ProjectsGrid({ lang, dict, projects, tech }: Props) {
-  const [filter, setFilter] = useState<string | null>(null);
-  const shown = filter ? projects.filter((p) => p.tech.includes(filter)) : projects;
-
-  const chip = (active: boolean) =>
-    `shrink-0 rounded-full border px-3.5 py-1.5 font-mono text-xs transition ${
-      active
-        ? "border-accent bg-accent text-accent-fg"
-        : "border-border text-fg-muted hover:border-border-strong hover:text-fg"
-    }`;
-
+export function ProjectsGrid({ lang, dict, projects }: Props) {
   return (
-    <>
-      <div role="group" aria-label={dict.filterLabel} className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:flex-wrap sm:px-0">
-        <button type="button" aria-pressed={filter === null} onClick={() => setFilter(null)} className={chip(filter === null)}>
-          {dict.all}
-        </button>
-        {tech.map((t) => (
-          <button
-            key={t}
-            type="button"
-            aria-pressed={filter === t}
-            onClick={() => setFilter(filter === t ? null : t)}
-            className={chip(filter === t)}
-          >
-            {t}
-          </button>
-        ))}
-      </div>
-
-      <motion.ul layout className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        <AnimatePresence mode="popLayout">
-          {shown.map((p, i) => (
-            <motion.li
-              key={p.slug}
-              layout
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.96 }}
-              viewport={{ once: true, margin: "-40px" }}
-              transition={{ duration: 0.45, delay: (i % 3) * 0.06, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <ProjectCard lang={lang} project={p} detailsLabel={dict.details} />
-            </motion.li>
-          ))}
-        </AnimatePresence>
-      </motion.ul>
-      {shown.length === 0 && <p className="mt-8 text-fg-muted">{dict.empty}</p>}
-    </>
+    <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {projects.map((p, i) => (
+        <motion.li
+          key={p.slug}
+          initial={{ opacity: 0, y: 60, scale: 0.94 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.7, delay: (i % 3) * 0.12, ease: [0.22, 1, 0.36, 1] }}
+        >
+          <ProjectCard lang={lang} project={p} detailsLabel={dict.details} />
+        </motion.li>
+      ))}
+    </ul>
   );
 }
 
@@ -72,6 +37,7 @@ function ProjectCard({ lang, project, detailsLabel }: { lang: Locale; project: P
   const ref = useRef<HTMLAnchorElement>(null);
   const reduce = useReducedMotion();
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const [hover, setHover] = useState(false);
 
   const onMove = (e: React.PointerEvent) => {
     const el = ref.current;
@@ -81,7 +47,7 @@ function ProjectCard({ lang, project, detailsLabel }: { lang: Locale; project: P
     const py = (e.clientY - r.top) / r.height;
     el.style.setProperty("--mx", `${px * 100}%`);
     el.style.setProperty("--my", `${py * 100}%`);
-    if (!reduce) setTilt({ x: (0.5 - py) * 6, y: (px - 0.5) * 6 });
+    if (!reduce) setTilt({ x: (0.5 - py) * 14, y: (px - 0.5) * 14 });
   };
 
   return (
@@ -89,11 +55,22 @@ function ProjectCard({ lang, project, detailsLabel }: { lang: Locale; project: P
       ref={ref}
       href={`/${lang}/projects/${project.slug}`}
       onPointerMove={onMove}
-      onPointerLeave={() => setTilt({ x: 0, y: 0 })}
-      style={{ transform: `perspective(900px) rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)` }}
-      className="card-glow group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-[transform,border-color] duration-200 ease-out hover:border-border-strong"
+      onPointerEnter={() => setHover(true)}
+      onPointerLeave={() => {
+        setHover(false);
+        setTilt({ x: 0, y: 0 });
+      }}
+      style={{
+        transform: `perspective(900px) rotateX(${tilt.x}deg) rotateY(${tilt.y}deg) translateY(${hover && !reduce ? -6 : 0}px)`,
+      }}
+      className="card-glow card-border group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-black/40 transition-[transform,border-color,box-shadow] duration-300 ease-out hover:border-transparent hover:shadow-2xl"
     >
-      <ProjectCover project={project} className="aspect-[16/10] border-b border-border" />
+      <div className="overflow-hidden border-b border-border">
+        <ProjectCover
+          project={project}
+          className="aspect-[16/10] transition-transform duration-700 ease-out group-hover:scale-110"
+        />
+      </div>
       <div className="relative flex flex-1 flex-col p-5">
         <div className="flex flex-wrap items-center gap-2">
           <span className="font-mono text-xs text-fg-subtle">{project.category[lang]}</span>

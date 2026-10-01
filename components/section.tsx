@@ -1,4 +1,5 @@
 import { Reveal } from "./reveal";
+import { GrowLine } from "./grow-line";
 
 export function Section({
   id,
@@ -22,6 +23,7 @@ export function Section({
         <h2 id={`${id}-title`} className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
           {title}
         </h2>
+        <GrowLine />
       </Reveal>
       <div className="mt-10 md:mt-14">{children}</div>
     </section>

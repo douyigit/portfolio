@@ -4,11 +4,13 @@ import type { Dictionary } from "@/content/ui";
 import type { Locale } from "@/lib/i18n";
 import { Reveal } from "./reveal";
 import { Section } from "./section";
+import { TimelineLine } from "./timeline-line";
 
 export function Education({ lang, dict }: { lang: Locale; dict: Dictionary["education"] }) {
   return (
     <Section id="education" index={4} kicker={dict.kicker} title={dict.title}>
       <ol className="relative ml-3 border-l border-border">
+        <TimelineLine />
         {profile.education.map((e, i) => (
           <li key={e.school} className="relative pb-12 pl-8 last:pb-0 sm:pl-10">
             <span

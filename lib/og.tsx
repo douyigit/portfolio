@@ -25,7 +25,7 @@ export async function renderOgImage({
   kicker,
   title,
   subtitle,
-  colors = ["#5eead4", "#818cf8"],
+  colors = ["#60a5fa", "#c084fc"],
 }: {
   kicker: string;
   title: string;
@@ -49,8 +49,8 @@ export async function renderOgImage({
           flexDirection: "column",
           justifyContent: "space-between",
           padding: 72,
-          background: "#07080d",
-          color: "#e8eaf2",
+          background: "#09090b",
+          color: "#ededf0",
           fontFamily: "Geist",
           position: "relative",
         }}
@@ -81,7 +81,7 @@ export async function renderOgImage({
             filter: "blur(100px)",
           }}
         />
-        <div style={{ display: "flex", fontSize: 28, color: "#9aa1b5" }}>
+        <div style={{ display: "flex", fontSize: 28, color: "#a1a1aa" }}>
           <span style={{ color: colors[0] }}>~/</span>doguy.online
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
@@ -100,7 +100,7 @@ export async function renderOgImage({
           >
             {title}
           </div>
-          <div style={{ fontSize: 32, color: "#9aa1b5", marginTop: 20, maxWidth: 980, lineHeight: 1.35 }}>{subtitle}</div>
+          <div style={{ fontSize: 32, color: "#a1a1aa", marginTop: 20, maxWidth: 980, lineHeight: 1.35 }}>{subtitle}</div>
         </div>
       </div>
     ),

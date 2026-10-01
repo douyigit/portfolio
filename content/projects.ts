@@ -7,7 +7,6 @@
  *  • `cover` / `screenshots` are optional — paths under /public,
  *    e.g. "/projects/finlora/cover.png". Without a cover, a gradient
  *    placeholder using `colors` is generated automatically.
- *  • `tech` drives the filter buttons on the home page.
  * ─────────────────────────────────────────────────────────────
  */
 import type { Localized } from "@/lib/i18n";
@@ -291,7 +290,3 @@ export const projects: Project[] = [
 export function getProject(slug: string) {
   return projects.find((p) => p.slug === slug);
 }
-
-export const allTech = Array.from(new Set(projects.flatMap((p) => p.tech))).sort((a, b) =>
-  a.localeCompare(b),
-);

@@ -6,6 +6,7 @@ import { useReducedMotion } from "motion/react";
 import { ArrowDown, ChevronDown, Download, FileText, MapPin, Send } from "lucide-react";
 import type { Dictionary } from "@/content/ui";
 import type { Locale } from "@/lib/i18n";
+import { Particles } from "./particles";
 import { SocialLinks } from "./social-links";
 
 export type CvLink = { label: string; href: string };
@@ -43,16 +44,19 @@ function Typed({ text, speed = 55 }: { text: string; speed?: number }) {
 
 export function Hero({ lang, dict, name, title, subtitle, tagline, location, cvLinks }: Props) {
   // CSS-driven so the hero is visible on first paint, before JS loads.
-  const fade = (delay: number) => ({ style: { animationDelay: `${delay}s` } as React.CSSProperties });
+  const fade = (delay: number) => ({ style: { animationDelay: `calc(var(--intro) + ${delay}s)` } as React.CSSProperties });
 
   return (
     <section className="relative isolate flex min-h-dvh items-center overflow-hidden pt-16">
-      <div aria-hidden="true" className="absolute inset-0 -z-10">
+      <div aria-hidden="true" className="absolute inset-0 -z-20">
         <div className="hero-grid absolute inset-0" />
         <div className="hero-blob hero-blob-1 left-[-10%] top-[10%] size-[min(520px,80vw)]" />
         <div className="hero-blob hero-blob-2 bottom-[0%] right-[-10%] size-[min(480px,75vw)]" />
-        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-bg" />
+        <div className="hero-blob hero-blob-3 left-[40%] top-[55%] size-[min(360px,60vw)]" />
       </div>
+      <div aria-hidden="true" className="hero-spotlight pointer-events-none absolute inset-0 -z-10" />
+      <Particles />
+      <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-40 bg-gradient-to-b from-transparent to-bg" />
 
       <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6">
         <p
@@ -73,7 +77,21 @@ export function Hero({ lang, dict, name, title, subtitle, tagline, location, cvL
           {...fade(0.2)} className="fade-up mt-3 text-[2.6rem] font-bold leading-[1.05] tracking-tight sm:text-6xl md:text-7xl"
         >
           <span className="block text-lg font-normal text-fg-muted sm:text-xl">{dict.greeting}</span>
-          <span className="text-gradient">{name}</span>
+          <span className="sr-only">{name}</span>
+          <span aria-hidden="true" className="flex flex-wrap gap-x-[0.28em]">
+            {name.split(" ").map((word, wi, words) => (
+              <span key={word} className="inline-flex">
+                {[...word].map((ch, ci) => {
+                  const i = words.slice(0, wi).join("").length + ci;
+                  return (
+                    <span key={ci} className="letter text-gradient-animated" style={{ "--i": i } as React.CSSProperties}>
+                      {ch}
+                    </span>
+                  );
+                })}
+              </span>
+            ))}
+          </span>
         </h1>
 
         <div {...fade(0.35)} className="fade-up mt-5">
@@ -110,7 +128,7 @@ export function Hero({ lang, dict, name, title, subtitle, tagline, location, cvL
             className={`inline-flex h-11 items-center gap-2 rounded-xl px-5 text-sm font-medium transition ${
               cvLinks.length > 0
                 ? "text-fg-muted hover:text-fg"
-                : "bg-gradient-accent text-accent-fg shadow-lg shadow-[var(--glow)] hover:brightness-110"
+                : "btn-shine bg-gradient-accent text-accent-fg shadow-lg shadow-[var(--glow)] hover:brightness-110"
             }`}
           >
             <Send className="size-4" aria-hidden="true" />
@@ -144,7 +162,7 @@ function CvButton({ label, links }: { label: string; links: CvLink[] }) {
   }, [open]);
 
   const cls =
-    "inline-flex h-11 items-center gap-2 rounded-xl bg-gradient-accent px-5 text-sm font-semibold text-accent-fg shadow-lg shadow-[var(--glow)] transition hover:brightness-110";
+    "btn-shine inline-flex h-11 items-center gap-2 rounded-xl bg-gradient-accent px-5 text-sm font-semibold text-accent-fg shadow-lg shadow-[var(--glow)] transition hover:brightness-110";
 
   if (links.length === 1) {
     return (
