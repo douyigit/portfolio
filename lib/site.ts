@@ -1,1 +1,1 @@
-export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://doguy.online").replace(/\/$/, "");
+export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.doguy.online").replace(/\/$/, "");
