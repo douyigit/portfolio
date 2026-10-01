@@ -30,15 +30,13 @@ const en = {
     available: "Open to opportunities",
   },
   about: {
-    kicker: "about",
-    title: "A bit about me",
+    title: "About me",
     interests: "Interests",
     location: "Based in",
   },
-  skills: { kicker: "skills", title: "What I work with" },
+  skills: { title: "Skills & tools" },
   projects: {
-    kicker: "projects",
-    title: "Selected work",
+    title: "Things I've built",
     details: "Details",
   },
   project: {
@@ -56,10 +54,9 @@ const en = {
     noLinks: "This project isn't public yet — happy to walk you through it in an interview.",
     next: "Next project",
   },
-  education: { kicker: "education", title: "Education", current: "Ongoing", gpa: "GPA" },
+  education: { title: "Education", current: "Ongoing", gpa: "GPA" },
   contact: {
-    kicker: "contact",
-    title: "Let's build something",
+    title: "Let's work together",
     intro: "Have a role, a project or just a question? My inbox is open.",
     name: "Name",
     email: "Email",
@@ -70,7 +67,7 @@ const en = {
     error: "Something went wrong. Please email me directly at",
     invalid: "Please fill in all fields with a valid email.",
   },
-  footer: { rights: "All rights reserved.", built: "Built with Next.js & Tailwind CSS." },
+  footer: { rights: "All rights reserved." },
   notFound: { title: "Page not found", text: "The page you're looking for doesn't exist.", home: "Back home" },
 };
 
@@ -102,15 +99,13 @@ const tr: Dictionary = {
     available: "Yeni fırsatlara açığım",
   },
   about: {
-    kicker: "hakkımda",
-    title: "Biraz kendimden",
+    title: "Hakkımda",
     interests: "İlgi alanları",
     location: "Konum",
   },
-  skills: { kicker: "yetenekler", title: "Kullandığım teknolojiler" },
+  skills: { title: "Yetenekler & araçlar" },
   projects: {
-    kicker: "projeler",
-    title: "Seçili projeler",
+    title: "Geliştirdiklerim",
     details: "Detay",
   },
   project: {
@@ -128,10 +123,9 @@ const tr: Dictionary = {
     noLinks: "Bu proje henüz herkese açık değil — mülakatta memnuniyetle detaylıca anlatırım.",
     next: "Sonraki proje",
   },
-  education: { kicker: "eğitim", title: "Eğitim", current: "Devam ediyor", gpa: "GPA" },
+  education: { title: "Eğitim", current: "Devam ediyor", gpa: "GPA" },
   contact: {
-    kicker: "iletişim",
-    title: "Birlikte bir şeyler üretelim",
+    title: "Birlikte çalışalım",
     intro: "Bir pozisyon, proje ya da sadece bir sorunuz mu var? Mesajınızı bekliyorum.",
     name: "Ad Soyad",
     email: "E-posta",
@@ -142,7 +136,7 @@ const tr: Dictionary = {
     error: "Bir sorun oluştu. Lütfen doğrudan e-posta gönderin:",
     invalid: "Lütfen tüm alanları geçerli bir e-posta ile doldurun.",
   },
-  footer: { rights: "Tüm hakları saklıdır.", built: "Next.js & Tailwind CSS ile geliştirildi." },
+  footer: { rights: "Tüm hakları saklıdır." },
   notFound: { title: "Sayfa bulunamadı", text: "Aradığınız sayfa mevcut değil.", home: "Ana sayfaya dön" },
 };
 

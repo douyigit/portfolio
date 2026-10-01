@@ -8,7 +8,7 @@ import { TimelineLine } from "./timeline-line";
 
 export function Education({ lang, dict }: { lang: Locale; dict: Dictionary["education"] }) {
   return (
-    <Section id="education" index={4} kicker={dict.kicker} title={dict.title}>
+    <Section id="education" index={4} title={dict.title}>
       <ol className="relative ml-3 border-l border-border">
         <TimelineLine />
         {profile.education.map((e, i) => (

@@ -8,7 +8,7 @@ import { Section } from "./section";
 export function About({ lang, dict }: { lang: Locale; dict: Dictionary["about"] }) {
   const current = profile.education[0];
   return (
-    <Section id="about" index={1} kicker={dict.kicker} title={dict.title}>
+    <Section id="about" index={1} title={dict.title}>
       <div className="grid gap-10 md:grid-cols-[1.4fr_1fr] md:gap-14">
         <Reveal className="space-y-5 text-base leading-relaxed text-fg-muted sm:text-lg">
           {profile.about[lang].map((p) => (

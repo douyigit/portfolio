@@ -11,7 +11,6 @@ export function Footer({ dict }: { lang: Locale; dict: Dictionary["footer"] }) {
           <p>
             © {new Date().getFullYear()} {profile.name}. {dict.rights}
           </p>
-          <p className="mt-1 font-mono text-xs">{dict.built}</p>
         </div>
         <SocialLinks />
       </div>

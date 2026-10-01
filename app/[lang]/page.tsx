@@ -30,14 +30,14 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         cvLinks={getCvLinks(lang, { ats: `${dict.hero.cvAts} (PDF)`, photo: `${dict.hero.cvPhoto} (PDF)`, default: dict.hero.cvDefault })}
       />
       <About lang={lang} dict={dict.about} />
-      <Section id="skills" index={2} kicker={dict.skills.kicker} title={dict.skills.title}>
+      <Section id="skills" index={2} title={dict.skills.title}>
         <SkillsGrid lang={lang} skills={profile.skills} />
       </Section>
-      <Section id="projects" index={3} kicker={dict.projects.kicker} title={dict.projects.title}>
+      <Section id="projects" index={3} title={dict.projects.title}>
         <ProjectsGrid lang={lang} dict={dict.projects} projects={projects} />
       </Section>
       <Education lang={lang} dict={dict.education} />
-      <Section id="contact" index={5} kicker={dict.contact.kicker} title={dict.contact.title}>
+      <Section id="contact" index={5} title={dict.contact.title}>
         <ContactForm dict={dict.contact} />
       </Section>
     </>
