@@ -4,7 +4,7 @@ Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Motion (Framer Motio
 
 ## Doldurulacaklar
 
-- [ ] **CV dosyaları**: `public/cv/` klasörüne şu adlarla koy. Hangi dosya varsa onun butonu otomatik çıkar, yoksa buton gizli kalır:
+- [x] **CV**: `public/cv/dogu-yigit-cv.pdf` (ATS sürümü). Güncellemek için aynı adla değiştir. İsteğe bağlı dil/fotoğraflı sürümler:
   - `dogu-yigit-cv-ats-en.pdf`, `dogu-yigit-cv-ats-tr.pdf` (ATS uyumlu)
   - `dogu-yigit-cv-en.pdf`, `dogu-yigit-cv-tr.pdf` (fotoğraflı)
 - [ ] **Siber güvenlik araçları**: `content/profile.ts` içindeki `security.items`. Liste boş olduğu için kart şu an gizli.
@@ -15,7 +15,7 @@ Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Motion (Framer Motio
 
 ## Varsayımlar
 
-- Yüksek lisans başlangıç yılı **2025** kabul edildi (lisans mezuniyeti 2025). Yanlışsa `content/profile.ts` → `education` kısmından düzelt.
+- Eğitim tarihleri CV'ye göre girildi (yüksek lisans Şubat 2026 – 2027, lisans 2020 – 2025).
 - Unvan Türkçe sürümde de "Full-Stack Developer" olarak bırakıldı.
 - Hero'daki "Open to opportunities / Yeni fırsatlara açığım" rozeti `content/ui.ts` → `hero.available` alanında.
 - İş başvuru aracının adı "Job Application Automation" olarak belirlendi.

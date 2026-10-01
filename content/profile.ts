@@ -132,7 +132,7 @@ export const profile = {
     {
       degree: { en: "M.Sc. Cybersecurity", tr: "Siber Güvenlik Yüksek Lisans" },
       school: "Marmara University",
-      period: { en: "2025 — 2027 (expected)", tr: "2025 — 2027 (beklenen)" },
+      period: { en: "Feb 2026 — 2027 (expected)", tr: "Şubat 2026 — 2027 (beklenen)" },
       gpa: "4.00 / 4.00",
       highlight: true,
       current: true,
@@ -144,8 +144,9 @@ export const profile = {
     {
       degree: { en: "B.Sc. Computer Engineering", tr: "Bilgisayar Mühendisliği Lisans" },
       school: "Doğuş University",
-      period: { en: "Graduated 2025", tr: "Mezuniyet 2025" },
+      period: { en: "2020 — 2025", tr: "2020 — 2025" },
       gpa: "3.00 / 4.00",
+      description: { en: "Honor Certificate", tr: "Onur Belgesi" },
     },
   ] satisfies EducationItem[],
 };
