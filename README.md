@@ -59,8 +59,8 @@ Botlar, ziyaretçilere görünmeyen `website` alanını (honeypot) doldurduğund
 
 ## Deploy (Vercel)
 
-1. Kodu GitHub'daki `douyigit/MyWorld` reposunun `main` branch'ine push'la.
-2. Vercel → **Add New → Project** → `MyWorld` reposunu import et. Framework Next.js olarak otomatik algılanır, ayar değiştirmeye gerek yok.
+1. Kodu GitHub'daki `douyigit/portfolio` reposunun `main` branch'ine push'la.
+2. Vercel → **Add New → Project** → `portfolio` reposunu import et. Framework Next.js olarak otomatik algılanır, ayar değiştirmeye gerek yok.
 3. Environment Variables bölümüne `RESEND_API_KEY` ekle → **Deploy**.
 4. Bundan sonra `main`'e yapılan her push otomatik deploy edilir.
 
@@ -69,7 +69,7 @@ Botlar, ziyaretçilere görünmeyen `website` alanını (honeypot) doldurduğund
 DNS zaten Hostinger'dan Vercel'e yönlendirilmiş olduğu için DNS tarafında bir şey yapmana gerek yok. Sadece domainin Vercel'de hangi projeye bağlı olduğunu değiştireceksin:
 
 1. **Eski proje** → Settings → Domains → `doguy.online` ve `www.doguy.online` için **Remove**.
-2. **Yeni proje (MyWorld)** → Settings → Domains → **Add** → `doguy.online`. `www.doguy.online` için de ekleyip apex'e yönlendir (Vercel bunu önerir).
+2. **Yeni proje (portfolio)** → Settings → Domains → **Add** → `doguy.online`. `www.doguy.online` için de ekleyip apex'e yönlendir (Vercel bunu önerir).
 3. Vercel DNS kayıtlarını doğrular. Kayıtlar zaten doğruysa (A `76.76.21.21` / CNAME `cname.vercel-dns.com` veya Vercel'in gösterdiği değerler) birkaç dakika içinde **Valid Configuration** olur ve SSL sertifikası otomatik yenilenir.
 4. Kayıtlar farklı görünürse Hostinger → DNS Zone'da Vercel'in gösterdiği değerlerle güncelle.
 5. Her şey çalışınca eski Vercel projesini arşivleyebilir veya silebilirsin.
